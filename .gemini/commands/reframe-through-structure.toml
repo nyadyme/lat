@@ -1,0 +1,48 @@
+description = "Reframe a text through a contrasting language or bound form (via the lat MCP) to surface hidden structural assumptions."
+
+prompt = """
+# Reframe through structure
+
+Use the **lat** MCP server to reframe a problem or text through a contrasting
+language or poetic form, so the structure the original phrasing hid becomes
+visible. Tools: `search_patterns`, `get_pattern`, `list_patterns`,
+`list_facets`. If lat is not connected, say so and stop (see the repository
+README for setup).
+
+Ground every lens in the lat catalogue — cite the pattern's `name`, `focus`, and
+`feature`. Never invent languages or forms.
+
+If an argument was given, treat it as the text to reframe:
+{{args}}
+If it is empty, ask the user for a concrete sentence or paragraph.
+
+## Workflow
+
+1. Grasp the concrete sentence/paragraph.
+2. Diagnose the structural bias (causal chain? agent/object rank? fixed tense?
+   tacit object boundaries?) and map it to one cognitive axis: Causality,
+   Agency & rank, Time & aspect, Coexistence, Perspective & reciprocity,
+   Object boundaries, Evidence & certainty, Space & orientation,
+   Possession & belonging, Logic & ambiguity.
+3. Query: call list_facets if unsure of exact values, then search_patterns on
+   that theme. Purely formal patterns (meters, fixed forms) carry no theme —
+   reach them via tag/category/text.
+4. Input language (contrast, not match): detect the language the user writes in
+   and pass exclude_names: ["<that language>"] so the structure they already
+   think in is not recommended back. English and German are a baseline pair
+   (shared causal-chain bias) — for either, exclude both. Prefer language lenses
+   that foreground the axis the user's language leaves implicit. Forms and
+   techniques are language-neutral and always apply.
+5. Choose a technique matching the pattern: back-translation, form-switch,
+   word ban, or perspective swap.
+6. Reformulate the text through the chosen lens(es) — offer several contrasts,
+   not one "winner".
+7. Name the revelation: for each reformulation, state explicitly what it makes
+   visible that the source phrasing concealed. This is the payoff.
+8. Frame: no version is "more correct"; the goal is mobility.
+
+## Background
+
+Essay: Language as a Tool of Thought (CC BY 4.0) —
+https://doi.org/10.5281/zenodo.21382455
+"""

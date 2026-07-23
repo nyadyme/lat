@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite both the software and the essay it
+  implements.
+title: "lat — Language as a Tool"
+abstract: >-
+  A local, read-only Model Context Protocol (MCP) server that serves a curated
+  catalogue of natural-language and poetic "thinking patterns", classified by a
+  closed set of cognitive axes, for reframing a problem through a contrasting
+  language or form.
+type: software
+version: "0.1.0"
+date-released: "2026-07-23"
+license: Apache-2.0
+authors:
+  - family-names: Schlifka
+    given-names: Dana
+repository-code: "https://github.com/nyadyme/lat"
+url: "https://github.com/nyadyme/lat"
+keywords:
+  - MCP
+  - Model Context Protocol
+  - linguistic relativity
+  - reframing
+  - thinking tools
+  - prior art
+
+# The essay this software implements — canonical, timestamped deposits.
+references:
+  - type: article
+    title: "Language as a Tool of Thought"
+    authors:
+      - family-names: Schlifka
+        given-names: Dana
+    year: 2026
+    license: CC-BY-4.0
+    doi: "10.5281/zenodo.21382455"
+    url: "https://philarchive.org/rec/SCHLAA-18"
+    notes: >-
+      Conceptual basis of this software; a separate work licensed CC-BY-4.0,
+      deposited on Zenodo (DOI) and PhilArchive as the canonical, timestamped
+      source. (The software itself is Apache-2.0; see the top-level license.)

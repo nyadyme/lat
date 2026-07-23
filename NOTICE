@@ -1,0 +1,82 @@
+lat — Language as a Tool
+Copyright 2026 Dana Schlifka
+
+This product is licensed under the Apache License, Version 2.0 (see the LICENSE
+file). The contents of this NOTICE file are for informational purposes only and
+do not modify the License (Apache-2.0, Section 4(d)).
+
+------------------------------------------------------------------------------
+Origin / provenance
+------------------------------------------------------------------------------
+Original author and sole copyright holder: Dana Schlifka.
+
+Every source file carries an "SPDX-License-Identifier: Apache-2.0" header
+identifying its license, so the origin and licensing of each file are
+unambiguous even in isolation.
+
+The Apache License, Version 2.0 grants an express, royalty-free patent license
+from each contributor to every recipient (Section 3) and provides the work "AS
+IS" without warranties, limiting the authors' liability (Sections 7 and 8).
+The clear statement of origin above is intended to make the source of that
+patent and copyright grant unambiguous, so that recipients can rely on it.
+(No license can shield against patent claims by third parties who are not
+contributors to this work.)
+
+------------------------------------------------------------------------------
+Defensive publication / prior art
+------------------------------------------------------------------------------
+This project is released as a defensive disclosure. Its concepts and
+implementation are hereby placed in the public record as prior art, in
+particular:
+
+  - an MCP server exposing a curated catalogue of natural-language and poetic
+    "thinking patterns" classified by a closed set of cognitive axes;
+  - retrieval of those patterns by problem theme, with exclusion of the user's
+    own input language so that structurally contrasting lenses are surfaced
+    (the `exclude_names` contrast mechanism);
+  - the method of automatically analyzing the grammatical bias of an input
+    natural-language text, mapping that bias to a closed set of cognitive axes,
+    and selecting one or more structurally orthogonal patterns (a different
+    natural language or a bound poetic/formal structure) from such a catalogue —
+    excluding the input language — in order to reframe the text and expose
+    assumptions that are artifacts of the source grammar rather than inherent to
+    the subject; this selection and reframing performed either automatically by
+    a software agent or interactively (both embodiments are disclosed); and
+  - the method of reframing a problem through such a contrasting language or
+    form (see README.md and .claude/skills/reframe-through-structure).
+
+The intent is defensive: by disclosing these techniques publicly and with a
+verifiable date, they cannot later be validly patented by a third party and
+asserted against the users of this software. Effectiveness as prior art depends
+on public, timestamped availability; the authoritative date is this
+repository's public version-control history together with any tagged or
+archived release.
+
+------------------------------------------------------------------------------
+Third-party components
+------------------------------------------------------------------------------
+This project depends on third-party Rust crates declared in Cargo.toml and
+pinned in Cargo.lock. Each is distributed under its own license by its own
+authors; those licenses and copyrights are not superseded by this NOTICE.
+
+Binaries built with the "bundled" feature of the `rusqlite` crate embed SQLite
+(https://www.sqlite.org), which is dedicated to the public domain.
+
+------------------------------------------------------------------------------
+Content provenance
+------------------------------------------------------------------------------
+The pattern catalogue (additional_docs/lat_catalog.md, src/seed.sql) is the
+author's own curated work, derived from the founding essay (deposited on Zenodo;
+see below, not bundled in this repository). Scholarly works referenced by that
+material are cited therein and remain the property of their respective authors.
+
+The founding essay is a separate work, licensed CC-BY-4.0 (NOT under this
+repository's Apache-2.0 license). It is deposited as a citable, timestamped
+record of record:
+
+  Dana Schlifka, "Language as a Tool of Thought" (2026). CC BY 4.0.
+  Zenodo:      https://doi.org/10.5281/zenodo.21382455
+  PhilArchive: https://philarchive.org/rec/SCHLAA-18
+
+These deposits provide an external, verifiable date for the conceptual basis of
+this software and thus anchor the defensive prior-art disclosure above.

@@ -1,0 +1,100 @@
+name: release
+
+# Baut plattformübergreifende Binaries und hängt sie an ein GitHub-Release.
+# Trigger: Anlegen eines Release (z. B. über die GitHub-UI oder `gh release create`),
+# oder manuell über den "Run workflow"-Knopf (workflow_dispatch) zum Testen.
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+# Dem automatischen GITHUB_TOKEN erlauben, Release-Assets hochzuladen.
+permissions:
+  contents: write
+
+env:
+  BIN_NAME: lat          # Name deines Binaries (Cargo package/bin name)
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    name: build (${{ matrix.target }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false     # ein fehlgeschlagenes Target soll die anderen nicht abbrechen
+      matrix:
+        include:
+          - os: ubuntu-latest
+            target: x86_64-unknown-linux-gnu
+            archive: tar.gz
+          - os: macos-latest
+            target: aarch64-apple-darwin        # Apple Silicon
+            archive: tar.gz
+          - os: macos-latest
+            target: x86_64-apple-darwin          # Intel-Macs
+            archive: tar.gz
+          - os: windows-latest
+            target: x86_64-pc-windows-msvc
+            archive: zip
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}
+
+      # Cache für ~/.cargo und target/ — beschleunigt Folge-Builds erheblich.
+      - name: Cache cargo
+        uses: Swatinem/rust-cache@v2
+        with:
+          key: ${{ matrix.target }}
+
+      - name: Build
+        run: cargo build --release --locked --target ${{ matrix.target }}
+
+      # Binary in ein Archiv packen. Der Windows-Zweig nutzt PowerShell (Standard-Shell
+      # auf windows-latest), die anderen bash. Ergebnis: EIN Archiv pro Target.
+      - name: Package (Unix)
+        if: matrix.os != 'windows-latest'
+        shell: bash
+        run: |
+          BIN="${BIN_NAME}"
+          DIR="${BIN_NAME}-${{ matrix.target }}"
+          mkdir "$DIR"
+          cp "target/${{ matrix.target }}/release/${BIN}" "$DIR/"
+          # optional weitere Dateien beilegen:
+          cp README.md LICENSE "$DIR/" 2>/dev/null || true
+          tar -czf "${DIR}.tar.gz" "$DIR"
+          echo "ASSET=${DIR}.tar.gz" >> "$GITHUB_ENV"
+
+      - name: Package (Windows)
+        if: matrix.os == 'windows-latest'
+        shell: pwsh
+        run: |
+          $bin = "$env:BIN_NAME.exe"
+          $dir = "$env:BIN_NAME-${{ matrix.target }}"
+          New-Item -ItemType Directory -Path $dir | Out-Null
+          Copy-Item "target/${{ matrix.target }}/release/$bin" $dir/
+          if (Test-Path README.md) { Copy-Item README.md $dir/ }
+          if (Test-Path LICENSE)   { Copy-Item LICENSE   $dir/ }
+          Compress-Archive -Path $dir -DestinationPath "$dir.zip"
+          "ASSET=$dir.zip" | Out-File -FilePath $env:GITHUB_ENV -Append
+
+      # Assets ans auslösende Release hängen. Läuft nur bei einem echten Release-Event,
+      # nicht bei manuellem workflow_dispatch (dort gibt es kein Release-Ziel).
+      - name: Upload to release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ env.ASSET }}
+
+      # Bei manuellem Lauf: Archiv als Workflow-Artefakt ablegen, damit du es testen kannst.
+      - name: Upload as artifact (manual runs)
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.ASSET }}
+          path: ${{ env.ASSET }}
