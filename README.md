@@ -7,12 +7,13 @@ techniques — that each force a different structure of thought. The agent can
 look up a pattern that fits a problem and then reformulate a text through it to
 surface assumptions the original phrasing hid.
 
-The idea: a language that prefers the causal chain (subject acts, object
-suffers, subordinate clause justifies) quietly imposes that order on whatever it
-describes. Forcing the same content through a foreign structure — Russian
-*aspect*, the Japanese *wa* topic, a Haiku's cut — works like a change of
-lighting: the same object, different shadows. The goal is not the "correct"
-language but **mobility**. The founding essay *Language as a Tool of Thought* is
+The idea: language quietly imposes patterns and structures on whatever it
+describes. Forcing the content of the input language through a foreign structure (Russian
+*aspect*, the Japanese *wa* topic, a Haiku's cut e.g.) works like a change of
+lighting: the same object, different shadows. 
+Basically it turns an input like a cube to review it from different grammatical directions.
+The goal is not the "correct" language but **mobility**. 
+The founding essay *Language as a Tool of Thought* is
 not bundled in this repository; it is deposited as the canonical, citable
 version on Zenodo:
 [10.5281/zenodo.21382455](https://doi.org/10.5281/zenodo.21382455).
