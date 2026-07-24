@@ -1,4 +1,4 @@
-Y# lat — Language as a Tool
+# lat — Language as a Tool
 
 `lat` is a small, local [MCP](https://modelcontextprotocol.io) server written in
 Rust. It hands an AI agent a curated catalogue of **thinking patterns** —
