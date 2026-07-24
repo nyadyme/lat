@@ -7,6 +7,20 @@ techniques — that each force a different structure of thought. The agent can
 look up a pattern that fits a problem and then reformulate a text through it to
 surface assumptions the original phrasing hid.
 
+The idea: a language that prefers the causal chain (subject acts, object
+suffers, subordinate clause justifies) quietly imposes that order on whatever it
+describes. Forcing the same content through a foreign structure — Russian
+*aspect*, the Japanese *wa* topic, a Haiku's cut — works like a change of
+lighting: the same object, different shadows. The goal is not the "correct"
+language but **mobility**. The founding essay *Language as a Tool of Thought* is
+not bundled in this repository; it is deposited as the canonical, citable
+version on Zenodo:
+[10.5281/zenodo.21382455](https://doi.org/10.5281/zenodo.21382455).
+
+The server speaks standard MCP over stdio, so it works with any MCP-capable
+host. This project documents and supports **Claude, Google Gemini, and GitHub
+Copilot**.
+
 As a **defensive prior-art disclosure**, the method is stated here in general
 terms. Given any natural-language text, the toolchain performs context-aware
 *linguistic contrast-routing*: (1) it analyzes the grammatical bias of the input
@@ -24,19 +38,7 @@ or interactively**; both embodiments are disclosed. See the concrete steps under
 [NOTICE](NOTICE), and the dated deposit at
 [doi:10.5281/zenodo.21382455](https://doi.org/10.5281/zenodo.21382455).
 
-The idea: a language that prefers the causal chain (subject acts, object
-suffers, subordinate clause justifies) quietly imposes that order on whatever it
-describes. Forcing the same content through a foreign structure — Russian
-*aspect*, the Japanese *wa* topic, a Haiku's cut — works like a change of
-lighting: the same object, different shadows. The goal is not the "correct"
-language but **mobility**. The founding essay *Language as a Tool of Thought* is
-not bundled in this repository; it is deposited as the canonical, citable
-version on Zenodo:
-[10.5281/zenodo.21382455](https://doi.org/10.5281/zenodo.21382455).
 
-The server speaks standard MCP over stdio, so it works with any MCP-capable
-host. This project documents and supports **Claude, Google Gemini, and GitHub
-Copilot**.
 
 ## Contents
 
