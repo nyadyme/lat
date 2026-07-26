@@ -18,6 +18,13 @@ not bundled in this repository; it is deposited as the canonical, citable
 version on Zenodo:
 [10.5281/zenodo.21382455](https://doi.org/10.5281/zenodo.21382455).
 
+Wording questions in the Catalog:
+The Catalog has wordings like "eskimo" in the categories.
+This choice was made, because many older literature the agent accesses are use this wording.
+Therefore this a technical choice. I'm aware of the racist implications and that this words hurt and are offensive.
+I'm sorry and not happy with this. Hurting you is **not** the intention. Once again sorry!  
+
+
 The server speaks standard MCP over stdio, so it works with any MCP-capable
 host. This project documents and supports **Claude, Google Gemini, and GitHub
 Copilot**.
