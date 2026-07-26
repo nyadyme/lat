@@ -382,3 +382,4 @@ PhilArchive ([SCHLAA-18](https://philarchive.org/rec/SCHLAA-18)).
 
 To cite, see [CITATION.cff](CITATION.cff) — it carries `license: Apache-2.0` for
 the software and `license: CC-BY-4.0` for the essay reference.
+ 
