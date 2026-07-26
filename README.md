@@ -21,7 +21,7 @@ version on Zenodo:
 Wording questions in the Catalog:
 The Catalog has wordings like "eskimo" in the categories.
 This choice was made, because many older literature the agent accesses are use this wording.
-Therefore this a technical choice. I'm aware of the racist implications and that this words hurt and are offensive.
+Therefore this a technical choice. I'm aware of the racist implications and that these words hurt and are offensive.
 I'm sorry and not happy with this. Hurting you is **not** the intention. Once again sorry!  
 
 
