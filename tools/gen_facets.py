@@ -85,9 +85,11 @@ def main():
         "by tools/gen_facets.py; regenerate after changing the catalogue. `themes` is the",
         "closed cognitive-axis vocabulary; `tags` are free keywords.",
         "",
-        "> Note the asymmetry: **forms carry 9 themes, languages 10** — `Possession & belonging`",
-        "> appears only among languages (Navajo inalienable possession, Dyirbal), so it is",
-        "> absent from the forms facet. Facets reflect the occupied subset, not the abstract list.",
+        "> Note the asymmetry: **forms carry 10 themes, languages 11** — `Possession & belonging`",
+        "> appears only among languages (Navajo inalienable possession, Dyirbal, Latin gerundive,",
+        "> Hawaiian a/o possession, Khoekhoe clusivity, Mongolian reflexive possession), so it is",
+        "> absent from the forms facet.",
+        "> Facets reflect the occupied subset, not the abstract list.",
         "",
     ]
     for table, title in (("languages", "Languages"), ("forms", "Forms")):

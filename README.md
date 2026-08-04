@@ -86,9 +86,10 @@ share the same columns:
 | `tags` | JSON array of free keywords (linguistic features, formal mechanics) |
 | `themes` | JSON array from a **closed cognitive-axis vocabulary** (see below) |
 
-`themes` is drawn from a fixed set of ten axes — `Causality`, `Agency & rank`,
-`Time & aspect`, `Coexistence`, `Perspective & reciprocity`, `Object boundaries`,
-`Evidence & certainty`, `Space & orientation`, `Possession & belonging`,
+`themes` is drawn from a fixed set of eleven axes — `Causality`,
+`Agency & control`, `Rank & salience`, `Time & aspect`, `Coexistence`,
+`Perspective & reciprocity`, `Object boundaries`, `Evidence & certainty`,
+`Space & orientation`, `Possession & belonging`,
 `Logic & ambiguity` — used to match a problem's structural bias to patterns that
 reframe that axis. Purely formal/meta patterns carry no theme and are found via
 `tags`/`category`. Multi-valued `tags` and `themes` are stored as JSON arrays and
@@ -261,9 +262,11 @@ calls them. The intended loop (encoded in full by the companion skill) is:
    fixed tense? tacit object boundaries?).
 2. **Map** it to one of the ten cognitive axes and `search_patterns` on that
    `theme`; use `list_facets` to see valid values.
-3. **Contrast:** pass `exclude_names: ["<your language>"]` so the structure you
-   already think in is not recommended back to you; prefer lenses that
-   foreground the axis your language leaves implicit.
+3. **Contrast:** pass `exclude_names: ["<the language of the text>"]` so the
+   structure the text already thinks in is not recommended back. Exclude exactly
+   that one language — a closely related one stays a valid lens, since kinship is
+   never uniform across the axes. Prefer lenses that foreground the axis the
+   input language leaves implicit.
 4. **Reformulate** the text through the chosen language/form and **name what
    each version reveals**.
 
@@ -279,8 +282,8 @@ calls them. The intended loop (encoded in full by the companion skill) is:
 ### Direct tool arguments (reference)
 
 ```jsonc
-// search by cognitive axis, excluding the user's own language
-search_patterns { "kind": "language", "theme": "Time & aspect", "exclude_names": ["German", "English"] }
+// search by cognitive axis, excluding the language of the analysed text
+search_patterns { "kind": "language", "theme": "Time & aspect", "exclude_names": ["German"] }
 
 // language-neutral forms for a given axis
 search_patterns { "kind": "form", "theme": "Coexistence" }

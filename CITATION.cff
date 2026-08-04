@@ -9,8 +9,8 @@ abstract: >-
   closed set of cognitive axes, for reframing a problem through a contrasting
   language or form.
 type: software
-version: "0.1.0"
-date-released: "2026-07-23"
+version: "0.1.1"
+date-released: "2026-08-04"
 license: Apache-2.0
 authors:
   - family-names: Schlifka

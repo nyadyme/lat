@@ -40,12 +40,12 @@ is wanted.
 
 The pattern catalogue comes from the `lat` MCP server. Available tools:
 
-- `list_facets` — which themes / categories / classifications / tags exist.
-- `search_patterns` — find patterns by filters (`kind`, `theme`, `category`,
+- `mcp__lat__list_facets` — which themes / categories / classifications / tags exist.
+- `mcp__lat__search_patterns` — find patterns by filters (`kind`, `theme`, `category`,
   `classification`, `focus`, `tag`, `text`, `exclude_names`; all optional,
   combined with AND).
-- `get_pattern` — full details of a pattern (`kind` + `name`).
-- `list_patterns` — overview.
+- `mcp__lat__get_pattern` — full details of a pattern (`kind` + `name`).
+- `mcp__lat__list_patterns` — overview.
 
 **Always ground the choice of pattern in the catalogue** — never invent
 languages or forms. If the MCP is not connected, say so and offer to work
@@ -60,12 +60,15 @@ Japanese, Yucatec Maya, English; Minnesang, Haiku, Enumeration; the techniques).
    causal chain? agent-object rank? a decision about what counts as a "thing"?
    a fixed tense? This determines which theme to search for.
 3. **Query the catalogue.** `theme` uses a closed vocabulary of cognitive axes;
-   the diagnosed bias maps to one of them: `Causality`, `Agency & rank`,
-   `Time & aspect`, `Coexistence`, `Perspective & reciprocity`,
-   `Object boundaries`, `Evidence & certainty`, `Space & orientation`,
-   `Possession & belonging`, `Logic & ambiguity`. Call `list_facets` if unsure
-   of the exact strings, then `search_patterns` on that `theme`. Pull details
-   with `get_pattern` as needed (focus, feature). Purely formal tools (meters,
+   the diagnosed bias maps to one of them: `Causality`, `Agency & control`,
+   `Rank & salience`, `Time & aspect`, `Coexistence`,
+   `Perspective & reciprocity`, `Object boundaries`, `Evidence & certainty`,
+   `Space & orientation`, `Possession & belonging`, `Logic & ambiguity`.
+   `Agency & control` is about the actor's relation to the act (does one exist,
+   was it willed, who caused it); `Rank & salience` about which participant
+   stands in front of the others. Call `mcp__lat__list_facets` if unsure
+   of the exact strings, then `mcp__lat__search_patterns` on that `theme`. Pull details
+   with `mcp__lat__get_pattern` as needed (focus, feature). Purely formal tools (meters,
    fixed forms) carry no theme — reach them via `tag`/`category`/`text`.
 4. **Account for the input language (contrast, not match).** See the section
    below: exclude the user's own language and prefer language lenses that
@@ -82,21 +85,28 @@ Japanese, Yucatec Maya, English; Minnesang, Haiku, Enumeration; the techniques).
 ## Input language: contrast, not match
 
 A language lens is valuable in proportion to how *differently* it treats the
-biased axis compared with the user's own language. Russian aspect is a
-revelation for someone writing in English or German (where aspect is not
-obligatory) but banal for someone whose language already forces it. So:
+biased axis compared with the language of the analysed text. Russian aspect is a
+revelation for a text written in English or German (where aspect is not
+obligatory) but banal in a language that already forces it. Note the comparison
+is per axis, not per language: two related languages can be identical on one
+axis and opposed on the next. So:
 
-- **Detect the input language** from the user's message (no tool needed — you
-  read it directly).
-- **Exclude it.** Pass `exclude_names: ["<that language>"]` to `search_patterns`
-  so the structure the user already thinks in is not recommended back to them.
-  Note `exclude_names` matches by **exact name only** — a hard guarantee for the
-  named entries, nothing more. Structural relatives are *not* auto-excluded, so
-  down-weight them yourself (agent judgement, not a tool operation). In
-  particular English and German are the baseline pair: both carry the
-  causal-chain / agent-patient bias, so for a German **or** English input exclude
-  **both** (`exclude_names: ["German", "English"]`) — otherwise they recommend
-  each other as "contrast" when they are the same blind spot.
+- **Detect the input language** — the language of the *text being analysed*, not
+  the language of the request. If the user writes to you in English about a
+  German document, the input language is German. No tool needed; you read it
+  directly.
+- **Exclude it, and only it.** Pass `exclude_names: ["<that language>"]` to
+  `mcp__lat__search_patterns` so the structure the text already thinks in is not
+  recommended back. Exclude exactly that one language — never a pair, a family,
+  or a list of relatives. `exclude_names` matches by **exact name only**, which
+  is precisely what is wanted here.
+- **A closely related language is still a valid lens.** Kinship is never uniform
+  across the axes, so do not down-weight relatives wholesale. English and German
+  do share the causal-chain / agent-patient reflex — but they diverge sharply
+  elsewhere: English parataxis carries **coexistence** where German hypotaxis
+  subordinates, and English lacks the case marking German leans on. For a German
+  text English therefore stays available, and is the right lens exactly on the
+  axes where the two differ. Judge per axis, not per family.
 - **Prefer complementarity.** The best lens foregrounds (makes obligatory) the
   very axis the user's language leaves implicit. A German/English speaker stuck
   on causality gains most from aspect (Russian), evidentiality (Tuyuca), animacy
@@ -105,9 +115,11 @@ obligatory) but banal for someone whose language already forces it. So:
   language, so form/technique choices do not depend on the input language; only
   the *language* lenses do.
 
-If the user's language is itself in the catalogue, look it up (its `focus` and
+If the input language is itself in the catalogue, look it up (its `focus` and
 `themes` describe what it foregrounds) to reason about its blind spots; if not,
-infer its rough profile.
+infer its rough profile. For a multilingual text, take the language the passage
+under analysis is actually written in; if the catalogue has no entry under that
+exact name, pass nothing and reason about the blind spots in prose instead.
 
 ## The four techniques
 
@@ -140,15 +152,15 @@ Mirrors the eight workflow steps.
 1. **Grasp.** Source sentence: *"The force accelerates the body because it acts
    upon it."*
 2. **Diagnose.** Acting subject + suffering object + causal clause + present
-   tense → axes `Causality`, `Agency & rank`, `Time & aspect`.
-3. **Query.** (Optionally `list_facets` to confirm the strings.) Search those
+   tense → axes `Causality`, `Agency & control`, `Rank & salience`,
+   `Time & aspect`.
+3. **Query.** (Optionally `mcp__lat__list_facets` to confirm the strings.) Search those
    axes.
-4. **Input language.** The sentence is English — a baseline causal-chain
-   language — so exclude both baselines and prefer lenses that foreground what
-   they background:
-   - `search_patterns { "kind": "language", "theme": "Time & aspect", "exclude_names": ["English", "German"] }` → Russian, …
-   - `search_patterns { "kind": "language", "theme": "Perspective & reciprocity", "exclude_names": ["English", "German"] }` → Japanese, …
-   - `search_patterns { "kind": "form", "theme": "Coexistence" }` → Haiku (forms are language-neutral — no `exclude_names`).
+4. **Input language.** The sentence is English, so exclude English — and only
+   English — and prefer lenses that foreground what it backgrounds:
+   - `mcp__lat__search_patterns { "kind": "language", "theme": "Time & aspect", "exclude_names": ["English"] }` → Russian, …
+   - `mcp__lat__search_patterns { "kind": "language", "theme": "Perspective & reciprocity", "exclude_names": ["English"] }` → Japanese, …
+   - `mcp__lat__search_patterns { "kind": "form", "theme": "Coexistence" }` → Haiku (forms are language-neutral — no `exclude_names`).
 5. **Choose techniques** matching the hits (aspect view, perspective swap, form-switch).
 6. **Reformulate.**
    - **Russian / aspect:** "Force — accelerating the body (ongoing)." → surfaces

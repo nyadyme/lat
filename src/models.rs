@@ -63,7 +63,7 @@ pub struct SearchFilters {
     pub classification: Option<String>,
     /// Substring within the focus field.
     pub focus: Option<String>,
-    /// Free text across name, description and feature.
+    /// Free text across name, description, feature and tags.
     pub text: Option<String>,
     /// Names to exclude from results (e.g. the user's own/source language, so
     /// contrasting lenses surface). Empty means no exclusion.

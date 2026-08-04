@@ -126,8 +126,15 @@ fn query_table(conn: &Connection, kind: PatternType, filters: &SearchFilters) ->
         params.push(Box::new(format!("%{focus}%")));
     }
     if let Some(text) = &filters.text {
-        clauses.push("(name LIKE ? OR description LIKE ? OR feature LIKE ?)".to_owned());
+        // tags are stored as a JSON array string, so a LIKE over the raw cell
+        // also reaches keywords that never occur in the prose columns — about
+        // two thirds of them (e.g. "body-part-locative", "coreference"). Without
+        // this the tag index and the free-text search cover disjoint vocabulary.
+        clauses.push(
+            "(name LIKE ? OR description LIKE ? OR feature LIKE ? OR tags LIKE ?)".to_owned(),
+        );
         let like = format!("%{text}%");
+        params.push(Box::new(like.clone()));
         params.push(Box::new(like.clone()));
         params.push(Box::new(like.clone()));
         params.push(Box::new(like));
