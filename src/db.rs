@@ -50,12 +50,11 @@ pub fn db_path() -> Result<PathBuf> {
         let path = PathBuf::from(p);
         // Create the parent directory if given and missing, otherwise
         // Connection::open fails inside a nonexistent directory.
-        if let Some(parent) = path.parent() {
-            if !parent.as_os_str().is_empty() {
-                std::fs::create_dir_all(parent).with_context(|| {
-                    format!("could not create directory {}", parent.display())
-                })?;
-            }
+        if let Some(parent) = path.parent()
+            && !parent.as_os_str().is_empty()
+        {
+            std::fs::create_dir_all(parent)
+                .with_context(|| format!("could not create directory {}", parent.display()))?;
         }
         return Ok(path);
     }
@@ -104,7 +103,11 @@ fn parse_json_array(raw: &str) -> Vec<String> {
 }
 
 /// Reads patterns from one table with optional filters.
-fn query_table(conn: &Connection, kind: PatternType, filters: &SearchFilters) -> Result<Vec<Pattern>> {
+fn query_table(
+    conn: &Connection,
+    kind: PatternType,
+    filters: &SearchFilters,
+) -> Result<Vec<Pattern>> {
     let table = kind.table();
     let mut sql = format!(
         "SELECT name, description, focus, category, classification, feature, tags, themes \

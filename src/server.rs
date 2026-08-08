@@ -144,7 +144,9 @@ impl LatServer {
     ) -> Result<CallToolResult, McpError> {
         let GetParams { kind, name } = params;
         let lookup = name.clone();
-        let found = self.run_db(move |conn| db::get(conn, kind, &lookup)).await?;
+        let found = self
+            .run_db(move |conn| db::get(conn, kind, &lookup))
+            .await?;
         match found {
             Some(pattern) => json_result(&pattern),
             None => Ok(CallToolResult::success(vec![ContentBlock::text(format!(

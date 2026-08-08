@@ -9,9 +9,18 @@ abstract: >-
   closed set of cognitive axes, for reframing a problem through a contrasting
   language or form.
 type: software
-version: "0.1.1"
-date-released: "2026-08-04"
+version: "0.2.0"
+date-released: "2026-08-08"
 license: Apache-2.0
+# Concept DOI ("cite all versions"): stable across releases and always resolves
+# to the newest version. This is the DOI to cite for the software as such.
+doi: 10.5281/zenodo.21508868
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21508869
+    description: >-
+      The version DOI of release 0.1.0, which has a relation childOf with the
+      concept DOI in the doi field at the root of this file.
 authors:
   - family-names: Schlifka
     given-names: Dana

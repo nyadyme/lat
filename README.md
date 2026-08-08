@@ -1,5 +1,10 @@
 # lat — Language as a Tool
 
+[![Software DOI (all versions)](https://zenodo.org/badge/DOI/10.5281/zenodo.21508868.svg)](https://doi.org/10.5281/zenodo.21508868)
+
+*Concept DOI of the **software** — it always resolves to the newest release. The
+founding essay is a separate work with its own DOI (see below).*
+
 `lat` is a small, local [MCP](https://modelcontextprotocol.io) server written in
 Rust. It hands an AI agent a curated catalogue of **thinking patterns** —
 natural languages (grammatical reflexes) and bound poetic forms / writing
@@ -25,9 +30,9 @@ Therefore this a technical choice. I'm aware of the racist implications and that
 I'm sorry and not happy with this. Hurting you is **not** the intention. Once again sorry!  
 
 
-The server speaks standard MCP over stdio, so it works with any MCP-capable
-host. This project documents and supports **Claude, Google Gemini, and GitHub
-Copilot**.
+The server speaks standard MCP over stdio or streamable HTTP, so it works with
+any MCP-capable host. This project documents and supports **Claude, Google
+Gemini, and GitHub Copilot**.
 
 As a **defensive prior-art disclosure**, the method is stated here in general
 terms. Given any natural-language text, the toolchain performs context-aware
@@ -143,12 +148,41 @@ printf '%s\n' \
 You should see the four tools listed. Logs go to **stderr**; **stdout** carries
 the MCP JSON-RPC stream — never print anything else to stdout.
 
+## Transports
+
+`lat` speaks two transports over the same four tools:
+
+| Transport | Invocation | Use it when |
+| --- | --- | --- |
+| **stdio** (default) | `lat` | The host launches the binary as a child process. |
+| **streamable HTTP** | `lat --http [ADDR]` | The host connects to a URL — Claude Desktop custom connectors, a shared or remote instance. |
+
+```sh
+lat                        # stdio
+lat --http                 # http://127.0.0.1:8000/mcp
+lat --http 127.0.0.1:9000  # explicit address
+lat --help                 # all flags and environment variables
+```
+
+The MCP endpoint is `/mcp`; `GET /health` returns `ok` for supervisors. Ctrl-C
+shuts the server down gracefully.
+
+**Host validation.** Only loopback `Host` headers are accepted by default, which
+protects a locally bound server against DNS rebinding. If you bind to a real
+hostname, list it in `LAT_HTTP_ALLOWED_HOSTS` (comma-separated; loopback stays
+allowed) — otherwise those requests get `403`.
+
+**Exposure.** The default bind is loopback only. Anything beyond that is a
+public MCP endpoint: `lat` has no authentication and no TLS of its own, so put a
+reverse proxy in front of it if it leaves the machine.
+
 ## Integration
 
-`lat` is a **local stdio MCP server**: each client is told the absolute path to
-the `lat` binary and launches it as a child process. On first launch the server
-creates and seeds its database (see [Database location](#database-location)), so
-it works from any client and any working directory.
+By default `lat` is a **local stdio MCP server**: each client is told the
+absolute path to the `lat` binary and launches it as a child process. On first
+launch the server creates and seeds its database (see
+[Database location](#database-location)), so it works from any client and any
+working directory.
 
 In every config below, replace the path with your own absolute path. On Windows,
 JSON requires escaped backslashes (`C:\\Users\\…`) or forward slashes
@@ -194,6 +228,27 @@ Edit the config file:
 
 Restart Claude Desktop; the `lat` tools appear in the tool picker. (`env` is
 optional — omit it to use the default database location.)
+
+#### Claude Desktop over HTTP
+
+Alternatively, run `lat` yourself and add it as a **custom connector** instead of
+letting Claude Desktop launch it — useful when one running instance should serve
+several clients, or when the server lives on another machine.
+
+```sh
+lat --http            # listens on http://127.0.0.1:8000/mcp
+```
+
+In Claude Desktop: **Settings → Connectors → Add custom connector**, then enter
+
+```
+http://127.0.0.1:8000/mcp
+```
+
+Keep the process running while you use it — with the connector, Claude Desktop
+does not start or restart `lat` for you. For a non-loopback address, remember
+`LAT_HTTP_ALLOWED_HOSTS` and read the exposure note under
+[Transports](#transports).
 
 ### Google Gemini (Gemini CLI)
 
@@ -247,6 +302,9 @@ Any MCP client that can launch a local stdio server works: point it at the
 absolute path of the `lat` binary, no arguments, transport `stdio`. Optionally
 set the `LAT_DB_PATH` environment variable.
 
+Clients that speak **streamable HTTP** instead: start `lat --http` and point them
+at `http://127.0.0.1:8000/mcp`. See [Transports](#transports).
+
 ### Supported clients
 
 This project documents and supports **Claude, Gemini, and Copilot**. Because
@@ -260,7 +318,7 @@ calls them. The intended loop (encoded in full by the companion skill) is:
 
 1. **Diagnose** the structural bias of a text (causal chain? agent/object rank?
    fixed tense? tacit object boundaries?).
-2. **Map** it to one of the ten cognitive axes and `search_patterns` on that
+2. **Map** it to one of the eleven cognitive axes and `search_patterns` on that
    `theme`; use `list_facets` to see valid values.
 3. **Contrast:** pass `exclude_names: ["<the language of the text>"]` so the
    structure the text already thinks in is not recommended back. Exclude exactly
@@ -349,7 +407,8 @@ run rolls back rather than leaving a half-filled database.
 
 ```
 src/
-  main.rs     # thin entry point: logging → stderr, DB init/seed, serve over stdio
+  main.rs     # thin entry point: CLI, logging → stderr, DB init/seed, transport choice
+  http.rs     # streamable HTTP transport (axum): /mcp endpoint, /health, shutdown
   models.rs   # PatternType enum, Pattern, Facets, SearchFilters
   db.rs       # path resolution, schema, seeding, typed queries
   server.rs   # LatServer, the four tools, ServerHandler
@@ -384,5 +443,8 @@ Zenodo ([10.5281/zenodo.21382455](https://doi.org/10.5281/zenodo.21382455)) and
 PhilArchive ([SCHLAA-18](https://philarchive.org/rec/SCHLAA-18)).
 
 To cite, see [CITATION.cff](CITATION.cff) — it carries `license: Apache-2.0` for
-the software and `license: CC-BY-4.0` for the essay reference.
+the software and `license: CC-BY-4.0` for the essay reference. Cite the software
+under its concept DOI
+[10.5281/zenodo.21508868](https://doi.org/10.5281/zenodo.21508868), which covers
+all versions; individual releases additionally carry their own version DOI.
  
