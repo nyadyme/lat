@@ -374,7 +374,7 @@ named `reframe-through-structure`, all driving the same lat tools:
   argument).
 
 All three require the lat MCP to be configured (see [Integration](#integration)).
-Any other MCP host can reproduce the workflow by pasting the eight steps above as
+Any other MCP host can reproduce the workflow by pasting the four steps above as
 a system/instruction prompt.
 
 ## Database location
@@ -384,6 +384,7 @@ path is resolved independently of the working directory:
 
 1. `LAT_DB_PATH` environment variable, if set; otherwise
 2. the platform data directory — `%APPDATA%\lat\patterns.db` on Windows,
+   `~/Library/Application Support/lat/patterns.db` on macOS,
    `~/.local/share/lat/patterns.db` on Linux.
 
 Seed data is embedded in the binary from [`src/seed.sql`](src/seed.sql) and is

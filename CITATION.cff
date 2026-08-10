@@ -9,8 +9,8 @@ abstract: >-
   closed set of cognitive axes, for reframing a problem through a contrasting
   language or form.
 type: software
-version: "0.2.0"
-date-released: "2026-08-08"
+version: "0.2.1"
+date-released: "2026-08-10"
 license: Apache-2.0
 # Concept DOI ("cite all versions"): stable across releases and always resolves
 # to the newest version. This is the DOI to cite for the software as such.
