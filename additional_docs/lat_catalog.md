@@ -26,9 +26,9 @@ user's own language backgrounds; exclude the source language) lives in the
 `reframe-through-structure` skill, supported by the `exclude_names` filter on
 `search_patterns`.
 
-Count: **60 languages**, **46 forms**.
+Count: **61 languages**, **46 forms**.
 
-## Languages (60)
+## Languages (61)
 
 | Name | Category | Classification | Focus | Feature | Description | Tags | Themes |
 |---|---|---|---|---|---|---|---|
@@ -85,6 +85,7 @@ Count: **60 languages**, **46 forms**.
 | Latin (oratio obliqua) | Language | Indo-European (Italic) / reported speech in infinitive & subjunctive | Foreign claims marked as foreign across a whole passage | Reported content switches into accusative-plus-infinitive and its subordinate clauses into the subjunctive, for as long as the report runs (dixit urbem captam esse) | A claim taken over from someone else cannot be phrased like one's own; the borrowed portion stays morphologically marked down to its last clause | oratio-obliqua, reported-speech, subjunctive, attribution | Evidence & certainty, Perspective & reciprocity |
 | Hopi | Language | Uto-Aztecan / temporal absence | Objective manifestation vs. subjective potential | Distinguishes not yesterday/today/tomorrow but the already manifested (facts) vs. the still-manifesting (future, wish, thought) | Replaces the time line with the degree of realization | manifestation, potential, realization | Time & aspect, Evidence & certainty |
 | Russian | Language | Indo-European (Slavic) / binary verbal aspect | Fundamental nature of the result / manner of unfolding | Almost every verb as a pair: perfective (completed, goal-directed) and imperfective (ongoing, processual) | Hardly any action is expressible without committing to process or the final result | aspect, unfolding, process | Time & aspect |
+| Finnish (partitive object) | Language | Uralic (Finnic) / partitive vs. total object | Completion carried by the object, not the verb | The object case decides how far the action got: luin kirjan (read the book through) against luin kirjaa (was reading at the book); an unbounded or partial quantity takes the same partitive (join veden / join vettä), and under negation every object turns partitive, so a denial cannot leave its object whole; Estonian marks the same contrast | Forces stating how far an action got through the case of what it touched, so an activity cannot be reported as a finished result without settling whether the thing was reached whole or only in part | partitive, total-object, boundedness, aspect, case, negation-scope | Time & aspect, Object boundaries |
 | Tuyuca | Language | Tucanoan / obligatory evidentiality | Verifiable origin of information | No sentence without one of five endings for the source: seen, heard, inference, hearsay, assumption | Prevents smuggling opinions in as facts | evidentiality, source, verification | Evidence & certainty |
 | Wintu | Language | Penutian / epistemic evidentiality | Cognitive responsibility of the speaker | Distinguishes knowledge from one's own senses vs. from inference/intuition; the verb encodes whether one felt the fever or only read it off | Binds every statement to the speaker's epistemic responsibility | evidentiality, senses, responsibility | Evidence & certainty |
 | Japanese | Language | topic-prominent language | Topic instead of agent | wa topic marking separates the topic from the subject; agents can be dropped | The agent-patient sentence becomes a mere statement about a state | topic, wa, agentless | Perspective & reciprocity, Rank & salience |
