@@ -350,8 +350,6 @@ search_patterns { "kind": "form", "theme": "Coexistence" }
 get_pattern { "kind": "language", "name": "Russian" }
 ```
 
-Worked, end-to-end examples live in [`examples/`](examples) (reframing
-Kirchhoff's laws from German and Japanese input, and a physics paper's axiom).
 
 ### The packaged workflow
 
