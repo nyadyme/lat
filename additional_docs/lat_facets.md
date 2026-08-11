@@ -11,7 +11,7 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 > absent from the forms facet.
 > Facets reflect the occupied subset, not the abstract list.
 
-## Languages (61 entries)
+## Languages (64 entries)
 
 ### Themes (11)
 - Agency & control
@@ -30,7 +30,7 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 - Constructed language
 - Language
 
-### Classifications (61)
+### Classifications (64)
 - Afro-Asiatic (Chadic) / pluractional verb stems
 - Afro-Asiatic (Cushitic) / marked nominative
 - Afro-Asiatic (Ethiosemitic) / converb chains with a single finite anchor
@@ -58,6 +58,7 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 - Khoe-Kwadi (areal "Khoisan") / person-gender-number markers with clusivity & dual
 - Kra-Dai / relational-hierarchical pronoun system
 - Mayan family / terminative aspect structure
+- Mirndi / West Barkly (Australia) / complex predicates on three inflecting verbs
 - Mongolic / reflexive-possessive reference tracking
 - Mura family / radical grammatical immediacy
 - Na-Dené / evidential moods & shape verbs
@@ -75,6 +76,8 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 - Samoyedic (Uralic) / imaginative and hypothetical evidentials
 - Sino-Tibetan / context-dependent functional fluidity
 - South Caucasian / split-ergative & inversion
+- Tangkic (Australia) / case as a carrier of tense-mood-polarity
+- Tor-Kwerba (Papua, Indonesia) / diurnal verbal marking
 - Trans-New Guinea / anticipatory modal conjugation
 - Tucanoan / obligatory evidentiality
 - Tupí-Guaraní / nominal aspect (tense on nouns)
@@ -93,8 +96,8 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 - philosophically constructed (a posteriori/a priori)
 - topic-prominent language
 
-### Tags (186)
-`a-o-class`, `ablative-absolute`, `abstraction`, `addressee`, `adjunct`, `agency`, `agent`, `agent-chain`, `agentless`, `alignment`, `anatomy`, `anchor`, `animacy`, `animate`, `anticipation`, `aorist`, `article`, `aspect`, `attribution`, `baseline`, `benefactive`, `blame`, `body-part-locative`, `boundedness`, `cardinal-direction`, `case`, `causal`, `causative`, `certainty`, `chaining`, `classes`, `classification`, `classificatory-verb`, `classifier`, `clusivity`, `completion`, `compound`, `concession`, `concord`, `condensation`, `consistency`, `constructed`, `control`, `converb`, `coordination`, `coreference`, `counterweight`, `dative-agent`, `deixis`, `delegation`, `dependency`, `derivation`, `discourse-relation`, `discourse-scope`, `disposition`, `distance`, `distribution`, `dream`, `dual`, `ego-less`, `emphasis`, `empirical`, `ergative`, `ergative-split`, `event-number`, `evidentiality`, `fluidity`, `focus-conjugation`, `focus-system`, `free-word-order`, `fusion`, `genealogical`, `geocentric`, `geometry`, `gerundive`, `graded-tense`, `hearsay`, `hierarchy`, `highlighting`, `holistic`, `immediacy`, `inalienable`, `inclusive-exclusive`, `incorporating`, `individuation`, `information-structure`, `integral`, `intentionality`, `inversion`, `inverted-time`, `involuntary`, `isolating`, `localization`, `logic`, `logophoric`, `manifestation`, `many-valued`, `marked-nominative`, `material`, `materiality`, `matter`, `middle-voice`, `minimalism`, `modal`, `mood`, `nature`, `negation-scope`, `nesting`, `network`, `nominal-aspect`, `nominalization`, `non-finite`, `noun-classes`, `object`, `obligation`, `obviation`, `obviative`, `oratio-obliqua`, `parallel`, `parallelism`, `parataxis`, `participle`, `particles`, `partitive`, `perfect-imperfect`, `person-marking`, `perspective`, `pluractional`, `polysynthetic`, `possession`, `postposition`, `potential`, `precision`, `predicate`, `process`, `pronoun`, `proximate`, `psych-verb`, `realization`, `reciprocal`, `reclassification`, `recursion`, `recursion-free`, `reduction`, `reduplication`, `reference-tracking`, `reflexive-possessive`, `remoteness`, `reported-speech`, `responsibility`, `role`, `root-pattern`, `salience`, `samasa`, `scrambling`, `senses`, `shape-verb`, `social`, `source`, `space`, `stacking`, `status`, `subjunctive`, `substantivization`, `switch-reference`, `syadvada`, `symmetry`, `tense`, `terminative`, `third-person`, `time-metaphor`, `topic`, `total-object`, `transience`, `triage`, `tripartite`, `unambiguous`, `unfolding`, `unstated-relation`, `vector-verb`, `verification`, `visibility`, `voice-system`, `wa`, `waw`, `word-ban`
+### Tags (199)
+`a-o-class`, `ablative-absolute`, `abstraction`, `addressee`, `adjunct`, `agency`, `agent`, `agent-chain`, `agentless`, `alignment`, `anatomy`, `anchor`, `animacy`, `animate`, `anticipation`, `aorist`, `article`, `aspect`, `associated-motion`, `attribution`, `baseline`, `benefactive`, `blame`, `body-part-locative`, `boundedness`, `cardinal-direction`, `case`, `case-stacking`, `causal`, `causative`, `certainty`, `chaining`, `classes`, `classification`, `classificatory-verb`, `classifier`, `clusivity`, `completion`, `complex-predicate`, `compound`, `concession`, `concord`, `condensation`, `consistency`, `constructed`, `control`, `converb`, `coordination`, `coreference`, `counterweight`, `cycle`, `dative-agent`, `decomposition`, `deixis`, `delegation`, `dependency`, `derivation`, `direction`, `discourse-relation`, `discourse-scope`, `disposition`, `distance`, `distribution`, `diurnal`, `dream`, `dual`, `ego-less`, `emphasis`, `empirical`, `ergative`, `ergative-split`, `event-number`, `evidentiality`, `fluidity`, `focus-conjugation`, `focus-system`, `free-word-order`, `fusion`, `genealogical`, `geocentric`, `geometry`, `gerundive`, `graded-tense`, `hearsay`, `hierarchy`, `highlighting`, `holistic`, `immediacy`, `inalienable`, `inclusive-exclusive`, `incorporating`, `individuation`, `information-structure`, `integral`, `intentionality`, `inversion`, `inverted-time`, `involuntary`, `isolating`, `light-verb`, `localization`, `logic`, `logophoric`, `manifestation`, `many-valued`, `marked-nominative`, `material`, `materiality`, `matter`, `middle-voice`, `minimalism`, `modal`, `modal-case`, `mood`, `nature`, `negation-scope`, `nesting`, `network`, `nominal-aspect`, `nominalization`, `non-finite`, `noun-classes`, `object`, `obligation`, `observation-conditions`, `obviation`, `obviative`, `oratio-obliqua`, `parallel`, `parallelism`, `parataxis`, `participle`, `particles`, `partitive`, `perfect-imperfect`, `person-marking`, `perspective`, `pluractional`, `polarity`, `polysynthetic`, `possession`, `postposition`, `potential`, `precision`, `predicate`, `process`, `pronoun`, `proximate`, `psych-verb`, `realization`, `reciprocal`, `reclassification`, `recursion`, `recursion-free`, `reduction`, `reduplication`, `reference-tracking`, `reflexive-possessive`, `remoteness`, `reported-speech`, `responsibility`, `role`, `root-pattern`, `salience`, `samasa`, `scrambling`, `senses`, `shape-verb`, `size`, `social`, `source`, `space`, `stacking`, `status`, `subjunctive`, `substantivization`, `switch-reference`, `syadvada`, `symmetry`, `tam`, `tense`, `terminative`, `third-person`, `time-metaphor`, `topic`, `total-object`, `transience`, `triage`, `tripartite`, `unambiguous`, `unfolding`, `unstated-relation`, `vector-verb`, `verification`, `visibility`, `voice-system`, `wa`, `waw`, `word-ban`
 
 ## Forms (46 entries)
 
