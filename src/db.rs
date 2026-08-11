@@ -131,16 +131,23 @@ fn query_table(
     if let Some(text) = &filters.text {
         // tags are stored as a JSON array string, so a LIKE over the raw cell
         // also reaches keywords that never occur in the prose columns — about
-        // two thirds of them (e.g. "body-part-locative", "coreference"). Without
-        // this the tag index and the free-text search cover disjoint vocabulary.
-        clauses.push(
-            "(name LIKE ? OR description LIKE ? OR feature LIKE ? OR tags LIKE ?)".to_owned(),
-        );
+        // two thirds of them (e.g. "body-part-locative", "coreference"). The
+        // same argument covers classification: it holds the family, region and
+        // typology vocabulary ("Slavic", "Bantu", "Australia", "isolate") and
+        // its own filter matches the exact full string only, so without it that
+        // vocabulary is advertised by list_facets yet unreachable by search.
+        const TEXT_COLUMNS: [&str; 5] =
+            ["name", "description", "feature", "tags", "classification"];
+        let disjunction = TEXT_COLUMNS
+            .iter()
+            .map(|column| format!("{column} LIKE ?"))
+            .collect::<Vec<_>>()
+            .join(" OR ");
+        clauses.push(format!("({disjunction})"));
         let like = format!("%{text}%");
-        params.push(Box::new(like.clone()));
-        params.push(Box::new(like.clone()));
-        params.push(Box::new(like.clone()));
-        params.push(Box::new(like));
+        for _ in TEXT_COLUMNS {
+            params.push(Box::new(like.clone()));
+        }
     }
     if !filters.exclude_names.is_empty() {
         let placeholders = vec!["?"; filters.exclude_names.len()].join(", ");

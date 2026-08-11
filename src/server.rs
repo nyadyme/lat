@@ -41,7 +41,7 @@ pub struct SearchParams {
     pub classification: Option<String>,
     /// Substring that should appear in the focus field.
     pub focus: Option<String>,
-    /// Free text across name, description, feature and tags.
+    /// Free text across name, description, feature, tags and classification.
     pub text: Option<String>,
     /// Names to exclude, e.g. the user's own language, so that contrasting
     /// lenses surface rather than the structure they already think in.
