@@ -5,13 +5,14 @@ i.e. what `list_facets` returns. GENERATED from additional_docs/lat_catalog.md
 by tools/gen_facets.py; regenerate after changing the catalogue. `themes` is the
 closed cognitive-axis vocabulary; `tags` are free keywords.
 
-> Note the asymmetry: **forms carry 10 themes, languages 11** — `Possession & belonging`
-> appears only among languages (Navajo inalienable possession, Dyirbal, Latin gerundive,
-> Hawaiian a/o possession, Khoekhoe clusivity, Mongolian reflexive possession), so it is
-> absent from the forms facet.
-> Facets reflect the occupied subset, not the abstract list.
+> Note the asymmetry: **themes occupied per table are forms 10, languages 11**.
+> `Possession & belonging` appears only among languages — carried by Mongolian
+> (reflexive possession), Navajo (inalienable possession), Hawaiian (a/o possession),
+> Pohnpeian (possessive classifiers), Dyirbal (noun classes), Khoekhoe (clusive we),
+> Latin (gerundive of obligation) — so it is absent from the forms facet. Facets reflect
+> the occupied subset, not the abstract list.
 
-## Languages (64 entries)
+## Languages (66 entries)
 
 ### Themes (11)
 - Agency & control
@@ -30,7 +31,7 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 - Constructed language
 - Language
 
-### Classifications (64)
+### Classifications (66)
 - Afro-Asiatic (Chadic) / pluractional verb stems
 - Afro-Asiatic (Cushitic) / marked nominative
 - Afro-Asiatic (Ethiosemitic) / converb chains with a single finite anchor
@@ -58,6 +59,7 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 - Khoe-Kwadi (areal "Khoisan") / person-gender-number markers with clusivity & dual
 - Kra-Dai / relational-hierarchical pronoun system
 - Mayan family / terminative aspect structure
+- Micronesian (Oceanic) / possessive classifiers by intended use
 - Mirndi / West Barkly (Australia) / complex predicates on three inflecting verbs
 - Mongolic / reflexive-possessive reference tracking
 - Mura family / radical grammatical immediacy
@@ -69,7 +71,8 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 - Niger-Congo (Kwa) / body-part nouns as the locative resource
 - Niger-Congo (Kwa) / logophoric pronoun series
 - Pama-Nyungan (Australia) / absolute geocentric orientation
-- Pama-Nyungan / extremely ergative & radical noun classes
+- Pama-Nyungan / absolutive pivot with antipassive repair
+- Pama-Nyungan / radical noun classes
 - Pama-Nyungan / radical syntactic freedom (scrambling)
 - Penutian / epistemic evidentiality
 - Plateau Penutian / tripartite case system
@@ -96,10 +99,10 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 - philosophically constructed (a posteriori/a priori)
 - topic-prominent language
 
-### Tags (199)
-`a-o-class`, `ablative-absolute`, `abstraction`, `addressee`, `adjunct`, `agency`, `agent`, `agent-chain`, `agentless`, `alignment`, `anatomy`, `anchor`, `animacy`, `animate`, `anticipation`, `aorist`, `article`, `aspect`, `associated-motion`, `attribution`, `baseline`, `benefactive`, `blame`, `body-part-locative`, `boundedness`, `cardinal-direction`, `case`, `case-stacking`, `causal`, `causative`, `certainty`, `chaining`, `classes`, `classification`, `classificatory-verb`, `classifier`, `clusivity`, `completion`, `complex-predicate`, `compound`, `concession`, `concord`, `condensation`, `consistency`, `constructed`, `control`, `converb`, `coordination`, `coreference`, `counterweight`, `cycle`, `dative-agent`, `decomposition`, `deixis`, `delegation`, `dependency`, `derivation`, `direction`, `discourse-relation`, `discourse-scope`, `disposition`, `distance`, `distribution`, `diurnal`, `dream`, `dual`, `ego-less`, `emphasis`, `empirical`, `ergative`, `ergative-split`, `event-number`, `evidentiality`, `fluidity`, `focus-conjugation`, `focus-system`, `free-word-order`, `fusion`, `genealogical`, `geocentric`, `geometry`, `gerundive`, `graded-tense`, `hearsay`, `hierarchy`, `highlighting`, `holistic`, `immediacy`, `inalienable`, `inclusive-exclusive`, `incorporating`, `individuation`, `information-structure`, `integral`, `intentionality`, `inversion`, `inverted-time`, `involuntary`, `isolating`, `light-verb`, `localization`, `logic`, `logophoric`, `manifestation`, `many-valued`, `marked-nominative`, `material`, `materiality`, `matter`, `middle-voice`, `minimalism`, `modal`, `modal-case`, `mood`, `nature`, `negation-scope`, `nesting`, `network`, `nominal-aspect`, `nominalization`, `non-finite`, `noun-classes`, `object`, `obligation`, `observation-conditions`, `obviation`, `obviative`, `oratio-obliqua`, `parallel`, `parallelism`, `parataxis`, `participle`, `particles`, `partitive`, `perfect-imperfect`, `person-marking`, `perspective`, `pluractional`, `polarity`, `polysynthetic`, `possession`, `postposition`, `potential`, `precision`, `predicate`, `process`, `pronoun`, `proximate`, `psych-verb`, `realization`, `reciprocal`, `reclassification`, `recursion`, `recursion-free`, `reduction`, `reduplication`, `reference-tracking`, `reflexive-possessive`, `remoteness`, `reported-speech`, `responsibility`, `role`, `root-pattern`, `salience`, `samasa`, `scrambling`, `senses`, `shape-verb`, `size`, `social`, `source`, `space`, `stacking`, `status`, `subjunctive`, `substantivization`, `switch-reference`, `syadvada`, `symmetry`, `tam`, `tense`, `terminative`, `third-person`, `time-metaphor`, `topic`, `total-object`, `transience`, `triage`, `tripartite`, `unambiguous`, `unfolding`, `unstated-relation`, `vector-verb`, `verification`, `visibility`, `voice-system`, `wa`, `waw`, `word-ban`
+### Tags (208)
+`a-o-class`, `ablative-absolute`, `abstraction`, `addressee`, `adjunct`, `agency`, `agent`, `agent-chain`, `agentless`, `alignment`, `anatomy`, `anchor`, `animacy`, `animate`, `anticipation`, `antipassive`, `aorist`, `article`, `aspect`, `associated-motion`, `attribution`, `baseline`, `benefactive`, `blame`, `body-part-locative`, `boundedness`, `cardinal-direction`, `case`, `case-stacking`, `causal`, `causative`, `certainty`, `chaining`, `classes`, `classification`, `classificatory-verb`, `classifier`, `clusivity`, `completion`, `complex-predicate`, `compound`, `concession`, `concord`, `condensation`, `consistency`, `constructed`, `control`, `converb`, `coordination`, `coreference`, `counterweight`, `cycle`, `dative-agent`, `decomposition`, `deixis`, `delegation`, `dependency`, `derivation`, `direction`, `discourse-relation`, `discourse-scope`, `disposition`, `distance`, `distribution`, `diurnal`, `dream`, `drinkable`, `dual`, `edible`, `ego-less`, `emphasis`, `empirical`, `ergative`, `ergative-split`, `event-number`, `evidentiality`, `fluidity`, `focus-conjugation`, `focus-system`, `free-word-order`, `fusion`, `genealogical`, `geocentric`, `geometry`, `gerundive`, `graded-tense`, `hearsay`, `hierarchy`, `highlighting`, `holistic`, `immediacy`, `inalienable`, `inclusive-exclusive`, `incorporating`, `individuation`, `information-structure`, `integral`, `intentionality`, `inversion`, `inverted-time`, `involuntary`, `isolating`, `light-verb`, `localization`, `logic`, `logophoric`, `manifestation`, `many-valued`, `marked-nominative`, `material`, `materiality`, `matter`, `middle-voice`, `minimalism`, `modal`, `modal-case`, `mood`, `nature`, `negation-scope`, `nesting`, `network`, `nominal-aspect`, `nominalization`, `non-finite`, `noun-classes`, `object`, `obligation`, `observation-conditions`, `obviation`, `obviative`, `oratio-obliqua`, `parallel`, `parallelism`, `parataxis`, `participle`, `particles`, `partitive`, `perfect-imperfect`, `person-marking`, `perspective`, `pivot`, `pluractional`, `polarity`, `polysynthetic`, `possession`, `possessive-classifier`, `postposition`, `potential`, `precision`, `predicate`, `process`, `pronoun`, `proximate`, `psych-verb`, `realization`, `reciprocal`, `reclassification`, `recursion`, `recursion-free`, `reduction`, `reduplication`, `reference-tracking`, `reflexive-possessive`, `remoteness`, `reported-speech`, `responsibility`, `role`, `root-pattern`, `salience`, `samasa`, `scrambling`, `senses`, `shape-verb`, `size`, `social`, `source`, `space`, `stacking`, `status`, `subjunctive`, `substantivization`, `switch-reference`, `syadvada`, `symmetry`, `syntactic-ergativity`, `tam`, `tense`, `terminative`, `third-person`, `time-metaphor`, `topic`, `topic-chain`, `total-object`, `transience`, `triage`, `tripartite`, `unambiguous`, `unfolding`, `unstated-relation`, `use-relation`, `vector-verb`, `verification`, `visibility`, `voice`, `voice-system`, `wa`, `waw`, `word-ban`
 
-## Forms (46 entries)
+## Forms (49 entries)
 
 ### Themes (10)
 - Agency & control
@@ -122,7 +125,7 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 - Technique
 - Visual form
 
-### Classifications (43)
+### Classifications (45)
 - Ancient Hebrew psalms / thought-rhyme
 - English sonnet form (ABAB CDCD EFEF GG)
 - French form / 19 lines with two refrains
@@ -158,6 +161,7 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 - classical rhetoric / crosswise placement (A-B:B-A)
 - classical text/music form (ABACADA)
 - early medieval Scandinavia / metaphorical periphrasis
+- heraldic device adopted for literature (Gide) / the part reproduces the whole
 - medieval French / eight lines (ABaAabAB)
 - nesting (e.g. One Thousand and One Nights)
 - prose register
@@ -165,7 +169,8 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 - sacral / repetitive anaphora
 - symmetrical triple (short, long, short)
 - thinking tool
+- thinking tool / structuralist and structural-realist reduction
 - troubadour poetry / coblas with tornada
 
-### Tags (115)
-`acrostic`, `agency`, `allegory`, `alliteration`, `ambivalence`, `anadiplosis`, `anaphora`, `anticipation`, `antithesis`, `association`, `asymmetry`, `balance`, `broken-symmetry`, `cascade`, `causal`, `centering`, `chaining`, `coblas`, `coexistence`, `cohesion`, `collage`, `combinatorics`, `commentary`, `compression`, `constraint`, `contradiction`, `coordination`, `couplet`, `crescendo`, `crosswise`, `cut`, `deceleration`, `decomposition`, `decree`, `dependency`, `detour`, `dialogic`, `dialogue`, `disruption`, `distich`, `dynamic`, `encoding`, `end-word`, `envoi`, `epigram`, `exegesis`, `focus`, `foot`, `forces`, `foreign-quote`, `four-step`, `frame`, `genre`, `hierarchy`, `hymn`, `insight`, `internal-rhyme`, `intuition`, `inversion`, `juxtaposition`, `kenning`, `kishotenketsu`, `lateral`, `letter-ban`, `levels`, `loop`, `metaphor`, `meter`, `mirroring`, `mosaic`, `nesting`, `object`, `observation`, `oulipo`, `palindrome`, `paradox`, `performative`, `permutation`, `perspective`, `quatrain`, `quote`, `radif`, `ranking`, `recombination`, `recursion`, `refrain`, `reframe`, `renaming`, `repetition`, `return`, `reversal`, `rhyme`, `robustness`, `self-similarity`, `shape`, `skaldic`, `sonnet`, `sound`, `sound-constraint`, `states`, `stollen-abgesang`, `syllable-count`, `symmetry`, `syncope`, `thought-rhyme`, `top-down`, `trance`, `transformation`, `translation`, `turn`, `typography`, `vertical`, `visual`, `word-ban`, `zen`
+### Tags (124)
+`acrostic`, `agency`, `allegory`, `alliteration`, `ambivalence`, `anadiplosis`, `anaphora`, `anticipation`, `antithesis`, `association`, `asymmetry`, `balance`, `broken-symmetry`, `cascade`, `causal`, `centering`, `chaining`, `coblas`, `coexistence`, `cohesion`, `collage`, `combinatorics`, `commentary`, `compression`, `constraint`, `contradiction`, `coordination`, `couplet`, `crescendo`, `crosswise`, `cut`, `deceleration`, `decomposition`, `decree`, `dependency`, `detour`, `dialogic`, `dialogue`, `disruption`, `distich`, `dynamic`, `economy`, `encoding`, `end-word`, `envoi`, `epigram`, `exegesis`, `focus`, `foot`, `forces`, `foreign-quote`, `four-step`, `frame`, `genre`, `hierarchy`, `hymn`, `insight`, `internal-rhyme`, `intuition`, `inversion`, `juxtaposition`, `kenning`, `kishotenketsu`, `lateral`, `letter-ban`, `levels`, `loop`, `metaphor`, `meter`, `mirroring`, `mise-en-abyme`, `mosaic`, `nesting`, `node-free`, `object`, `observation`, `oulipo`, `palindrome`, `paradox`, `performative`, `permutation`, `perspective`, `quatrain`, `quote`, `radif`, `ranking`, `recombination`, `recursion`, `reduction`, `reflexivity`, `refrain`, `reframe`, `relational`, `renaming`, `repetition`, `residue`, `return`, `reversal`, `rhyme`, `robustness`, `scale-invariance`, `self-similarity`, `shape`, `skaldic`, `sonnet`, `sound`, `sound-constraint`, `states`, `stollen-abgesang`, `structuralism`, `syllable-count`, `symmetry`, `syncope`, `thought-rhyme`, `top-down`, `trance`, `transformation`, `translation`, `turn`, `typography`, `vertical`, `visual`, `word-ban`, `zen`

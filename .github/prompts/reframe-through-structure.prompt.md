@@ -27,8 +27,9 @@ Ground every lens in the lat catalogue — cite the pattern's `name`, `focus`, a
    `Agency & control` is the actor's relation to the act; `Rank & salience`
    which participant stands in front of the others.
 3. **Query.** Call `list_facets` if unsure of exact values, then
-   `search_patterns` on that `theme`. Purely formal patterns (meters, fixed
-   forms) carry no theme — reach them via `tag`/`category`/`text`.
+   `search_patterns` on that `theme`. Search forms by `theme` as well — most
+   carry one. Only patterns whose mechanic is purely acoustic, metrical or
+   typographic carry none; reach those via `tag`/`category`/`text`.
 4. **Input language (contrast, not match).** Detect the language of the *text
    being analysed* — not the language of the request — and pass
    `exclude_names: ["<that language>"]` so the structure the text already thinks

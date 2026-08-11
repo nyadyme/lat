@@ -75,6 +75,62 @@ def tagline(items):
     return ", ".join(f"`{x}`" for x in items)
 
 
+def carriers(rows, theme):
+    """Names of the entries whose themes cell contains theme, in file order."""
+    return [r["name"] for r in rows
+            if theme in {x.strip() for x in r["themes"].split(",")}]
+
+
+def wrap_quote(text, width=88):
+    """Wrap text into blockquote lines, each prefixed with '> '."""
+    lines, current = [], ""
+    for word in text.split():
+        candidate = f"{current} {word}".strip()
+        if current and len(candidate) + 2 > width:
+            lines.append(f"> {current}")
+            current = word
+        else:
+            current = candidate
+    if current:
+        lines.append(f"> {current}")
+    return lines
+
+
+def asymmetry_note(rows):
+    """Build the blockquote about themes occupied by only one of the tables.
+
+    Derived from the catalogue rather than stated, so it cannot go stale: which
+    axis is exclusive to which table, and which entries carry it, are read off
+    the rows on every run.
+    """
+    occupied = {t: set(distinct_arr(rows[t], "themes")) for t in rows}
+    exclusive = {
+        table: sorted(themes - set().union(
+            *(o for t, o in occupied.items() if t != table)))
+        for table, themes in occupied.items()
+    }
+    counts = ", ".join(f"{t} {len(o)}" for t, o in sorted(occupied.items()))
+
+    if not any(exclusive.values()):
+        sentences = [f"Themes occupied per table: **{counts}** — the tables "
+                     "cover the same axes."]
+    else:
+        sentences = [f"Note the asymmetry: **themes occupied per table are "
+                     f"{counts}**."]
+        others = {t: sorted(set(rows) - {t}) for t in rows}
+        for table, themes in sorted(exclusive.items()):
+            for theme in themes:
+                names = ", ".join(carriers(rows[table], theme))
+                absent = " and ".join(others[table])
+                sentences.append(
+                    f"`{theme}` appears only among {table} — carried by "
+                    f"{names} — so it is absent from the {absent} facet.")
+
+    sentences.append("Facets reflect the occupied subset, not the abstract "
+                     "list.")
+    return wrap_quote(" ".join(sentences))
+
+
 def main():
     rows = parse_catalog()
     lines = [
@@ -85,11 +141,7 @@ def main():
         "by tools/gen_facets.py; regenerate after changing the catalogue. `themes` is the",
         "closed cognitive-axis vocabulary; `tags` are free keywords.",
         "",
-        "> Note the asymmetry: **forms carry 10 themes, languages 11** — `Possession & belonging`",
-        "> appears only among languages (Navajo inalienable possession, Dyirbal, Latin gerundive,",
-        "> Hawaiian a/o possession, Khoekhoe clusivity, Mongolian reflexive possession), so it is",
-        "> absent from the forms facet.",
-        "> Facets reflect the occupied subset, not the abstract list.",
+        *asymmetry_note(rows),
         "",
     ]
     for table, title in (("languages", "Languages"), ("forms", "Forms")):

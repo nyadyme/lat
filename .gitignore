@@ -1,2 +1,6 @@
 /target
 /.idea
+
+# Byte-code from the Python generators in tools/
+__pycache__/
+*.py[cod]

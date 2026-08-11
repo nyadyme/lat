@@ -68,8 +68,10 @@ Japanese, Yucatec Maya, English; Minnesang, Haiku, Enumeration; the techniques).
    was it willed, who caused it); `Rank & salience` about which participant
    stands in front of the others. Call `mcp__lat__list_facets` if unsure
    of the exact strings, then `mcp__lat__search_patterns` on that `theme`. Pull details
-   with `mcp__lat__get_pattern` as needed (focus, feature). Purely formal tools (meters,
-   fixed forms) carry no theme — reach them via `tag`/`category`/`text`.
+   with `mcp__lat__get_pattern` as needed (focus, feature). Search forms by
+   `theme` as well — most carry one. Only patterns whose mechanic is purely
+   acoustic, metrical or typographic carry none; reach those via
+   `tag`/`category`/`text`.
 4. **Account for the input language (contrast, not match).** See the section
    below: exclude the user's own language and prefer language lenses that
    foreground what it backgrounds. Forms are language-neutral and always apply.

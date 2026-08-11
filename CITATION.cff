@@ -9,7 +9,7 @@ abstract: >-
   closed set of cognitive axes, for reframing a problem through a contrasting
   language or form.
 type: software
-version: "0.2.2"
+version: "0.2.3"
 date-released: "2026-08-11"
 license: Apache-2.0
 # Concept DOI ("cite all versions"): stable across releases and always resolves
@@ -17,8 +17,11 @@ license: Apache-2.0
 doi: 10.5281/zenodo.21508868
 # Version DOIs of the individual releases, newest first. Each has a relation
 # childOf the concept DOI in the doi field above. Add one entry per release;
-# 0.2.2 receives its own version DOI when it is deposited.
+# 0.2.3 receives its own version DOI when it is deposited.
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21890295
+    description: "Version DOI of release 0.2.2."
   - type: doi
     value: 10.5281/zenodo.21869711
     description: "Version DOI of release 0.2.1."

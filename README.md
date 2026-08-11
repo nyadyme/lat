@@ -96,10 +96,11 @@ share the same columns:
 `Perspective & reciprocity`, `Object boundaries`, `Evidence & certainty`,
 `Space & orientation`, `Possession & belonging`,
 `Logic & ambiguity` — used to match a problem's structural bias to patterns that
-reframe that axis. Purely formal/meta patterns carry no theme and are found via
-`tags`/`category`. Multi-valued `tags` and `themes` are stored as JSON arrays and
-filtered with SQLite's `json_each` (guarded by `json_valid`, so a malformed cell
-cannot abort a query).
+reframe that axis. Every language carries a theme and so do most forms; only
+patterns whose mechanic is purely acoustic, metrical or typographic carry none,
+and those are found via `tags`/`category`. Multi-valued `tags` and `themes` are
+stored as JSON arrays and filtered with SQLite's `json_each` (guarded by
+`json_valid`, so a malformed cell cannot abort a query).
 
 The catalogue is maintained in
 [`additional_docs/lat_catalog.md`](additional_docs/lat_catalog.md) (single source
