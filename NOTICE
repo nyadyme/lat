@@ -1,9 +1,10 @@
 lat — Language as a Tool
 Copyright 2026 Dana Schlifka
 
-This product is licensed under the Apache License, Version 2.0 (see the LICENSE
-file). The contents of this NOTICE file are for informational purposes only and
-do not modify the License (Apache-2.0, Section 4(d)).
+This product — code and pattern catalogue alike — is licensed under the Apache
+License, Version 2.0 (see the LICENSE file). The contents of this NOTICE file
+are for informational purposes only and do not modify the License (Apache-2.0,
+Section 4(d)).
 
 ------------------------------------------------------------------------------
 Origin / provenance
@@ -45,6 +46,11 @@ particular:
   - the method of reframing a problem through such a contrasting language or
     form (see README.md and .claude/skills/reframe-through-structure).
 
+The linguistic findings this builds on are not the author's work (ref Lucy,
+Slobin, linguistic-relativity literature in general); disclosed is the automated
+synthesis — the routing of a text's structural bias to orthogonal patterns from a
+curated catalogue.
+
 The intent is defensive: by disclosing these techniques publicly and with a
 verifiable date, they cannot later be validly patented by a third party and
 asserted against the users of this software. Effectiveness as prior art depends
@@ -65,10 +71,17 @@ Binaries built with the "bundled" feature of the `rusqlite` crate embed SQLite
 ------------------------------------------------------------------------------
 Content provenance
 ------------------------------------------------------------------------------
-The pattern catalogue (additional_docs/lat_catalog.md, src/seed.sql) is the
+The pattern catalogue (additional_docs/lat_catalog.md, and the same data wherever
+it is carried: the generated src/seed.sql and the seeded database) is the
 author's own curated work, derived from the founding essay (deposited on Zenodo;
 see below, not bundled in this repository). Scholarly works referenced by that
 material are cited therein and remain the property of their respective authors.
+
+The catalogue is licensed under this repository's Apache-2.0 license, the same as
+the code, and is not licensed separately. What that license covers is the curated
+selection, wording and classification — not the grammatical facts described,
+which are established descriptive linguistics and nobody's property, and not the
+natural languages or poetic forms themselves.
 
 The founding essay is a separate work, licensed CC-BY-4.0 (NOT under this
 repository's Apache-2.0 license). It is deposited as a citable, timestamped

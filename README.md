@@ -36,9 +36,10 @@ Gemini, and GitHub Copilot**.
 
 As a **defensive prior-art disclosure**, the method is stated here in general
 terms. Given any natural-language text, the toolchain performs context-aware
-*linguistic contrast-routing*: (1) it analyzes the grammatical bias of the input
-language (e.g., the causal-chain / agent-object bias of German); (2) maps that
-bias to one of a closed set of cognitive axes; (3) selects one or more
+*linguistic contrast-routing* — an inverted soft Sapir–Whorf model, see
+[Theoretical framing](#theoretical-framing): (1) it analyzes the grammatical bias
+of the input language (e.g., the causal-chain / agent-object bias of German);
+(2) maps that bias to one of a closed set of cognitive axes; (3) selects one or more
 **structurally orthogonal** patterns — either a different natural language
 (e.g., Japanese topic-prominence, Yucatec Maya noun-classification) or a bound
 poetic / formal structure — from a multilingual catalogue, **excluding the input
@@ -46,15 +47,22 @@ language** so a contrasting lens is surfaced; and (4) reformulates the text to
 expose assumptions that are artifacts of the source grammar rather than inherent
 to the subject (for example, metaphysical assumptions in scientific texts). This
 selection and reformulation may be performed **automatically by a software agent
-or interactively**; both embodiments are disclosed. See the concrete steps under
-[Usage / invocation](#usage--invocation), the prior-art statement in
-[NOTICE](NOTICE), and the dated deposit at
+or interactively**; both embodiments are disclosed.
+
+The linguistic findings this builds on are not the author's work (ref Lucy,
+Slobin, linguistic-relativity literature in general); disclosed is the automated
+synthesis — the routing of a text's structural bias to orthogonal patterns from a
+curated catalogue.
+
+See the concrete steps under [Usage / invocation](#usage--invocation), the
+prior-art statement in [NOTICE](NOTICE), and the dated deposit at
 [doi:10.5281/zenodo.21382455](https://doi.org/10.5281/zenodo.21382455).
 
 
 
 ## Contents
 
+- [Theoretical framing](#theoretical-framing)
 - [How it fits together](#how-it-fits-together)
 - [Data model](#data-model)
 - [Tools](#tools)
@@ -65,6 +73,32 @@ or interactively**; both embodiments are disclosed. See the concrete steps under
 - [Editing the catalogue](#editing-the-catalogue)
 - [Project layout](#project-layout)
 - [License](#license)
+
+## Theoretical framing
+
+Context-aware *linguistic contrast-routing* is an **inverted soft Sapir–Whorf
+model**.
+
+**Soft** — the weak reading of linguistic relativity: a language does not
+determine what can be thought. It only makes some distinctions obligatory
+(Russian cannot state an action without committing to its aspect; Japanese *wa*
+forces a decision about what the topic is) and lets others stay comfortably
+implicit. That is a bias, not a prison — no claim of untranslatability or of
+thought being bounded by vocabulary is made or needed here.
+
+**Inverted** — the classical reading takes that bias as a given condition of the
+speaker and asks what a language *does to* its thinking. This tool reverses the
+direction of use: the bias becomes an instrument that is *chosen*. A structure is
+selected precisely because it forces the distinction the source language leaves
+implicit, and the text is deliberately run through it.
+
+So the relativity effect is not a defect to be corrected but the mechanism the
+tool runs on. What appears as a difference between the original and the
+reformulation is exactly what was an artifact of the source grammar rather than a
+property of the subject. This is also why the input language is excluded
+(`exclude_names`): without contrast there is nothing to read off, and the
+strength of the reading scales with the structural distance of the lens — hence
+the closed set of cognitive axes rather than an arbitrary pick.
 
 ## How it fits together
 
@@ -104,7 +138,9 @@ stored as JSON arrays and filtered with SQLite's `json_each` (guarded by
 
 The catalogue is maintained in
 [`additional_docs/lat_catalog.md`](additional_docs/lat_catalog.md) (single source
-of truth) and `src/seed.sql` is generated from it.
+of truth) and `src/seed.sql` is generated from it. Both are covered by the
+repository's [Apache-2.0](LICENSE) license, like the code — see
+[License](#license).
 
 ## Tools
 
@@ -423,7 +459,6 @@ tools/
 .claude/skills/reframe-through-structure/SKILL.md    # workflow — Claude skill
 .github/prompts/reframe-through-structure.prompt.md  # workflow — Copilot prompt
 .gemini/commands/reframe-through-structure.toml      # workflow — Gemini command
-examples/                   # worked reframings
 ```
 
 Logs go to stderr; stdout carries the MCP JSON-RPC stream.
@@ -436,6 +471,15 @@ a defensive prior-art disclosure. The Apache-2.0 patent grant (§3) and
 warranty/liability disclaimers (§7–8) are the point: clear provenance so
 recipients can rely on them.
 
+**The pattern catalogue** — the curated entries in
+[`additional_docs/lat_catalog.md`](additional_docs/lat_catalog.md) and the same
+data wherever it is carried (the generated `src/seed.sql`, the seeded database) —
+is covered by the **same Apache-2.0 license** as the code, and is not licensed
+separately. Reuse it — in other catalogues, datasets or papers — under
+Apache-2.0, keeping the attribution and NOTICE requirements of §4. The
+grammatical facts it describes are of course not anyone's property; what the
+license covers is this curated selection, wording and classification.
+
 **The founding essay** is a separate work and is **not** covered by the Apache
 license. It is deposited under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (SPDX: `CC-BY-4.0`) on
@@ -443,8 +487,8 @@ Zenodo ([10.5281/zenodo.21382455](https://doi.org/10.5281/zenodo.21382455)) and
 PhilArchive ([SCHLAA-18](https://philarchive.org/rec/SCHLAA-18)).
 
 To cite, see [CITATION.cff](CITATION.cff) — it carries `license: Apache-2.0` for
-the software and `license: CC-BY-4.0` for the essay reference. Cite the software
-under its concept DOI
+the software — catalogue included — and `license: CC-BY-4.0` for the essay
+reference. Cite the software under its concept DOI
 [10.5281/zenodo.21508868](https://doi.org/10.5281/zenodo.21508868), which covers
 all versions; individual releases additionally carry their own version DOI.
  
