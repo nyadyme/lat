@@ -13,8 +13,8 @@ abstract: >-
   pattern is selected because it forces the distinction the input language leaves
   implicit.
 type: software
-version: "0.2.4"
-date-released: "2026-08-11"
+version: "0.2.5"
+date-released: "2026-08-14"
 # License of the software, pattern catalogue included: the catalogue
 # (additional_docs/lat_catalog.md, the generated src/seed.sql and the seeded
 # database) is covered by this same license and is not licensed separately.
@@ -26,8 +26,11 @@ license: Apache-2.0
 doi: 10.5281/zenodo.21508868
 # Version DOIs of the individual releases, newest first. Each has a relation
 # childOf the concept DOI in the doi field above. Add one entry per release;
-# 0.2.4 receives its own version DOI when it is deposited.
+# 0.2.5 receives its own version DOI when it is deposited.
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21893749
+    description: "Version DOI of release 0.2.4."
   - type: doi
     value: 10.5281/zenodo.21892682
     description: "Version DOI of release 0.2.3."
