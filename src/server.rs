@@ -24,7 +24,9 @@ structure of thought and thereby makes hidden aspects of a subject visible. \
 Use 'search_patterns' to find patterns that fit a problem theme (e.g. \
 causality, coexistence, perspective), 'list_facets' to see valid filter \
 values, 'list_patterns' for an overview, and 'get_pattern' for the full \
-details of a pattern that is then to be applied.";
+details of a pattern that is then to be applied. Two patterns can be stacked, \
+and the order matters: a pair pays off when one decides a precondition the \
+other needs, so that the first can remove the second's choice.";
 
 /// Parameters for the search. All fields optional, combined with AND.
 #[derive(Debug, Deserialize, schemars::JsonSchema)]

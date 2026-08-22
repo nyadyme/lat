@@ -136,6 +136,40 @@ Language patterns supply the *grammatical lens*, form patterns the *genre lens*,
 techniques the *handle*. Combine them: e.g. a perspective swap with the Japanese
 topic structure, or a ban on "because" with Enumeration.
 
+## Combining lenses
+
+Two lenses can be stacked, and the order is not free. A pair is worth stacking
+when one lens decides a precondition the other needs for its obligatory choice
+— then the first can take the second's choice away, and that removal is itself
+the finding. Test any pair with one question: **can A make B's question
+unanswerable?**
+
+| Relation | How the two stand to each other | Worth it |
+|---|---|---|
+| Serial | A decides a precondition of B and can remove B's choice | yes — the removal is the result |
+| Distributive | A yields a set, B is applied to each element | sometimes — more questions, not a new kind |
+| Orthogonal | Two independent sub-questions on the same object | sometimes — additive, order-free |
+| Redundant | Both answer the same sub-question | no — take one |
+
+A shared theme is neither an objection nor evidence of redundancy: serial pairs
+are usually found *within* one theme, because that is where one lens's output is
+the other's input. Check the sub-question, not the theme.
+
+Three illustrations, not a registry — derive the pair from the `feature` fields
+of the two entries:
+
+- **Node collapse → Yucatec Maya → Finnish (partitive object).** Dissolve the
+  nouns into their relations, ask the residue what its unit is, then ask how far
+  the action reached it. If the first step leaves no bounded thing, the partitive
+  is forced and the completed reading is unavailable: whatever cannot take a
+  total object was never individuated.
+- **Latin (ablative absolute) → Ancient Greek (particles).** Exact inverses: the
+  first withholds the relation, the second forces it to be named. Strip the
+  "because", then choose the link deliberately; the distance between the two is
+  the finding.
+- **Tuyuca / Tariana / Wintu.** Redundant — all three ask for the source of the
+  information. Stacking them adds nothing.
+
 ## Principles
 
 - **Ground, don't invent.** Every lens comes from the `lat` catalogue; name the
