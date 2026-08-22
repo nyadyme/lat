@@ -118,6 +118,8 @@ share the same columns:
 | `feature` | The distinction it makes obligatory |
 | `tags` | JSON array of free keywords (linguistic features, formal mechanics) |
 | `themes` | JSON array from a closed cognitive-axis vocabulary (see below) |
+| `consumes` | JSON array: the stack types the pattern's obligatory choice takes hold of |
+| `produces` | JSON array: the stack types it settles and hands on to a following lens |
 
 `themes` is drawn from a fixed set of eleven axes — `Causality`,
 `Agency & control`, `Rank & salience`, `Time & aspect`, `Coexistence`,
@@ -126,9 +128,26 @@ share the same columns:
 `Logic & ambiguity` — used to match a problem's structural bias to patterns that
 reframe that axis. Every language carries a theme and so do most forms; only
 patterns whose mechanics are purely acoustic, metrical or typographic carry none,
-and those are found via `tags`/`category`. Multi-valued `tags` and `themes` are
-stored as JSON arrays and filtered with SQLite's `json_each` (guarded by
-`json_valid`, so a malformed cell cannot abort a query).
+and those are found via `tags`/`category`. Multi-valued `tags`, `themes`,
+`consumes` and `produces` are stored as JSON arrays and filtered with SQLite's
+`json_each` (guarded by `json_valid`, so a malformed cell cannot abort a query).
+
+`consumes`/`produces` come from a second closed vocabulary and serve the
+stacking of two lenses. A lens takes hold of something (`event`, `participant`,
+`referent`, `claim`, `spatial-relation`, `possession-relation`,
+`clause-sequence`, `constraint`, `text`) and settles a value (`agent`,
+`agent-chain`, `causal-link`, `open-link`, `completion`, `time-frame`,
+`time-distance`, `event-set`, `bounded-unit`, `class-membership`,
+`participant-rank`, `viewpoint`, `claim-source`, `attributed-span`, `certainty`,
+`spatial-frame`, `spatial-rank`, `dependency-direction`, `use-relation`,
+`truth-value`, `relation-net`, `constraint-load`, `level-fit`). Where
+`produces(A)` meets `consumes(B)`, A decides whether B has an input at all and
+the pair is serial — searching `produces` for one value and `consumes` for the
+same value is the query that finds it. Where both take the same value and
+produce the same value, the pair is redundant; one matching side alone is not
+enough. Both fields stay empty where a mechanic has no input another
+lens could hand it (metrical feet, typographic forms, the purely procedural
+techniques).
 
 The catalog is maintained in
 [`additional_docs/lat_catalog.md`](additional_docs/lat_catalog.md) (single source
@@ -142,10 +161,10 @@ All tools are read-only. Every filter is optional and filters are AND-combined.
 
 | Tool | Purpose |
 |---|---|
-| `search_patterns` | Find patterns by `kind`, `theme`, `category`, `classification`, `focus`, `tag`, free `text`, or `exclude_names` (drop the user's own language so contrasting lenses surface). |
+| `search_patterns` | Find patterns by `kind`, `theme`, `category`, `classification`, `focus`, `tag`, `consumes`, `produces`, free `text`, or `exclude_names` (drop the user's own language so contrasting lenses surface). |
 | `get_pattern` | Full details of one pattern by `kind` + `name`. |
 | `list_patterns` | List all patterns, optionally restricted to one `kind`. |
-| `list_facets` | Distinct categories / classifications / tags / themes per table, so the agent knows valid filter values. |
+| `list_facets` | Distinct categories / classifications / tags / themes / consumes / produces per table, so the agent knows valid filter values. |
 
 `kind` is `form` or `language` (omit it to search both).
 

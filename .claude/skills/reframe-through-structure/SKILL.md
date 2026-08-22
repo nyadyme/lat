@@ -140,28 +140,51 @@ topic structure, or a ban on "because" with Enumeration.
 
 Two lenses can be stacked, and the order is not free. A pair is worth stacking
 when one lens decides a precondition the other needs for its obligatory choice
-— then the first can take the second's choice away, and that removal is itself
-the finding. Test any pair with one question: **can A make B's question
-unanswerable?**
+— the first then governs whether the second has anything to decide at all, and
+that is itself the finding. Test any pair with one question: **does A decide
+whether B has an input at all?** It runs two ways. *Withholding*: A can take B's
+input away, and the removal is the finding — granted no bounded unit, the
+partitive is forced. *Supplying*: B has no input until A produces one — the
+ablative absolute strips the relation the particles then have to name. Both are
+serial, both are order-strict.
 
-| Relation | How the two stand to each other | Worth it |
-|---|---|---|
-| Serial | A decides a precondition of B and can remove B's choice | yes — the removal is the result |
-| Distributive | A yields a set, B is applied to each element | sometimes — more questions, not a new kind |
-| Orthogonal | Two independent sub-questions on the same object | sometimes — additive, order-free |
-| Redundant | Both answer the same sub-question | no — take one |
+| Relation | How the two stand to each other | Order | Worth it |
+|---|---|---|---|
+| Serial | A decides whether B has an input — withholding it or producing it | forced | yes — what A does to that input is the result |
+| Distributive | A yields a set, B is applied to each element | forced — run before A, B answers for the set as a whole, which is the wrong answer | sometimes — more questions, not a new kind |
+| Orthogonal | Two independent sub-questions on the same object | free | sometimes — additive |
+| Redundant | Both settle the same sub-question — same input, same output | — | no — take one |
 
-A shared theme is neither an objection nor evidence of redundancy: serial pairs
-are usually found *within* one theme, because that is where one lens's output is
-the other's input. Check the sub-question, not the theme.
+The rows are not exclusive. On a set the relations combine: a pair can be serial
+for some elements and vacuous for others — Hawaiian a/o possession decides per
+item whether it is controlled or sprung from, and Pohnpeian's "what is the
+having for?" is ill-posed for exactly the second group. Classify per element;
+the split is the finding.
+
+A shared theme is neither an objection nor evidence of redundancy, and it does
+not predict the relation either way: serial pairs are found within one theme and
+across two alike — animacy (`Object boundaries`) hands obviation (`Perspective &
+reciprocity`) the animate third persons it ranks. Check the sub-question, not
+the theme.
 
 The fastest way to check it is a **type match, not a theme match**: does what A
 delivers happen to be what B consumes? A settles whether a bounded unit exists
 and B needs a unit to measure the reach of an action against; A sorts claims by
 source and B needs foreign material to scope. Where A's output is B's input, the
-pair is serial — and A withholding that input is the finding. Where both consume
-the *same* input, the pair is redundant however far apart their themes sit. Read
-both `feature` fields as input → output before deciding the relation.
+pair is serial — and what A does with that input, withhold it or produce it, is
+the finding. Redundancy takes **both** sides: a pair is redundant where the two
+lenses take the same input *and* settle it into the same output — the same
+sub-question on the same material, however far apart their themes sit. Tuyuca,
+Tariana and Wintu all take a `claim` and hand back a `claim-source`; take one.
+One side alone is not redundancy, and it fails in both directions. Same input,
+different output: a `spatial-relation` yields an ego-less frame under Guugu
+Yimithirr and a forced uphill-downhill rank under Tzeltal — orthogonal. Same
+output, different input: the Baniwa attributive-privative pair turns a `claim`
+into a `possession-relation` and the Mojeño possessive classes turn a `referent`
+into one — you never choose between them, since one applies to a predication and
+the other to a thing. Read the `feature` **and**
+the `description` of both entries as input → output before deciding the
+relation; the sub-question is often stated only in the `description`.
 
 Three illustrations, not a registry — derive the pair from the `feature` fields
 of the two entries:
@@ -177,6 +200,27 @@ of the two entries:
   the finding.
 - **Tuyuca / Tariana / Wintu.** Redundant — all three ask for the source of the
   information. Stacking them adds nothing.
+
+The catalogue carries this typing as data, so the search does the matching.
+Every entry names the stack types it `consumes` and `produces`, and both are
+filters on `mcp__lat__search_patterns` (`mcp__lat__list_facets` lists the
+occupied values):
+
+1. Look up the first lens and read its `produces` —
+   `mcp__lat__get_pattern { "kind": "language", "name": "Basque (Euskara)" }`
+   settles an `agent`.
+2. Ask for the lenses that take that value up —
+   `mcp__lat__search_patterns { "consumes": "agent" }` → Turkish (stacked
+   causatives), which turns it into an `agent-chain`. Those are the serial
+   successors.
+3. For the reverse direction — what could hand *this* lens its input — search
+   `produces` for what it consumes.
+
+Read the two relations off the same fields: both entries producing the same
+value is redundancy, and A producing the `-set` of what B consumes (Hausa's
+`event-set` against Russian's `event`) is the distributive case. The match is a
+pre-filter, not a verdict — it proposes candidates, and the entries still decide
+whether the pair does anything for the text at hand.
 
 ### Patterns that only stack
 
@@ -198,7 +242,8 @@ difference between the two is the reading.
 ## Principles
 
 - **Ground, don't invent.** Every lens comes from the `lat` catalogue; name the
-  pattern's `name`, `focus` and `feature` when you use it.
+  pattern's `name`, `focus` and `feature` when you use it, and read its
+  `description` too — that is where the sub-question is often stated.
 - **Contrasts, not a winner.** Several reformulations side by side are worth more
   than one "best" one.
 - **Always name the revelation.** A reformulation without the question "what

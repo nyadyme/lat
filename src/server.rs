@@ -25,8 +25,11 @@ Use 'search_patterns' to find patterns that fit a problem theme (e.g. \
 causality, coexistence, perspective), 'list_facets' to see valid filter \
 values, 'list_patterns' for an overview, and 'get_pattern' for the full \
 details of a pattern that is then to be applied. Two patterns can be stacked, \
-and the order matters: a pair pays off when one decides a precondition the \
-other needs, so that the first can remove the second's choice.";
+and the order matters: a pair pays off when one decides whether the other has \
+an input at all — either by withholding it or by producing it in the first \
+place. Every pattern carries the stack types it 'consumes' and 'produces', so \
+searching 'consumes' for what another pattern produces returns its serial \
+successors.";
 
 /// Parameters for the search. All fields optional, combined with AND.
 #[derive(Debug, Deserialize, schemars::JsonSchema)]
@@ -37,6 +40,14 @@ pub struct SearchParams {
     pub tag: Option<String>,
     /// Exact theme, e.g. 'Causality' or 'Coexistence'.
     pub theme: Option<String>,
+    /// Exact stack type the pattern takes hold of, e.g. 'bounded-unit' or
+    /// 'claim-source'. Use it to find the lenses that take up what another one
+    /// hands on.
+    pub consumes: Option<String>,
+    /// Exact stack type the pattern settles, e.g. 'agent' or 'open-link'. A
+    /// pattern whose 'produces' matches another's 'consumes' is its serial
+    /// predecessor: it decides whether the second has an input at all.
+    pub produces: Option<String>,
     /// Exact category, e.g. 'Poetic form', 'Register' or 'Technique'.
     pub category: Option<String>,
     /// Exact classification.
@@ -57,6 +68,8 @@ impl SearchParams {
             SearchFilters {
                 tag: self.tag,
                 theme: self.theme,
+                consumes: self.consumes,
+                produces: self.produces,
                 category: self.category,
                 classification: self.classification,
                 focus: self.focus,
@@ -126,7 +139,9 @@ impl LatServer {
                        filters are optional and combined with AND. Ideal for finding patterns \
                        that fit a problem theme. Use 'exclude_names' to drop the user's own \
                        source language so contrasting lenses surface instead of the structure \
-                       they already think in."
+                       they already think in. To stack two lenses, search 'produces' for what \
+                       the first hands on and 'consumes' for the same value: those are its \
+                       serial successors."
     )]
     async fn search_patterns(
         &self,
@@ -174,7 +189,8 @@ impl LatServer {
 
     #[tool(
         description = "Shows the available filter values (categories, classifications, tags, \
-                       themes) per table, so valid filters for 'search_patterns' are known."
+                       themes, consumes, produces) per table, so valid filters for \
+                       'search_patterns' are known."
     )]
     async fn list_facets(
         &self,

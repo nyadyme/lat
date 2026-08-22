@@ -20,7 +20,7 @@ OUT = REPO / "src" / "seed.sql"
 
 # Column order as it appears in the catalogue tables.
 COLS = ["name", "category", "classification", "focus", "feature",
-        "description", "tags", "themes"]
+        "description", "tags", "themes", "consumes", "produces"]
 
 
 def parse_cells(line):
@@ -62,7 +62,7 @@ def main():
         if kind is None or not s.startswith("|"):
             continue
         cells = parse_cells(line)
-        if len(cells) != 8 or cells[0] == "Name" or is_separator(cells):
+        if len(cells) != 10 or cells[0] == "Name" or is_separator(cells):
             continue
         rows[kind].append(dict(zip(COLS, cells)))
 
@@ -72,13 +72,15 @@ def main():
         "--",
         "-- GENERATED from additional_docs/lat_catalog.md by tools/gen_seed.py.",
         "-- Do not edit by hand; edit the catalogue and regenerate.",
-        "-- Applied on first start when the tables are empty. tags/themes are JSON arrays.",
+        "-- Applied on first start when the tables are empty.",
+        "-- tags/themes/consumes/produces are JSON arrays.",
         "",
     ]
     for table in ("languages", "forms"):
         parts.append(
             f"INSERT INTO {table}\n"
-            "    (name, description, focus, category, classification, feature, tags, themes)\n"
+            "    (name, description, focus, category, classification, feature,\n"
+            "     tags, themes, consumes, produces)\n"
             "VALUES"
         )
         values = [
@@ -92,6 +94,8 @@ def main():
                 sql_str(d["feature"]),
                 sql_str(json_arr(d["tags"])),
                 sql_str(json_arr(d["themes"])),
+                sql_str(json_arr(d["consumes"])),
+                sql_str(json_arr(d["produces"])),
             ])
             + ")"
             for d in rows[table]
