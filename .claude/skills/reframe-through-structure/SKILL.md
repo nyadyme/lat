@@ -155,6 +155,14 @@ A shared theme is neither an objection nor evidence of redundancy: serial pairs
 are usually found *within* one theme, because that is where one lens's output is
 the other's input. Check the sub-question, not the theme.
 
+The fastest way to check it is a **type match, not a theme match**: does what A
+delivers happen to be what B consumes? A settles whether a bounded unit exists
+and B needs a unit to measure the reach of an action against; A sorts claims by
+source and B needs foreign material to scope. Where A's output is B's input, the
+pair is serial — and A withholding that input is the finding. Where both consume
+the *same* input, the pair is redundant however far apart their themes sit. Read
+both `feature` fields as input → output before deciding the relation.
+
 Three illustrations, not a registry — derive the pair from the `feature` fields
 of the two entries:
 
@@ -169,6 +177,23 @@ of the two entries:
   the finding.
 - **Tuyuca / Tariana / Wintu.** Redundant — all three ask for the source of the
   information. Stacking them adds nothing.
+
+### Patterns that only stack
+
+A few catalogue entries are no lens on their own — they take another lens as
+their input. Find them by `tag`, never by `theme`:
+`mcp__lat__search_patterns { "tag": "stacked-only" }`. `Clinamen` is the marked
+case: it needs a constraint from elsewhere, holds it strictly, breaks it exactly
+once at a point where compliance was still available, and reads off what the
+exception cost — a rule whose breach changes nothing was never holding anything
+up. So it tests the lens under it rather than the subject.
+
+Such an entry is a layer *over* a stack, not a partner in one: put it on a
+serial pair and the result is three layers, which the two-lens framing above
+does not describe. That works, but say which lens is being tested and which is
+doing the testing, and break the rule at two sites — one where you expect the
+breach to cost nothing and one where you expect it to cost everything. The
+difference between the two is the reading.
 
 ## Principles
 
