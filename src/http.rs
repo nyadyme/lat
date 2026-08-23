@@ -75,3 +75,152 @@ async fn shutdown_signal() {
     }
     tracing::info!("shutdown signal received");
 }
+
+#[cfg(test)]
+mod tests {
+    use axum::body::{Body, to_bytes};
+    use axum::http::{Request, StatusCode, header};
+    use tower::ServiceExt;
+
+    use super::*;
+    use crate::db::testing::TempDb;
+
+    /// Largest response body the tests will read.
+    const BODY_LIMIT: usize = 64 * 1024;
+
+    fn test_router(db: &TempDb, extra_allowed_hosts: Vec<String>) -> Router {
+        router(db.path().to_path_buf(), extra_allowed_hosts)
+    }
+
+    /// A JSON-RPC `initialize` request against the MCP endpoint.
+    fn initialize_request(host: &str) -> Request<Body> {
+        let body = serde_json::json!({
+            "jsonrpc": "2.0",
+            "id": 1,
+            "method": "initialize",
+            "params": {
+                "protocolVersion": "2024-11-05",
+                "capabilities": {},
+                "clientInfo": {"name": "lat-tests", "version": "0"},
+            },
+        });
+
+        Request::builder()
+            .method("POST")
+            .uri(MCP_PATH)
+            .header(header::HOST, host)
+            .header(header::CONTENT_TYPE, "application/json")
+            .header(header::ACCEPT, "application/json, text/event-stream")
+            .body(Body::from(body.to_string()))
+            .expect("could not build the request")
+    }
+
+    async fn body_string(response: axum::response::Response) -> String {
+        let bytes = to_bytes(response.into_body(), BODY_LIMIT)
+            .await
+            .expect("could not read the body");
+        String::from_utf8(bytes.to_vec()).expect("the body should be UTF-8")
+    }
+
+    #[tokio::test]
+    async fn health_answers_ok() {
+        let db = TempDb::new();
+        let response = test_router(&db, Vec::new())
+            .oneshot(
+                Request::builder()
+                    .uri("/health")
+                    .body(Body::empty())
+                    .unwrap(),
+            )
+            .await
+            .unwrap();
+
+        assert_eq!(response.status(), StatusCode::OK);
+        assert_eq!(body_string(response).await, "ok");
+    }
+
+    #[tokio::test]
+    async fn an_unknown_path_is_not_found() {
+        let db = TempDb::new();
+        let response = test_router(&db, Vec::new())
+            .oneshot(Request::builder().uri("/").body(Body::empty()).unwrap())
+            .await
+            .unwrap();
+
+        assert_eq!(response.status(), StatusCode::NOT_FOUND);
+    }
+
+    #[tokio::test]
+    async fn the_mcp_endpoint_is_mounted_and_initializes() {
+        let db = TempDb::new();
+        let response = test_router(&db, Vec::new())
+            .oneshot(initialize_request("127.0.0.1"))
+            .await
+            .unwrap();
+
+        assert_eq!(
+            response.status(),
+            StatusCode::OK,
+            "initialize over loopback should succeed"
+        );
+
+        // The streamable HTTP transport may answer as JSON or as a single SSE
+        // event; both carry the same JSON-RPC payload.
+        let body = body_string(response).await;
+        assert!(
+            body.contains("\"serverInfo\"") && body.contains(env!("CARGO_PKG_NAME")),
+            "unexpected initialize response: {body}"
+        );
+    }
+
+    #[tokio::test]
+    async fn a_foreign_host_header_is_rejected() {
+        // The Host check is what keeps a browser on another origin from
+        // reaching the loopback server via DNS rebinding.
+        let db = TempDb::new();
+        let response = test_router(&db, Vec::new())
+            .oneshot(initialize_request("evil.example"))
+            .await
+            .unwrap();
+
+        assert_ne!(
+            response.status(),
+            StatusCode::OK,
+            "a foreign Host must not be served"
+        );
+    }
+
+    #[tokio::test]
+    async fn an_explicitly_allowed_host_is_accepted() {
+        let db = TempDb::new();
+        let response = test_router(&db, vec!["lat.internal".to_owned()])
+            .oneshot(initialize_request("lat.internal"))
+            .await
+            .unwrap();
+
+        assert_eq!(
+            response.status(),
+            StatusCode::OK,
+            "LAT_HTTP_ALLOWED_HOSTS should widen the Host check"
+        );
+    }
+
+    #[tokio::test]
+    async fn the_health_probe_ignores_the_host_check() {
+        // /health sits outside the MCP service, so a supervisor probing through
+        // a proxy name still gets an answer.
+        let db = TempDb::new();
+        let response = test_router(&db, Vec::new())
+            .oneshot(
+                Request::builder()
+                    .uri("/health")
+                    .header(header::HOST, "some.proxy.example")
+                    .body(Body::empty())
+                    .unwrap(),
+            )
+            .await
+            .unwrap();
+
+        assert_eq!(response.status(), StatusCode::OK);
+    }
+}

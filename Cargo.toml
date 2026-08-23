@@ -36,6 +36,10 @@ dirs = "6"
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 
+[dev-dependencies]
+# Drives the axum router directly in the HTTP unit tests (ServiceExt::oneshot).
+tower = { version = "0.5", features = ["util"] }
+
 [lints.rust]
 unsafe_code = "forbid"
 

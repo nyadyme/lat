@@ -162,9 +162,12 @@ fn parse_addr(raw: &str) -> Result<SocketAddr> {
 
 /// Reads additional accepted `Host` values from `LAT_HTTP_ALLOWED_HOSTS`.
 fn extra_allowed_hosts() -> Vec<String> {
-    std::env::var("LAT_HTTP_ALLOWED_HOSTS")
-        .unwrap_or_default()
-        .split(',')
+    parse_allowed_hosts(&std::env::var("LAT_HTTP_ALLOWED_HOSTS").unwrap_or_default())
+}
+
+/// Splits a comma-separated host list, trimming blanks and dropping empties.
+fn parse_allowed_hosts(raw: &str) -> Vec<String> {
+    raw.split(',')
         .map(str::trim)
         .filter(|host| !host.is_empty())
         .map(str::to_owned)
@@ -218,5 +221,102 @@ mod tests {
     #[test]
     fn malformed_address_is_rejected() {
         assert!(parse(&["--http", "127.0.0.1"]).is_err());
+    }
+
+    #[test]
+    fn help_and_version_are_recognised_in_both_spellings() {
+        assert!(matches!(parse(&["--help"]).unwrap(), Command::Help));
+        assert!(matches!(parse(&["-h"]).unwrap(), Command::Help));
+        assert!(matches!(parse(&["--version"]).unwrap(), Command::Version));
+        assert!(matches!(parse(&["-V"]).unwrap(), Command::Version));
+    }
+
+    #[test]
+    fn the_usage_text_lists_every_accepted_flag_and_variable() {
+        for token in [
+            "--http",
+            "--help",
+            "-h",
+            "--version",
+            "-V",
+            "LAT_DB_PATH",
+            "LAT_HTTP_ADDR",
+            "LAT_HTTP_ALLOWED_HOSTS",
+            "RUST_LOG",
+        ] {
+            assert!(USAGE.contains(token), "usage does not mention {token}");
+        }
+    }
+
+    #[test]
+    fn http_does_not_swallow_a_following_flag() {
+        // `lat --http --help` must not read `--help` as an address; the flag
+        // then remains and is reported as unexpected.
+        assert!(parse(&["--http", "--help"]).is_err());
+    }
+
+    #[test]
+    fn an_empty_address_is_rejected() {
+        assert!(parse(&["--http="]).is_err());
+        assert!(parse(&["--http", "   "]).is_err());
+    }
+
+    #[test]
+    fn an_address_may_be_padded_with_whitespace() {
+        let Command::Serve(Transport::Http(addr)) = parse(&["--http", " 127.0.0.1:9126 "]).unwrap()
+        else {
+            panic!("expected an HTTP transport");
+        };
+        assert_eq!(addr.to_string(), "127.0.0.1:9126");
+    }
+
+    #[test]
+    fn a_host_name_is_resolved_to_an_endpoint() {
+        let Command::Serve(Transport::Http(addr)) = parse(&["--http", "localhost:9127"]).unwrap()
+        else {
+            panic!("expected an HTTP transport");
+        };
+        assert!(addr.ip().is_loopback(), "localhost should be loopback");
+        assert_eq!(addr.port(), 9127);
+    }
+
+    #[test]
+    fn an_unresolvable_address_is_rejected() {
+        assert!(parse_addr("no-such-host.invalid:80").is_err());
+        assert!(parse_addr("127.0.0.1:not-a-port").is_err());
+    }
+
+    #[test]
+    fn an_ipv6_address_is_accepted_in_bracket_form() {
+        let addr = parse_addr("[::1]:9128").unwrap();
+        assert!(addr.ip().is_loopback());
+        assert_eq!(addr.port(), 9128);
+    }
+
+    #[test]
+    fn the_default_http_address_is_loopback_only() {
+        // Nothing should reach the network by accident when `--http` is given
+        // without an address.
+        let addr = parse_addr(DEFAULT_HTTP_ADDR).unwrap();
+        assert!(
+            addr.ip().is_loopback(),
+            "the default address must not be routable"
+        );
+    }
+
+    #[test]
+    fn allowed_hosts_are_split_trimmed_and_cleaned() {
+        assert_eq!(
+            parse_allowed_hosts("lat.internal, box.local"),
+            vec!["lat.internal", "box.local"]
+        );
+        assert_eq!(parse_allowed_hosts("  spaced  "), vec!["spaced"]);
+    }
+
+    #[test]
+    fn an_empty_allowed_hosts_list_widens_nothing() {
+        assert!(parse_allowed_hosts("").is_empty());
+        assert!(parse_allowed_hosts(",").is_empty());
+        assert!(parse_allowed_hosts("  ,  , ").is_empty());
     }
 }
