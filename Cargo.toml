@@ -1,6 +1,6 @@
 [package]
 name = "lat"
-version = "0.5.0"
+version = "0.5.1"
 edition = "2024"
 authors = ["Dana Schlifka"]
 description = "Language-as-Tool: an MCP server that provides curated thinking patterns (languages and poetic forms) to MCP-compatible AI agents."
@@ -14,7 +14,7 @@ name = "lat"
 path = "src/main.rs"
 
 [dependencies]
-rmcp = { version = "2.2", features = [
+rmcp = { version = "3.1", features = [
     "server",
     "transport-io",
     "transport-streamable-http-server",

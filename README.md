@@ -438,6 +438,13 @@ of it.
   python tools/gen_facets.py    # refresh additional_docs/lat_facets.md (filter-value reference)
   # then delete the database file and restart, or rebuild
   ```
+- Editing the workflow: edit `.claude/skills/reframe-through-structure/SKILL.md`
+  (the single source of truth for all three agent hosts), then regenerate the
+  Gemini and Copilot variants:
+  ```sh
+  python tools/gen_agent_prompts.py           # skill → Gemini command + Copilot prompt
+  python tools/gen_agent_prompts.py --check   # verify they are current (exit 1 if not)
+  ```
 - Live edits: open the database file with any SQLite tool; changes take
   effect on the next call (not reflected back into the catalog).
 - Reset to seed: delete the database file and restart the server.
@@ -459,9 +466,10 @@ additional_docs/
 tools/
   gen_seed.py               # catalog → src/seed.sql
   gen_facets.py             # catalog → additional_docs/lat_facets.md
-.claude/skills/reframe-through-structure/SKILL.md    # workflow — Claude skill
-.github/prompts/reframe-through-structure.prompt.md  # workflow — Copilot prompt
-.gemini/commands/reframe-through-structure.toml      # workflow — Gemini command
+  gen_agent_prompts.py      # skill → Gemini command + Copilot prompt
+.claude/skills/reframe-through-structure/SKILL.md    # workflow — single source of truth
+.github/prompts/reframe-through-structure.prompt.md  # generated — Copilot prompt
+.gemini/commands/reframe-through-structure.toml      # generated — Gemini command
 ```
 
 Logs go to stderr; stdout carries the MCP JSON-RPC stream.
