@@ -123,7 +123,16 @@ infer its rough profile. For a multilingual text, take the language the passage
 under analysis is actually written in; if the catalogue has no entry under that
 exact name, pass nothing and reason about the blind spots in prose instead.
 
-## The four techniques
+## Techniques
+
+Techniques are catalogue entries like any other: `kind: "form"`,
+`category: "Technique"`. The catalogue is authoritative and grows — reach the
+current set with
+`search_patterns { "kind": "form", "category": "Technique" }`
+instead of working from a fixed list, and pull `focus` and `feature` with
+`get_pattern` before applying one.
+
+The four procedural handles the triggers above name directly:
 
 | Technique | What it does | Fits patterns whose focus is … |
 |---|---|---|
@@ -131,6 +140,22 @@ exact name, pass nothing and reason about the blind spots in prose instead.
 | **Form-switch** | Force the content into a foreign genre (a proof as a recipe, a process as a map). | forms: Minnesang, Haiku, Enumeration |
 | **Word ban** | Drop a word for a paragraph (*because*, *leads to*, any directional verb). | causality, hierarchy |
 | **Perspective swap** | Recount from the viewpoint of the supposed object (Japanese *wa*). | perspective, agent/object rank |
+
+Further techniques attack one named structural property rather than prescribing
+a procedure; choose them by the property, not by the trigger word:
+
+| Technique | Attacks | Reach for it when … |
+|---|---|---|
+| **Scale test** | a claimed self-similarity | one description is asserted to hold at every level of a system |
+| **Node collapse** | things as against relations | nouns carry the argument and it is unclear what in it is more than the relations asserted |
+| **Vigraha (compound resolution)** | the silent relation inside a compound | a compound occupies an argument slot where a clause with named participants belongs |
+
+The bound procedures of the antique and Oulipo traditions are filed as
+techniques too: `Incantatio` (`Agency & control`), `Cento`
+(`Perspective & reciprocity`) and `Clinamen` (`Logic & ambiguity`) are reachable
+by `theme`; `Lipogram` and `S+7 (N+7)` are purely procedural, carry no theme,
+and are reached via `category` or `tag` — as are `Back-translation` and
+`Form-switch` above.
 
 Language patterns supply the *grammatical lens*, form patterns the *genre lens*,
 techniques the *handle*. Combine them: e.g. a perspective swap with the Japanese

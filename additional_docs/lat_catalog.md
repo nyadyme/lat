@@ -4,7 +4,7 @@
 <!-- this repository. The `lat` edition of the same catalogue is offered under -->
 <!-- Apache-2.0 and is a separate distribution. See the LICENSE file.          -->
 
-# jlat – Pattern catalogue (canonical source)
+# lat – Pattern catalogue (canonical source)
 
 This file is the **single source of truth** for the catalogue. `src/seed.sql` is
 **generated from it** (see the generator note at the bottom). One entry per row.
@@ -57,7 +57,7 @@ the axes it *imposes*, not ones it opens up. Adding the causal axes to English
 to "complete the pair" would therefore be wrong — it would make English surface
 as a lens for causality, which is the opposite of the point.
 
-Count: **77 languages**, **52 forms**.
+Count: **77 languages**, **53 forms**.
 
 ## Languages (77)
 
@@ -141,7 +141,7 @@ Count: **77 languages**, **52 forms**.
 | Lojban | Constructed language | logically constructed language (loglang) | First-order predicate logic as syntax | No split between noun and verb; everything predicates; syntactically free of ambiguity, parseable like formulas | Makes misunderstandings from unclear causal links syntactically impossible | logic, predicate, unambiguous | Logic & ambiguity, Causality |
 | Toki Pona | Constructed language | minimalist constructed (philosophical game) | Radical reduction to the essence of the moment | Only ~120–137 words; breaks overloaded concepts into primitive blocks ("car" = "moving container") | Acts like a radical word ban against bureaucratic obfuscation | minimalism, reduction, word-ban | Object boundaries |
 
-## Forms (52)
+## Forms (53)
 
 | Name | Category | Classification | Focus | Feature | Description | Tags | Themes |
 |---|---|---|---|---|---|---|---|
@@ -197,14 +197,14 @@ Count: **77 languages**, **52 forms**.
 | Perspective swap | Technique | thinking tool | Dissolve the ranking of agent and object | Shifts the viewpoint onto the grammatical object | Recounts the same event from the viewpoint of the supposed object, so the ranking of actor and patient dissolves | perspective, object, ranking | Perspective & reciprocity, Rank & salience |
 | Scale test | Technique | thinking tool | Whether a level of a system has a description of its own | The description is written once and then required to hold at every level of the system; wherever a level needs vocabulary of its own, the self-similarity ends there | Tests a claimed self-similarity instead of asserting it: whatever forces its own vocabulary at one level is the place where the fractal analogy breaks and something genuinely new begins | self-similarity, scale-invariance, levels, recursion, constraint | Rank & salience, Coexistence |
 | Node collapse | Technique | thinking tool / structuralist and structural-realist reduction | What survives when the things are replaced by their relations | Every noun is rewritten as the bundle of relations it stands in until only the net remains; whatever cannot be dissolved is read off as the actual claim | Inverts the argument-slot logic: instead of filling places with things it empties them, so a statement about entities has to show what in it is more than the relations it asserts | relational, structuralism, node-free, reduction, residue | Object boundaries, Logic & ambiguity |
+| Vigraha (compound resolution) | Technique | Sanskrit grammar (Pāṇinian) / analytic resolution of a samāsa | Which case relation the members of a compound hide | Every compound is rewritten as the phrase it abbreviates, with the relation between its members restored as an explicit case: a tatpuruṣa names the case its first member stands in (rāja-puruṣa → rājñaḥ puruṣaḥ, "the king's man"), a bahuvrīhi points outside itself to a possessor it never names, a dvandva coordinates equals; the class cannot be assigned without naming the relation | Forces the silent relation inside a compound to be spoken, so a compound cannot occupy an argument slot where a clause with named participants would be required; whatever resolves into a phrase with a missing member is a claim with a hole in it | compound, samasa, vigraha, decomposition, relation, case | Object boundaries, Logic & ambiguity |
 
 ---
 
 ## Generating seed.sql
 
-`src/seed.sql` is generated from the tables above, together with the probe
-catalogue. This file also feeds `additional_docs/jlat_facets.md`. Run both
-generators after editing it:
+`src/seed.sql` is generated from the tables above. This file also feeds
+`additional_docs/lat_facets.md`. Run both generators after editing it:
 
 ```
 python tools/gen_seed.py
@@ -221,8 +221,8 @@ python tools/gen_facets.py
   becomes `[]`).
 - `themes` values are validated against the closed vocabulary above; an unknown
   axis aborts generation rather than reaching the database.
-- The same run also writes `src/seed_demo.sql`, which omits this catalogue
-  entirely. Never edit either seed by hand.
+- Never edit `src/seed.sql` or `additional_docs/lat_facets.md` by hand; both
+  are overwritten on the next run.
 
 `src/seed.sql` is embedded into the binary with `include_str!`, so regenerating
 it changes nothing until you `cargo build` — and the seed is only applied to an
