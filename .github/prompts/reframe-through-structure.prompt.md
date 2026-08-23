@@ -29,8 +29,7 @@ Ground every lens in the lat catalogue — cite the pattern's `name`, `focus`, a
 3. **Query.** Call `list_facets` if unsure of exact values, then
    `search_patterns` on that `theme`. Search forms by `theme` as well — most
    carry one. Only patterns whose mechanic is purely acoustic, metrical or
-   typographic carry none; reach those via `tag`/`category`/`text`. `consumes`
-   and `produces` are filters too — see *Combining lenses* below.
+   typographic carry none; reach those via `tag`/`category`/`text`.
 4. **Input language (contrast, not match).** Detect the language of the *text
    being analysed* — not the language of the request — and pass
    `exclude_names: ["<that language>"]` so the structure the text already thinks
@@ -50,36 +49,6 @@ Ground every lens in the lat catalogue — cite the pattern's `name`, `focus`, a
    wording.
 8. **Frame.** No version is "more correct"; the goal is mobility — showing the
    difficulty sat in the form of telling, not in the problem.
-
-## Combining lenses
-
-Two lenses can be stacked, and the order is not free. Test any pair with one
-question: **does A decide whether B has an input at all?** It runs two ways —
-*withholding* (A takes B's input away: granted no bounded unit, the Finnish
-partitive is forced) and *supplying* (B has no input until A makes one: the
-Latin ablative absolute strips the relation the Greek particles then have to
-name). Both are serial, both order-strict.
-
-Every entry carries the stack types it `consumes` and `produces`, and both are
-filters on `search_patterns`, so pairing is a lookup: read the first lens's
-`produces` (Basque settles an `agent`), then ask
-`search_patterns { "consumes": "agent" }` → Turkish (stacked causatives), which
-turns it into an `agent-chain`. Those are its serial successors.
-
-The other relations come off the same two fields. A producing the `-set` of what
-B consumes is *distributive* (Hausa's `event-set` against Russian's `event`) —
-more instances of one question, not a new one. Same input, different output is
-*orthogonal* — additive, order-free. Same input **and** same output is
-*redundant* — take one (Tuyuca, Tariana and Wintu all turn a `claim` into a
-`claim-source`); one matching side alone is never redundancy. The match proposes
-candidates, it does not decide.
-
-A few entries only stack and are no lens alone — find them with
-`search_patterns { "tag": "stacked-only" }`, never by theme. `Clinamen` is the
-marked case: it takes the constraint of whichever lens is in use and breaks it
-once where compliance was still available. Say which lens is being tested, and
-break the rule at two sites — one where you expect it to cost nothing, one where
-you expect it to cost everything; the difference is the reading.
 
 ## Background
 

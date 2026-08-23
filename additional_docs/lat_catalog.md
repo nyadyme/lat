@@ -67,7 +67,7 @@ user's own language backgrounds; exclude the source language) lives in the
 `reframe-through-structure` skill, supported by the `exclude_names` filter on
 `search_patterns`.
 
-Count: **77 languages**, **52 forms**.
+Count: **77 languages**, **51 forms**.
 
 ## Languages (77)
 
@@ -151,7 +151,7 @@ Count: **77 languages**, **52 forms**.
 | Lojban | Constructed language | logically constructed language (loglang) | First-order predicate logic as syntax | No split between noun and verb; everything predicates; syntactically free of ambiguity, parseable like formulas | Makes misunderstandings from unclear causal links syntactically impossible | logic, predicate, unambiguous | Logic & ambiguity, Causality | claim | truth-value |
 | Toki Pona | Constructed language | minimalist constructed (philosophical game) | Radical reduction to the essence of the moment | Only ~120–137 words; breaks overloaded concepts into primitive blocks ("car" = "moving container") | Acts like a radical word ban against bureaucratic obfuscation | minimalism, reduction, word-ban | Object boundaries | referent | relation-net |
 
-## Forms (52)
+## Forms (51)
 
 | Name | Category | Classification | Focus | Feature | Description | Tags | Themes | Consumes | Produces |
 |---|---|---|---|---|---|---|---|---|---|
@@ -199,7 +199,6 @@ Count: **77 languages**, **52 forms**.
 | Cento | Technique | Roman patchwork poem / pure recombination | Pure recombination out of the deficit | The text consists solely of copied lines/phrases from other authors | Bans your own words: foreign manuals, bug reports or quotes must be recombined until your own truth becomes visible | collage, recombination, foreign-quote | Perspective & reciprocity | text | attributed-span |
 | Lipogram | Technique | antiquity / Oulipo / letter ban | Circumventing a synaptic blockade | A given letter (e.g. "e") is banned throughout the text | Describing without certain words/letters fires areas that must lay entirely new conceptual paths | oulipo, letter-ban, constraint |  |  |  |
 | S+7 (N+7) | Technique | Oulipo (Lescure, 1961) / dictionary-based noun substitution | The structural skeleton that stays readable once the familiar terms are gone | Every noun is replaced by the seventh noun following it in one named dictionary, counted mechanically, while syntax and function words stay untouched | Collapses the practised vocabulary of a field so only the relations between the slots remain: whatever still reads as an argument was carried by the structure, not by the terminology. Needs a fixed word list — without one the substitution is invented instead of counted and the result is not reproducible | oulipo, substitution, renaming, constraint, word-list |  |  |  |
-| Clinamen | Technique | Oulipo (Perec, La Vie mode d'emploi) / one deliberate breach of one's own constraint | Whether a rule carries anything or is decoration | A strict constraint is set up and then broken exactly once, on purpose; the Oulipo condition is that the breach may only be taken where the rule could still have been followed; the constraint has to come from somewhere else, so this is the one pattern that cannot be applied on its own — stacked on whichever lens is in use, it tests that lens | Perec's knight's tour across the 10x10 building skips one square, which is why the book has 99 chapters and not 100. Name the rule a system imposes on itself, break it once at a point where compliance was still available, and read off what the exception costs: a rule whose breach changes nothing was never holding anything up | clinamen, oulipo, constraint, exception, broken-symmetry, stacked-only | Logic & ambiguity | constraint | constraint-load |
 | Enumeration | Register | prose register | Coexistence instead of causality | Works without direction-asserting verbs | Refuses the causal chain structurally and forces seeing things as coexisting rather than emerging from one another | coordination, coexistence, states | Causality, Coexistence | causal-link | open-link |
 | Back-translation | Technique | thinking tool | Test the robustness of a formulation | Exposes language-bound idiosyncrasies via the detour through a foreign language | Translate a passage into another language and back; what breaks was language-bound, what survives counts as more robust | translation, detour, robustness |  |  |  |
 | Form-switch | Technique | thinking tool | Make concealed connections visible | A different genre forces different connections | Forces the same content into a foreign genre (a proof as a recipe, a process as a map), so connections the usual form concealed surface | genre, transformation, reframe |  |  |  |
