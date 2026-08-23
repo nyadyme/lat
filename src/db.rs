@@ -24,9 +24,7 @@ CREATE TABLE IF NOT EXISTS forms (
     classification TEXT NOT NULL DEFAULT '',
     feature        TEXT NOT NULL DEFAULT '',
     tags           TEXT NOT NULL DEFAULT '[]',
-    themes         TEXT NOT NULL DEFAULT '[]',
-    consumes       TEXT NOT NULL DEFAULT '[]',
-    produces       TEXT NOT NULL DEFAULT '[]'
+    themes         TEXT NOT NULL DEFAULT '[]'
 );
 CREATE TABLE IF NOT EXISTS languages (
     id             INTEGER PRIMARY KEY,
@@ -37,9 +35,7 @@ CREATE TABLE IF NOT EXISTS languages (
     classification TEXT NOT NULL DEFAULT '',
     feature        TEXT NOT NULL DEFAULT '',
     tags           TEXT NOT NULL DEFAULT '[]',
-    themes         TEXT NOT NULL DEFAULT '[]',
-    consumes       TEXT NOT NULL DEFAULT '[]',
-    produces       TEXT NOT NULL DEFAULT '[]'
+    themes         TEXT NOT NULL DEFAULT '[]'
 );
 ";
 
@@ -114,8 +110,7 @@ fn query_table(
 ) -> Result<Vec<Pattern>> {
     let table = kind.table();
     let mut sql = format!(
-        "SELECT name, description, focus, category, classification, feature, tags, themes, \
-         consumes, produces \
+        "SELECT name, description, focus, category, classification, feature, tags, themes \
          FROM {table}"
     );
     let mut clauses: Vec<String> = Vec::new();
@@ -181,25 +176,6 @@ fn query_table(
         );
         params.push(Box::new(theme.clone()));
     }
-    // The stack-type filters turn pairing into a lookup: 'produces' returns the
-    // lenses that hand a value on, 'consumes' those that take it up. Where the
-    // two searches meet on the same value, the pair is serial.
-    if let Some(consumes) = &filters.consumes {
-        clauses.push(
-            "EXISTS (SELECT 1 FROM json_each(\
-             CASE WHEN json_valid(consumes) THEN consumes ELSE '[]' END) WHERE value = ?)"
-                .to_owned(),
-        );
-        params.push(Box::new(consumes.clone()));
-    }
-    if let Some(produces) = &filters.produces {
-        clauses.push(
-            "EXISTS (SELECT 1 FROM json_each(\
-             CASE WHEN json_valid(produces) THEN produces ELSE '[]' END) WHERE value = ?)"
-                .to_owned(),
-        );
-        params.push(Box::new(produces.clone()));
-    }
 
     if !clauses.is_empty() {
         sql.push_str(" WHERE ");
@@ -221,8 +197,6 @@ fn query_table(
             feature: row.get(5)?,
             tags: parse_json_array(&row.get::<_, String>(6)?),
             themes: parse_json_array(&row.get::<_, String>(7)?),
-            consumes: parse_json_array(&row.get::<_, String>(8)?),
-            produces: parse_json_array(&row.get::<_, String>(9)?),
         })
     })?;
 
@@ -254,8 +228,7 @@ pub fn search(
 pub fn get(conn: &Connection, kind: PatternType, name: &str) -> Result<Option<Pattern>> {
     let table = kind.table();
     let sql = format!(
-        "SELECT name, description, focus, category, classification, feature, tags, themes, \
-         consumes, produces \
+        "SELECT name, description, focus, category, classification, feature, tags, themes \
          FROM {table} WHERE name = ?"
     );
     let mut stmt = conn.prepare(&sql)?;
@@ -270,8 +243,6 @@ pub fn get(conn: &Connection, kind: PatternType, name: &str) -> Result<Option<Pa
             feature: row.get(5)?,
             tags: parse_json_array(&row.get::<_, String>(6)?),
             themes: parse_json_array(&row.get::<_, String>(7)?),
-            consumes: parse_json_array(&row.get::<_, String>(8)?),
-            produces: parse_json_array(&row.get::<_, String>(9)?),
         })
     })?;
     match rows.next() {
@@ -319,8 +290,6 @@ fn facets_for(conn: &Connection, kind: PatternType) -> Result<Facets> {
         classifications: distinct_column(conn, table, "classification")?,
         tags: distinct_json(conn, table, "tags")?,
         themes: distinct_json(conn, table, "themes")?,
-        consumes: distinct_json(conn, table, "consumes")?,
-        produces: distinct_json(conn, table, "produces")?,
     })
 }
 

@@ -38,10 +38,6 @@ pub struct Pattern {
     pub feature: String,
     pub tags: Vec<String>,
     pub themes: Vec<String>,
-    /// Stack type the pattern's obligatory choice takes hold of.
-    pub consumes: Vec<String>,
-    /// Stack type the pattern settles and hands on to a following lens.
-    pub produces: Vec<String>,
 }
 
 /// The available filter values of a table, so the agent knows valid filters.
@@ -52,8 +48,6 @@ pub struct Facets {
     pub classifications: Vec<String>,
     pub tags: Vec<String>,
     pub themes: Vec<String>,
-    pub consumes: Vec<String>,
-    pub produces: Vec<String>,
 }
 
 /// Filter criteria for a search. All optional, combined with AND.
@@ -63,11 +57,6 @@ pub struct SearchFilters {
     pub tag: Option<String>,
     /// Exact theme (an element of the themes array).
     pub theme: Option<String>,
-    /// Exact stack type the pattern consumes. Combined with `produces` of
-    /// another search, this is how a serial pair is found.
-    pub consumes: Option<String>,
-    /// Exact stack type the pattern produces.
-    pub produces: Option<String>,
     /// Exact category.
     pub category: Option<String>,
     /// Exact classification.

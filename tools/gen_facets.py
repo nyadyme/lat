@@ -17,7 +17,7 @@ CATALOG = REPO / "additional_docs" / "lat_catalog.md"
 OUT = REPO / "additional_docs" / "lat_facets.md"
 
 COLS = ["name", "category", "classification", "focus", "feature",
-        "description", "tags", "themes", "consumes", "produces"]
+        "description", "tags", "themes"]
 
 
 def parse_cells(line):
@@ -50,7 +50,7 @@ def parse_catalog():
         if kind is None or not s.startswith("|"):
             continue
         cells = parse_cells(line)
-        if len(cells) != 10 or cells[0] == "Name" or is_separator(cells):
+        if len(cells) != 8 or cells[0] == "Name" or is_separator(cells):
             continue
         rows[kind].append(dict(zip(COLS, cells)))
     return rows
@@ -139,9 +139,7 @@ def main():
         "Distinct filter values actually present in the seeded database, per table —",
         "i.e. what `list_facets` returns. GENERATED from additional_docs/lat_catalog.md",
         "by tools/gen_facets.py; regenerate after changing the catalogue. `themes` is the",
-        "closed cognitive-axis vocabulary; `tags` are free keywords; `consumes`/`produces`",
-        "are the closed stack-type vocabulary — a lens whose `produces` meets another's",
-        "`consumes` is a serial pair.",
+        "closed cognitive-axis vocabulary; `tags` are free keywords.",
         "",
         *asymmetry_note(rows),
         "",
@@ -152,19 +150,13 @@ def main():
         cats = distinct_col(data, "category")
         classes = distinct_col(data, "classification")
         tags = distinct_arr(data, "tags")
-        consumes = distinct_arr(data, "consumes")
-        produces = distinct_arr(data, "produces")
         lines += [
             f"## {title} ({len(data)} entries)",
             "",
             f"### Themes ({len(themes)})",
             bullets(themes),
             "",
-            f"### Consumes ({len(consumes)})",
-            tagline(consumes),
             "",
-            f"### Produces ({len(produces)})",
-            tagline(produces),
             "",
             f"### Categories ({len(cats)})",
             bullets(cats),
