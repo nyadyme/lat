@@ -13,8 +13,8 @@ abstract: >-
   pattern is selected because it forces the distinction the input language leaves
   implicit.
 type: software
-version: "0.4.1"
-date-released: "2026-08-22"
+version: "0.5.0"
+date-released: "2026-08-23"
 # License of the software, pattern catalogue included: the catalogue
 # (additional_docs/lat_catalog.md, the generated src/seed.sql and the seeded
 # database) is covered by this same license and is not licensed separately.
