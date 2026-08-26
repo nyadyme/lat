@@ -20,7 +20,25 @@ OUT = REPO / "src" / "seed.sql"
 
 # Column order as it appears in the catalogue tables.
 COLS = ["name", "category", "classification", "focus", "feature",
-        "description", "tags", "themes"]
+        "forced_choice", "attachment", "description", "tags", "themes"]
+
+# Closed vocabulary for `attachment`: the constituent a pattern interrogates.
+# Kept coarse on purpose — the finer the anchor, the more collisions between
+# two lenses go unnoticed, and `forced_choice` does the fine separation.
+ATTACHMENTS = {
+    "verb", "subject", "object", "noun", "possessive", "person",
+    "spatial frame", "connective", "word order", "whole passage", "surface",
+}
+
+# Closed cognitive-axis vocabulary for `themes`. Multi-valued, and allowed to
+# be empty: a pattern whose mechanic is purely acoustic, metrical or
+# typographic carries no axis and is reached via tags/category instead.
+THEMES = {
+    "Causality", "Agency & control", "Rank & salience", "Time & aspect",
+    "Coexistence", "Perspective & reciprocity", "Object boundaries",
+    "Evidence & certainty", "Space & orientation", "Possession & belonging",
+    "Logic & ambiguity",
+}
 
 
 def parse_cells(line):
@@ -40,9 +58,31 @@ def sql_str(v):
     return "'" + v.replace("'", "''") + "'"
 
 
+def split_list(cell):
+    """Split a comma-separated cell; an empty cell yields no items."""
+    return [x.strip() for x in cell.split(",") if x.strip()]
+
+
 def json_arr(cell):
-    items = [x.strip() for x in cell.split(",") if x.strip()]
-    return json.dumps(items, ensure_ascii=False)
+    return json.dumps(split_list(cell), ensure_ascii=False)
+
+
+def check_vocabulary(row):
+    """Abort on a value outside one of the closed vocabularies.
+
+    Both fields are load-bearing and fail quietly if wrong: an unknown
+    attachment drops a pattern out of every anchor comparison, and a mistyped
+    theme makes it unreachable by the theme filter that is the main way in.
+    """
+    if row["attachment"] not in ATTACHMENTS:
+        raise SystemExit(
+            f"{row['name']}: unknown attachment {row['attachment']!r}; "
+            f"allowed: {sorted(ATTACHMENTS)}")
+    for theme in split_list(row["themes"]):
+        if theme not in THEMES:
+            raise SystemExit(
+                f"{row['name']}: unknown theme {theme!r}; "
+                f"allowed: {sorted(THEMES)}")
 
 
 def main():
@@ -62,9 +102,12 @@ def main():
         if kind is None or not s.startswith("|"):
             continue
         cells = parse_cells(line)
-        if len(cells) != 8 or cells[0] == "Name" or is_separator(cells):
+        if (len(cells) != len(COLS) or cells[0] == "Name"
+                or is_separator(cells)):
             continue
-        rows[kind].append(dict(zip(COLS, cells)))
+        row = dict(zip(COLS, cells))
+        check_vocabulary(row)
+        rows[kind].append(row)
 
     parts = [
         "-- SPDX-License-Identifier: Apache-2.0",
@@ -80,7 +123,7 @@ def main():
         parts.append(
             f"INSERT INTO {table}\n"
             "    (name, description, focus, category, classification, feature,\n"
-            "     tags, themes)\n"
+            "     forced_choice, attachment, tags, themes)\n"
             "VALUES"
         )
         values = [
@@ -92,6 +135,8 @@ def main():
                 sql_str(d["category"]),
                 sql_str(d["classification"]),
                 sql_str(d["feature"]),
+                sql_str(d["forced_choice"]),
+                sql_str(d["attachment"]),
                 sql_str(json_arr(d["tags"])),
                 sql_str(json_arr(d["themes"])),
             ])
