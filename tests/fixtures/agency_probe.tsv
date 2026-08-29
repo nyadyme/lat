@@ -1,0 +1,118 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Dana Schlifka
+#
+# Hand-scored probe corpus for the Basque/Burushaski collision group.
+# Columns are four INDEPENDENT readings of the same sentence; none was
+# derived from another. Scoring is analytical judgement, not computation.
+#
+#   basque_act    Basque scored by its seed forced_choice,
+#                 'whether the act was willed'          -> ERG | ABS | NONE
+#   basque_agent  Basque scored by its seed feature text,
+#                 'the deliberately acting agent'       -> ERG | ABS | NONE
+#   burushaski    was this act deliberately controlled  -> WILLED | UNWILLED | NOACT
+#   nez_perce     tripartite case of the subject        -> A | S | NONE
+#
+# group: J control  A deliberate agent/unintended act  B willed non-agentive
+#        C coerced or impaired  D non-human agent  E omission/disposition
+#        F natural force  G psych/experiencer  H passive/middle  I state/norm
+group	basque_act	basque_agent	burushaski	nez_perce	sentence
+J	ERG	ERG	WILLED	A	Die Ärztin verschrieb das Medikament.
+J	ERG	ERG	WILLED	A	Der Notar beglaubigte den Vertrag.
+J	ERG	ERG	WILLED	A	Die Demonstranten blockierten die Straße.
+J	ERG	ERG	WILLED	A	Der Koch salzte die Suppe.
+J	ERG	ERG	WILLED	A	Sie unterschrieb den Antrag.
+J	ERG	ERG	WILLED	A	Der Wächter öffnete das Tor.
+J	ERG	ERG	WILLED	S	Das Kind tanzte im Hof.
+J	ERG	ERG	WILLED	S	Der Läufer sprintete zum Ziel.
+J	ERG	ERG	WILLED	S	Der Zeuge schwieg beharrlich.
+J	ERG	ERG	WILLED	A	Die Anwältin las die Akte.
+A	ABS	ERG	UNWILLED	A	Der Chirurg durchtrennte die Arterie.
+A	ABS	ERG	UNWILLED	A	Der Fahrer überfuhr das Reh.
+A	ABS	ERG	UNWILLED	A	Der Kellner zerbrach das Glas.
+A	ABS	ERG	UNWILLED	A	Der Bergsteiger löste die Lawine aus.
+A	ABS	ERG	UNWILLED	A	Die Programmiererin verursachte den Ausfall.
+A	ABS	ERG	UNWILLED	A	Der Junge traf mit dem Ball das Fenster.
+A	ABS	ERG	UNWILLED	A	Der Pilot verfehlte die Landebahn.
+A	ABS	ERG	UNWILLED	A	Der Redner beleidigte die Anwesenden.
+A	ABS	ERG	UNWILLED	A	Der Vater weckte das Kind beim Hereinkommen.
+A	ABS	ERG	UNWILLED	A	Die Ärztin verwechselte die Proben.
+A	ABS	ERG	UNWILLED	A	Der Buchhalter übersah den Fehler.
+A	ABS	ERG	UNWILLED	A	Der Soldat traf den Zivilisten.
+A	ABS	ERG	UNWILLED	A	Der Gärtner beschädigte die Wurzel.
+A	ABS	ERG	UNWILLED	A	Sie stieß den Becher um.
+A	ABS	ERG	UNWILLED	A	Der Radfahrer streifte den Passanten.
+A	ABS	ERG	UNWILLED	A	Der Techniker löschte die Datei versehentlich.
+A	ABS	ERG	UNWILLED	A	Er verriet das Geheimnis im Schlaf.
+A	ABS	ERG	UNWILLED	A	Der Sprecher nannte den falschen Namen.
+A	ABS	ERG	UNWILLED	S	Die Fahrerin bremste zu spät.
+A	ABS	ERG	UNWILLED	A	Der Wirt schenkte zu viel ein.
+B	ERG	ERG	WILLED	S	Er ließ sich absichtlich fallen.
+B	ERG	ERG	WILLED	S	Sie fiel mit Absicht.
+B	ERG	ERG	WILLED	S	Er stellte sich schlafend.
+B	ERG	ERG	WILLED	S	Der Torwart warf sich ins Aus.
+B	ERG	ERG	WILLED	A	Er täuschte einen Sturz vor.
+B	ABS	ABS	UNWILLED	S	Sie errötete.
+B	ERG	ERG	WILLED	A	Er hielt bewusst die Luft an.
+B	ERG	ERG	WILLED	S	Der Schauspieler zitterte auf Kommando.
+C	ERG	ERG	WILLED	A	Unter Folter gestand er die Tat.
+C	ABS	ERG	UNWILLED	A	Betrunken fuhr er in die Menge.
+C	ABS	ABS	UNWILLED	S	Im Fieberwahn schlug er um sich.
+C	ABS	ABS	UNWILLED	A	Unter Hypnose nannte sie den Code.
+C	ABS	ABS	UNWILLED	S	Der Schlafwandler verließ das Haus.
+C	ERG	ERG	WILLED	A	Unter Zwang unterschrieb sie.
+C	ABS	ABS	UNWILLED	A	Im Reflex zog er die Hand zurück.
+C	ABS	ERG	UNWILLED	A	Erschöpft ließ er das Seil los.
+D	ERG	ERG	WILLED	A	Der Hund biss den Briefträger.
+D	ABS	ERG	UNWILLED	A	Die Katze warf die Vase um.
+D	ABS	ABS	UNWILLED	A	Der Algorithmus lehnte den Antrag ab.
+D	ABS	ABS	UNWILLED	A	Die Software löschte die Daten.
+D	ERG	ERG	WILLED	A	Das Gericht hob das Urteil auf.
+D	ABS	ERG	UNWILLED	A	Die Behörde verlor die Akte.
+D	ERG	ERG	WILLED	A	Der Gesetzgeber schützt die Würde.
+D	ABS	ABS	NOACT	A	Das Gesetz verbietet die Folter.
+D	ABS	ABS	UNWILLED	A	Der Markt reguliert die Preise.
+D	ABS	ABS	UNWILLED	A	Die Krankheit befiel das Dorf.
+D	ERG	ERG	WILLED	A	Der Konzern entließ die Belegschaft.
+D	ABS	ABS	UNWILLED	A	Die Maschine stanzte das Blech.
+D	ABS	ABS	UNWILLED	A	Das Immunsystem bekämpft den Erreger.
+D	ERG	ERG	WILLED	A	Die Partei beschloss den Antrag.
+E	ERG	ERG	WILLED	A	Er unterließ die Meldung.
+E	ERG	ERG	WILLED	A	Sie verschwieg den Termin.
+E	ABS	ABS	UNWILLED	A	Er vergaß den Termin.
+E	ABS	ERG	UNWILLED	A	Der Wärter versäumte die Kontrolle.
+E	ABS	ABS	NOACT	S	Der Hund beißt.
+E	ERG	ERG	WILLED	S	Sie raucht.
+E	ERG	ERG	WILLED	A	Er verweigerte die Aussage.
+E	ERG	ERG	WILLED	A	Der Beamte ignorierte die Beschwerde.
+F	ABS	ABS	UNWILLED	A	Der Sturm verwüstete die Küste.
+F	ABS	ABS	UNWILLED	A	Der Stein zerbrach das Fenster.
+F	ABS	ABS	UNWILLED	A	Das Feuer zerstörte die Halle.
+F	ABS	ABS	UNWILLED	A	Der Fluss trug die Brücke fort.
+F	NONE	NONE	NOACT	NONE	Es regnet.
+F	ABS	ABS	UNWILLED	S	Der Baum fiel um.
+F	ABS	ABS	NOACT	S	Das Wasser kocht.
+F	ABS	ABS	UNWILLED	S	Die Erde bebte.
+G	ABS	ABS	NOACT	S	Ihm gefällt das Buch.
+G	ABS	ABS	UNWILLED	S	Mir ist der Name entfallen.
+G	ABS	ABS	UNWILLED	S	Sie erschrak vor dem Hund.
+G	ABS	ABS	NOACT	S	Ihn fror.
+G	ABS	ABS	UNWILLED	A	Der Lärm störte die Nachbarn.
+G	ABS	ABS	NOACT	S	Ihr wurde übel.
+G	ABS	ABS	NOACT	A	Er bewunderte das Gemälde.
+G	ABS	ABS	NOACT	A	Sie hasste die Stille.
+H	NONE	NONE	NOACT	S	Der Angeklagte wurde verurteilt.
+H	ABS	ABS	UNWILLED	S	Die Tür öffnete sich.
+H	ABS	ABS	NOACT	S	Das Buch verkauft sich gut.
+H	NONE	NONE	NOACT	NONE	Es wurde beschlossen, die Sitzung zu vertagen.
+H	ABS	ABS	UNWILLED	S	Die Akte ging verloren.
+H	NONE	NONE	NOACT	S	Der Vertrag gilt als geschlossen.
+H	ABS	ABS	UNWILLED	S	Die Vase zerbrach.
+H	ERG	ERG	WILLED	A	Man hat ihn entlassen.
+I	NONE	NONE	NOACT	S	Die Würde des Menschen ist unantastbar.
+I	ABS	ABS	NOACT	A	Das Grundrecht bindet alle Gewalt.
+I	NONE	NONE	NOACT	S	Der Vertrag ist nichtig.
+I	NONE	NONE	NOACT	NONE	Es gibt keine Ausnahme.
+I	NONE	NONE	NOACT	S	Die Frist beträgt zwei Wochen.
+I	NONE	NONE	NOACT	S	Der Saal blieb leer.
+I	NONE	NONE	NOACT	NONE	Sie zu achten ist Verpflichtung aller staatlichen Gewalt.
+I	NONE	NONE	NOACT	S	Die Regel gilt ausnahmslos.

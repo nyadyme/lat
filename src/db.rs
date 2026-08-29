@@ -23,6 +23,8 @@ CREATE TABLE IF NOT EXISTS forms (
     category       TEXT NOT NULL DEFAULT '',
     classification TEXT NOT NULL DEFAULT '',
     feature        TEXT NOT NULL DEFAULT '',
+    forced_choice  TEXT NOT NULL DEFAULT '',
+    attachment     TEXT NOT NULL DEFAULT '',
     tags           TEXT NOT NULL DEFAULT '[]',
     themes         TEXT NOT NULL DEFAULT '[]'
 );
@@ -34,13 +36,55 @@ CREATE TABLE IF NOT EXISTS languages (
     category       TEXT NOT NULL DEFAULT '',
     classification TEXT NOT NULL DEFAULT '',
     feature        TEXT NOT NULL DEFAULT '',
+    forced_choice  TEXT NOT NULL DEFAULT '',
+    attachment     TEXT NOT NULL DEFAULT '',
     tags           TEXT NOT NULL DEFAULT '[]',
     themes         TEXT NOT NULL DEFAULT '[]'
 );
 ";
 
+/// Columns introduced after the first release, with their declaration.
+/// `CREATE TABLE IF NOT EXISTS` leaves an existing table alone, so a database
+/// written by an older build lacks them and every query would fail with
+/// "no such column".
+const ADDED_COLUMNS: [(&str, &str); 2] = [
+    ("forced_choice", "TEXT NOT NULL DEFAULT ''"),
+    ("attachment", "TEXT NOT NULL DEFAULT ''"),
+];
+
 /// Example data, embedded into the binary. Only applied when empty.
 const SEED_SQL: &str = include_str!("seed.sql");
+
+/// Adds any column of [`ADDED_COLUMNS`] the table does not have yet.
+///
+/// The column is added in place rather than by rebuilding the table: the
+/// database is documented as live-editable, and a rebuild would silently throw
+/// those edits away. The added cells stay empty until the file is deleted and
+/// reseeded from the catalogue, which is what the warning says.
+fn add_missing_columns(conn: &Connection) -> Result<()> {
+    for table in [PatternType::Form.table(), PatternType::Language.table()] {
+        // Both the table and the column names are compile-time constants, so
+        // the formatted DDL carries no caller input.
+        let mut stmt = conn.prepare(&format!("PRAGMA table_info({table})"))?;
+        let present: Vec<String> = stmt
+            .query_map([], |row| row.get::<_, String>(1))?
+            .collect::<rusqlite::Result<_>>()?;
+        for (column, declaration) in ADDED_COLUMNS {
+            if present.iter().any(|have| have == column) {
+                continue;
+            }
+            conn.execute_batch(&format!(
+                "ALTER TABLE {table} ADD COLUMN {column} {declaration}"
+            ))
+            .with_context(|| format!("could not add {table}.{column}"))?;
+            tracing::warn!(
+                "{table}.{column} was missing and has been added empty; \
+                 delete the database file and restart to fill it from the catalogue"
+            );
+        }
+    }
+    Ok(())
+}
 
 /// Resolves the database path. `LAT_DB_PATH` takes precedence, otherwise the
 /// platform data directory. Independent of the working directory, so the
@@ -76,6 +120,7 @@ pub fn open(path: &Path) -> Result<Connection> {
 pub fn prepare(conn: &mut Connection) -> Result<bool> {
     conn.execute_batch(SCHEMA_SQL)
         .context("could not create schema")?;
+    add_missing_columns(conn)?;
 
     let count: i64 = conn.query_row(
         "SELECT (SELECT COUNT(*) FROM forms) + (SELECT COUNT(*) FROM languages)",
@@ -120,7 +165,8 @@ fn query_table(
 ) -> Result<Vec<Pattern>> {
     let table = kind.table();
     let mut sql = format!(
-        "SELECT name, description, focus, category, classification, feature, tags, themes \
+        "SELECT name, description, focus, category, classification, feature, forced_choice, \
+         attachment, tags, themes \
          FROM {table}"
     );
     let mut clauses: Vec<String> = Vec::new();
@@ -137,6 +183,14 @@ fn query_table(
     if let Some(focus) = &filters.focus {
         clauses.push("focus LIKE ?".to_owned());
         params.push(Box::new(format!("%{focus}%")));
+    }
+    if let Some(forced_choice) = &filters.forced_choice {
+        clauses.push("forced_choice LIKE ?".to_owned());
+        params.push(Box::new(format!("%{forced_choice}%")));
+    }
+    if let Some(attachment) = &filters.attachment {
+        clauses.push("attachment = ?".to_owned());
+        params.push(Box::new(attachment.clone()));
     }
     if let Some(text) = &filters.text {
         // tags are stored as a JSON array string, so a LIKE over the raw cell
@@ -205,8 +259,10 @@ fn query_table(
             category: row.get(3)?,
             classification: row.get(4)?,
             feature: row.get(5)?,
-            tags: parse_json_array(&row.get::<_, String>(6)?),
-            themes: parse_json_array(&row.get::<_, String>(7)?),
+            forced_choice: row.get(6)?,
+            attachment: row.get(7)?,
+            tags: parse_json_array(&row.get::<_, String>(8)?),
+            themes: parse_json_array(&row.get::<_, String>(9)?),
         })
     })?;
 
@@ -238,7 +294,8 @@ pub fn search(
 pub fn get(conn: &Connection, kind: PatternType, name: &str) -> Result<Option<Pattern>> {
     let table = kind.table();
     let sql = format!(
-        "SELECT name, description, focus, category, classification, feature, tags, themes \
+        "SELECT name, description, focus, category, classification, feature, forced_choice, \
+         attachment, tags, themes \
          FROM {table} WHERE name = ?"
     );
     let mut stmt = conn.prepare(&sql)?;
@@ -251,8 +308,10 @@ pub fn get(conn: &Connection, kind: PatternType, name: &str) -> Result<Option<Pa
             category: row.get(3)?,
             classification: row.get(4)?,
             feature: row.get(5)?,
-            tags: parse_json_array(&row.get::<_, String>(6)?),
-            themes: parse_json_array(&row.get::<_, String>(7)?),
+            forced_choice: row.get(6)?,
+            attachment: row.get(7)?,
+            tags: parse_json_array(&row.get::<_, String>(8)?),
+            themes: parse_json_array(&row.get::<_, String>(9)?),
         })
     })?;
     match rows.next() {
@@ -298,6 +357,7 @@ fn facets_for(conn: &Connection, kind: PatternType) -> Result<Facets> {
         kind,
         categories: distinct_column(conn, table, "category")?,
         classifications: distinct_column(conn, table, "classification")?,
+        attachments: distinct_column(conn, table, "attachment")?,
         tags: distinct_json(conn, table, "tags")?,
         themes: distinct_json(conn, table, "themes")?,
     })
@@ -362,23 +422,30 @@ mod tests {
 
     /// Three languages and one form with known values, so the assertions stay
     /// stable when the catalogue in `seed.sql` grows. `Gamma` deliberately
-    /// carries an invalid `tags` cell to exercise the `json_valid` guard.
+    /// carries an invalid `tags` cell to exercise the `json_valid` guard, and
+    /// shares its (forced_choice, attachment) pair with `Alpha` so a collision
+    /// is present in the fixture.
     const FIXTURE_SQL: &str = r#"
 INSERT INTO languages
-    (name, description, focus, category, classification, feature, tags, themes)
+    (name, description, focus, category, classification, feature,
+     forced_choice, attachment, tags, themes)
 VALUES
     ('Alpha', 'first sample', 'causal chain', 'Language', 'isolate',
-     'marks the agent', '["alpha", "shared"]', '["Causality"]'),
+     'marks the agent', 'whether the act was willed', 'subject',
+     '["alpha", "shared"]', '["Causality"]'),
     ('Beta', 'second sample', 'spatial frame', 'Register', 'Bantu',
-     'marks the place', '["beta", "shared"]',
-     '["Causality", "Space & orientation"]'),
+     'marks the place', 'where the thing stands', 'noun',
+     '["beta", "shared"]', '["Causality", "Space & orientation"]'),
     ('Gamma', 'third sample', '', 'Language', '',
-     '', 'not json at all', '["Time & aspect"]');
+     '', 'whether the act was willed', 'subject',
+     'not json at all', '["Time & aspect"]');
 INSERT INTO forms
-    (name, description, focus, category, classification, feature, tags, themes)
+    (name, description, focus, category, classification, feature,
+     forced_choice, attachment, tags, themes)
 VALUES
     ('Haiku', 'a cut between two images', 'brevity', 'Poetic form', 'Japanese',
-     'seventeen morae', '["cut", "shared"]', '["Time & aspect"]');
+     'seventeen morae', 'whether two images need a connective',
+     'whole passage', '["cut", "shared"]', '["Time & aspect"]');
 "#;
 
     /// An in-memory database holding [`FIXTURE_SQL`], without the real seed.
@@ -437,6 +504,39 @@ VALUES
     }
 
     #[test]
+    fn prepare_adds_columns_missing_from_an_older_database() {
+        // A database written before the combination columns existed: the
+        // rows have to survive, and a query must not fail on the new columns.
+        const OLD_SCHEMA: &str = "
+CREATE TABLE forms (
+    id INTEGER PRIMARY KEY, name TEXT NOT NULL UNIQUE,
+    description TEXT NOT NULL DEFAULT '', focus TEXT NOT NULL DEFAULT '',
+    category TEXT NOT NULL DEFAULT '', classification TEXT NOT NULL DEFAULT '',
+    feature TEXT NOT NULL DEFAULT '', tags TEXT NOT NULL DEFAULT '[]',
+    themes TEXT NOT NULL DEFAULT '[]'
+);
+CREATE TABLE languages (
+    id INTEGER PRIMARY KEY, name TEXT NOT NULL UNIQUE,
+    description TEXT NOT NULL DEFAULT '', focus TEXT NOT NULL DEFAULT '',
+    category TEXT NOT NULL DEFAULT '', classification TEXT NOT NULL DEFAULT '',
+    feature TEXT NOT NULL DEFAULT '', tags TEXT NOT NULL DEFAULT '[]',
+    themes TEXT NOT NULL DEFAULT '[]'
+);
+INSERT INTO languages (name, focus) VALUES ('Hand-edited', 'kept');
+";
+        let mut conn = Connection::open_in_memory().expect("in-memory database");
+        conn.execute_batch(OLD_SCHEMA).expect("old schema failed");
+
+        let seeded = prepare(&mut conn).expect("prepare failed");
+        assert!(!seeded, "a non-empty database must not be reseeded");
+
+        let found = search(&conn, None, &filters()).unwrap();
+        assert_eq!(names(&found), vec!["Hand-edited"], "the live edit was lost");
+        assert_eq!(found[0].forced_choice, "");
+        assert_eq!(found[0].attachment, "");
+    }
+
+    #[test]
     fn prepare_leaves_existing_rows_untouched() {
         let mut conn = Connection::open_in_memory().unwrap();
         conn.execute_batch(SCHEMA_SQL).unwrap();
@@ -484,6 +584,8 @@ VALUES
         assert_eq!(found.category, "Register");
         assert_eq!(found.classification, "Bantu");
         assert_eq!(found.feature, "marks the place");
+        assert_eq!(found.forced_choice, "where the thing stands");
+        assert_eq!(found.attachment, "noun");
         assert_eq!(found.tags, vec!["beta", "shared"]);
         assert_eq!(found.themes, vec!["Causality", "Space & orientation"]);
     }
@@ -849,6 +951,98 @@ VALUES
     }
 
     #[test]
+    fn attachment_filter_matches_exactly() {
+        let conn = fixture();
+        let found = search(
+            &conn,
+            None,
+            &SearchFilters {
+                attachment: Some("subject".to_owned()),
+                ..filters()
+            },
+        )
+        .unwrap();
+        assert_eq!(names(&found), vec!["Alpha", "Gamma"]);
+
+        let partial = search(
+            &conn,
+            None,
+            &SearchFilters {
+                attachment: Some("subj".to_owned()),
+                ..filters()
+            },
+        )
+        .unwrap();
+        assert!(partial.is_empty(), "attachment is exact, not a substring");
+    }
+
+    #[test]
+    fn forced_choice_filter_matches_a_substring() {
+        let conn = fixture();
+        let found = search(
+            &conn,
+            None,
+            &SearchFilters {
+                forced_choice: Some("act was willed".to_owned()),
+                ..filters()
+            },
+        )
+        .unwrap();
+        assert_eq!(names(&found), vec!["Alpha", "Gamma"]);
+    }
+
+    #[test]
+    fn a_forced_choice_is_shared_by_the_patterns_that_force_it() {
+        // The point of the column: it is a key, not a description. Two
+        // patterns forcing the same choice at the same attachment carry the
+        // same string, so the collision is found by comparing, not by reading.
+        let conn = fixture();
+        let all = search(&conn, None, &filters()).unwrap();
+        let colliding: Vec<&str> = all
+            .iter()
+            .filter(|p| {
+                p.attachment == "subject" && p.forced_choice == "whether the act was willed"
+            })
+            .map(|p| p.name.as_str())
+            .collect();
+        assert_eq!(colliding, vec!["Alpha", "Gamma"]);
+    }
+
+    #[test]
+    fn every_seeded_row_names_a_forced_choice_and_an_attachment() {
+        // Both columns are the basis for deciding whether two patterns may be
+        // combined, so an empty cell would silently make a pattern collide
+        // with every other empty one.
+        const ATTACHMENTS: [&str; 11] = [
+            "verb",
+            "subject",
+            "object",
+            "noun",
+            "possessive",
+            "person",
+            "spatial frame",
+            "connective",
+            "word order",
+            "whole passage",
+            "surface",
+        ];
+        let conn = seeded();
+        for pattern in search(&conn, None, &filters()).unwrap() {
+            assert!(
+                !pattern.forced_choice.is_empty(),
+                "{}: no forced_choice",
+                pattern.name
+            );
+            assert!(
+                ATTACHMENTS.contains(&pattern.attachment.as_str()),
+                "{}: attachment '{}' is outside the closed vocabulary",
+                pattern.name,
+                pattern.attachment
+            );
+        }
+    }
+
+    #[test]
     fn every_seeded_row_carries_valid_json_arrays() {
         let conn = seeded();
         for pattern in search(&conn, None, &filters()).unwrap() {
@@ -918,6 +1112,15 @@ VALUES
                         ..filters()
                     },
                     &format!("classification '{classification}'"),
+                );
+            }
+            for attachment in &facet.attachments {
+                expect_hit(
+                    SearchFilters {
+                        attachment: Some(attachment.clone()),
+                        ..filters()
+                    },
+                    &format!("attachment '{attachment}'"),
                 );
             }
         }

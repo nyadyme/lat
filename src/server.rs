@@ -24,7 +24,10 @@ structure of thought and thereby makes hidden aspects of a subject visible. \
 Use 'search_patterns' to find patterns that fit a problem theme (e.g. \
 causality, coexistence, perspective), 'list_facets' to see valid filter \
 values, 'list_patterns' for an overview, and 'get_pattern' for the full \
-details of a pattern that is then to be applied.";
+details of a pattern that is then to be applied. When combining several \
+patterns, read 'forced_choice' and 'attachment': two patterns that force the \
+same choice at the same attachment point yield correlated findings, so take \
+at most one of them.";
 
 /// Parameters for the search. All fields optional, combined with AND.
 #[derive(Debug, Deserialize, schemars::JsonSchema)]
@@ -41,6 +44,12 @@ pub struct SearchParams {
     pub classification: Option<String>,
     /// Substring that should appear in the focus field.
     pub focus: Option<String>,
+    /// Substring in the forced_choice field: the choice a pattern makes
+    /// obligatory, e.g. 'source of the information'.
+    pub forced_choice: Option<String>,
+    /// Exact attachment: the constituent a pattern interrogates, e.g. 'verb',
+    /// 'subject', 'noun', 'possessive', 'whole passage'. See list_facets.
+    pub attachment: Option<String>,
     /// Free text across name, description, feature, tags and classification.
     pub text: Option<String>,
     /// Names to exclude, e.g. the user's own language, so that contrasting
@@ -58,6 +67,8 @@ impl SearchParams {
                 category: self.category,
                 classification: self.classification,
                 focus: self.focus,
+                forced_choice: self.forced_choice,
+                attachment: self.attachment,
                 text: self.text,
                 exclude_names: self.exclude_names.unwrap_or_default(),
             },
