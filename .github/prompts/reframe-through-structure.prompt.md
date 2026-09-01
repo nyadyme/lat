@@ -71,15 +71,20 @@ see the repository README for setup.
    typographic carry none; reach those via `tag`/`category`/`text`. Two further
    filters serve combination rather than selection: `attachment` (exact, eleven
    anchors) and `forced_choice` (substring) — use them to check what a candidate
-   lens would duplicate.
+   lens would duplicate. Query per object and per axis, never from recall of an
+   earlier run, and sweep by anchor and by category as well as by theme; see
+   *Coverage* below for why one sweep is not enough and what has to be written
+   down.
 4. **Account for the input language (contrast, not match).** See the section
    below: exclude the user's own language and prefer language lenses that
    foreground what it backgrounds. Forms are language-neutral and always apply.
 5. **Choose a technique** (see below) matching the pattern.
-6. **Reformulate.** Force the subject through the structure — one, better
-   several, contrasts, so that mobility arises. From two lenses on, run them as
-   a combination (see below): every lens reads the source text in its original
-   state, and the findings stay separate rows.
+6. **Reformulate, in two passes.** Force the subject through the structure —
+   one, better several, contrasts, so that mobility arises. Run **pass 1**
+   first: every chosen lens applied to the input on its own, findings as
+   separate rows. Close it, then run **pass 2**: the combinations, applied to
+   the input as well. See *The two runs* below; both passes reach the output,
+   separately, and neither feeds the other.
 7. **Name what it reveals.** For each reformulation, state explicitly *what* it
    makes visible that the source phrasing had concealed. This is the real
    payoff, not the elegant wording.
@@ -162,6 +167,92 @@ and are reached via `category` or `tag` — as are `Back-translation` and
 Language patterns supply the *grammatical lens*, form patterns the *genre lens*,
 techniques the *handle*. Combine them: e.g. a perspective swap with the Japanese
 topic structure, or a ban on "because" with Enumeration.
+
+## Coverage: what is not in the set
+
+The `attachment` × `forced_choice` screen is a **collision** test. It compares
+members of the chosen set with one another, so it can only see what is already
+in. Nothing in it looks at what was never considered — and an exclusion list
+naming only the lenses you weighed and dropped reads like a completeness proof
+while auditing nothing.
+
+The catalogue is finite and small: **130 patterns**, the largest theme bucket
+26, the largest anchor bucket 34. Completeness is therefore not an ambition but
+bookkeeping.
+
+**Never staff an axis from memory.** A search run for one object does not carry
+over to the next. Recall of an earlier result set is not a query, and
+substituting one for the other is exactly where candidates disappear — the
+axis gets diagnosed correctly, gets three plausible occupants, and the other
+twelve are never seen.
+
+### Three sweeps, because they fail differently
+
+| Sweep | Query | Catches |
+|---|---|---|
+| by theme | `search_patterns { theme, exclude_names: [source language] }` for every diagnosed axis | candidates inside an axis you did recognise |
+| by anchor | `search_patterns { attachment }` for every anchor the object actually offers | lenses whose theme you placed wrongly but whose anchor is plainly relevant |
+| by category / tag | `search_patterns { category }` or `{ tag }` | the **19 patterns carrying no theme at all**, invisible to any theme search — `Lipogram`, `S+7 (N+7)`, `Back-translation`, `Form-switch` and the metres live there |
+
+A lens reachable by two sweeps is not thereby safe. They are independent only
+as long as both are actually run.
+
+### The verdict record is the guard, not the search
+
+Every candidate a sweep returns gets a row: **taken**, or **dropped with a
+stated reason**. The search by itself protects nothing; it is the obligation to
+write a line that makes a silent omission impossible. A candidate you cannot
+give a reason for dropping is a candidate you keep.
+
+### Negatives are reported
+
+For each of the eleven axes, one line: marker present or not, and why not.
+Pass 2 already owes this for the combinations — a routing table that fires
+everything on every text discriminates nothing, so the rows that do *not* fire
+carry information. Pass 1 owes the same for its axes.
+
+## The two runs
+
+A run over a text has **two passes**, and they are independent measurements of
+the same object. The axis methodology does not replace the single-lens
+evaluation — it is a second pass beside it, never a substitute for it.
+
+**Pass 1 — single lenses.** The orthogonal lenses are applied to the input
+**one at a time**, each on its own, each reading the input directly. The set
+for this pass is screened for mutual orthogonality (`attachment` ×
+`forced_choice`, see below) so the findings stay separable. One finding per
+lens, standing alone. Pass 1 is closed before pass 2 begins.
+
+**Pass 2 — axis combinatorics.** The combinations (K1 to K8, routed by the
+markers of the source) are applied **to the input as well**, not to the results
+of pass 1. What pass 2 yields is what follows from a combination and from no
+single lens within it. An axis result that reads as a list of its own rows has
+contributed nothing.
+
+**The two passes are independent, in both directions.** Pass 2 does not take
+pass 1 as input and derives nothing from it. Pass 1 is not re-labelled,
+re-ordered or reinterpreted in the light of pass 2. Nothing flows back.
+
+**A lens is not consumed by pass 1.** A lens used there may appear again in
+pass 2 as part of a combination. That is not double counting, because the two
+passes take nothing from one another. It follows that the interference rules
+below — no two lenses with the same `forced_choice` at the same `attachment` —
+hold **within** a pass, never across the two.
+
+**The output carries both.** The finished document contains the results of pass
+1 and the results of pass 2 in separate parts. Neither replaces the other and
+neither is subordinate to the other. Part 1 must be fully readable as though
+part 2 did not exist: no axis headings over the single lenses, no forward tags
+such as "→ axis C" on a single-lens row, no lens row citing another lens row.
+Part 2 must write nothing back into part 1.
+
+Anything downstream of both — a comparison of what each pass found — is a third
+thing. It may report the two side by side; it may not fold either into the
+other.
+
+Everything in the rest of this section is the doctrine for **pass 2**. The
+`attachment` × `forced_choice` screen serves both passes, applied within each
+separately.
 
 ## Combining lenses
 
@@ -303,6 +394,9 @@ the result. A single semantic reading of the whole matrix is exactly the knot
 the separation was built to avoid.
 
 ### Routing: from the grammatical marker to the combination
+
+This table routes **pass 2**. Pass 1 selects its lenses from the diagnosed axes
+directly and is not bound by these combinations.
 
 Selection follows the **grammar of the source sentence**, not its topic.
 
@@ -506,6 +600,11 @@ re-derivation is not a formality.
 
 - **Ground, don't invent.** Every lens comes from the `lat` catalogue; name the
   pattern's `name`, `focus` and `feature` when you use it.
+- **Enumerate, don't recall.** Candidate sets come from a query run for *this*
+  object, by theme and by anchor and by category. Every candidate returned gets
+  a written verdict, taken or dropped with a reason, and every axis gets a line
+  even when it is empty. The screen catches collisions; only the record catches
+  omissions. See *Coverage*.
 - **Contrasts, not a winner.** Several reformulations side by side are worth more
   than one "best" one.
 - **Always name the revelation.** A reformulation without the question "what
