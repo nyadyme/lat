@@ -3,7 +3,8 @@
 Distinct filter values actually present in the seeded database, per table —
 i.e. what `list_facets` returns. GENERATED from additional_docs/lat_catalog.md
 by tools/gen_facets.py; regenerate after changing the catalogue. `themes` is the
-closed cognitive-axis vocabulary; `tags` are free keywords.
+closed cognitive-axis vocabulary; `attachment` is the closed
+vocabulary of anchors; `tags` are free keywords.
 
 > Note the asymmetry: **themes occupied per table are forms 10, languages 11**.
 > `Possession & belonging` appears only among languages — carried by Mongolian
@@ -12,6 +13,19 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 > Trinitario (possessive classes), Dyirbal (noun classes), Khoekhoe (clusive we), Latin
 > (gerundive of obligation) — so it is absent from the forms facet. Facets reflect the
 > occupied subset, not the abstract list.
+
+## Colliding forced choices (6)
+
+Groups that force the same choice at the same anchor. Their findings
+are correlated, so a combination takes at most one of a group;
+two of them read as independent evidence without being it.
+
+- `spatial frame` — whether space is reckoned from the speaker or from the world: **Guugu Yimithirr**, **Tzeltal (uphill-downhill axis)**
+- `subject` — whether the act was willed: **Burushaski**, **Basque (Euskara)**
+- `subject` — whether the participant is the one acting: **Nez Percé (Nimipuutímt)**, **Oromo (marked nominative)**
+- `verb` — the physical shape of the thing handled: **Navajo (shape verbs & evidence)**, **Cherokee (Tsalagi)**
+- `verb` — the source of the information: **Tariana**, **Tuyuca**
+- `whole passage` — which two lines the thought keeps returning to: **Villanelle**, **Triolet**
 
 ## Languages (77 entries)
 
@@ -113,6 +127,18 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 - philosophically constructed (a posteriori/a priori)
 - topic-prominent language
 
+### Attachments (10)
+- connective
+- noun
+- object
+- person
+- possessive
+- spatial frame
+- subject
+- verb
+- whole passage
+- word order
+
 ### Tags (252)
 `a-o-class`, `ablative-absolute`, `absolute-orientation`, `abstraction`, `addressee`, `adjunct`, `agency`, `agent`, `agent-chain`, `agentless`, `agreement`, `alignment`, `anatomy`, `anchor`, `animacy`, `animate`, `anticipation`, `antipassive`, `aorist`, `article`, `aspect`, `associated-motion`, `associative-plural`, `attribution`, `attributive`, `auxiliary-series`, `baseline`, `benefactive`, `blame`, `body-part-locative`, `bound-root`, `boundedness`, `cardinal-direction`, `case`, `case-stacking`, `category`, `causal`, `causative`, `certainty`, `chaining`, `classes`, `classification`, `classificatory-verb`, `classifier`, `clusivity`, `completeness`, `completion`, `complex-predicate`, `compound`, `concession`, `concord`, `condensation`, `consistency`, `constructed`, `control`, `converb`, `coordination`, `copula`, `coreference`, `counterweight`, `cycle`, `dative-agent`, `decomposition`, `deixis`, `delegation`, `dependency`, `derivation`, `direction`, `discourse-relation`, `discourse-scope`, `disposition`, `distance`, `distribution`, `diurnal`, `dream`, `drinkable`, `dual`, `edible`, `ego-less`, `emphasis`, `empirical`, `ergative`, `ergative-split`, `event-chain`, `event-number`, `evidentiality`, `exhaustive`, `fluidity`, `focus-conjugation`, `focus-system`, `force`, `free-word-order`, `fusion`, `gender`, `genealogical`, `genitive`, `geocentric`, `geometry`, `gerundive`, `graded-tense`, `gradient`, `grouping`, `hearsay`, `hierarchy`, `highlighting`, `holistic`, `immediacy`, `inalienable`, `inclusive-exclusive`, `incorporating`, `individuation`, `information-structure`, `instrument`, `instrumental`, `integral`, `intentionality`, `inversion`, `inverted-time`, `involuntary`, `isolating`, `ka-ma`, `landscape`, `light-verb`, `linker-less`, `listing`, `localization`, `logic`, `logophoric`, `manifestation`, `many-valued`, `marked-nominative`, `masculine-personal`, `material`, `materiality`, `matter`, `means`, `middle-voice`, `minimalism`, `modal`, `modal-case`, `monoclausal`, `mood`, `nature`, `negation-asymmetry`, `negation-scope`, `nesting`, `network`, `nominal-aspect`, `nominalization`, `non-finite`, `noun-class`, `noun-classes`, `numeral`, `object`, `obligation`, `obligatory-possession`, `observation-conditions`, `obviation`, `obviative`, `oratio-obliqua`, `parallel`, `parallelism`, `parataxis`, `participle`, `particles`, `partitive`, `perfect-imperfect`, `person-marking`, `perspective`, `pivot`, `pluractional`, `plural`, `polarity`, `polysynthetic`, `portmanteau`, `possession`, `possessive-classifier`, `postposition`, `potential`, `precision`, `predicate`, `predication`, `prefixability`, `presence-absence`, `privative`, `process`, `pronoun`, `proximate`, `psych-verb`, `quantification`, `realization`, `reciprocal`, `reclassification`, `recursion`, `recursion-free`, `reduction`, `reduplication`, `reference-tracking`, `reflexive-possessive`, `remoteness`, `reported-speech`, `resolution`, `responsibility`, `role`, `root-pattern`, `salience`, `samasa`, `scrambling`, `senses`, `serial-verb`, `shape-verb`, `size`, `social`, `source`, `space`, `stacking`, `status`, `subjunctive`, `substantivization`, `switch-reference`, `syadvada`, `symmetry`, `syntactic-ergativity`, `tam`, `tam-sharing`, `tense`, `terminative`, `terrain`, `third-person`, `threshold`, `time-metaphor`, `tone`, `topic`, `topic-chain`, `total-object`, `transience`, `triage`, `tripartite`, `unambiguous`, `unfolding`, `unpossessed`, `unstated-relation`, `uphill-downhill`, `use-relation`, `vector-verb`, `verification`, `visibility`, `voice`, `voice-system`, `wa`, `waw`, `word-ban`
 
@@ -191,6 +217,14 @@ closed cognitive-axis vocabulary; `tags` are free keywords.
 - thinking tool
 - thinking tool / structuralist and structural-realist reduction
 - troubadour poetry / coblas with tornada
+
+### Attachments (6)
+- connective
+- noun
+- subject
+- surface
+- whole passage
+- word order
 
 ### Tags (137)
 `acrostic`, `agency`, `allegory`, `alliteration`, `ambivalence`, `anadiplosis`, `anaphora`, `anticipation`, `antithesis`, `association`, `asymmetry`, `balance`, `broken-symmetry`, `cascade`, `case`, `causal`, `centering`, `chaining`, `clinamen`, `coblas`, `coexistence`, `cohesion`, `collage`, `combinatorics`, `commentary`, `compound`, `compression`, `constraint`, `contradiction`, `coordination`, `counterpoint`, `couplet`, `crescendo`, `crosswise`, `cut`, `deceleration`, `decomposition`, `decree`, `dependency`, `detour`, `dialogic`, `dialogue`, `disruption`, `distich`, `dux-comes`, `dynamic`, `economy`, `encoding`, `end-word`, `envoi`, `epigram`, `exception`, `exegesis`, `focus`, `foot`, `forces`, `foreign-quote`, `four-step`, `frame`, `genre`, `hierarchy`, `hymn`, `insight`, `internal-rhyme`, `intuition`, `inversion`, `juxtaposition`, `kenning`, `kishotenketsu`, `lateral`, `letter-ban`, `levels`, `loop`, `metaphor`, `meter`, `mirroring`, `mise-en-abyme`, `mosaic`, `nesting`, `node-free`, `object`, `observation`, `oulipo`, `palindrome`, `paradox`, `performative`, `permutation`, `perspective`, `quatrain`, `quote`, `radif`, `ranking`, `recombination`, `recursion`, `reduction`, `reflexivity`, `refrain`, `reframe`, `relation`, `relational`, `renaming`, `repetition`, `residue`, `return`, `reversal`, `rhyme`, `robustness`, `samasa`, `scale-invariance`, `self-similarity`, `shape`, `simultaneity`, `skaldic`, `sonnet`, `sound`, `sound-constraint`, `states`, `stollen-abgesang`, `stretto`, `structuralism`, `substitution`, `syllable-count`, `symmetry`, `syncope`, `thought-rhyme`, `top-down`, `trance`, `transformation`, `translation`, `turn`, `typography`, `vertical`, `vigraha`, `visual`, `word-ban`, `word-list`, `zen`

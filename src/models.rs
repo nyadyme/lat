@@ -36,6 +36,15 @@ pub struct Pattern {
     pub category: String,
     pub classification: String,
     pub feature: String,
+    /// The choice this pattern makes obligatory. Deliberately not unique:
+    /// two patterns forcing the same choice carry the same string, which is
+    /// what makes it comparable across patterns (`focus` is written to be
+    /// distinctive and cannot serve that purpose).
+    pub forced_choice: String,
+    /// The constituent the pattern interrogates. Closed vocabulary. Together
+    /// with `forced_choice` it decides whether two patterns collide: same
+    /// choice at the same anchor means their findings are correlated.
+    pub attachment: String,
     pub tags: Vec<String>,
     pub themes: Vec<String>,
 }
@@ -46,6 +55,7 @@ pub struct Facets {
     pub kind: PatternType,
     pub categories: Vec<String>,
     pub classifications: Vec<String>,
+    pub attachments: Vec<String>,
     pub tags: Vec<String>,
     pub themes: Vec<String>,
 }
@@ -63,6 +73,10 @@ pub struct SearchFilters {
     pub classification: Option<String>,
     /// Substring within the focus field.
     pub focus: Option<String>,
+    /// Substring within the forced_choice field.
+    pub forced_choice: Option<String>,
+    /// Exact attachment (the constituent a pattern interrogates).
+    pub attachment: Option<String>,
     /// Free text across name, description, feature, tags and classification.
     pub text: Option<String>,
     /// Names to exclude from results (e.g. the user's own/source language, so
@@ -119,6 +133,8 @@ mod tests {
             category: "Poetic form".to_owned(),
             classification: "Japanese".to_owned(),
             feature: "seventeen morae".to_owned(),
+            forced_choice: "whether two images need a connective".to_owned(),
+            attachment: "whole passage".to_owned(),
             tags: vec!["cut".to_owned()],
             themes: vec!["Time & aspect".to_owned()],
         };
@@ -128,6 +144,11 @@ mod tests {
         assert_eq!(json["name"], "Haiku");
         assert_eq!(json["tags"], serde_json::json!(["cut"]));
         assert_eq!(json["themes"], serde_json::json!(["Time & aspect"]));
+        assert_eq!(
+            json["forced_choice"],
+            "whether two images need a connective"
+        );
+        assert_eq!(json["attachment"], "whole passage");
     }
 
     #[test]
@@ -136,6 +157,7 @@ mod tests {
             kind: PatternType::Language,
             categories: vec!["Language".to_owned()],
             classifications: vec!["isolate".to_owned()],
+            attachments: vec!["subject".to_owned()],
             tags: vec!["ergative".to_owned()],
             themes: vec!["Causality".to_owned()],
         };
@@ -153,6 +175,8 @@ mod tests {
         assert!(filters.category.is_none());
         assert!(filters.classification.is_none());
         assert!(filters.focus.is_none());
+        assert!(filters.forced_choice.is_none());
+        assert!(filters.attachment.is_none());
         assert!(filters.text.is_none());
         assert!(filters.exclude_names.is_empty());
     }

@@ -295,7 +295,44 @@ fn list_facets_advertises_filters_that_search_patterns_accepts() {
             !names(&found).is_empty(),
             "theme '{theme}' is advertised for {kind} but matches nothing"
         );
+
+        let attachment = entry["attachments"][0]
+            .as_str()
+            .expect("every kind should offer at least one attachment");
+        let anchored = host.call_tool(
+            "search_patterns",
+            json!({"kind": kind, "attachment": attachment}),
+        );
+        assert!(
+            !names(&anchored).is_empty(),
+            "attachment '{attachment}' is advertised for {kind} but matches nothing"
+        );
     }
+}
+
+#[test]
+fn patterns_forcing_one_choice_are_found_together_by_that_choice() {
+    // What the two combination columns are for: Tuyuca and Tariana force the
+    // same choice at the same anchor, so a caller can see the collision by
+    // filtering rather than by reading the prose columns.
+    let mut host = Host::start();
+    host.initialize();
+
+    let tuyuca = host.call_tool("get_pattern", json!({"kind": "language", "name": "Tuyuca"}));
+    let choice = tuyuca["forced_choice"]
+        .as_str()
+        .expect("a seeded pattern names the choice it forces");
+    assert_eq!(tuyuca["attachment"], "verb");
+
+    let same = host.call_tool(
+        "search_patterns",
+        json!({"kind": "language", "forced_choice": choice, "attachment": "verb"}),
+    );
+    let found = names(&same);
+    assert!(
+        found.contains(&"Tuyuca".to_owned()) && found.contains(&"Tariana".to_owned()),
+        "expected Tuyuca and Tariana to share the choice, got {found:?}"
+    );
 }
 
 #[test]
@@ -308,6 +345,8 @@ fn get_pattern_returns_a_full_record_and_reports_a_miss() {
     assert_eq!(german["name"], "German");
     assert!(german["tags"].is_array());
     assert!(german["themes"].is_array());
+    assert!(german["forced_choice"].is_string());
+    assert!(german["attachment"].is_string());
 
     // A miss is an answer, not a protocol error, so the text is not JSON.
     let result = host.call(

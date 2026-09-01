@@ -17,7 +17,7 @@ CATALOG = REPO / "additional_docs" / "lat_catalog.md"
 OUT = REPO / "additional_docs" / "lat_facets.md"
 
 COLS = ["name", "category", "classification", "focus", "feature",
-        "description", "tags", "themes"]
+        "forced_choice", "attachment", "description", "tags", "themes"]
 
 
 def parse_cells(line):
@@ -50,7 +50,8 @@ def parse_catalog():
         if kind is None or not s.startswith("|"):
             continue
         cells = parse_cells(line)
-        if len(cells) != 8 or cells[0] == "Name" or is_separator(cells):
+        if (len(cells) != len(COLS) or cells[0] == "Name"
+                or is_separator(cells)):
             continue
         rows[kind].append(dict(zip(COLS, cells)))
     return rows
@@ -131,6 +132,40 @@ def asymmetry_note(rows):
     return wrap_quote(" ".join(sentences))
 
 
+def collisions(rows):
+    """Entries sharing one (attachment, forced_choice) pair, both tables.
+
+    Two lenses that force the same choice at the same anchor produce correlated
+    findings, so a combination takes at most one of each group. Computed here
+    rather than written down, so the list cannot drift from the catalogue.
+    """
+    groups = {}
+    for table in rows:
+        for r in rows[table]:
+            key = (r["attachment"], r["forced_choice"])
+            groups.setdefault(key, []).append(r["name"])
+    return sorted((k, v) for k, v in groups.items() if len(v) > 1)
+
+
+def collision_section(rows):
+    found = collisions(rows)
+    lines = [f"## Colliding forced choices ({len(found)})", ""]
+    if not found:
+        lines.append(
+            "No two entries force the same choice at the same anchor.")
+        return lines + [""]
+    lines += [
+        "Groups that force the same choice at the same anchor. Their findings",
+        "are correlated, so a combination takes at most one of a group;",
+        "two of them read as independent evidence without being it.",
+        "",
+    ]
+    for (attach, choice), names in found:
+        lines.append(f"- `{attach}` — {choice}: "
+                     + ", ".join(f"**{n}**" for n in names))
+    return lines + [""]
+
+
 def main():
     rows = parse_catalog()
     lines = [
@@ -139,16 +174,19 @@ def main():
         "Distinct filter values actually present in the seeded database, per table —",
         "i.e. what `list_facets` returns. GENERATED from additional_docs/lat_catalog.md",
         "by tools/gen_facets.py; regenerate after changing the catalogue. `themes` is the",
-        "closed cognitive-axis vocabulary; `tags` are free keywords.",
+        "closed cognitive-axis vocabulary; `attachment` is the closed",
+        "vocabulary of anchors; `tags` are free keywords.",
         "",
         *asymmetry_note(rows),
         "",
+        *collision_section(rows),
     ]
     for table, title in (("languages", "Languages"), ("forms", "Forms")):
         data = rows[table]
         themes = distinct_arr(data, "themes")
         cats = distinct_col(data, "category")
         classes = distinct_col(data, "classification")
+        attachments = distinct_col(data, "attachment")
         tags = distinct_arr(data, "tags")
         lines += [
             f"## {title} ({len(data)} entries)",
@@ -163,6 +201,9 @@ def main():
             "",
             f"### Classifications ({len(classes)})",
             bullets(classes),
+            "",
+            f"### Attachments ({len(attachments)})",
+            bullets(attachments),
             "",
             f"### Tags ({len(tags)})",
             tagline(tags),

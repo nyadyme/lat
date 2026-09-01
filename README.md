@@ -116,6 +116,8 @@ share the same columns:
 | `category` | e.g. `Poetic form`, `Register`, `Technique`, `Language` |
 | `classification` | e.g. `aspect language`, `classifier language`, `bound form` |
 | `feature` | The distinction it makes obligatory |
+| `forced_choice` | The choice it makes obligatory, phrased as a question. Deliberately **not** unique |
+| `attachment` | The constituent it interrogates. Closed vocabulary (see below) |
 | `tags` | JSON array of free keywords (linguistic features, formal mechanics) |
 | `themes` | JSON array from a closed cognitive-axis vocabulary (see below) |
 
@@ -130,6 +132,18 @@ and those are found via `tags`/`category`. Multi-valued `tags` and `themes`
 are stored as JSON arrays and filtered with SQLite's `json_each` (guarded by
 `json_valid`, so a malformed cell cannot abort a query).
 
+`forced_choice` and `attachment` are the pair that decides whether two patterns
+may be combined. `attachment` is drawn from eleven anchors — `verb`, `subject`,
+`object`, `noun`, `possessive`, `person`, `spatial frame`, `connective`,
+`word order`, `whole passage`, `surface` — and an unknown value aborts seed
+generation. `forced_choice` is written to be *shared*: two patterns that force
+the same choice carry byte-identical strings, so equality of the pair means
+their findings are correlated and a combination should take at most one of them.
+That is what `focus` cannot do — it is authored per entry to be distinctive, so
+Tuyuca and Tariana describe one and the same choice in two different phrasings.
+The colliding groups are listed, generated from the catalog, in
+[`additional_docs/lat_facets.md`](additional_docs/lat_facets.md).
+
 The catalog is maintained in
 [`additional_docs/lat_catalog.md`](additional_docs/lat_catalog.md) (single source
 of truth) and `src/seed.sql` is generated from it. Both are covered by the
@@ -142,10 +156,10 @@ All tools are read-only. Every filter is optional and filters are AND-combined.
 
 | Tool | Purpose |
 |---|---|
-| `search_patterns` | Find patterns by `kind`, `theme`, `category`, `classification`, `focus`, `tag`, free `text`, or `exclude_names` (drop the user's own language so contrasting lenses surface). |
+| `search_patterns` | Find patterns by `kind`, `theme`, `category`, `classification`, `focus`, `forced_choice`, `attachment`, `tag`, free `text`, or `exclude_names` (drop the user's own language so contrasting lenses surface). |
 | `get_pattern` | Full details of one pattern by `kind` + `name`. |
 | `list_patterns` | List all patterns, optionally restricted to one `kind`. |
-| `list_facets` | Distinct categories / classifications / tags / themes per table, so the agent knows valid filter values. |
+| `list_facets` | Distinct categories / classifications / attachments / tags / themes per table, so the agent knows valid filter values. |
 
 `kind` is `form` or `language` (omit it to search both).
 
@@ -379,6 +393,9 @@ search_patterns { "kind": "form", "theme": "Coexistence" }
 
 // full detail
 get_pattern { "kind": "language", "name": "Russian" }
+
+// before combining: everything that forces the same choice at the same anchor
+search_patterns { "attachment": "verb", "forced_choice": "the source of the information" }
 ```
 
 
@@ -419,6 +436,11 @@ path is resolved independently of the working directory:
 Seed data is embedded in the binary from [`src/seed.sql`](src/seed.sql) and is
 only applied when both tables are empty. Seeding is atomic — an interrupted first
 run rolls back rather than leaving a half-filled database.
+
+A database written by an older build is not rebuilt: columns added since
+(`forced_choice`, `attachment`) are appended in place, so live edits survive,
+but their cells stay empty and the server logs a warning. Delete the database
+file and restart to fill them from the catalog.
 
 ## Terminology
 

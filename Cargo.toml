@@ -1,6 +1,6 @@
 [package]
 name = "lat"
-version = "0.5.2"
+version = "0.6.2"
 edition = "2024"
 authors = ["Dana Schlifka"]
 description = "Language-as-Tool: an MCP server that provides curated thinking patterns (languages and poetic forms) to MCP-compatible AI agents."
