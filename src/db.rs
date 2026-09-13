@@ -26,7 +26,9 @@ CREATE TABLE IF NOT EXISTS forms (
     forced_choice  TEXT NOT NULL DEFAULT '',
     attachment     TEXT NOT NULL DEFAULT '',
     tags           TEXT NOT NULL DEFAULT '[]',
-    themes         TEXT NOT NULL DEFAULT '[]'
+    themes         TEXT NOT NULL DEFAULT '[]',
+    source         TEXT NOT NULL DEFAULT '',
+    status         TEXT NOT NULL DEFAULT ''
 );
 CREATE TABLE IF NOT EXISTS languages (
     id             INTEGER PRIMARY KEY,
@@ -39,7 +41,9 @@ CREATE TABLE IF NOT EXISTS languages (
     forced_choice  TEXT NOT NULL DEFAULT '',
     attachment     TEXT NOT NULL DEFAULT '',
     tags           TEXT NOT NULL DEFAULT '[]',
-    themes         TEXT NOT NULL DEFAULT '[]'
+    themes         TEXT NOT NULL DEFAULT '[]',
+    source         TEXT NOT NULL DEFAULT '',
+    status         TEXT NOT NULL DEFAULT ''
 );
 ";
 
@@ -47,9 +51,16 @@ CREATE TABLE IF NOT EXISTS languages (
 /// `CREATE TABLE IF NOT EXISTS` leaves an existing table alone, so a database
 /// written by an older build lacks them and every query would fail with
 /// "no such column".
-const ADDED_COLUMNS: [(&str, &str); 2] = [
+/// The default is what makes an added column possible at all — SQLite refuses
+/// `ADD COLUMN ... NOT NULL` without one — and it is also the safe value here:
+/// an empty `status` is not `sourced`, so a row carried over from an older
+/// database is filtered out by `exclude_contested` rather than passed off as
+/// checked.
+const ADDED_COLUMNS: [(&str, &str); 4] = [
     ("forced_choice", "TEXT NOT NULL DEFAULT ''"),
     ("attachment", "TEXT NOT NULL DEFAULT ''"),
+    ("source", "TEXT NOT NULL DEFAULT ''"),
+    ("status", "TEXT NOT NULL DEFAULT ''"),
 ];
 
 /// Example data, embedded into the binary. Only applied when empty.
@@ -166,7 +177,7 @@ fn query_table(
     let table = kind.table();
     let mut sql = format!(
         "SELECT name, description, focus, category, classification, feature, forced_choice, \
-         attachment, tags, themes \
+         attachment, tags, themes, source, status \
          FROM {table}"
     );
     let mut clauses: Vec<String> = Vec::new();
@@ -200,8 +211,14 @@ fn query_table(
         // typology vocabulary ("Slavic", "Bantu", "Australia", "isolate") and
         // its own filter matches the exact full string only, so without it that
         // vocabulary is advertised by list_facets yet unreachable by search.
-        const TEXT_COLUMNS: [&str; 5] =
-            ["name", "description", "feature", "tags", "classification"];
+        const TEXT_COLUMNS: [&str; 6] = [
+            "name",
+            "description",
+            "feature",
+            "tags",
+            "classification",
+            "source",
+        ];
         let disjunction = TEXT_COLUMNS
             .iter()
             .map(|column| format!("{column} LIKE ?"))
@@ -212,6 +229,13 @@ fn query_table(
         for _ in TEXT_COLUMNS {
             params.push(Box::new(like.clone()));
         }
+    }
+    if filters.exclude_contested {
+        // Tested as "is sourced" rather than "is not contested" on purpose: an
+        // entry whose source has not been filled in yet carries neither value,
+        // and letting it through would defeat the filter at exactly the rows
+        // with the least backing behind them.
+        clauses.push("status = 'sourced'".to_owned());
     }
     if !filters.exclude_names.is_empty() {
         let placeholders = vec!["?"; filters.exclude_names.len()].join(", ");
@@ -263,6 +287,8 @@ fn query_table(
             attachment: row.get(7)?,
             tags: parse_json_array(&row.get::<_, String>(8)?),
             themes: parse_json_array(&row.get::<_, String>(9)?),
+            source: row.get(10)?,
+            status: row.get(11)?,
         })
     })?;
 
@@ -295,7 +321,7 @@ pub fn get(conn: &Connection, kind: PatternType, name: &str) -> Result<Option<Pa
     let table = kind.table();
     let sql = format!(
         "SELECT name, description, focus, category, classification, feature, forced_choice, \
-         attachment, tags, themes \
+         attachment, tags, themes, source, status \
          FROM {table} WHERE name = ?"
     );
     let mut stmt = conn.prepare(&sql)?;
@@ -312,6 +338,8 @@ pub fn get(conn: &Connection, kind: PatternType, name: &str) -> Result<Option<Pa
             attachment: row.get(7)?,
             tags: parse_json_array(&row.get::<_, String>(8)?),
             themes: parse_json_array(&row.get::<_, String>(9)?),
+            source: row.get(10)?,
+            status: row.get(11)?,
         })
     })?;
     match rows.next() {
@@ -428,24 +456,26 @@ mod tests {
     const FIXTURE_SQL: &str = r#"
 INSERT INTO languages
     (name, description, focus, category, classification, feature,
-     forced_choice, attachment, tags, themes)
+     forced_choice, attachment, tags, themes, source, status)
 VALUES
     ('Alpha', 'first sample', 'causal chain', 'Language', 'isolate',
      'marks the agent', 'whether the act was willed', 'subject',
-     '["alpha", "shared"]', '["Causality"]'),
+     '["alpha", "shared"]', '["Causality"]', 'Ekaterina, A Grammar of Alpha', 'sourced'),
     ('Beta', 'second sample', 'spatial frame', 'Register', 'Bantu',
      'marks the place', 'where the thing stands', 'noun',
-     '["beta", "shared"]', '["Causality", "Space & orientation"]'),
+     '["beta", "shared"]', '["Causality", "Space & orientation"]',
+     'Bhatt (1974); contra Oyelaran (1990)', 'contested'),
     ('Gamma', 'third sample', '', 'Language', '',
      '', 'whether the act was willed', 'subject',
-     'not json at all', '["Time & aspect"]');
+     'not json at all', '["Time & aspect"]', '', '');
 INSERT INTO forms
     (name, description, focus, category, classification, feature,
-     forced_choice, attachment, tags, themes)
+     forced_choice, attachment, tags, themes, source, status)
 VALUES
     ('Haiku', 'a cut between two images', 'brevity', 'Poetic form', 'Japanese',
      'seventeen morae', 'whether two images need a connective',
-     'whole passage', '["cut", "shared"]', '["Time & aspect"]');
+     'whole passage', '["cut", "shared"]', '["Time & aspect"]',
+     'Higginson, The Haiku Handbook', 'sourced');
 "#;
 
     /// An in-memory database holding [`FIXTURE_SQL`], without the real seed.
@@ -588,9 +618,70 @@ INSERT INTO languages (name, focus) VALUES ('Hand-edited', 'kept');
         assert_eq!(found.attachment, "noun");
         assert_eq!(found.tags, vec!["beta", "shared"]);
         assert_eq!(found.themes, vec!["Causality", "Space & orientation"]);
+        assert_eq!(found.source, "Bhatt (1974); contra Oyelaran (1990)");
+        assert_eq!(found.status, "contested");
     }
 
     // ---- search: individual filters --------------------------------------
+
+    #[test]
+    fn exclude_contested_keeps_only_what_carries_a_source_and_is_undisputed() {
+        let conn = fixture();
+        let found = search(
+            &conn,
+            Some(PatternType::Language),
+            &SearchFilters {
+                exclude_contested: true,
+                ..SearchFilters::default()
+            },
+        )
+        .unwrap();
+        assert_eq!(names(&found), vec!["Alpha"]);
+    }
+
+    #[test]
+    fn exclude_contested_drops_an_entry_that_has_no_source_yet() {
+        // Gamma carries neither value. Testing for "not contested" would let
+        // it through, which is the wrong way for a filter whose job is to hold
+        // weakly backed entries back.
+        let conn = fixture();
+        let found = search(
+            &conn,
+            Some(PatternType::Language),
+            &SearchFilters {
+                exclude_contested: true,
+                ..SearchFilters::default()
+            },
+        )
+        .unwrap();
+        assert!(
+            !names(&found).contains(&"Gamma"),
+            "an entry without a source must not pass the filter"
+        );
+    }
+
+    #[test]
+    fn an_unset_exclude_contested_returns_every_entry() {
+        let conn = fixture();
+        let found = search(&conn, Some(PatternType::Language), &filters()).unwrap();
+        assert_eq!(names(&found), vec!["Alpha", "Beta", "Gamma"]);
+    }
+
+    #[test]
+    fn free_text_reaches_the_source_so_one_work_can_be_traced() {
+        // What cites Oyelaran is a query, not a grep over the catalogue.
+        let conn = fixture();
+        let found = search(
+            &conn,
+            None,
+            &SearchFilters {
+                text: Some("Oyelaran".to_owned()),
+                ..SearchFilters::default()
+            },
+        )
+        .unwrap();
+        assert_eq!(names(&found), vec!["Beta"]);
+    }
 
     #[test]
     fn category_filter_matches_exactly() {

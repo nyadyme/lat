@@ -312,26 +312,30 @@ fn list_facets_advertises_filters_that_search_patterns_accepts() {
 
 #[test]
 fn patterns_forcing_one_choice_are_found_together_by_that_choice() {
-    // What the two combination columns are for: Tuyuca and Tariana force the
+    // What the two combination columns are for: Nez Percé and Oromo force the
     // same choice at the same anchor, so a caller can see the collision by
     // filtering rather than by reading the prose columns.
     let mut host = Host::start();
     host.initialize();
 
-    let tuyuca = host.call_tool("get_pattern", json!({"kind": "language", "name": "Tuyuca"}));
-    let choice = tuyuca["forced_choice"]
+    let nez_perce = host.call_tool(
+        "get_pattern",
+        json!({"kind": "language", "name": "Nez Percé (Nimipuutímt)"}),
+    );
+    let choice = nez_perce["forced_choice"]
         .as_str()
         .expect("a seeded pattern names the choice it forces");
-    assert_eq!(tuyuca["attachment"], "verb");
+    assert_eq!(nez_perce["attachment"], "subject");
 
     let same = host.call_tool(
         "search_patterns",
-        json!({"kind": "language", "forced_choice": choice, "attachment": "verb"}),
+        json!({"kind": "language", "forced_choice": choice, "attachment": "subject"}),
     );
     let found = names(&same);
     assert!(
-        found.contains(&"Tuyuca".to_owned()) && found.contains(&"Tariana".to_owned()),
-        "expected Tuyuca and Tariana to share the choice, got {found:?}"
+        found.contains(&"Nez Percé (Nimipuutímt)".to_owned())
+            && found.contains(&"Oromo (marked nominative)".to_owned()),
+        "expected Nez Percé and Oromo to share the choice, got {found:?}"
     );
 }
 
@@ -377,6 +381,55 @@ fn search_patterns_filters_and_excludes_the_source_language() {
 
     let empty = host.call_tool("search_patterns", json!({"tag": "no-such-tag-exists"}));
     assert_eq!(empty, json!([]));
+}
+
+#[test]
+fn exclude_contested_narrows_the_catalogue_to_what_is_sourced() {
+    // The seeded catalogue still holds entries whose source is not filled in.
+    // They carry no status, so the filter has to drop them along with the
+    // disputed ones — otherwise the weakest-backed rows are the ones that slip
+    // through the filter meant to hold weak backing back.
+    let mut host = Host::start();
+    host.initialize();
+
+    let all = host.call_tool("search_patterns", json!({"kind": "language"}));
+    let sourced = host.call_tool(
+        "search_patterns",
+        json!({"kind": "language", "exclude_contested": true}),
+    );
+
+    let all = all.as_array().expect("an array of patterns");
+    let sourced = sourced.as_array().expect("an array of patterns");
+    assert!(
+        sourced.len() < all.len(),
+        "the filter should drop something while sources are still missing"
+    );
+    assert!(
+        sourced.iter().all(|p| p["status"] == "sourced"),
+        "every remaining entry must say so itself"
+    );
+    assert!(
+        sourced
+            .iter()
+            .all(|p| !p["source"].as_str().unwrap_or("").is_empty()),
+        "a status of 'sourced' without a source would be an empty claim"
+    );
+}
+
+#[test]
+fn a_pattern_carries_its_source_and_status() {
+    let mut host = Host::start();
+    host.initialize();
+
+    let hopi = host.call_tool("get_pattern", json!({"kind": "language", "name": "Hopi"}));
+    assert_eq!(hopi["status"], "contested");
+    assert!(
+        hopi["source"]
+            .as_str()
+            .expect("a source")
+            .contains("Malotki"),
+        "the entry names the work its claim was checked against: {hopi}"
+    );
 }
 
 #[test]

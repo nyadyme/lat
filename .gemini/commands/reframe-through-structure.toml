@@ -67,17 +67,17 @@ If it is empty, ask the user for a concrete sentence or paragraph.
    `Space & orientation`, `Possession & belonging`, `Logic & ambiguity`.
    `Agency & control` is about the actor's relation to the act (does one exist,
    was it willed, who caused it); `Rank & salience` about which participant
-   stands in front of the others. Call `list_facets` if unsure of the exact
-   strings, then `search_patterns` on that `theme`. Pull details with
-   `get_pattern` as needed (focus, feature). Search forms by `theme` as well —
-   most carry one. Only patterns whose mechanic is purely acoustic, metrical or
-   typographic carry none; reach those via `tag`/`category`/`text`. Two further
-   filters serve combination rather than selection: `attachment` (exact, eleven
-   anchors) and `forced_choice` (substring) — use them to check what a candidate
-   lens would duplicate. Query per object and per axis, never from recall of an
-   earlier run, and sweep by anchor and by category as well as by theme; see
-   *Coverage* below for why one sweep is not enough and what has to be written
-   down.
+   stands in front of the others. Call `list_facets` if unsure
+   of the exact strings, then `search_patterns` on that `theme`. Pull details
+   with `get_pattern` as needed (focus, feature). Search forms by
+   `theme` as well — most carry one. Only patterns whose mechanic is purely
+   acoustic, metrical or typographic carry none; reach those via
+   `tag`/`category`/`text`. Two further filters serve combination rather than
+   selection: `attachment` (exact, eleven anchors) and `forced_choice`
+   (substring) — use them to check what a candidate lens would duplicate.
+   Query per object and per axis, never from recall of an earlier run, and
+   sweep by anchor and by category as well as by theme; see *Coverage* below
+   for why one sweep is not enough and what has to be written down.
 4. **Account for the input language (contrast, not match).** See the section
    below: exclude the user's own language and prefer language lenses that
    foreground what it backgrounds. Forms are language-neutral and always apply.
@@ -274,9 +274,9 @@ sentence. Sequence therefore constrains *what a lens is told*, never *what it
 reads*.
 
 **Redundancy interference.** Two lenses that force the same choice yield
-correlated rows that look like two independent pieces of evidence. Tuyuca and
-Tariana distort no text — they distort the count, and the weaker of the two
-goes invisible behind the stronger. Guard: **no two lenses with the same forced
+correlated rows that look like two independent pieces of evidence. Nez Percé
+(Nimipuutímt) and Oromo (marked nominative) distort no text — they distort the
+count, and the weaker of the two goes invisible behind the stronger. Guard: **no two lenses with the same forced
 choice at the same attachment point** — the screen below. A shared axis is not
 by itself a collision: the axis is a search bucket, eleven of them over the
 whole catalogue, and K4 to K6 each stack four lenses on one axis on purpose.
@@ -302,13 +302,14 @@ being authored per entry to read distinctively.
 | `forced_choice` | whether the noun denotes a countable unit | how far the event reached the object |
 | `attachment` | `noun` | `object` |
 
-Same axis, two strings, two anchors: keep both. Against that, `Tuyuca` and
-`Tariana` both read `the source of the information` at `verb` — one string,
-one anchor, one finding.
+Same axis, two strings, two anchors: keep both. Against that, `Nez Percé
+(Nimipuutímt)` and `Oromo (marked nominative)` both read `whether the
+participant is the one acting` at `subject` — one string, one anchor, one
+finding.
 
 To see every partner of a lens before combining, hand both fields back to the
 catalogue:
-`search_patterns { "attachment": "verb", "forced_choice": "the source of the information" }`.
+`search_patterns { "attachment": "subject", "forced_choice": "whether the participant is the one acting" }`.
 Anything that comes back beside the lens in hand is a lens not to add.
 
 Where choice and anchor do coincide, the collision is of one of three kinds:
@@ -330,10 +331,12 @@ all four, but alienability, direction of dependence, anchor retention and
 intended use are four different forced choices.
 
 **The screen is cheap and incomplete.** `Basque (Euskara)` asks
-`whether the act was willed`, `Nez Percé (Nimipuutímt)` asks
-`whether the participant is the one acting` — two strings at the same anchor,
-so both pass, and yet on most sentences they land in the same verdict space.
-Cases like that are decided on the finished rows, not in advance.
+`whether the participant patterns with the object`, `Dyirbal (syntactic
+ergativity)` asks `which participant may carry through the chain` — two
+strings at the same anchor, and both turn on one and the same merge of actor
+and undergoer, the first inside a clause and the second across a chain. On a
+single sentence only Basque returns anything; on a chain both fire. Cases like
+that are decided on the finished rows, not in advance.
 
 **The independence test.** Because every lens read the source in its original
 state, redundancy is measurable afterwards instead of guessed beforehand: cover
@@ -384,7 +387,7 @@ are independent by construction, because every lens saw the same input.
 | Lens | Forces the choice | Attaches to | Role | Polarity | Finding |
 |---|---|---|---|---|---|
 | `Node collapse` | thing or relation | the nouns | reduction | constructive | what survives without them |
-| `Basque (Euskara)` | deliberate agent or not | the subject case | ablation | destructive | no payable ergative candidate |
+| `Basque (Euskara)` | patterns with the object or not | the subject case | ablation | destructive | subject indistinguishable from an undergoer |
 | `Tuyuca` | source of the information | the verb ending | ablation | destructive | inference, given as observation |
 | `Form-switch` | — | the genre | reconstruction | constructive | the replacement phrasing |
 
@@ -418,6 +421,21 @@ Selection follows the **grammar of the source sentence**, not its topic.
 The last row is deliberately not a built-out combination: `Space & orientation`
 is the smallest axis in the catalogue.
 
+**A contested lens stays out of the combinations.** A pattern whose `status` is
+`contested` has been checked against its source and is defensible; what is
+disputed is the reading the lens rests on. Used alone that is harmless — the
+row stands by itself, carries its mark, and can be weighed. A combination is
+different: its rows are read together as one result, so a disputed lens inside
+one contaminates a matrix that looks settled, and the contamination is invisible
+in the output. Assemble every combination with
+`search_patterns { …, "exclude_contested": true }`; reach for a
+contested lens only as a single lens in pass 1.
+
+**A finding that rests on a contested lens is marked wherever it is named.**
+Write the status with the name — `` `Hopi` (contested) `` — in the finding
+matrix, in the verdict record and in the prose. The entry's `source` field says
+what is argued and by whom; the mark is the part that survives being quoted.
+
 ### The combinations
 
 **K1 — base cycle.** For every sentence, whatever its content.
@@ -431,21 +449,20 @@ survives the detour, as possession does between German and English.
 
 **K2 — agent pincer.** A subject acts that cannot act: institution,
 collective, natural process, patient.
-`Basque (Euskara)` then `Nez Percé (Nimipuutímt)` then
-`Turkish (stacked causatives)` then `Tagalog`.
-Is the ergative payable at all; is "existing" being equated with "acting
-upon"; how many instigators stand between speaker and execution — the count is
-always at least one and the sentence always claims none; then focus choice
-supplies the replacement. A *negative* result is informative: no ergative
-candidate means the sentence has a victim and no causer.
+`Basque (Euskara)` then `Nez Percé (Nimipuutímt)` then `Tagalog`.
+Does the subject pattern with the object; is "existing" being equated with
+"acting upon"; then focus choice supplies the replacement. A *negative* result
+is informative: a subject that falls together with the undergoer means the
+sentence has a victim and no causer. The instigator count that stood third —
+`Turkish (stacked causatives)`, how many links lie between the speaker and the
+hands that acted — is contested and no longer rides in the pincer; ask it as a
+single lens in pass 1 where the sentence hides a chain of delegation.
 
 **K3 — source pincer.** The sentence gives inference, report or memory as
 observation.
-`Tuyuca` then `Wintu` then `Nganasan` then `Latin (oratio obliqua)`.
-Five sources fanned out, then felt against read off, then the category German
-lacks — *conscious myth*, for formulae everyone involved holds to be
-insufficient and uses anyway. The *oratio obliqua* finally marks the whole
-passage as report.
+`Tuyuca` then `Ewe (logophoric pronouns)` then `Latin (oratio obliqua)`.
+Five sources fanned out, then whether a report speaks of the one quoted or of
+another, then the *oratio obliqua* marks the whole passage as report.
 
 **K4 — boundary pincer.** A definite singular article disguises a population, a
 mass or a bundle.
@@ -458,26 +475,34 @@ All four are purely destructive — without the appended constructive lens the
 pincer yields nothing but the news that the article is wrong.
 
 **K5 — aspect pincer.** A perfect or past tense contracts a running process to
-a point. Four completion questions that do not overlap, and a closer.
-`Russian` then `Maya-Zutuhil` then `Finnish (partitive object)` then `Hopi`,
-plus `Guaraní`.
+a point. Two completion questions at two anchors, and a closer.
+`Russian` then `Finnish (partitive object)`, plus `Guaraní`.
 
 | Lens | Forces the choice | Attaches to |
 |---|---|---|
 | `Russian` | whether the act is goal-directed or processual | `verb` |
-| `Maya-Zutuhil` | how far the state has been carried | `verb` |
 | `Finnish (partitive object)` | how far the event reached the object | `object` |
-| `Hopi` | whether the content is manifested or still manifesting | `verb` |
 | `Guaraní` | at which stage of its existence the thing is named | `noun` |
 
-Three of the five sit at `verb` with three different forced choices — the case
-the screen exists to allow. `Finnish (partitive object)` carries the sharpest
+This pincer used to run four diagnostics. Two of them — `Tz'utujil` and `Hopi`
+— are contested and have left it, and the catalogue holds no sourced
+replacement that is genuinely independent. `Biblical Hebrew` was the obvious
+candidate and does not qualify twice over: its forced choice, whether the event
+is completed or still running, sits at `verb` beside `Russian` and lands in the
+same verdict space on most sentences; and the half of it that *is* distinct —
+the prefixed waw reversing a form's value in a chain — rests on an account that
+has been challenged, so promoting it would only move the lens from sourced to
+contested and out of the pincer again. That is a gap in the catalogue, not a
+slot to be filled. Both contested lenses remain available singly in pass 1,
+marked.
+
+`Finnish (partitive object)` carries the sharpest
 move in the chain: under negation every object turns partitive, so a denial
 cannot leave its object whole, and a claim that a search came up empty cannot be
 stated as a claim about a completed search.
 
-`Guaraní` is the reconstruction, and it was missing: the other four are all
-diagnostic, and a combination may not leave role (4) empty. Nominal aspect puts
+`Guaraní` is the reconstruction: the others are diagnostic, and a combination
+may not leave role (4) empty. Nominal aspect puts
 the epoch on the noun (*-kue* for the former, *-rã* for the prospective), so a
 measurement and its date become one word and cannot drift apart.
 
@@ -534,23 +559,24 @@ warn of these — it matches by exact name, so structural relatives pass straigh
 through — but `attachment` plus `forced_choice` does, and the generated list of
 every such group lives in the repo's facets snapshot.
 
-- **graded:** `Tuyuca` + `Tariana` — the source of the information, at the verb
-  ending, twice; the second only stricter.
 - **parallel:** `Nez Percé (Nimipuutímt)` + `Oromo (marked nominative)` — one
   string, `whether the participant is the one acting`, at one anchor. This is
   why K2 keeps Nez Percé and drops Oromo. `Basque (Euskara)` asks something
-  else and stays, though it and Nez Percé remain borderline on most sentences.
-- **parallel:** `Basque (Euskara)` + `Burushaski` — the same anchor again, a
-  different choice: both read `whether the act was willed` at `subject`. Basque
-  gates the ergative on deliberateness; Burushaski switches marking between a
-  controlled act and an involuntary reflex. The mechanisms differ and the
-  verdict does not, so either, never both. K2 takes Basque, which the rule
-  permits without further reason; prefer Burushaski where intentionality is a
-  matter of degree rather than a yes or no, since its entry is built on grading
-  it. This pair comes from comparing the two fields, not from the run, and it
-  is the kind that a reading of `focus` alone would miss — "System state
-  instead of agency" and "Grading of involuntary vs. intentional causation" do
-  not look alike.
+  else and stays: it and Nez Percé are near-inverses at that anchor — Nez Percé
+  refuses the merge of intransitive subject and object that Basque performs, so
+  the two return different findings on the same sentence and may be combined.
+- **graded:** `Tuyuca` + `Wintu` — one string, `the source of the information`,
+  at one anchor. Tuyuca marks all five sources; Wintu marks four and leaves
+  plain sight unmarked, so it is the coarser instrument for the same question.
+  Either, never both.
+- **checked, not a collision:** `Basque (Euskara)` + `Burushaski` — the same
+  anchor, and formerly the same string. Burushaski switches marking between a
+  controlled act and an involuntary reflex; Basque gates the ergative on clause
+  transitivity, not on intent. The shared string was an error in the Basque
+  entry, not a shared question. Recorded because the pair comes from comparing
+  the two fields rather than from a run, and a reading of `focus` alone would
+  still miss it — "System state instead of agency" and "Grading of involuntary
+  vs. intentional causation" do not look alike.
 - **role collision:** `Node collapse` + `Toki Pona` + `Pirahã` — three
   reduction procedures yielding the same invariant. One reducer is enough; the
   others cost space and produce the false impression of triple confirmation.

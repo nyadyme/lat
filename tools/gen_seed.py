@@ -20,7 +20,8 @@ OUT = REPO / "src" / "seed.sql"
 
 # Column order as it appears in the catalogue tables.
 COLS = ["name", "category", "classification", "focus", "feature",
-        "forced_choice", "attachment", "description", "tags", "themes"]
+        "forced_choice", "attachment", "description", "tags", "themes",
+        "source", "status"]
 
 # Closed vocabulary for `attachment`: the constituent a pattern interrogates.
 # Kept coarse on purpose — the finer the anchor, the more collisions between
@@ -39,6 +40,14 @@ THEMES = {
     "Evidence & certainty", "Space & orientation", "Possession & belonging",
     "Logic & ambiguity",
 }
+
+
+# Closed vocabulary for `status`. `sourced` means the entry was checked against
+# the work named in `source` and the cells say what that work says; `contested`
+# means the same, plus the finding is disputed in the literature. Neither is a
+# parking slot for an entry nobody has looked up: the empty value was that
+# backlog and is no longer accepted, because the backlog is empty.
+STATUSES = {"sourced", "contested"}
 
 
 def parse_cells(line):
@@ -70,10 +79,25 @@ def json_arr(cell):
 def check_vocabulary(row):
     """Abort on a value outside one of the closed vocabularies.
 
-    Both fields are load-bearing and fail quietly if wrong: an unknown
-    attachment drops a pattern out of every anchor comparison, and a mistyped
-    theme makes it unreachable by the theme filter that is the main way in.
+    All three fail quietly if wrong: an unknown attachment drops a pattern out
+    of every anchor comparison, a mistyped theme makes it unreachable by the
+    theme filter that is the main way in, and a mistyped status slips past
+    `exclude_contested`, which is the one filter meant to hold a disputed
+    finding back.
     """
+    if not row["source"]:
+        # Every entry in the catalogue has been checked against a work, so an
+        # empty cell now means a new entry was written from recall. That is the
+        # one failure this column exists to catch, and it is caught here rather
+        # than by a reader noticing the claim is wrong.
+        raise SystemExit(
+            f"{row['name']}: no source. Name the work the entry was checked "
+            "against — a reference work where a traditional form has no "
+            "author. If nothing was opened, the entry does not go in.")
+    if row["status"] not in STATUSES:
+        raise SystemExit(
+            f"{row['name']}: unknown status {row['status']!r}; "
+            f"allowed: {sorted(STATUSES)}")
     if row["attachment"] not in ATTACHMENTS:
         raise SystemExit(
             f"{row['name']}: unknown attachment {row['attachment']!r}; "
@@ -102,9 +126,15 @@ def main():
         if kind is None or not s.startswith("|"):
             continue
         cells = parse_cells(line)
-        if (len(cells) != len(COLS) or cells[0] == "Name"
-                or is_separator(cells)):
+        if cells[0] == "Name" or is_separator(cells):
             continue
+        if len(cells) != len(COLS):
+            # Skipping quietly here is how a mis-typed row leaves the
+            # catalogue without anything downstream noticing: the seed simply
+            # comes out one entry short.
+            raise SystemExit(
+                f"{CATALOG.name}: row {cells[0]!r} has {len(cells)} cells, "
+                f"expected {len(COLS)} ({', '.join(COLS)})")
         row = dict(zip(COLS, cells))
         check_vocabulary(row)
         rows[kind].append(row)
@@ -123,7 +153,7 @@ def main():
         parts.append(
             f"INSERT INTO {table}\n"
             "    (name, description, focus, category, classification, feature,\n"
-            "     forced_choice, attachment, tags, themes)\n"
+            "     forced_choice, attachment, tags, themes, source, status)\n"
             "VALUES"
         )
         values = [
@@ -139,15 +169,22 @@ def main():
                 sql_str(d["attachment"]),
                 sql_str(json_arr(d["tags"])),
                 sql_str(json_arr(d["themes"])),
+                sql_str(d["source"]),
+                sql_str(d["status"]),
             ])
             + ")"
             for d in rows[table]
         ]
         parts.append(",\n".join(values) + ";\n")
 
-    OUT.write_text("\n".join(parts), encoding="utf-8")
+    # newline="\n" because the default translates to the platform's ending,
+    # which on Windows rewrites every line of the generated file. Git stores
+    # LF either way, so the commit looks clean while the working tree reports
+    # the whole file as modified after each run.
+    OUT.write_text("\n".join(parts), encoding="utf-8", newline="\n")
     print(f"wrote {OUT.relative_to(REPO)}: "
           f"{len(rows['languages'])} languages, {len(rows['forms'])} forms")
+
     return 0
 
 

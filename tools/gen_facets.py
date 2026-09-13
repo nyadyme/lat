@@ -17,7 +17,8 @@ CATALOG = REPO / "additional_docs" / "lat_catalog.md"
 OUT = REPO / "additional_docs" / "lat_facets.md"
 
 COLS = ["name", "category", "classification", "focus", "feature",
-        "forced_choice", "attachment", "description", "tags", "themes"]
+        "forced_choice", "attachment", "description", "tags", "themes",
+        "source", "status"]
 
 
 def parse_cells(line):
@@ -50,11 +51,33 @@ def parse_catalog():
         if kind is None or not s.startswith("|"):
             continue
         cells = parse_cells(line)
-        if (len(cells) != len(COLS) or cells[0] == "Name"
-                or is_separator(cells)):
+        if cells[0] == "Name" or is_separator(cells):
             continue
+        if len(cells) != len(COLS):
+            # Same abort as in gen_seed.py: a row of the wrong width would
+            # otherwise drop out of the facets without a word, and the snapshot
+            # would advertise one filter value fewer than the database has.
+            raise SystemExit(
+                f"{CATALOG.name}: row {cells[0]!r} has {len(cells)} cells, "
+                f"expected {len(COLS)} ({', '.join(COLS)})")
         rows[kind].append(dict(zip(COLS, cells)))
     return rows
+
+
+def status_lines(rows):
+    """One line per status value, plus the entries still without a source.
+
+    The count is the progress meter for the source work, and the reason
+    `exclude_contested` returns less than the catalogue holds.
+    """
+    out = []
+    for value in ("sourced", "contested"):
+        names = [r["name"] for r in rows if r["status"] == value]
+        out.append(f"- `{value}` — {len(names)}")
+    blank = [r["name"] for r in rows if not r["source"]]
+    out.append(f"- no source yet — {len(blank)} (excluded by "
+               f"`exclude_contested`)")
+    return "\n".join(out)
 
 
 def distinct_col(rows, col):
@@ -208,9 +231,17 @@ def main():
             f"### Tags ({len(tags)})",
             tagline(tags),
             "",
+            f"### Status ({sum(1 for r in data if r['source'])}"
+            f" of {len(data)} with a source)",
+            status_lines(data),
+            "",
         ]
 
-    OUT.write_text("\n".join(lines), encoding="utf-8")
+    # newline="\n" because the default translates to the platform's ending,
+    # which on Windows rewrites every line of the generated file. Git stores
+    # LF either way, so the commit looks clean while the working tree reports
+    # the whole file as modified after each run.
+    OUT.write_text("\n".join(lines), encoding="utf-8", newline="\n")
     print(f"wrote {OUT.relative_to(REPO)}: "
           f"languages themes={len(distinct_arr(rows['languages'], 'themes'))}, "
           f"forms themes={len(distinct_arr(rows['forms'], 'themes'))}")

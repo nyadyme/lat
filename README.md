@@ -120,15 +120,19 @@ share the same columns:
 | `attachment` | The constituent it interrogates. Closed vocabulary (see below) |
 | `tags` | JSON array of free keywords (linguistic features, formal mechanics) |
 | `themes` | JSON array from a closed cognitive-axis vocabulary (see below) |
+| `source` | The work the entry was checked against: author, title, year — or a reference work, where a traditional form has no author. Never empty; an entry without one aborts generation |
+| `status` | `sourced`, or `contested` where the finding is checked and defensible but disputed in the literature. A contested lens may be used alone but not inside a combination |
 
 `themes` is drawn from a fixed set of eleven axes — `Causality`,
 `Agency & control`, `Rank & salience`, `Time & aspect`, `Coexistence`,
 `Perspective & reciprocity`, `Object boundaries`, `Evidence & certainty`,
 `Space & orientation`, `Possession & belonging`,
 `Logic & ambiguity` — used to match a problem's structural bias to patterns that
-reframe that axis. Every language carries a theme and so do most forms; only
-patterns whose mechanics are purely acoustic, metrical or typographic carry none,
-and those are found via `tags`/`category`. Multi-valued `tags` and `themes`
+reframe that axis. Every language carries a theme and so do most forms; a
+pattern carries none where its mechanic is purely formal — a quantity pattern, a
+rule about which material returns, a typographic arrangement — and those are
+found via `tags`/`category` instead. A form or foot that carried an axis would
+surface in every sweep of it, which is noise where the diagnosis starts. Multi-valued `tags` and `themes`
 are stored as JSON arrays and filtered with SQLite's `json_each` (guarded by
 `json_valid`, so a malformed cell cannot abort a query).
 
@@ -140,7 +144,7 @@ generation. `forced_choice` is written to be *shared*: two patterns that force
 the same choice carry byte-identical strings, so equality of the pair means
 their findings are correlated and a combination should take at most one of them.
 That is what `focus` cannot do — it is authored per entry to be distinctive, so
-Tuyuca and Tariana describe one and the same choice in two different phrasings.
+Nez Percé and Oromo describe one and the same choice in two different phrasings.
 The colliding groups are listed, generated from the catalog, in
 [`additional_docs/lat_facets.md`](additional_docs/lat_facets.md).
 
@@ -156,7 +160,7 @@ All tools are read-only. Every filter is optional and filters are AND-combined.
 
 | Tool | Purpose |
 |---|---|
-| `search_patterns` | Find patterns by `kind`, `theme`, `category`, `classification`, `focus`, `forced_choice`, `attachment`, `tag`, free `text`, or `exclude_names` (drop the user's own language so contrasting lenses surface). |
+| `search_patterns` | Find patterns by `kind`, `theme`, `category`, `classification`, `focus`, `forced_choice`, `attachment`, `tag`, free `text`, `exclude_names` (drop the user's own language so contrasting lenses surface), or `exclude_contested` (keep only entries with a source and an undisputed finding). |
 | `get_pattern` | Full details of one pattern by `kind` + `name`. |
 | `list_patterns` | List all patterns, optionally restricted to one `kind`. |
 | `list_facets` | Distinct categories / classifications / attachments / tags / themes per table, so the agent knows valid filter values. |
@@ -458,8 +462,16 @@ of it.
   ```sh
   python tools/gen_seed.py      # regenerate src/seed.sql from the catalog
   python tools/gen_facets.py    # refresh additional_docs/lat_facets.md (filter-value reference)
+  python tools/check_doctrine.py  # the workflow's combinations against the catalog
   # then delete the database file and restart, or rebuild
   ```
+  `gen_seed.py` refuses a row with no `source`, an unknown `status`, an unknown
+  anchor or axis, or the wrong number of cells. `check_doctrine.py` holds every
+  lens the workflow's combinations enlist against the catalog: a name that is
+  gone, a lens whose status is `contested`, or two lenses that measure the same
+  thing all fail it.
+  It also reads each entry against itself: prose that names an axis the row
+  does not carry is the mark of a correction that stopped at one cell.
 - Editing the workflow: edit `.claude/skills/reframe-through-structure/SKILL.md`
   (the single source of truth for all three agent hosts), then regenerate the
   Gemini and Copilot variants:
@@ -489,6 +501,7 @@ tools/
   gen_seed.py               # catalog → src/seed.sql
   gen_facets.py             # catalog → additional_docs/lat_facets.md
   gen_agent_prompts.py      # skill → Gemini command + Copilot prompt
+  check_doctrine.py         # workflow combinations → checked against the catalog
 .claude/skills/reframe-through-structure/SKILL.md    # workflow — single source of truth
 .github/prompts/reframe-through-structure.prompt.md  # generated — Copilot prompt
 .gemini/commands/reframe-through-structure.toml      # generated — Gemini command

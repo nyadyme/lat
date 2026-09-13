@@ -50,11 +50,18 @@ pub struct SearchParams {
     /// Exact attachment: the constituent a pattern interrogates, e.g. 'verb',
     /// 'subject', 'noun', 'possessive', 'whole passage'. See list_facets.
     pub attachment: Option<String>,
-    /// Free text across name, description, feature, tags and classification.
+    /// Free text across name, description, feature, tags, classification and
+    /// source.
     pub text: Option<String>,
     /// Names to exclude, e.g. the user's own language, so that contrasting
     /// lenses surface rather than the structure they already think in.
     pub exclude_names: Option<Vec<String>>,
+    /// Keep only entries whose status is 'sourced': checked against the work
+    /// named in their source field, with the finding undisputed. Drops both
+    /// 'contested' entries and entries whose source has not been filled in
+    /// yet. Use it when a finding has to stand on its own; leave it off to see
+    /// the whole catalogue and judge per entry.
+    pub exclude_contested: Option<bool>,
 }
 
 impl SearchParams {
@@ -71,6 +78,7 @@ impl SearchParams {
                 attachment: self.attachment,
                 text: self.text,
                 exclude_names: self.exclude_names.unwrap_or_default(),
+                exclude_contested: self.exclude_contested.unwrap_or(false),
             },
         )
     }

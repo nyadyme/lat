@@ -47,6 +47,17 @@ pub struct Pattern {
     pub attachment: String,
     pub tags: Vec<String>,
     pub themes: Vec<String>,
+    /// The work the entry was checked against: author, title, year, or a
+    /// reference work where a form has no author. Never empty once the
+    /// catalogue is fully researched — an entry nobody has looked up cannot
+    /// be told apart from one that was, and that is the whole point of the
+    /// field.
+    pub source: String,
+    /// `sourced` or `contested`. `contested` means checked and defensible,
+    /// with the finding disputed in the literature — not "unverified"; an
+    /// entry without a source carries the empty value instead and is filtered
+    /// out by `exclude_contested`.
+    pub status: String,
 }
 
 /// The available filter values of a table, so the agent knows valid filters.
@@ -82,6 +93,11 @@ pub struct SearchFilters {
     /// Names to exclude from results (e.g. the user's own/source language, so
     /// contrasting lenses surface). Empty means no exclusion.
     pub exclude_names: Vec<String>,
+    /// Keep only entries whose `status` is exactly `sourced`. Deliberately
+    /// tested that way round rather than as "not contested": an entry with no
+    /// source yet carries neither value, and a filter meant to hold back a
+    /// disputed finding must not let an unchecked one through instead.
+    pub exclude_contested: bool,
 }
 
 #[cfg(test)]
@@ -137,6 +153,8 @@ mod tests {
             attachment: "whole passage".to_owned(),
             tags: vec!["cut".to_owned()],
             themes: vec!["Time & aspect".to_owned()],
+            source: "Higginson, The Haiku Handbook".to_owned(),
+            status: "sourced".to_owned(),
         };
 
         let json = serde_json::to_value(&pattern).unwrap();
@@ -149,6 +167,8 @@ mod tests {
             "whether two images need a connective"
         );
         assert_eq!(json["attachment"], "whole passage");
+        assert_eq!(json["source"], "Higginson, The Haiku Handbook");
+        assert_eq!(json["status"], "sourced");
     }
 
     #[test]
@@ -179,5 +199,9 @@ mod tests {
         assert!(filters.attachment.is_none());
         assert!(filters.text.is_none());
         assert!(filters.exclude_names.is_empty());
+        assert!(
+            !filters.exclude_contested,
+            "the default must not silently narrow a caller's search"
+        );
     }
 }
