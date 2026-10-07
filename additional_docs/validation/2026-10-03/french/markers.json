@@ -1,0 +1,3402 @@
+{
+ "1": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "le royaume d'Angleterre / le royaume de France / La guerre de Cent Ans"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "guerre de Cent Ans / royaume d'Angleterre"
+  }
+ },
+ "2": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "cette succession de conflits"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "succession de conflits"
+  }
+ },
+ "3": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "la guerre de Cent Ans"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "sa mère"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "couronne de France / axes de tensions"
+  }
+ },
+ "4": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "la population"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "Son origine"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "5": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "La guerre de Cent Ans"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "périodes de conflits"
+  }
+ },
+ "6": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "l'Angleterre qui ... remporte"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "l'Angleterre"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "son fils"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "roi d'Angleterre / batailles de Crécy"
+  }
+ },
+ "7": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "son fils"
+  },
+  "K7": {
+   "present": true,
+   "span": "à cause de"
+  },
+  "K8": {
+   "present": true,
+   "span": "règne de Philippe VI / roi de Navarre"
+  }
+ },
+ "8": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "traité de Brétigny / trône de France"
+  }
+ },
+ "9": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "la France"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "10": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "sa victoire / ses prétentions"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "bataille de Cocherel"
+  }
+ },
+ "11": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "La France entame"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "La France"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "12": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "stratégie de Bertrand du Guesclin"
+  }
+ },
+ "13": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "dioxyde de carbone"
+  }
+ },
+ "14": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "15": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "16": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "vapeur d'eau"
+  }
+ },
+ "17": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "a été ensuite transmise"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "18": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "libération d'oxygène"
+  }
+ },
+ "19": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "taux d'oxygène"
+  }
+ },
+ "20": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "21": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "22": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "23": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "cycle de Calvin"
+  }
+ },
+ "24": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "cycle de Calvin"
+  }
+ },
+ "25": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "pouvoir d'achat"
+  }
+ },
+ "26": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "l'économie"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "prix des biens et services"
+  }
+ },
+ "27": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "quantité de monnaie"
+  }
+ },
+ "28": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "29": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "on l'évalue"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "indice des prix à la consommation"
+  }
+ },
+ "30": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "« [L'inflation] doit être distinguée ... » (unattributed quotation, indicative)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": true,
+   "span": "car"
+  },
+  "K8": {
+   "present": true,
+   "span": "coût de la vie"
+  }
+ },
+ "31": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "taux d'inflation"
+  }
+ },
+ "32": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "l'administration française"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Institut national de la statistique / indicateur de l'inflation"
+  }
+ },
+ "33": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Système européen de banques centrales"
+  }
+ },
+ "34": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "la zone euro"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "postes de prix"
+  }
+ },
+ "35": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "postes de consommation / produits de santé"
+  }
+ },
+ "36": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "concept d'inflation"
+  }
+ },
+ "37": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "son mariage"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "sanatorium de Sancellemoz"
+  }
+ },
+ "38": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "39": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "40": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "son mari / ses travaux"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "41": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "ses propres mérites"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "42": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "leurs recherches"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "prix Nobel de physique"
+  }
+ },
+ "43": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "ses travaux"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "prix Nobel de chimie"
+  }
+ },
+ "44": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "ses cahiers"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "cahiers d'expérience"
+  }
+ },
+ "45": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "l'Empire russe"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "royaume de Pologne / congrès de Vienne"
+  }
+ },
+ "46": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "la Russie procède"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "la Russie"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "politique de russification"
+  }
+ },
+ "47": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "Son père / sa mère"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "48": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "49": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "La cuisine française"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "50": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "du pays"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "51": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "la gastronomie française"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "niveau de raffinement"
+  }
+ },
+ "52": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "53": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "la grande cuisine française"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "54": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "a été codifiée"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "55": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "son influence / sa variété"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "56": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "que l'on trouve"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "la cuisine des terroirs"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "cuisine des terroirs"
+  }
+ },
+ "57": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "la cuisine française"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "58": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "se sont développés"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "59": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "la cuisine française"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "marques de certification / appellation d'origine"
+  }
+ },
+ "60": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "Le « repas gastronomique des Français »"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Institut européen d'histoire"
+  }
+ },
+ "61": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "62": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "sont devenus"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "63": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "Selon le Credoc, 58 % ... consultent"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "sources d'information"
+  }
+ },
+ "64": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "65": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "l'Arcom ... souligne"
+  },
+  "K3": {
+   "present": true,
+   "span": "souligne que 49 % ... déclarent"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "troubles des conduites alimentaires"
+  }
+ },
+ "66": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "l'Anses alerte"
+  },
+  "K3": {
+   "present": true,
+   "span": "alerte ... rappelant que ces phénomènes…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "De son côté / santé mentale des adolesc…"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Agence nationale de sécurité sanitaire"
+  }
+ },
+ "67": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "68": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "nos travaux"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "analyse de publications"
+  }
+ },
+ "69": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "dont l'origine"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "perte de poids"
+  }
+ },
+ "70": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "71": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "leurs préoccupations"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "72": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "73": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "Les plateformes sélectionnent"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "notre attention"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "74": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "son alimentation"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "75": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "76": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "77": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "comptage des calories"
+  }
+ },
+ "78": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "récits de perte de poids"
+  }
+ },
+ "79": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "80": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "questions de santé"
+  }
+ },
+ "81": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "a démissionné ..., a annoncé ... le gou…"
+  },
+  "K4": {
+   "present": true,
+   "span": "l'administration pénitentiaire / l'Etat"
+  },
+  "K5": {
+   "present": true,
+   "span": "a démissionné"
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "82": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "démissionnera ..., a précisé ... le gou…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "83": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "84": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "a été laissée inconsciente ..., selon u…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "ses avocats"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "85": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "femme de 50 ans"
+  }
+ },
+ "86": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "est hospitalisée ..., a précisé son avo…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "son avocat"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "87": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "des experts ... comparaient"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "eau de Javel"
+  }
+ },
+ "88": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "Selon Luke Ihnen, les médecins « se son…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "ses bras / son arrivée"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "89": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "l'Etat lui devait"
+  },
+  "K3": {
+   "present": true,
+   "span": "a déclaré ... que « l'Etat lui devait »"
+  },
+  "K4": {
+   "present": true,
+   "span": "l'Etat"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "90": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "l'Agence internationale de l'énergie [a…"
+  },
+  "K3": {
+   "present": true,
+   "span": "ont été libérés ..., a annoncé ... l'AIE"
+  },
+  "K4": {
+   "present": true,
+   "span": "le G7"
+  },
+  "K5": {
+   "present": true,
+   "span": "ont été libérés à ce jour"
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "réserves stratégiques de pétrole"
+  }
+ },
+ "91": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "ont atteint"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "92": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "S'y sont ... ajoutés"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "93": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "l'AIE précisait / ses Etats membres dét…"
+  },
+  "K3": {
+   "present": true,
+   "span": "l'AIE précisait que ses Etats membres d…"
+  },
+  "K4": {
+   "present": true,
+   "span": "l'industrie"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "ses Etats membres"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "stocks d'urgence"
+  }
+ },
+ "94": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "guerre du Kippour"
+  }
+ },
+ "95": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "Le G7 a annoncé"
+  },
+  "K3": {
+   "present": true,
+   "span": "Le G7 a annoncé « ... qui commencera im…"
+  },
+  "K4": {
+   "present": true,
+   "span": "Le G7"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "96": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "approvisionnement en hydrocarbures"
+  }
+ },
+ "97": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "ont fortement augmenté"
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "prix des carburants"
+  }
+ },
+ "98": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "Washington a ... alimenté / l'Union eur…"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "l'Union européenne"
+  },
+  "K5": {
+   "present": true,
+   "span": "a ... alimenté les tensions"
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "99": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "la presse américaine avait affirmé / l'…"
+  },
+  "K3": {
+   "present": true,
+   "span": "la presse américaine avait affirmé que …"
+  },
+  "K4": {
+   "present": true,
+   "span": "la presse américaine"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "100": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "Donald Trump avait affirmé que « ça n'a…"
+  },
+  "K4": {
+   "present": true,
+   "span": "du G7"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "de-genitive (N de DET N / N de PropN)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ }
+}

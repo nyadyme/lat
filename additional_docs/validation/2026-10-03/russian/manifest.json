@@ -1,0 +1,982 @@
+[
+ {
+  "id": 1,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0",
+  "position_in_run": 1,
+  "sha256": "616ace7dc10c0508e24ef7981c58c69f46fe67fb174a8f979a3d7bc4bd6d32ed",
+  "revid": 155269428,
+  "revision_timestamp": "2026-09-24T15:51:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 2,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0",
+  "position_in_run": 2,
+  "sha256": "4dc9e70b5d4d89663e986be2e69f14997dd5f485b7a2b5ae7d1e39f3da594da8",
+  "revid": 155269428,
+  "revision_timestamp": "2026-09-24T15:51:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 3,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0",
+  "position_in_run": 3,
+  "sha256": "d3840c60e71a22532a4826545cb4e7fac820366d6d9ffd4a6b496e3511b29a70",
+  "revid": 155269428,
+  "revision_timestamp": "2026-09-24T15:51:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 4,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0",
+  "position_in_run": 4,
+  "sha256": "bd28bb7fb83db9a33e22e65d4735955885d3542d42561fccac8c7f2621333260",
+  "revid": 155269428,
+  "revision_timestamp": "2026-09-24T15:51:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 5,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0",
+  "position_in_run": 5,
+  "sha256": "acbed0e54214471c4334caced210181c8bd7d00fe819143b4252069b3dc0fb08",
+  "revid": 155269428,
+  "revision_timestamp": "2026-09-24T15:51:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 6,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0",
+  "position_in_run": 6,
+  "sha256": "fadc2e9519abc73a87eddec1d32a170c413d99be3c1868a4bb31f26ea0239754",
+  "revid": 155269428,
+  "revision_timestamp": "2026-09-24T15:51:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 7,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0",
+  "position_in_run": 7,
+  "sha256": "61aa195ac6f5cf6e57ca1652297c5bef583c14d0469ad56c038ed243fb237720",
+  "revid": 155269428,
+  "revision_timestamp": "2026-09-24T15:51:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 8,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0",
+  "position_in_run": 8,
+  "sha256": "a513941e78d3c0e45ae1296749b2ab20a08abe8f603ad0aff9ea82c65fb19ad2",
+  "revid": 155269428,
+  "revision_timestamp": "2026-09-24T15:51:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 9,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0",
+  "position_in_run": 9,
+  "sha256": "735bad9802e80d00959f892698584f872951fc7f2b689e90f3c5f2a34e90c651",
+  "revid": 155269428,
+  "revision_timestamp": "2026-09-24T15:51:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 10,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0",
+  "position_in_run": 10,
+  "sha256": "dd1e48a3970b037bd76181af2656515d03111dd86cf1ee9bdeee37d19f00c6c7",
+  "revid": 155269428,
+  "revision_timestamp": "2026-09-24T15:51:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 11,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0",
+  "position_in_run": 11,
+  "sha256": "f02ad375659212c2e7f755e67c601c48bc9b4475ed56f350578ab006d24426f7",
+  "revid": 155269428,
+  "revision_timestamp": "2026-09-24T15:51:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 12,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0",
+  "position_in_run": 12,
+  "sha256": "b088542371f2058731c59221a899115963bbc43a4492fcf6c170a79bf5254566",
+  "revid": 155269428,
+  "revision_timestamp": "2026-09-24T15:51:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 13,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%82%D0%BE%D1%81%D0%B8%D0%BD%D1%82%D0%B5%D0%B7",
+  "position_in_run": 1,
+  "sha256": "60df7dadc74875d456c57927ced2932701e7d77e66567bb79b777b4e896ef2e5",
+  "revid": 154852829,
+  "revision_timestamp": "2026-09-05T17:08:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 14,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%82%D0%BE%D1%81%D0%B8%D0%BD%D1%82%D0%B5%D0%B7",
+  "position_in_run": 2,
+  "sha256": "0c0ca94cc08afbce9db0a04633362df8750e2fdfb7fd218ae458df1cf2ad7067",
+  "revid": 154852829,
+  "revision_timestamp": "2026-09-05T17:08:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 15,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%82%D0%BE%D1%81%D0%B8%D0%BD%D1%82%D0%B5%D0%B7",
+  "position_in_run": 3,
+  "sha256": "0ea7d08b42d8051e7bbb883b90bdc80efceee5271b1dbbe71bb337ca7b3f6011",
+  "revid": 154852829,
+  "revision_timestamp": "2026-09-05T17:08:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 16,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%82%D0%BE%D1%81%D0%B8%D0%BD%D1%82%D0%B5%D0%B7",
+  "position_in_run": 4,
+  "sha256": "7b38763aff2564640782bedbf8550ca853f4738896a617eebb50a8e22a3401be",
+  "revid": 154852829,
+  "revision_timestamp": "2026-09-05T17:08:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 17,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%82%D0%BE%D1%81%D0%B8%D0%BD%D1%82%D0%B5%D0%B7",
+  "position_in_run": 5,
+  "sha256": "70477cff72b17976f41833e3d1c454b509f77f5b48600525a97cde47def6ccb4",
+  "revid": 154852829,
+  "revision_timestamp": "2026-09-05T17:08:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 18,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%82%D0%BE%D1%81%D0%B8%D0%BD%D1%82%D0%B5%D0%B7",
+  "position_in_run": 6,
+  "sha256": "1ad39f022085ab7b5c264ecacbf098533db5e71ba29329927d19327f38b883df",
+  "revid": 154852829,
+  "revision_timestamp": "2026-09-05T17:08:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 19,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%82%D0%BE%D1%81%D0%B8%D0%BD%D1%82%D0%B5%D0%B7",
+  "position_in_run": 7,
+  "sha256": "e2819c4e563be5e311624ffb9b738e5acbc8ff23dbd5f4391b49b783f9eaa3e1",
+  "revid": 154852829,
+  "revision_timestamp": "2026-09-05T17:08:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 20,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%82%D0%BE%D1%81%D0%B8%D0%BD%D1%82%D0%B5%D0%B7",
+  "position_in_run": 8,
+  "sha256": "65152fca8ff7064b7504ec971c11f81509904cebaae68288929b07ce97ac4e11",
+  "revid": 154852829,
+  "revision_timestamp": "2026-09-05T17:08:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 21,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%82%D0%BE%D1%81%D0%B8%D0%BD%D1%82%D0%B5%D0%B7",
+  "position_in_run": 9,
+  "sha256": "fce663c74bf8e02a2ec5a99f942b3d06cede06e0e88672367aa81ab680caf824",
+  "revid": 154852829,
+  "revision_timestamp": "2026-09-05T17:08:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 22,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%82%D0%BE%D1%81%D0%B8%D0%BD%D1%82%D0%B5%D0%B7",
+  "position_in_run": 10,
+  "sha256": "59092f44a61ebc03eb6e2f4c0cf9601f305bce0d395e40a26f9c50b69347e906",
+  "revid": 154852829,
+  "revision_timestamp": "2026-09-05T17:08:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 23,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%82%D0%BE%D1%81%D0%B8%D0%BD%D1%82%D0%B5%D0%B7",
+  "position_in_run": 11,
+  "sha256": "41d582f46adefd0a9aacfd16666c61b64d7ea21f0281a8e2723d66abe8dbb864",
+  "revid": 154852829,
+  "revision_timestamp": "2026-09-05T17:08:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 24,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%82%D0%BE%D1%81%D0%B8%D0%BD%D1%82%D0%B5%D0%B7",
+  "position_in_run": 12,
+  "sha256": "8bed9a6ae17bd3170e988092c539064ce510cfee78a206d00d48e40d90df7bad",
+  "revid": 154852829,
+  "revision_timestamp": "2026-09-05T17:08:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 25,
+  "domain": "wikipedia/politics-economics",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D1%8F",
+  "position_in_run": 1,
+  "sha256": "f459dcd02cdaabaafb468e474749163c8350b04872a04e8c8f15da85f2348887",
+  "revid": 154827362,
+  "revision_timestamp": "2026-09-03T16:36:20Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 26,
+  "domain": "wikipedia/politics-economics",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D1%8F",
+  "position_in_run": 2,
+  "sha256": "5a4c6442c7996db1652044c1f36591bebf716055776110fcbbbf4d94ed1d84a7",
+  "revid": 154827362,
+  "revision_timestamp": "2026-09-03T16:36:20Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 27,
+  "domain": "wikipedia/politics-economics",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D1%8F",
+  "position_in_run": 3,
+  "sha256": "603748ff0fe74298f57d1af38778851680075d3a85a611e1c123a9fc4379c5de",
+  "revid": 154827362,
+  "revision_timestamp": "2026-09-03T16:36:20Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 28,
+  "domain": "wikipedia/politics-economics",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D1%8F",
+  "position_in_run": 4,
+  "sha256": "b2daaf5f3078cf95281550ed6252c4326cc5de48cb91dc898dee57f6e573a3b5",
+  "revid": 154827362,
+  "revision_timestamp": "2026-09-03T16:36:20Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 29,
+  "domain": "wikipedia/politics-economics",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D1%8F",
+  "position_in_run": 5,
+  "sha256": "14f0f34ff03adf98940a44b59ecf827e7f580445939ed925225b684494386c34",
+  "revid": 154827362,
+  "revision_timestamp": "2026-09-03T16:36:20Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 30,
+  "domain": "wikipedia/politics-economics",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D1%8F",
+  "position_in_run": 6,
+  "sha256": "0f30ba789b361b00e3d0772e0cb2c527d78fdfb294b5c5bc073452b9926d7416",
+  "revid": 154827362,
+  "revision_timestamp": "2026-09-03T16:36:20Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 31,
+  "domain": "wikipedia/politics-economics",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D1%8F",
+  "position_in_run": 7,
+  "sha256": "c148fc7dc4889ef363209c864142ca3103fb348cf2f1776ca7bd4eab6a3ac65e",
+  "revid": 154827362,
+  "revision_timestamp": "2026-09-03T16:36:20Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 32,
+  "domain": "wikipedia/politics-economics",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D1%8F",
+  "position_in_run": 8,
+  "sha256": "698e6f30cfafeb3e6dba24a9c93b5d9c87e8f1cab0e6317ee5445f4516aea469",
+  "revid": 154827362,
+  "revision_timestamp": "2026-09-03T16:36:20Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 33,
+  "domain": "wikipedia/politics-economics",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D1%8F",
+  "position_in_run": 9,
+  "sha256": "1eaf87cb5648707d663861dc037ca26e5d0c1215db713d91e9c05382f42232ff",
+  "revid": 154827362,
+  "revision_timestamp": "2026-09-03T16:36:20Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 34,
+  "domain": "wikipedia/politics-economics",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D1%8F",
+  "position_in_run": 10,
+  "sha256": "8946dddff24442f34c7bb59e2be50127d8ba532f4efec5c58c61f0c92b766f21",
+  "revid": 154827362,
+  "revision_timestamp": "2026-09-03T16:36:20Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 35,
+  "domain": "wikipedia/politics-economics",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D1%8F",
+  "position_in_run": 11,
+  "sha256": "8bff33144a3ef6c1452820118e51b68196370b75dbf921c0252f1342bd4f9d36",
+  "revid": 154827362,
+  "revision_timestamp": "2026-09-03T16:36:20Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 36,
+  "domain": "wikipedia/politics-economics",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D1%8F",
+  "position_in_run": 12,
+  "sha256": "247fa1655c129c8bbf32beb1b2a79fd7b139d126f8d3eefa68315ca49b3170c6",
+  "revid": 154827362,
+  "revision_timestamp": "2026-09-03T16:36:20Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 37,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B5%D0%B2%2C_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+  "position_in_run": 1,
+  "sha256": "13732d109d3a3a5672e07265700ba236c83d685dbee34f268b9568d5a4550968",
+  "revid": 155228946,
+  "revision_timestamp": "2026-09-21T21:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 38,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B5%D0%B2%2C_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+  "position_in_run": 2,
+  "sha256": "d0b5724011c06710a62b717ca0cac8641608e73c3086614d85d45e01a82116c3",
+  "revid": 155228946,
+  "revision_timestamp": "2026-09-21T21:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 39,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B5%D0%B2%2C_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+  "position_in_run": 3,
+  "sha256": "2bef95d5f16bb90b2f7a481b4044e1f51d00e5e2dba2650ea61b1c41280e3e19",
+  "revid": 155228946,
+  "revision_timestamp": "2026-09-21T21:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 40,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B5%D0%B2%2C_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+  "position_in_run": 4,
+  "sha256": "5136e8c5d48513f14dd92c10232797c11800e7e057d730023436e42a45530681",
+  "revid": 155228946,
+  "revision_timestamp": "2026-09-21T21:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 41,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B5%D0%B2%2C_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+  "position_in_run": 5,
+  "sha256": "5aaa183c7a486ca170914b5573a14a265cb1a36760cf25181041d469b4d01ebd",
+  "revid": 155228946,
+  "revision_timestamp": "2026-09-21T21:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 42,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B5%D0%B2%2C_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+  "position_in_run": 6,
+  "sha256": "5f4d762b008e9d313b2472ee9066c3043e0582a087c4696b9087876f00686141",
+  "revid": 155228946,
+  "revision_timestamp": "2026-09-21T21:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 43,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B5%D0%B2%2C_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+  "position_in_run": 7,
+  "sha256": "57085ebac178df83ad8c0c732d59a3a48eb7c31fa5b868d8ee8dfed66a0c6d68",
+  "revid": 155228946,
+  "revision_timestamp": "2026-09-21T21:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 44,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B5%D0%B2%2C_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+  "position_in_run": 8,
+  "sha256": "d3bc91ead907ff1d5236f315892028662bac81e355f398a1a0ea942811cd4697",
+  "revid": 155228946,
+  "revision_timestamp": "2026-09-21T21:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 45,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B5%D0%B2%2C_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+  "position_in_run": 9,
+  "sha256": "e43293544740d1f6b59dc479b4658d58d3e4716c13e554551a18478bfd1dd62b",
+  "revid": 155228946,
+  "revision_timestamp": "2026-09-21T21:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 46,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B5%D0%B2%2C_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+  "position_in_run": 10,
+  "sha256": "1b0bbd7321d9be5bc26b4caf8b432cd6003840f51f8401a4e3b1e3d03fc826f5",
+  "revid": 155228946,
+  "revision_timestamp": "2026-09-21T21:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 47,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B5%D0%B2%2C_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+  "position_in_run": 11,
+  "sha256": "485999ada1e11c51b481b9a20df80d09151d89073863687cba1df8cb2732fdf3",
+  "revid": 155228946,
+  "revision_timestamp": "2026-09-21T21:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 48,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B5%D0%B2%2C_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+  "position_in_run": 12,
+  "sha256": "9cdfac4ee4562869e651855a456da433a9bc1fe638fc9b93ec442798b105a506",
+  "revid": 155228946,
+  "revision_timestamp": "2026-09-21T21:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 49,
+  "domain": "wikipedia/culture-society",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%86%D0%B0",
+  "position_in_run": 1,
+  "sha256": "ccd56ad3376b3a84a5d2c7cf3e6e71e2604b9906bd61ecceac670db90e3a881a",
+  "revid": 154894387,
+  "revision_timestamp": "2026-09-08T12:33:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 50,
+  "domain": "wikipedia/culture-society",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%86%D0%B0",
+  "position_in_run": 2,
+  "sha256": "bf507515d937b1d63409ae0eb85e806940e9acd8ee55e303eddefae193619bf3",
+  "revid": 154894387,
+  "revision_timestamp": "2026-09-08T12:33:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 51,
+  "domain": "wikipedia/culture-society",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%86%D0%B0",
+  "position_in_run": 3,
+  "sha256": "0fcc0369636367f21d5452b2f3a013bdc2150449679a52c767574585717cebde",
+  "revid": 154894387,
+  "revision_timestamp": "2026-09-08T12:33:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 52,
+  "domain": "wikipedia/culture-society",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%86%D0%B0",
+  "position_in_run": 4,
+  "sha256": "03cfebbcbf91c769cbb1b49212836705a8dbb1168ac1c0bae1641acd07c47c79",
+  "revid": 154894387,
+  "revision_timestamp": "2026-09-08T12:33:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 53,
+  "domain": "wikipedia/culture-society",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%86%D0%B0",
+  "position_in_run": 5,
+  "sha256": "2439630e0fad013e0a8fe0f8dfbbb22ab722e9e24caf548ad51ebc6733d01beb",
+  "revid": 154894387,
+  "revision_timestamp": "2026-09-08T12:33:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 54,
+  "domain": "wikipedia/culture-society",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%86%D0%B0",
+  "position_in_run": 6,
+  "sha256": "66508487780ee28bfe60e5f9187a4dd901d688e2b6d1b9869019376e151abcc4",
+  "revid": 154894387,
+  "revision_timestamp": "2026-09-08T12:33:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 55,
+  "domain": "wikipedia/culture-society",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%86%D0%B0",
+  "position_in_run": 7,
+  "sha256": "1fa308a22d98aa678b9022a8dd68dc65b883b0b0922b46fb9eb5d383c56b41fe",
+  "revid": 154894387,
+  "revision_timestamp": "2026-09-08T12:33:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 56,
+  "domain": "wikipedia/culture-society",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%86%D0%B0",
+  "position_in_run": 8,
+  "sha256": "9c8cf99f351a91051172ea9806d8a7ad41730893491fed4d1ea9a39e142efdbd",
+  "revid": 154894387,
+  "revision_timestamp": "2026-09-08T12:33:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 57,
+  "domain": "wikipedia/culture-society",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%86%D0%B0",
+  "position_in_run": 9,
+  "sha256": "d21c39348ad170294458656c06550cf2e9bee3a8290c3bab63cff80ef5bf4555",
+  "revid": 154894387,
+  "revision_timestamp": "2026-09-08T12:33:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 58,
+  "domain": "wikipedia/culture-society",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%86%D0%B0",
+  "position_in_run": 10,
+  "sha256": "03729bcf2d47f209967bec191aa94af36d5e5c8418af13a5488179ed3bf7c2d7",
+  "revid": 154894387,
+  "revision_timestamp": "2026-09-08T12:33:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 59,
+  "domain": "wikipedia/culture-society",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%86%D0%B0",
+  "position_in_run": 11,
+  "sha256": "b55b7b54cab436527d94138268f2bada92ead228416ee7d716e9eaa3614c85fe",
+  "revid": 154894387,
+  "revision_timestamp": "2026-09-08T12:33:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 60,
+  "domain": "wikipedia/culture-society",
+  "kind": "wikipedia",
+  "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%86%D0%B0",
+  "position_in_run": 12,
+  "sha256": "7fefa1692780f2ae19ab67eae6531d54c0d25aa1b58ec304b351645ada9ef96d",
+  "revid": 154894387,
+  "revision_timestamp": "2026-09-08T12:33:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 61,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 1,
+  "sha256": "eb5123aa6f448f1ca08e513852cc3011ba85b6b13f232af68c6bbc376aa7633c"
+ },
+ {
+  "id": 62,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 2,
+  "sha256": "d53c29603ab665ac2c9ebc5a191af2a1c2856dc6a29025b947e8a6d56e769d2f"
+ },
+ {
+  "id": 63,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 3,
+  "sha256": "9f59245c4a7ef79084fc0a9b14634cc0bb3bd2e76e238ba924b1958962d72fb1"
+ },
+ {
+  "id": 64,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 4,
+  "sha256": "07070c2156c4fbb93196a86bfeb6df36a31c9d60432ac85f89a467828b82550b"
+ },
+ {
+  "id": 65,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 5,
+  "sha256": "81afdce9794a66178b9f8c22a1c01226c5a0b22b76b89be1ced2b403bf03cca2"
+ },
+ {
+  "id": 66,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 6,
+  "sha256": "b2e719febd104d0b1e8011dee586fbeef31d601a49c8153d1429003a9c5383d5"
+ },
+ {
+  "id": 67,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 7,
+  "sha256": "5f39d7b7c8f328d1bbbc7a35d982eb08bf93d634b974b6fd6b20d611f9e8b2bd"
+ },
+ {
+  "id": 68,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 8,
+  "sha256": "1fbd0cfd5fe256370ef5a93871a358ad6e40807779bbc32d813e05102a00ba55"
+ },
+ {
+  "id": 69,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 9,
+  "sha256": "799baf4cd58e6092c017c1223ff8b96f687e01936a13ba9a33b32512275e4a4a"
+ },
+ {
+  "id": 70,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 10,
+  "sha256": "5ebb9367c27023f17a4965cfd61dbb022417295e0a6783102afde9e62b0de13a"
+ },
+ {
+  "id": 71,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 11,
+  "sha256": "3b74f1def338d8050333a9ce840aa61744908e084617c98786c27f47e43ac318"
+ },
+ {
+  "id": 72,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 12,
+  "sha256": "284df0fa7df55211128f996c957ff1a6976643b810cebf45e018896e806af827"
+ },
+ {
+  "id": 73,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 13,
+  "sha256": "b52437b775dd876204c661189a133e2a4fe038f2e46b5cb4f2bb1510b8cb5c6a"
+ },
+ {
+  "id": 74,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 14,
+  "sha256": "a9401e61c2e04aee2403dae49669fe386f075377e7385cb40fe66d78c838b11f"
+ },
+ {
+  "id": 75,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 15,
+  "sha256": "b86fac01467534516343f88b770645283022948298ff689f9c478dc0c1e59c59"
+ },
+ {
+  "id": 76,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 16,
+  "sha256": "2400e02e8a49221db87b746ecb61c3418eacb300620577c63e811d3b26bb8ac0"
+ },
+ {
+  "id": 77,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 17,
+  "sha256": "1eb05edcfe4eb34f235d77d89b2503e3ffe809892a52f7c6086c9d6bdf161707"
+ },
+ {
+  "id": 78,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 18,
+  "sha256": "48e70fca8ec8a9a6596c331c4939756fa9325c794222d4bcaae5c8b5044a89b0"
+ },
+ {
+  "id": 79,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 19,
+  "sha256": "f0b6beafec76d463f9cf2c89d6ed17274c2f00198d8ed7ca8333b6492d50c0cd"
+ },
+ {
+  "id": 80,
+  "domain": "news/BBC Russian (report)",
+  "kind": "news",
+  "url": "https://www.bbc.com/russian/articles/c8g47ye66nl9o",
+  "position_in_run": 20,
+  "sha256": "5cd963e50d35affefb3356ecc99a35b1b5fe130274391bb2a3f5da18ac7fb2ae"
+ },
+ {
+  "id": 81,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 1,
+  "sha256": "c6e22bcd5bebf0d981c7414b14b071dfac52ba10a291775481107b0d05c6c0f2"
+ },
+ {
+  "id": 82,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 2,
+  "sha256": "a6bf772237936c77aea573d2a47e77e708c2755e4155d3ad41434f9beccc97f1"
+ },
+ {
+  "id": 83,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 3,
+  "sha256": "cccb7505bee314cd30cb25bdc1c3c2dec21e065a3b48235e2d32db70f8b1d8cb"
+ },
+ {
+  "id": 84,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 4,
+  "sha256": "b9d0131b18556f6c766b9571935b3347559910e0aec6281d9c66e18542d95f96"
+ },
+ {
+  "id": 85,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 5,
+  "sha256": "970a2a05df931d4e62962c9bffdf05bea0ebaf451924a01146d08b0e9e196d8a"
+ },
+ {
+  "id": 86,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 6,
+  "sha256": "75dfc3b93fad471962ae9775e74c9530707e7ed264aa8cb0ce265762681886e3"
+ },
+ {
+  "id": 87,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 7,
+  "sha256": "f6710449e62155157950d75e433d4c51fd2914bd4d8b421fb1af396c9ea0fc98"
+ },
+ {
+  "id": 88,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 8,
+  "sha256": "ca03e9149755272800f0e3414a8ec3a96c397a42140def49bb40387b86fe410d"
+ },
+ {
+  "id": 89,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 9,
+  "sha256": "25545540d724c96d98ec7e77aff5457c05805e776f4ef8234715d7025ba44df1"
+ },
+ {
+  "id": 90,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 10,
+  "sha256": "2a0c28f1731a9ef9614631c4861f253b26672582ecc2c86e1daa516ac5d26ab4"
+ },
+ {
+  "id": 91,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 11,
+  "sha256": "7bc474d0ba10d7fcdd3e4f2adf741ccefaebaeafb23ba163764c80cded41bfa9"
+ },
+ {
+  "id": 92,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 12,
+  "sha256": "171f8205b4f84de64a0bcd188f6ef9f8d0c05aeb4050016229ca1ce17e1cfddf"
+ },
+ {
+  "id": 93,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 13,
+  "sha256": "9e62e461ca7f9904bfb4792e3f1afec91554c97aa8d9cecfce6f80d88196d3fb"
+ },
+ {
+  "id": 94,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 14,
+  "sha256": "a29d487b2b35380c2c6bc3c1082198841ae2c2025571e8975502fc8a89c21480"
+ },
+ {
+  "id": 95,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 15,
+  "sha256": "e7b99ceac7ed6f6b3d5a2b414f78c78cc4e38024dad46107cdec6904b9b71a79"
+ },
+ {
+  "id": 96,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 16,
+  "sha256": "98dc9d3b770030f6c1bcced4d85f27aa744eb405aaa31947ae6036841a6f9279"
+ },
+ {
+  "id": 97,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 17,
+  "sha256": "2a75929d05107cace67d141cbfa36924aee4028f8986977e6e4d54c00d4b322b"
+ },
+ {
+  "id": 98,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 18,
+  "sha256": "7ac867bad9980e954a6f01d250d98f11906ec533fd7bebee2a50b55723de6844"
+ },
+ {
+  "id": 99,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 19,
+  "sha256": "204a64912eedeffd50526545d859390e6f7aa13c04fe3c7e1038658f0de6e0fe"
+ },
+ {
+  "id": 100,
+  "domain": "opinion/DW Russian (commentary)",
+  "kind": "news",
+  "url": "https://www.dw.com/ru/arest-politologa-aleksandra-kyneva-ili-v-rossii-bili-but-i-budut-bit-kommentarij-ivana-preobrazenskogo/a-79469840",
+  "position_in_run": 20,
+  "sha256": "45d2e4d84be813090cd9d709f40f3ebbe45d3fdfe95898ad9289fd98aa3d7119"
+ }
+]

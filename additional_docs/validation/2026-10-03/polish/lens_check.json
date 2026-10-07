@@ -1,0 +1,113 @@
+{
+ "K4_sub_PolishNumeralThreshold_to_Hausa": {
+  "sentences": [
+   2,
+   3,
+   5,
+   6,
+   9,
+   11,
+   12,
+   31,
+   85,
+   86
+  ],
+  "a_removed_forces_unmade_choice": 0,
+  "b_replacement_forces_unmade_choice": 8,
+  "b_partial": [
+   6,
+   31
+  ],
+  "note": "numeral threshold is the source grammar itself; only 44/95 contain a numeral >=5 and agreement is already set. Hausa asks repeated/distributed vs single event: not marked by Polish (imperfective covers iteration only partly: 31, 56)"
+ },
+ "K5_sub_Russian_to_HindiUrdu": {
+  "sentences": [
+   6,
+   40,
+   55,
+   58,
+   59,
+   66,
+   85,
+   86,
+   89,
+   94
+  ],
+  "a_removed_forces_unmade_choice": 0,
+  "b_replacement_forces_unmade_choice": 9,
+  "b_partial": [
+   55
+  ],
+  "note": "aspect forced in 10/10 (incl. verbal nouns rozwinięcie, oblężenie). Vector verbs ask beneficiary and manner of completion; Polish prefix wy- in wyparła partly gives manner"
+ },
+ "K6_drop_Mongolian": {
+  "sentences": [
+   6,
+   11,
+   12,
+   16,
+   21,
+   40,
+   41,
+   58,
+   84,
+   89
+  ],
+  "a_removed_forces_unmade_choice": 0,
+  "note": "swój in 11,12,84,89; jego/jej/ich with non-subject possessor in 6,16,21,40,41,58. Adverbial participles (-ąc) are same-subject (11,15,84), covering the converb half of the lens"
+ },
+ "K8_drop_PolishInstrumental": {
+  "sentences": [
+   1,
+   2,
+   3,
+   5,
+   6,
+   13,
+   15,
+   25,
+   31,
+   65
+  ],
+  "a_removed_forces_unmade_choice": 6,
+  "which": [
+   1,
+   2,
+   3,
+   6,
+   13,
+   15
+  ],
+  "note": "own entry, so removal is mandatory; but on a relational-adjective compound in an argument slot the category/property choice is NOT made by the source. It is made only at a copula (20,23,26,28,39,56,57). No other catalogue entry asks category vs property, so no replacement"
+ },
+ "unprompted_K5_Finnish_partitive": {
+  "sentences": [
+   6,
+   40,
+   55,
+   58,
+   59,
+   66,
+   85,
+   86,
+   89,
+   94
+  ],
+  "redundant": 7,
+  "which": [
+   40,
+   55,
+   66,
+   85,
+   86,
+   89,
+   94
+  ],
+  "not_applicable_intransitive": [
+   6,
+   58,
+   59
+  ],
+  "note": "perfective + accusative vs partitive genitive, and the genitive of negation (10,46,98), already state how far the event reached the object"
+ }
+}

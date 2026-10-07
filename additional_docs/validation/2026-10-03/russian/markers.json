@@ -1,0 +1,3402 @@
+{
+ "1": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "русским войском"
+  }
+ },
+ "2": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "изменило свой характер"
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "золотоордынского ига"
+  }
+ },
+ "3": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Московского княжества"
+  }
+ },
+ "4": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "явилось переломным моментом"
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "владимирское княжение"
+  }
+ },
+ "5": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "6": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "перебили"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "личная охрана"
+  }
+ },
+ "7": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "Пробыв ... около года"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "8": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "русское войско"
+  }
+ },
+ "9": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Новосильское княжество"
+  }
+ },
+ "10": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "11": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "потерял свои позиции (1378—1380)"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Рязанское княжество"
+  }
+ },
+ "12": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "князь литовский"
+  }
+ },
+ "13": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "хлорофилл у растений"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "химических связей"
+  }
+ },
+ "14": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "образуется"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "кислород"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": true,
+   "span": "так как"
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "15": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "понимается"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "углекислого газа"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "углекислого газа"
+  }
+ },
+ "16": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "используются"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "расчётные коэффициенты"
+  }
+ },
+ "17": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "фотосинтетическими приёмниками"
+  }
+ },
+ "18": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "энергии излучения"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "электрохимического градиента"
+  }
+ },
+ "19": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "ретиналь"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "20": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "выделяют"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "хлорофильный фотосинтез"
+  }
+ },
+ "21": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "предполагается"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "энергии ... излучения"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "электромагнитного излучения"
+  }
+ },
+ "22": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "переносится"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "энергии"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "бесхлорофилльного фотосинтеза"
+  }
+ },
+ "23": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "содержится"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "галофильных архей"
+  }
+ },
+ "24": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "были накоплены"
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "протонного градиента"
+  }
+ },
+ "25": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "Инфляция; товарной массы"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "товарной массы"
+  }
+ },
+ "26": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "увеличивается"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "27": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "обесцениваются"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "покупательная способность"
+  }
+ },
+ "28": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "рыночной экономике"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "рыночной экономике"
+  }
+ },
+ "29": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "товарный дефицит"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "товарный дефицит"
+  }
+ },
+ "30": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "Инфляцию"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": true,
+   "span": "из-за"
+  },
+  "K8": {
+   "present": true,
+   "span": "денежной реформы"
+  }
+ },
+ "31": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "Инфляция; в экономике"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": true,
+   "span": "потому что"
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "32": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "изменялся"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "общий уровень цен"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "33": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "дефляция"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "34": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "денежного металла"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "денежного металла"
+  }
+ },
+ "35": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "драгоценного металла"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "36": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "денежного металла"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "денежного металла"
+  }
+ },
+ "37": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "русский учёный"
+  }
+ },
+ "38": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "химических элементов"
+  }
+ },
+ "39": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Тобольской гимназии"
+  }
+ },
+ "40": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "41": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "42": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "хранится"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "метрическая книга"
+  }
+ },
+ "43": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "значится"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "метрического свидетельства"
+  }
+ },
+ "44": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "сыграла особую роль"
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "45": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "прошла ... курс гимназии"
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "46": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "сложившегося (положения)"
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": true,
+   "span": "из-за"
+  },
+  "K8": {
+   "present": true,
+   "span": "материального положения"
+  }
+ },
+ "47": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "стекольная фабрика"
+  }
+ },
+ "48": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "49": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "сохранивший"
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "восточнославянский праздник"
+  }
+ },
+ "50": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "народном календаре"
+  }
+ },
+ "51": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "называется"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "православной церкви"
+  }
+ },
+ "52": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "употреблялись"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Неделя мясопустная"
+  }
+ },
+ "53": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "меняется"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "54": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "народного празднования"
+  }
+ },
+ "55": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "распространяются"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "письменных памятниках"
+  }
+ },
+ "56": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "восточнославянских диалектах"
+  }
+ },
+ "57": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "православных народов"
+  }
+ },
+ "58": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "59": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "называется"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "этнических традициях"
+  }
+ },
+ "60": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "упоминается"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "продали ... гробов ... 7 тысяч"
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Лаврентьевской летописи"
+  }
+ },
+ "61": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "воздушного судна"
+  }
+ },
+ "62": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "государственное агентство"
+  }
+ },
+ "63": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "аварийный топор"
+  }
+ },
+ "64": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "хранятся"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "аварийные топорики"
+  }
+ },
+ "65": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "размещают"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "66": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "сообщалось"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no report…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "67": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no rep…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "68": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive pa…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Израильские власти"
+  }
+ },
+ "69": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "70": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "ведется"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "экстремистскими группами"
+  }
+ },
+ "71": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "прошел трехлетний курс"
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "дистанционного обучения"
+  }
+ },
+ "72": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "уточнили"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "летной подготовки"
+  }
+ },
+ "73": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": true,
+   "span": "из-за"
+  },
+  "K8": {
+   "present": true,
+   "span": "национальной авиакомпании"
+  }
+ },
+ "74": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": true,
+   "span": "из-за"
+  },
+  "K8": {
+   "present": true,
+   "span": "экстремистских взглядов"
+  }
+ },
+ "75": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "проверялась"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "76": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "77": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "индийский пилот"
+  }
+ },
+ "78": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "79": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "80": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "потерял много крови"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Израильский врач"
+  }
+ },
+ "81": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "82": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "83": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "возмущенной общественности"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "репрессивных органов"
+  }
+ },
+ "84": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "85": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "завершилась"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "завершилась"
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "правовой системы"
+  }
+ },
+ "86": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "Практика"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "бандитских нападений"
+  }
+ },
+ "87": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "скоростной трассы"
+  }
+ },
+ "88": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "заказном избиении"
+  }
+ },
+ "89": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "90": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "91": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "92": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "подбросили; судили"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "93": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "практика"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "репрессивной системы"
+  }
+ },
+ "94": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "обнаружили"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "убила в свое время"
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "муниципального депутата"
+  }
+ },
+ "95": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "96": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "97": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "говорят"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "общества и медиа"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": true,
+   "span": "потому, что"
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "98": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "пишут"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "региональные выборы"
+  }
+ },
+ "99": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": true,
+   "span": "делают"
+  },
+  "K3": {
+   "present": true,
+   "span": "borrowed content, no reportive particle"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "сделал все, что собирался"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "100": {
+  "K1": {
+   "present": true,
+   "span": "any sentence"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "N + N.gen"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ }
+}

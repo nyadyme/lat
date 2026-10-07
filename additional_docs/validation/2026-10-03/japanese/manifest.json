@@ -1,0 +1,982 @@
+[
+ {
+  "id": 1,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+  "position_in_run": 1,
+  "sha256": "cab378fb44a7fbec01a80620e62df8d6a7e900403a5eb772285d9f52046a3694",
+  "revid": 110242588,
+  "revision_timestamp": "2026-07-11T14:44:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 2,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+  "position_in_run": 2,
+  "sha256": "9756244105dae0b0da2fb6dde5870aa581c38f1db29771d49fbf854f26f53a20",
+  "revid": 110242588,
+  "revision_timestamp": "2026-07-11T14:44:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 3,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+  "position_in_run": 3,
+  "sha256": "5729ef42bbd6f8c802dd8ed4a34af098ba966a0a9f069e2978f404a741136e55",
+  "revid": 110242588,
+  "revision_timestamp": "2026-07-11T14:44:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 4,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+  "position_in_run": 4,
+  "sha256": "7aa3b8e0b77a3d90f4317569e87670881e69421706a58b934b4883259f1aa9f4",
+  "revid": 110242588,
+  "revision_timestamp": "2026-07-11T14:44:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 5,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+  "position_in_run": 5,
+  "sha256": "9a6c84a9cd219f43ecda086654ff011e54e99140c2026ee7cd585eef60b79284",
+  "revid": 110242588,
+  "revision_timestamp": "2026-07-11T14:44:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 6,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+  "position_in_run": 6,
+  "sha256": "bc220084c7e56eaad125dbc0d6abb71a30083a5f04e8ad46fc5721c194b75919",
+  "revid": 110242588,
+  "revision_timestamp": "2026-07-11T14:44:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 7,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+  "position_in_run": 7,
+  "sha256": "b1b494a31e81598c86ea76886aa607d315102e1eac82ea84ef1d9e12febf4caf",
+  "revid": 110242588,
+  "revision_timestamp": "2026-07-11T14:44:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 8,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+  "position_in_run": 8,
+  "sha256": "5236b3dcba194a8d8a744e8cc45eb91711136c7deb102f0ec6a39f44170581a6",
+  "revid": 110242588,
+  "revision_timestamp": "2026-07-11T14:44:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 9,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+  "position_in_run": 9,
+  "sha256": "ea08b603e7f7cf280181b03ad6f25cd96e9e138611c0ab3e7f3648355fdaa4be",
+  "revid": 110242588,
+  "revision_timestamp": "2026-07-11T14:44:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 10,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+  "position_in_run": 10,
+  "sha256": "979ce561d1c839a763a72bccf05ab02c261f48835d30d7931e74977501766eb3",
+  "revid": 110242588,
+  "revision_timestamp": "2026-07-11T14:44:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 11,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+  "position_in_run": 11,
+  "sha256": "8df1b3d849fd9faa25bd31e56083e81b154bf46de1261d20d15386f8335e913f",
+  "revid": 110242588,
+  "revision_timestamp": "2026-07-11T14:44:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 12,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E5%B9%95%E5%BA%9C",
+  "position_in_run": 12,
+  "sha256": "15ff2098dff8ab16978fc7cf58584400d1ba9c2df6cd190fa77737d46b88df54",
+  "revid": 110242588,
+  "revision_timestamp": "2026-07-11T14:44:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 13,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%85%89%E5%90%88%E6%88%90",
+  "position_in_run": 1,
+  "sha256": "8b7387f0e35980fd5597387942a9ef06f941267357f7c1bd445e1bde2351ec60",
+  "revid": 111243995,
+  "revision_timestamp": "2026-10-03T00:02:26Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 14,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%85%89%E5%90%88%E6%88%90",
+  "position_in_run": 2,
+  "sha256": "12c045480108fd6882c66b2dc9c469c29b0abaa1b676ec702fa18cac4ab3f777",
+  "revid": 111243995,
+  "revision_timestamp": "2026-10-03T00:02:26Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 15,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%85%89%E5%90%88%E6%88%90",
+  "position_in_run": 3,
+  "sha256": "582a10926b737a291df9f0960529e08ea16432006804b72533321bcea0e992b9",
+  "revid": 111243995,
+  "revision_timestamp": "2026-10-03T00:02:26Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 16,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%85%89%E5%90%88%E6%88%90",
+  "position_in_run": 4,
+  "sha256": "f85f9238d4be753e396e9b0c7bb5fdb315e03f10dec8668650695bfd59e1c02f",
+  "revid": 111243995,
+  "revision_timestamp": "2026-10-03T00:02:26Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 17,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%85%89%E5%90%88%E6%88%90",
+  "position_in_run": 5,
+  "sha256": "2a84920b01973f5e8ba7ae5e1f9c79e4909914d9331d071e076e748a43c07a4a",
+  "revid": 111243995,
+  "revision_timestamp": "2026-10-03T00:02:26Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 18,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%85%89%E5%90%88%E6%88%90",
+  "position_in_run": 6,
+  "sha256": "0a0e0863c1f0961e6a759e20787870dcb7a3639ba3aa65198b15e6efec37056b",
+  "revid": 111243995,
+  "revision_timestamp": "2026-10-03T00:02:26Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 19,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%85%89%E5%90%88%E6%88%90",
+  "position_in_run": 7,
+  "sha256": "93a1be76e494c3d9f952689b795ad66518c9d1ca6ad1ea0466d65f55050d1bdc",
+  "revid": 111243995,
+  "revision_timestamp": "2026-10-03T00:02:26Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 20,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%85%89%E5%90%88%E6%88%90",
+  "position_in_run": 8,
+  "sha256": "e08d3ec430b92af36081a98f5754c3b573e9e580a558ec831a6445ebec94577e",
+  "revid": 111243995,
+  "revision_timestamp": "2026-10-03T00:02:26Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 21,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%85%89%E5%90%88%E6%88%90",
+  "position_in_run": 9,
+  "sha256": "e4e801d34da0cc7bc6167910dccd6979d210ff02b69ff6bd2166f19a85f68134",
+  "revid": 111243995,
+  "revision_timestamp": "2026-10-03T00:02:26Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 22,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%85%89%E5%90%88%E6%88%90",
+  "position_in_run": 10,
+  "sha256": "3b664470123e6d07ab199e7902ccaaf9f2a86d91e48f9eb4db3e172ba26d8409",
+  "revid": 111243995,
+  "revision_timestamp": "2026-10-03T00:02:26Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 23,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%85%89%E5%90%88%E6%88%90",
+  "position_in_run": 11,
+  "sha256": "d4cac36c0e00d47a62d347c2cbd094853ca2617b11c2910cbbc176c881f7eb9c",
+  "revid": 111243995,
+  "revision_timestamp": "2026-10-03T00:02:26Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 24,
+  "domain": "wikipedia/natural science",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%85%89%E5%90%88%E6%88%90",
+  "position_in_run": 12,
+  "sha256": "a9d6d0864efbbda7c542b3496443ffb4787ec7f554aefb40a98d2282998934f2",
+  "revid": 111243995,
+  "revision_timestamp": "2026-10-03T00:02:26Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 25,
+  "domain": "wikipedia/politics/economics",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E6%B6%88%E8%B2%BB%E7%A8%8E",
+  "position_in_run": 1,
+  "sha256": "1b5987c0ab154faf372519dbd2b038c151b44701c729fb0ed5557e369fbfaa73",
+  "revid": 110770046,
+  "revision_timestamp": "2026-08-25T06:35:21Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 26,
+  "domain": "wikipedia/politics/economics",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E6%B6%88%E8%B2%BB%E7%A8%8E",
+  "position_in_run": 2,
+  "sha256": "7e163188260408db7464ef502befb25e179835c1c8c015de152abc48befd0f12",
+  "revid": 110770046,
+  "revision_timestamp": "2026-08-25T06:35:21Z",
+  "found_in_revision": false
+ },
+ {
+  "id": 27,
+  "domain": "wikipedia/politics/economics",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E6%B6%88%E8%B2%BB%E7%A8%8E",
+  "position_in_run": 3,
+  "sha256": "f5922ec6cf017fcabc9fcfda2442e65a084ac151fb4adf2bcc4ca6cafc00ac89",
+  "revid": 110770046,
+  "revision_timestamp": "2026-08-25T06:35:21Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 28,
+  "domain": "wikipedia/politics/economics",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E6%B6%88%E8%B2%BB%E7%A8%8E",
+  "position_in_run": 4,
+  "sha256": "c40226b83e8947e353343c25b595c8d8c394964653e7e06b1688c5125fb3181a",
+  "revid": 110770046,
+  "revision_timestamp": "2026-08-25T06:35:21Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 29,
+  "domain": "wikipedia/politics/economics",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E6%B6%88%E8%B2%BB%E7%A8%8E",
+  "position_in_run": 5,
+  "sha256": "be5c3827bdd23b78c63861f96291e003679d2d3260cc4fe5baa014dc212019b8",
+  "revid": 110770046,
+  "revision_timestamp": "2026-08-25T06:35:21Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 30,
+  "domain": "wikipedia/politics/economics",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E6%B6%88%E8%B2%BB%E7%A8%8E",
+  "position_in_run": 6,
+  "sha256": "22ed11fe9399677df9023d3964733469f4621c43362919d9c5d77afeaefabbbc",
+  "revid": 110770046,
+  "revision_timestamp": "2026-08-25T06:35:21Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 31,
+  "domain": "wikipedia/politics/economics",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E6%B6%88%E8%B2%BB%E7%A8%8E",
+  "position_in_run": 7,
+  "sha256": "732c8360e437f2de3383a3239e063861d221737c20fefe8db737de6617b427f6",
+  "revid": 110770046,
+  "revision_timestamp": "2026-08-25T06:35:21Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 32,
+  "domain": "wikipedia/politics/economics",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E6%B6%88%E8%B2%BB%E7%A8%8E",
+  "position_in_run": 8,
+  "sha256": "18a402a60a54afe348f160e3bfd5fa6f1a2a6d050cf484fd592672927850a9c8",
+  "revid": 110770046,
+  "revision_timestamp": "2026-08-25T06:35:21Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 33,
+  "domain": "wikipedia/politics/economics",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E6%B6%88%E8%B2%BB%E7%A8%8E",
+  "position_in_run": 9,
+  "sha256": "fd36a8324268c10818c8f10fdd3f4e5e3605e9b1179847e5be19ead5c3df36e7",
+  "revid": 110770046,
+  "revision_timestamp": "2026-08-25T06:35:21Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 34,
+  "domain": "wikipedia/politics/economics",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E6%B6%88%E8%B2%BB%E7%A8%8E",
+  "position_in_run": 10,
+  "sha256": "0fcc529a722a3f8af6c37cd7998e2c21b44a086201de739b35787853cd9ea87d",
+  "revid": 110770046,
+  "revision_timestamp": "2026-08-25T06:35:21Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 35,
+  "domain": "wikipedia/politics/economics",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E6%B6%88%E8%B2%BB%E7%A8%8E",
+  "position_in_run": 11,
+  "sha256": "1144791b6d25e6c30a40ab1c8cc7f6b66e01b2130fb16f2b1098df75285a9d9b",
+  "revid": 110770046,
+  "revision_timestamp": "2026-08-25T06:35:21Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 36,
+  "domain": "wikipedia/politics/economics",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E6%B6%88%E8%B2%BB%E7%A8%8E",
+  "position_in_run": 12,
+  "sha256": "9b64379337462782c39b12244a2a4def3f124cf0014ce4fe3d25bf8d891af81a",
+  "revid": 110770046,
+  "revision_timestamp": "2026-08-25T06:35:21Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 37,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3",
+  "position_in_run": 1,
+  "sha256": "b5762fb0e608b5d47f5cf099bd066d7350ea48f5c09d6895bd1f72077c644bb6",
+  "revid": 111042116,
+  "revision_timestamp": "2026-09-16T19:55:19Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 38,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3",
+  "position_in_run": 2,
+  "sha256": "a906fbec53783d8bb829db84849dc2b8696c3d8dec0a2907584332e8824d0af1",
+  "revid": 111042116,
+  "revision_timestamp": "2026-09-16T19:55:19Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 39,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3",
+  "position_in_run": 3,
+  "sha256": "010d5550513d93429d33501555a5565c7f9d48fc78e6074ee10335739c80200f",
+  "revid": 111042116,
+  "revision_timestamp": "2026-09-16T19:55:19Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 40,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3",
+  "position_in_run": 4,
+  "sha256": "759e6f4e31220ded622f9c67dd0cb2721e0fff92f98e10af739032631c0377ad",
+  "revid": 111042116,
+  "revision_timestamp": "2026-09-16T19:55:19Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 41,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3",
+  "position_in_run": 5,
+  "sha256": "5cafa20064015c6bf5b116d9e8f58a45ccef471637514c952b4e50e8c953c53d",
+  "revid": 111042116,
+  "revision_timestamp": "2026-09-16T19:55:19Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 42,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3",
+  "position_in_run": 6,
+  "sha256": "035853aba629d66a98dc927d3afc1abefadc09d3702533d855e23e61e074d0d7",
+  "revid": 111042116,
+  "revision_timestamp": "2026-09-16T19:55:19Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 43,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3",
+  "position_in_run": 7,
+  "sha256": "50f0c621398f3005e4f1b84c22b30230e50d47011330baa161511338e948f62a",
+  "revid": 111042116,
+  "revision_timestamp": "2026-09-16T19:55:19Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 44,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3",
+  "position_in_run": 8,
+  "sha256": "6288b8f5a013bf718cfffed67e21ad6e1ca61fe85fec24a5f729da60afead144",
+  "revid": 111042116,
+  "revision_timestamp": "2026-09-16T19:55:19Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 45,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3",
+  "position_in_run": 9,
+  "sha256": "4bb7a2e1b1dd4fb1207ac41a4670f2c5887ac9831d29a08b21111c1bc1c688c1",
+  "revid": 111042116,
+  "revision_timestamp": "2026-09-16T19:55:19Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 46,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3",
+  "position_in_run": 10,
+  "sha256": "fd15b7690c6f4fb2ee3c50d1dfcf936442e50aa4871f6e1a6d1c7949695a781f",
+  "revid": 111042116,
+  "revision_timestamp": "2026-09-16T19:55:19Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 47,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3",
+  "position_in_run": 11,
+  "sha256": "040028eac03b7e13ae8d50ec7543116a9ed12ae863da98a6205d385ec4119ccb",
+  "revid": 111042116,
+  "revision_timestamp": "2026-09-16T19:55:19Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 48,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3",
+  "position_in_run": 12,
+  "sha256": "e00a1f0861e0a545b55e7e8d91106200be1d266e1fbad72cf77b8eefdd95064c",
+  "revid": 111042116,
+  "revision_timestamp": "2026-09-16T19:55:19Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 49,
+  "domain": "wikipedia/culture/society",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E8%8C%B6%E9%81%93",
+  "position_in_run": 1,
+  "sha256": "017964064497c86e4d5c16771cf0b167d6e74b35291e624dbcf0560dc625dd64",
+  "revid": 110546209,
+  "revision_timestamp": "2026-08-06T06:11:17Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 50,
+  "domain": "wikipedia/culture/society",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E8%8C%B6%E9%81%93",
+  "position_in_run": 2,
+  "sha256": "02586162ff8f714d929fa01ef7337d2ee1b9e0a856fd7d4fa2e6ea09dd5b289d",
+  "revid": 110546209,
+  "revision_timestamp": "2026-08-06T06:11:17Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 51,
+  "domain": "wikipedia/culture/society",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E8%8C%B6%E9%81%93",
+  "position_in_run": 3,
+  "sha256": "65d204e4a682d1d9372246da8b0ff591203ba5f874ef9728c02420940151c66c",
+  "revid": 110546209,
+  "revision_timestamp": "2026-08-06T06:11:17Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 52,
+  "domain": "wikipedia/culture/society",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E8%8C%B6%E9%81%93",
+  "position_in_run": 4,
+  "sha256": "77ed919040b8404a173227e396c6bfe4c91af4e233279d439945a2e6d9e3938f",
+  "revid": 110546209,
+  "revision_timestamp": "2026-08-06T06:11:17Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 53,
+  "domain": "wikipedia/culture/society",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E8%8C%B6%E9%81%93",
+  "position_in_run": 5,
+  "sha256": "d4040681c1b4b8aa5bf46f15e8cd78ae1e477b36b7ef90662a56409285ec2c8f",
+  "revid": 110546209,
+  "revision_timestamp": "2026-08-06T06:11:17Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 54,
+  "domain": "wikipedia/culture/society",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E8%8C%B6%E9%81%93",
+  "position_in_run": 6,
+  "sha256": "3eb0d84b298e070f43917668768b98edf04f080c9a06115de04a1b13eb322412",
+  "revid": 110546209,
+  "revision_timestamp": "2026-08-06T06:11:17Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 55,
+  "domain": "wikipedia/culture/society",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E8%8C%B6%E9%81%93",
+  "position_in_run": 7,
+  "sha256": "e42342b9e3f579e7d4b47f7a9a8230e46b905ffe38eb382c6c2a3d8a2e0601f4",
+  "revid": 110546209,
+  "revision_timestamp": "2026-08-06T06:11:17Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 56,
+  "domain": "wikipedia/culture/society",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E8%8C%B6%E9%81%93",
+  "position_in_run": 8,
+  "sha256": "7c12f9f2a6bcbe27770c9db1c0bbdef7ae6635f5c26e123bd41c96a86164ea9e",
+  "revid": 110546209,
+  "revision_timestamp": "2026-08-06T06:11:17Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 57,
+  "domain": "wikipedia/culture/society",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E8%8C%B6%E9%81%93",
+  "position_in_run": 9,
+  "sha256": "ab022aae496ef99cee2d6bf65dbd7c50b3871e5caa3d04c2bbf20b8f48bade1d",
+  "revid": 110546209,
+  "revision_timestamp": "2026-08-06T06:11:17Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 58,
+  "domain": "wikipedia/culture/society",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E8%8C%B6%E9%81%93",
+  "position_in_run": 10,
+  "sha256": "2d56ed2cc9ccd581bf558394dce1b0722037dd85e68e378689c48bfd256d36b8",
+  "revid": 110546209,
+  "revision_timestamp": "2026-08-06T06:11:17Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 59,
+  "domain": "wikipedia/culture/society",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E8%8C%B6%E9%81%93",
+  "position_in_run": 11,
+  "sha256": "8b8af7af2040041e8ad265c29417cb542af52b15c64adb1ddfc86eb8053eef2e",
+  "revid": 110546209,
+  "revision_timestamp": "2026-08-06T06:11:17Z",
+  "found_in_revision": false
+ },
+ {
+  "id": 60,
+  "domain": "wikipedia/culture/society",
+  "kind": "wikipedia",
+  "url": "https://ja.wikipedia.org/wiki/%E8%8C%B6%E9%81%93",
+  "position_in_run": 12,
+  "sha256": "75b49a94208abca8a698268c5bfb0b7f162c50d5a89b007fe186492bc49a942f",
+  "revid": 110546209,
+  "revision_timestamp": "2026-08-06T06:11:17Z",
+  "found_in_revision": false
+ },
+ {
+  "id": 61,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 1,
+  "sha256": "c9dd7bd0219e7a174e76b48e566dfd5d9e72b3fbb0de199a2f0f906ea2734ae6"
+ },
+ {
+  "id": 62,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 2,
+  "sha256": "9d1e6670845e41775f187daa622ff54cfb1a62eb9a88bd8152d43e70c749a061"
+ },
+ {
+  "id": 63,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 3,
+  "sha256": "271e0d8b4e00ae3cef1daa21d96becbf51a962afe4f840f371a796eb04000898"
+ },
+ {
+  "id": 64,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 4,
+  "sha256": "6f8bdc0ed3a78f3a45271a1e1800369461469b69a418cbdb653a15eafa635ef7"
+ },
+ {
+  "id": 65,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 5,
+  "sha256": "d5799be763317a895a174b4a31798f9783b262a1e1d1d2af3e4665573db0ba93"
+ },
+ {
+  "id": 66,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 6,
+  "sha256": "ce133bf6a857badd05aa0e378ca5f24c41f55c1726d33ee38d2045a3d8e4176c"
+ },
+ {
+  "id": 67,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 7,
+  "sha256": "59f4fff747ae89d143f6923b30f290eb8cbda5bf95b601a8fe72172b3853d859"
+ },
+ {
+  "id": 68,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 8,
+  "sha256": "71454c5453cc8b2f77703f86362dd0c5d7380ed1c87a1f10286c6fa4c61032fd"
+ },
+ {
+  "id": 69,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 9,
+  "sha256": "6edfef2d0081edd79d78cb0b4b6351aa5e788d57bf1e0353149eb6a236d5a39a"
+ },
+ {
+  "id": 70,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 10,
+  "sha256": "5a6885fb2991a9b46389d23d3a7c9f637b323cb2bc990a348d776790dd3add3f"
+ },
+ {
+  "id": 71,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 11,
+  "sha256": "49e6e7ef6c81e758c916558bda167a25e2f70ecf1e307316d9e6ff76fbbfb985"
+ },
+ {
+  "id": 72,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 12,
+  "sha256": "3ed49c04a1bf6d253d8c0c6a7ea3730da999027a16c08d1eb110857eb60a8ab1"
+ },
+ {
+  "id": 73,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 13,
+  "sha256": "d239658b40ef19184f5b311da133f137200ca29d042664fbd86ad98b33a50d8b"
+ },
+ {
+  "id": 74,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 14,
+  "sha256": "890a9325bc112a768fe084447fde7c61947a2e1e96d11c9d8b92a65128e4254c"
+ },
+ {
+  "id": 75,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 15,
+  "sha256": "4021b46e7ae419c4498c3ceef38db6925c7f6d9eda31a4fb9f2051aefcb0cf13"
+ },
+ {
+  "id": 76,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 16,
+  "sha256": "9eb48b8efaa644571e05b9ac8fe3d5e88550e21faa20dd10dc826f414cc96af3"
+ },
+ {
+  "id": 77,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 17,
+  "sha256": "6712ff3a08ed496beaa7540353248cd8c30bc6ca8d4d86af03e89d4850c66bbf"
+ },
+ {
+  "id": 78,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 18,
+  "sha256": "a4c560b00c5b6834859bb26fe2af8f67d91e365100e04fbe2bc55f4d040b7a6a"
+ },
+ {
+  "id": 79,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 19,
+  "sha256": "84c22da99d4a66dbf8a68d68b11dd89d7234ebfffd577b9e9d90f9ff8d528d5a"
+ },
+ {
+  "id": 80,
+  "domain": "news-editorial (Tokyo Shimbun, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.tokyo-np.co.jp/article/519350",
+  "position_in_run": 20,
+  "sha256": "6ae061efd09e06210eee47482bd0bc47e6271a9f391df8df7c00d9bd85488e2c"
+ },
+ {
+  "id": 81,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 1,
+  "sha256": "1a389e3be2742778b4dd77df8b60ead3b090ac984f98a34e67dded1f54d8435b"
+ },
+ {
+  "id": 82,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 2,
+  "sha256": "fd3900deee35fa59ac8943a45d9528dc9cc7df04623b4a7fe383422ba28ab1cc"
+ },
+ {
+  "id": 83,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 3,
+  "sha256": "a523bf9c9e8b2d654a44e5ff233239fab3c97c26748701e79bbf948ad369588b"
+ },
+ {
+  "id": 84,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 4,
+  "sha256": "e00f6412e1ec406edeb47907b5478578b3b9f607ea75e1020ee67436db67f547"
+ },
+ {
+  "id": 85,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 5,
+  "sha256": "cb8c756616e47f2e28b2dc7bd96534cf7692c3bc2465727573c85979f3051535"
+ },
+ {
+  "id": 86,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 6,
+  "sha256": "bdad0beee82703597917934a7b7a1e0faa627560c12efdcb39a896d9c16d31dc"
+ },
+ {
+  "id": 87,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 7,
+  "sha256": "085530681d1fc9d8345147bd75c7de0347d60f1baa2c315776f17337210379ae"
+ },
+ {
+  "id": 88,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 8,
+  "sha256": "3a81716f5f18ed35a5f2cc87cb22f0f17db00232312f6ce5332ea42f82e47ed4"
+ },
+ {
+  "id": 89,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 9,
+  "sha256": "0db57eee205b3dfa8f4420c129c0f883794ba174a181594c6e471e5aaaa21abc"
+ },
+ {
+  "id": 90,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 10,
+  "sha256": "99e73d9c8b7a1bccbe27ca815640a43bfc01bff7545e3264c99ed915c6df8f78"
+ },
+ {
+  "id": 91,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 11,
+  "sha256": "c672b53dbde81a13be3272186f16703f478c1f3382605115fb6a7f764733fe9c"
+ },
+ {
+  "id": 92,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 12,
+  "sha256": "53a7b78b511bc52b680e482691151290989cb2f9421649e39bea307714df1c17"
+ },
+ {
+  "id": 93,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 13,
+  "sha256": "ce73abc317f7f942ca7506b1119f655fb8842e6026f75697d0241adde7c60b52"
+ },
+ {
+  "id": 94,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 14,
+  "sha256": "9d48493a21c997eeca7b6029c1f189fbc023ec952ef5369ef46cf9dffbfd6e84"
+ },
+ {
+  "id": 95,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 15,
+  "sha256": "87ef3e188b49478a745a639e4913c5fa6d0efdb8858b66e8d9f1920773cf5f0e"
+ },
+ {
+  "id": 96,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 16,
+  "sha256": "12864f0378c31b0cff7a82063ab03c2a374088d1ef235e8b9cb7ed07410a3b8b"
+ },
+ {
+  "id": 97,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 17,
+  "sha256": "36272246f7ebc76fce04ae16077401693798f53796bb3aef7a6511144ddfe47c"
+ },
+ {
+  "id": 98,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 18,
+  "sha256": "fa0f9d0e6bfdc311d5bd6234c90f7c69c1c7298d85259ddeef7b1fc105f057d9"
+ },
+ {
+  "id": 99,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 19,
+  "sha256": "12ddb6328801e4f475d4a6dd7e11f6184bb844e943f7087460b6fada368a0810"
+ },
+ {
+  "id": 100,
+  "domain": "news-editorial (Akita Sakigake Shimpo, 2026-10-03)",
+  "kind": "news",
+  "url": "https://www.sakigake.jp/news/article/20261003AK0011/",
+  "position_in_run": 20,
+  "sha256": "24b3b8713e1b4667ffea8ea9c2bdfc45b1cf3d67a815740878febeeacc008dc8"
+ }
+]

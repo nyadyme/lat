@@ -1,0 +1,3402 @@
+{
+ "1": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "состоявшееся 8 сентября 1380 года на Куликовом поле"
+  },
+  "K4": {
+   "present": true,
+   "span": "объединённым русским войском"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "войском Мамаевой Орды"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "впадения реки Непрядва"
+  }
+ },
+ "2": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "иго ... изменило свой характер"
+  },
+  "K3": {
+   "present": true,
+   "span": "стала важным шагом на пути к"
+  },
+  "K4": {
+   "present": true,
+   "span": "единства Руси"
+  },
+  "K5": {
+   "present": true,
+   "span": "иго ... существенно изменило свой характер (over an epoch)"
+  },
+  "K6": {
+   "present": true,
+   "span": "свой характер"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "золотоордынского ига"
+  }
+ },
+ "3": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "объединению Орды (unifier left out)"
+  },
+  "K3": {
+   "present": true,
+   "span": "способствовали русские князья своими победами"
+  },
+  "K4": {
+   "present": true,
+   "span": "объединению Орды"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "своими победами"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "темника Мамая"
+  }
+ },
+ "4": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "verbatim speech: «К ярлыку не еду ...»"
+  },
+  "K4": {
+   "present": true,
+   "span": "отношениях Москвы и Орды"
+  },
+  "K5": {
+   "present": true,
+   "span": "что явилось переломным моментом"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "отношениях Москвы и Орды"
+  }
+ },
+ "5": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "прибыли послы ... и более тысячи воинов"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "6": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "охрану перебили; были заключены"
+  },
+  "K3": {
+   "present": true,
+   "span": "охрану перебили"
+  },
+  "K4": {
+   "present": true,
+   "span": "охрану; его личная охрана"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "его личная охрана"
+  },
+  "K7": {
+   "present": true,
+   "span": "По приказанию князя"
+  },
+  "K8": {
+   "present": true,
+   "span": "По приказанию князя"
+  }
+ },
+ "7": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "был убит"
+  },
+  "K3": {
+   "present": true,
+   "span": "попытался бежать, но был убит"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "Пробыв в заключении около года"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "8": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "взяло откуп 5000 рублей"
+  },
+  "K4": {
+   "present": true,
+   "span": "русское войско"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "мамаевых ставленников"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "мамаевых ставленников"
+  }
+ },
+ "9": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "разорил Новосильское княжество"
+  },
+  "K4": {
+   "present": true,
+   "span": "московским войском; московско-суздальское войско"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "хан Синей Орды"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "хан Синей Орды"
+  }
+ },
+ "10": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "Мамай всё-таки решился"
+  },
+  "K4": {
+   "present": true,
+   "span": "посланное им войско"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "войско под командованием мурзы Бегича"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "командованием мурзы Бегича"
+  }
+ },
+ "11": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "было разорено Мамаем"
+  },
+  "K4": {
+   "present": true,
+   "span": "Рязанское княжество"
+  },
+  "K5": {
+   "present": true,
+   "span": "в 1378—1380 годах Мамай потерял свои позиции"
+  },
+  "K6": {
+   "present": true,
+   "span": "свои позиции"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "12": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "В союзе с Мамаем действовал и ... Ягайло"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "13": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "Фотосинтез — сложный химический процесс"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "хлорофилл у растений"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "энергию химических связей органических веществ"
+  }
+ },
+ "14": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "образуется кислород"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "большинства существ"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "так как"
+  },
+  "K8": {
+   "present": true,
+   "span": "существования жизни большинства существ"
+  }
+ },
+ "15": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "понимается"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "совокупность процессов"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "энергии квантов света"
+  }
+ },
+ "16": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "используются"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "коэффициенты эффективности фотосинтеза"
+  }
+ },
+ "17": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "было обнаружено"
+  },
+  "K3": {
+   "present": true,
+   "span": "было обнаружено два типа пигментов"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "У живых организмов"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "типа пигментов"
+  }
+ },
+ "18": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "пигменты ... обеспечивают"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "градиента ионов"
+  }
+ },
+ "19": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "антенной служит производное"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "подавляющего большинства организмов"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "У ... организмов ... выступают хлорофиллы"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "производное витамина А"
+  }
+ },
+ "20": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "выделяют"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "В соответствии с этим"
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "21": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "предполагается"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "Система бесхлорофилльного фотосинтеза"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "в связи с чем"
+  },
+  "K8": {
+   "present": true,
+   "span": "запасания энергии"
+  }
+ },
+ "22": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "переносится"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Эффективность бесхлорофилльного фотосинтеза"
+  }
+ },
+ "23": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "был назван"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "мембранах представителя"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "мембранах представителя галофильных архей"
+  }
+ },
+ "24": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "были накоплены"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "Впоследствии были накоплены сведения"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "генератором протонного градиента"
+  }
+ },
+ "25": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "выпуска (эмиссии)"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "общего уровня цен; товарной массы"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "их покупательной способности"
+  },
+  "K7": {
+   "present": true,
+   "span": "вследствие"
+  },
+  "K8": {
+   "present": true,
+   "span": "уровня цен"
+  }
+ },
+ "26": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "можно будет купить"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "цена идентичных товаров"
+  }
+ },
+ "27": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "деньги обесцениваются"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "покупательная способность денег"
+  }
+ },
+ "28": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "Обесценивание денег приводит"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Обесценивание денег"
+  }
+ },
+ "29": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "обесценивание денег может не приводить"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "административно-командной системе хозяйствования"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "системе хозяйствования"
+  }
+ },
+ "30": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "следует отличать"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "из-за денежной реформы"
+  },
+  "K8": {
+   "present": true,
+   "span": "роста цен"
+  }
+ },
+ "31": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "потому что"
+  },
+  "K8": {
+   "present": true,
+   "span": "рост всех цен"
+  }
+ },
+ "32": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "изменялся общий уровень цен"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "общий уровень цен"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "уровень цен"
+  }
+ },
+ "33": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "общего уровня цен"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "уровня цен"
+  }
+ },
+ "34": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "количеством денежного металла"
+  }
+ },
+ "35": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "девальвации или «порчи монет»"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "В результате"
+  },
+  "K8": {
+   "present": true,
+   "span": "порчи монет"
+  }
+ },
+ "36": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "количество денежного металла"
+  }
+ },
+ "37": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "учёный-энциклопедист"
+  }
+ },
+ "38": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "закон химических элементов"
+  }
+ },
+ "39": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "в семье Ивана Павловича"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "в семье Ивана Павловича Менделеева"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "директора Тобольской гимназии"
+  }
+ },
+ "40": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "в семье"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "41": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "42": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "хранится"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "от законной его жены"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "метрическая книга ... церкви"
+  }
+ },
+ "43": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "Эту запись дополняет и корректирует копия"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "его жены"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "копия метрического свидетельства; Музея-архива"
+  }
+ },
+ "44": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "сыграла особую роль"
+  },
+  "K4": {
+   "present": true,
+   "span": "жизни семьи"
+  },
+  "K5": {
+   "present": true,
+   "span": "сыграла особую роль в жизни семьи"
+  },
+  "K6": {
+   "present": true,
+   "span": "мать Дмитрия Менделеева"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "жизни семьи"
+  }
+ },
+ "45": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "прошла самостоятельно курс гимназии"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "прошла самостоятельно курс гимназии"
+  },
+  "K6": {
+   "present": true,
+   "span": "со своими братьями"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "курс гимназии"
+  }
+ },
+ "46": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "сложившегося из-за болезни главы семьи"
+  },
+  "K4": {
+   "present": true,
+   "span": "Менделеевы"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "главы семьи"
+  },
+  "K7": {
+   "present": true,
+   "span": "Вследствие; из-за"
+  },
+  "K8": {
+   "present": true,
+   "span": "болезни главы семьи"
+  }
+ },
+ "47": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "фабрика брата Марии"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "фабрика брата Марии"
+  }
+ },
+ "48": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "большая семья"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "Мать Дмитрия Менделеева"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "кончины Ивана Менделеева"
+  }
+ },
+ "49": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "отмечаемый; праздник ... сохранивший"
+  },
+  "K3": {
+   "present": true,
+   "span": "сохранивший ... ряд дохристианских элементов"
+  },
+  "K4": {
+   "present": true,
+   "span": "ряд дохристианских элементов"
+  },
+  "K5": {
+   "present": true,
+   "span": "сохранивший (over centuries)"
+  },
+  "K6": {
+   "present": true,
+   "span": "в своих обрядах"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "50": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "праздник маркирует"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "народном календаре восточных славян"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "календаре восточных славян"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "границу зимы и весны"
+  }
+ },
+ "51": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "называется"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "календаре Русской православной церкви"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "календаре ... церкви"
+  }
+ },
+ "52": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "употреблялись"
+  },
+  "K3": {
+   "present": true,
+   "span": "употреблялись только в святцах"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "53": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "Дата ... меняется"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "в зависимости от"
+  },
+  "K8": {
+   "present": true,
+   "span": "даты празднования Пасхи"
+  }
+ },
+ "54": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "у русских и белорусов"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "чучело Масленицы"
+  }
+ },
+ "55": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "термины ... распространяются"
+  },
+  "K3": {
+   "present": true,
+   "span": "широко распространяются с XV века"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "обозначения Сырной недели"
+  }
+ },
+ "56": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "зафиксированы"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "варианты названия"
+  }
+ },
+ "57": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "являются заимствованием из русского"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "названия последней недели"
+  }
+ },
+ "58": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "модель названия"
+  }
+ },
+ "59": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "называется"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "месяцем Масленицы"
+  }
+ },
+ "60": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "упоминается"
+  },
+  "K3": {
+   "present": true,
+   "span": "Первое упоминание ... относится к XVI веку"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "описании мора"
+  }
+ },
+ "61": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "напал ... в ходе «террористической атак…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "командира воздушного судна"
+  }
+ },
+ "62": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "генпрокурор"
+  }
+ },
+ "63": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "своего замысла"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "командира экипажа"
+  }
+ },
+ "64": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "хранятся"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "кабинах самолетов"
+  }
+ },
+ "65": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "размещают"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "кресла второго пилота"
+  }
+ },
+ "66": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "сообщалось; мог быть ранен"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "67": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Генпрокурор ОАЭ"
+  }
+ },
+ "68": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "Израильские власти"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "гражданином Омана"
+  }
+ },
+ "69": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "идентифицирован"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "источники Associated Press"
+  }
+ },
+ "70": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "ведется расследование"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "стран Персидского залива"
+  }
+ },
+ "71": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "прошел трехлетний курс ..."
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "прошел трехлетний курс дистанционного о…"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "курс дистанционного обучения"
+  }
+ },
+ "72": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "В университете уточнили"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "73": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "был отстранен"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "американские СМИ"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "его радикальных взглядов"
+  },
+  "K7": {
+   "present": true,
+   "span": "из-за опасений"
+  },
+  "K8": {
+   "present": true,
+   "span": "авиакомпании Омана"
+  }
+ },
+ "74": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "было запрещено; был принят"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "из-за опасений"
+  },
+  "K8": {
+   "present": true,
+   "span": "словам источника AP"
+  }
+ },
+ "75": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "проверялась"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "его кандидатура"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "76": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "власти Омана"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "власти Омана"
+  }
+ },
+ "77": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "командир экипажа; кабине пилотов"
+  }
+ },
+ "78": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "79": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "собственную жизнь"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "80": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "81": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "произошедшего; арест и избиение политол…"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "его уникальностью"
+  },
+  "K7": {
+   "present": true,
+   "span": "связан не с ..., а с демонстративностью"
+  },
+  "K8": {
+   "present": true,
+   "span": "дела Александра Кынева"
+  }
+ },
+ "82": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "задержание; избиение; смерть"
+  },
+  "K3": {
+   "present": true,
+   "span": "Садистское задержание"
+  },
+  "K4": {
+   "present": true,
+   "span": "все это общий фон"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "ее мужа"
+  },
+  "K7": {
+   "present": true,
+   "span": "от перенапряжения"
+  },
+  "K8": {
+   "present": true,
+   "span": "штаб кандидатки"
+  }
+ },
+ "83": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "Пытки"
+  },
+  "K3": {
+   "present": true,
+   "span": "инспирированные властями нападения"
+  },
+  "K4": {
+   "present": true,
+   "span": "все это традиционный арсенал; обществен…"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "арсенал ... органов"
+  }
+ },
+ "84": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "Они просто давно не стесняются"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "85": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "дно пробито; чеченизация ... завершилась"
+  },
+  "K3": {
+   "present": true,
+   "span": "давно завершилась"
+  },
+  "K4": {
+   "present": true,
+   "span": "российской «правовой системы»"
+  },
+  "K5": {
+   "present": true,
+   "span": "чеченизация ... давно завершилась"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "чеченизация ... системы"
+  }
+ },
+ "86": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "Практика бандитских нападений"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "Практика"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Практика бандитских нападений"
+  }
+ },
+ "87": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "был избит; были едва не убиты"
+  },
+  "K3": {
+   "present": true,
+   "span": "был избит до тяжелой инвалидности"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "своих домов"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "главред газеты"
+  }
+ },
+ "88": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "заказном избиении"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "чье дело"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "89": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "Дело также никто всерьез не расследовал"
+  },
+  "K4": {
+   "present": true,
+   "span": "аппаратом «Единой России»"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "заказчик нападения"
+  }
+ },
+ "90": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "счет таких прецедентов"
+  }
+ },
+ "91": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "случае Натальи Эстемировой"
+  }
+ },
+ "92": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "подбросили; судили"
+  },
+  "K3": {
+   "present": true,
+   "span": "подбросили наркотики"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "дело Оюба Титиева"
+  }
+ },
+ "93": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "российской репрессивной системы"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "Так что"
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "94": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "она (практика) ... убивает; удалена"
+  },
+  "K3": {
+   "present": true,
+   "span": "удалена часть легкого ..."
+  },
+  "K4": {
+   "present": true,
+   "span": "администрация колонии"
+  },
+  "K5": {
+   "present": true,
+   "span": "как убила в свое время ... Алексаняна"
+  },
+  "K6": {
+   "present": true,
+   "span": "его обращения"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "администрация колонии"
+  }
+ },
+ "95": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "его смерть"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "96": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "преодолеть ... нельзя"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "97": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "говорят; был выбран"
+  },
+  "K3": {
+   "present": true,
+   "span": "момент ... был выбран наиболее резонанс…"
+  },
+  "K4": {
+   "present": true,
+   "span": "общества и медиа"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "потому, что"
+  },
+  "K8": {
+   "present": true,
+   "span": "реакции общества"
+  }
+ },
+ "98": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "был задержан; пишут"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "Кремлем"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "депутатов Госдумы"
+  }
+ },
+ "99": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "как делают в соцсетях"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "100": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "Можно спорить; его задержан…"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "его задержания"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ }
+}

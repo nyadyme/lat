@@ -1,0 +1,3002 @@
+{
+ "1": {
+  "K2": {
+   "present": true,
+   "span": "der ... begann und ... endete [Krieg]"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "Der Dreißigjährige Krieg / im Heiligen Römischen Reich"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "2": {
+  "K2": {
+   "present": true,
+   "span": "entluden sich der Gegensatz / die Spannungen"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "der Katholischen Liga / der Protestantischen Union"
+  },
+  "K5": {
+   "present": true,
+   "span": "entluden sich"
+  },
+  "K6": {
+   "present": true,
+   "span": "entluden sich (reflexive)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "3": {
+  "K2": {
+   "present": true,
+   "span": "die habsburgischen Mächte ... trugen aus"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "trugen ... aus"
+  },
+  "K6": {
+   "present": true,
+   "span": "ihren / ihre"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Interessenkonflikte"
+  }
+ },
+ "4": {
+  "K2": {
+   "present": true,
+   "span": "verbanden sich eine Reihe weiterer Konflikte"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "mit dem Dreißigjährigen Krieg"
+  },
+  "K5": {
+   "present": true,
+   "span": "verbanden sich"
+  },
+  "K6": {
+   "present": true,
+   "span": "eine Reihe weiterer Konflikte (gen.) / verbanden sich"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Bauernkrieg / Erbfolgekrieg (apposition to subject)"
+  }
+ },
+ "5": {
+  "K2": {
+   "present": true,
+   "span": "mit dem der Aufstand ... begann"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "des Krieges"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "des Krieges / der ... Stände"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Fenstersturz"
+  }
+ },
+ "6": {
+  "K2": {
+   "present": true,
+   "span": "Er [Aufstand] richtete sich"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "der Böhmischen Krone"
+  },
+  "K5": {
+   "present": true,
+   "span": "richtete sich (gegen)"
+  },
+  "K6": {
+   "present": true,
+   "span": "der Böhmischen Krone / dessen / richtete sich"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "7": {
+  "K2": {
+   "present": true,
+   "span": "folgten ... vier Konflikte aufeinander"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "der Geschichtswissenschaft"
+  },
+  "K5": {
+   "present": true,
+   "span": "folgten ... aufeinander"
+  },
+  "K6": {
+   "present": true,
+   "span": "des Kaisers"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "von der Geschichtswissenschaft"
+  }
+ },
+ "8": {
+  "K2": {
+   "present": true,
+   "span": "Versuche ... scheiterten / sie berücksichtigten"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "den Konflikt"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "aller ... Mächte"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "9": {
+  "K2": {
+   "present": true,
+   "span": "Das gelang"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "gelang"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "10": {
+  "K2": {
+   "present": true,
+   "span": "Der Westfälische Friede legte fest"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "des Reiches"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "des Reiches"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Machtbalance"
+  }
+ },
+ "11": {
+  "K2": {
+   "present": true,
+   "span": "sah er [Friede] vor"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "der Schweizerischen Eidgenossenschaft / dem Reichsverband"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der Vereinigten Niederlande"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Gebietsabtretungen"
+  }
+ },
+ "12": {
+  "K2": {
+   "present": true,
+   "span": "endete der Krieg / Feldzüge ... stattgefunden hatten"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "der Krieg / des Heiligen Römischen Reiches"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "dessen / des ... Reiches"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Feldzüge"
+  }
+ },
+ "13": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "Die Photosynthese"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "energiereicher Biomoleküle"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "14": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "15": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Lichtenergie / Farbstoffen"
+  }
+ },
+ "16": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Kohlenstoffdioxid / Kohlenhydrate"
+  }
+ },
+ "17": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "der eingestrahlten Energie"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der eingestrahlten Energie / der Assimilate"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "18": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "des Lebewesens / deren"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "19": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "20": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Sauerstoff"
+  }
+ },
+ "21": {
+  "K2": {
+   "present": true,
+   "span": "entstehen ... andere anorganische Stoffe"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "22": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "Die Photosynthese"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Lichtenergie / Sonnenlicht"
+  }
+ },
+ "23": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "der Photosynthese"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "ihre"
+  },
+  "K7": {
+   "present": true,
+   "span": "da"
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "24": {
+  "K2": {
+   "present": true,
+   "span": "entsteht die Ozonschicht"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "dem Sauerstoff / die Ozonschicht"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der Erdatmosphäre"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Ozonschicht"
+  }
+ },
+ "25": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "des Preisniveaus"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "einzelner Preise / der Güter"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Qualitätsveränderungen / Preisniveaus"
+  }
+ },
+ "26": {
+  "K2": {
+   "present": true,
+   "span": "die Preise fallen / bleiben sie konstant"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Preisniveaustabilität"
+  }
+ },
+ "27": {
+  "K2": {
+   "present": true,
+   "span": "Inflation bezeichnet"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "des allgemeinen Preisniveaus"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "des ... Preisniveaus / einer Volkswirtschaft"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Preisniveaus"
+  }
+ },
+ "28": {
+  "K2": {
+   "present": true,
+   "span": "die Inflation ... beschreibt"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "die Inflation"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der Inflation"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Inflationsrate"
+  }
+ },
+ "29": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "die Geldentwertung"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "30": {
+  "K2": {
+   "present": true,
+   "span": "Steigt das Preisniveau / der Geldwert sinkt"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "das allgemeine Preisniveau / der Geldwert"
+  },
+  "K5": {
+   "present": true,
+   "span": "ist ... eingetreten"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Preisniveau / Geldwert"
+  }
+ },
+ "31": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "der Geldwert / zum Preisniveau"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Geldwert"
+  }
+ },
+ "32": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "Das Preisniveau"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "aller Preise"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Preisniveau"
+  }
+ },
+ "33": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "des Preisniveaus / des Geldes"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "des Preisniveaus / des Geldes"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Preisniveaus"
+  }
+ },
+ "34": {
+  "K2": {
+   "present": true,
+   "span": "Steigt das allgemeine Preisniveau"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "das allgemeine Preisniveau"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Preisniveau"
+  }
+ },
+ "35": {
+  "K2": {
+   "present": true,
+   "span": "spiegelt die Inflation ... wider"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "die Inflation"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der Kaufkraft / des Zahlungsmittels"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Kaufkraft"
+  }
+ },
+ "36": {
+  "K2": {
+   "present": true,
+   "span": "Inflation bezeichnet"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "des Preisniveaus"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "des Preisniveaus / einer Volkswirtschaft"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Preisniveaus"
+  }
+ },
+ "37": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der Radiochemie"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "38": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "des 20. Jahrhunderts"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Naturwissenschaftlern"
+  }
+ },
+ "39": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "40": {
+  "K2": {
+   "present": true,
+   "span": "begann ... eine Zusammenarbeit"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Zusammenarbeit"
+  }
+ },
+ "41": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "arbeiteten (ab 1912)"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "42": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "erforschten / entdeckten"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "43": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "44": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "arbeitete (bis 1946)"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "45": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "ihrem / dessen / der Kernspaltung"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Kernspaltung"
+  }
+ },
+ "46": {
+  "K2": {
+   "present": true,
+   "span": "Die Entdeckung ... führte"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "in der Wissenschaft"
+  },
+  "K5": {
+   "present": true,
+   "span": "führte ... zum Bau"
+  },
+  "K6": {
+   "present": true,
+   "span": "der Kernspaltung"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Kernspaltung / Kernwaffen"
+  }
+ },
+ "47": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "erhielt ... Ehrungen"
+  },
+  "K6": {
+   "present": true,
+   "span": "ihre"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Nobelpreis"
+  }
+ },
+ "48": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "49": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Oktoberfest"
+  }
+ },
+ "50": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "für die Stadt"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "51": {
+  "K2": {
+   "present": true,
+   "span": "Es [Oktoberfest] findet statt"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "52": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "die Stadtverwaltung München"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Stadtverwaltung"
+  }
+ },
+ "53": {
+  "K2": {
+   "present": true,
+   "span": "die Münchner Brauereien brauen / das [Bier] aufweisen muss"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Stammwürzegehalt"
+  }
+ },
+ "54": {
+  "K2": {
+   "present": true,
+   "span": "Das Oktoberfest generierte"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "generierte"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Oktoberfest"
+  }
+ },
+ "55": {
+  "K2": {
+   "present": true,
+   "span": "was einem ... Allzeitrekord entspricht"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "besuchten"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Volksfest"
+  }
+ },
+ "56": {
+  "K2": {
+   "present": true,
+   "span": "fanden ... Feiern statt"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "fanden ... statt"
+  },
+  "K6": {
+   "present": true,
+   "span": "Anlässlich der Hochzeit (gen.)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Pferderennen"
+  }
+ },
+ "57": {
+  "K2": {
+   "present": true,
+   "span": "geht das Oktoberfest zurück"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Oktoberfest"
+  }
+ },
+ "58": {
+  "K2": {
+   "present": true,
+   "span": "Scharlachrennen, das ... stattfand"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "der Nationalgarde"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "seiner / der Nationalgarde"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Pferderennen"
+  }
+ },
+ "59": {
+  "K2": {
+   "present": true,
+   "span": "die Idee ... ausging / die zu diesem Vorhaben führte"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "der Nationalgarde"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der Nationalgarde"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Lohnkutscher"
+  }
+ },
+ "60": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "des Festes"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "61": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der Deutschen Einheit"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Bundespräsident"
+  }
+ },
+ "62": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "forderte er (source named)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Grundrechte"
+  }
+ },
+ "63": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no sour…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "64": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "hat ... gewarnt (source named)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der Demokratie / der Deutschen Einheit"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Bundespräsident"
+  }
+ },
+ "65": {
+  "K2": {
+   "present": true,
+   "span": "Demagogie ... gefährdet"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "extremistischer Kräfte"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "66": {
+  "K2": {
+   "present": true,
+   "span": "Sie gefährdet"
+  },
+  "K3": {
+   "present": false,
+   "span": "sagte Steinmeier"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "unsere"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "67": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "sei ..., sagte Steinmeier"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der Deutschen Einheit / sich aufgelehnt"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "SED-Diktatur"
+  }
+ },
+ "68": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "hätten (Konj.)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "69": {
+  "K2": {
+   "present": true,
+   "span": "die Herausforderungen ... verdrängen"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der Gegenwart"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Glücksmoment"
+  }
+ },
+ "70": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "71": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, …"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "72": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "hob Steinmeier hervor"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "zeigten sich ... enttäuscht"
+  },
+  "K6": {
+   "present": true,
+   "span": "ihren / des Landes / zeigten sich"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "73": {
+  "K2": {
+   "present": true,
+   "span": "große Teile der Bürgerschaft erklärten"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "der Bürgerschaft"
+  },
+  "K5": {
+   "present": true,
+   "span": "erklärten ... ihr Misstrauen"
+  },
+  "K6": {
+   "present": true,
+   "span": "der Bürgerschaft / ihr / der Bundesrepu…"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Bundesrepublik"
+  }
+ },
+ "74": {
+  "K2": {
+   "present": true,
+   "span": "ein Viertel und mehr ... bekunden"
+  },
+  "K3": {
+   "present": false,
+   "span": "dürfe (Konj. I)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "ihrer / unserer / sich abwenden"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Grundrechten"
+  }
+ },
+ "75": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "mahnte/betonte Steinmeier"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Streitkultur"
+  }
+ },
+ "76": {
+  "K2": {
+   "present": true,
+   "span": "antijüdische Stimmungen um sich griffen"
+  },
+  "K3": {
+   "present": false,
+   "span": "dürfe (Konj. I)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "ihre / um sich"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "77": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "warnte das Staatsoberhaupt"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Staatsoberhaupt"
+  }
+ },
+ "78": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "habe (Konj. I)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "des Rechtsextremismus / des Holocaust"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Parteigänger / Rechtsextremismus"
+  }
+ },
+ "79": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "Steinmeier sagte"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "habe ... für gesichert gehalten"
+  },
+  "K6": {
+   "present": true,
+   "span": "unsere"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "80": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der Demokratie"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Selbstbehauptung"
+  }
+ },
+ "81": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der Deutschen Einheit"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "82": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "Angesichts der politischen Entwic…"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "83": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "question"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der Deutschen Einheit"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "84": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "verbless fragment"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "des Zusammenwachsens"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "85": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "verbless fragment"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "86": {
+  "K2": {
+   "present": true,
+   "span": "Moment, der ... zulässt"
+  },
+  "K3": {
+   "present": false,
+   "span": "verbless fragment"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "87": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "freue mich (reflexive)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "88": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Einheitsfeiertag"
+  }
+ },
+ "89": {
+  "K2": {
+   "present": true,
+   "span": "Das Datum hat"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "90": {
+  "K2": {
+   "present": true,
+   "span": "sich die Politik ... feiert"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "die Politik"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "sich ... selbst (reflexive)"
+  },
+  "K7": {
+   "present": true,
+   "span": "weil"
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "91": {
+  "K2": {
+   "present": true,
+   "span": "Die ... Euphorie ist ... gewichen"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "Im Osten / im Westen"
+  },
+  "K5": {
+   "present": true,
+   "span": "ist ... gewichen"
+  },
+  "K6": {
+   "present": true,
+   "span": "ärgert man sich (reflexive)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Demokratieverweigerer"
+  }
+ },
+ "92": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "wünschen sich (reflexive)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "93": {
+  "K2": {
+   "present": true,
+   "span": "das nicht passieren wird"
+  },
+  "K3": {
+   "present": false,
+   "span": "dürfte (Konj. II, inferential)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "94": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Bundesrepublik"
+  }
+ },
+ "95": {
+  "K2": {
+   "present": true,
+   "span": "Das hat ... zu tun"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "96": {
+  "K2": {
+   "present": true,
+   "span": "der [Aufstieg] sich einfügt"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "der AfD"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der AfD / extrem rechter Bewegungen / s…"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "97": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": true,
+   "span": "der Gesellschaft"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "der Gesellschaft / der Coronapandemie /…"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "98": {
+  "K2": {
+   "present": true,
+   "span": "Kriege, Krisen, Klimawandel, die ... sc…"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "Klimawandel"
+  }
+ },
+ "99": {
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "verbless fragment"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "100": {
+  "K2": {
+   "present": true,
+   "span": "Die Antwort ... kann nicht lauten"
+  },
+  "K3": {
+   "present": true,
+   "span": "indicative, no source named"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ }
+}

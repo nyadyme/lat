@@ -1,0 +1,3402 @@
+{
+ "1": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "武家政権"
+  },
+  "K5": {
+   "present": true,
+   "span": "創設した"
+  },
+  "K6": {
+   "present": true,
+   "span": "日本の武家政権"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "武家政権"
+  }
+ },
+ "2": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) という"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "鎌倉時代"
+  }
+ },
+ "3": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "将軍職は…継承された"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "坂東武士 / 御家人"
+  },
+  "K5": {
+   "present": true,
+   "span": "仕えた / 継承された"
+  },
+  "K6": {
+   "present": true,
+   "span": "頼朝の嫡流"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "権力闘争"
+  }
+ },
+ "4": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "陪臣（御内人）"
+  },
+  "K5": {
+   "present": true,
+   "span": "となった"
+  },
+  "K6": {
+   "present": true,
+   "span": "北条義時の嫡流"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "内管領"
+  }
+ },
+ "5": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "幕府"
+  },
+  "K5": {
+   "present": true,
+   "span": "滅亡した"
+  },
+  "K6": {
+   "present": true,
+   "span": "鎌倉方の総大将"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "反幕府側"
+  }
+ },
+ "6": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "基礎は…継承された"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "武家政権"
+  },
+  "K5": {
+   "present": true,
+   "span": "築いた / 継承された"
+  },
+  "K6": {
+   "present": true,
+   "span": "武家政権の基礎"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "武家政権"
+  }
+ },
+ "7": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "置かれ / 設置されて / 形成された"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "武家政権"
+  },
+  "K5": {
+   "present": true,
+   "span": "形成された"
+  },
+  "K6": {
+   "present": true,
+   "span": "幕府の統治機構"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "統治機構"
+  }
+ },
+ "8": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "朝廷"
+  },
+  "K5": {
+   "present": true,
+   "span": "公認した"
+  },
+  "K6": {
+   "present": true,
+   "span": "公領からの官物"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "東国支配権"
+  }
+ },
+ "9": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 滅ぼし"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "諸国"
+  },
+  "K5": {
+   "present": true,
+   "span": "滅ぼし…許可した"
+  },
+  "K6": {
+   "present": true,
+   "span": "壇ノ浦の戦い"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "地頭職"
+  }
+ },
+ "10": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "宣下がなされた"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "公卿"
+  },
+  "K5": {
+   "present": true,
+   "span": "なされた"
+  },
+  "K6": {
+   "present": true,
+   "span": "荘園領主の家政機関"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "家政機関"
+  }
+ },
+ "11": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 成立"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "武家政権"
+  },
+  "K5": {
+   "present": true,
+   "span": "なった"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "武家政権"
+  }
+ },
+ "12": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 拡大"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "幕府 / 朝廷 / 寺院"
+  },
+  "K5": {
+   "present": true,
+   "span": "担当した"
+  },
+  "K6": {
+   "present": true,
+   "span": "その出先機関"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "治安維持"
+  }
+ },
+ "13": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "有機物質"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "反応過程"
+  }
+ },
+ "14": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "知られている"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "真核生物 / シアノバクテリア"
+  },
+  "K5": {
+   "present": true,
+   "span": "知られている"
+  },
+  "K6": {
+   "present": true,
+   "span": "一部の真核生物"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "真核生物"
+  }
+ },
+ "15": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "二酸化炭素 / 炭水化物"
+  },
+  "K5": {
+   "present": true,
+   "span": "得た"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "光合成生物"
+  }
+ },
+ "16": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "呼ばれ"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "生体物質"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "生命の体"
+  },
+  "K7": {
+   "present": true,
+   "span": "生み出すために (purpose)"
+  },
+  "K8": {
+   "present": true,
+   "span": "合成過程"
+  }
+ },
+ "17": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 果たしている"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "果たしている"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "物質循環"
+  }
+ },
+ "18": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "光エネルギー"
+  },
+  "K5": {
+   "present": true,
+   "span": "利用した"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "炭素固定反応"
+  }
+ },
+ "19": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "呼ばれ"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "生物 / 有機化合物"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "光栄養生物"
+  }
+ },
+ "20": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) とする"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "光独立栄養生物"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "光合成生物"
+  }
+ },
+ "21": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "それ以外の回路"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "炭素固定"
+  }
+ },
+ "22": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "分けられる"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "酸素分子"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "反応過程"
+  }
+ },
+ "23": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "植物 / シアノバクテリア"
+  },
+  "K5": {
+   "present": true,
+   "span": "関連しており"
+  },
+  "K6": {
+   "present": true,
+   "span": "現在の地球上"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "酸素発生型光合成"
+  }
+ },
+ "24": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "形作られた"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "酸素分子"
+  },
+  "K5": {
+   "present": true,
+   "span": "形作られた"
+  },
+  "K6": {
+   "present": true,
+   "span": "光合成の普及"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "地球環境"
+  }
+ },
+ "25": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "課される"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "商品 / サービス"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "商品の販売"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "消費税"
+  }
+ },
+ "26": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "呼ばれる"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "ものの一形態"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "付加価値税"
+  }
+ },
+ "27": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "本来の消費税"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "消費税"
+  }
+ },
+ "28": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "導入され"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "導入された"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "付加価値税"
+  }
+ },
+ "29": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "導入されている"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "OECD加盟国"
+  },
+  "K5": {
+   "present": true,
+   "span": "導入していない"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "加盟国"
+  }
+ },
+ "30": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "異なっている"
+  },
+  "K6": {
+   "present": true,
+   "span": "売上税の税率"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "州税"
+  }
+ },
+ "31": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "導入された"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "導入された"
+  },
+  "K6": {
+   "present": true,
+   "span": "1989年の消費税法制定"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "消費税法制定"
+  }
+ },
+ "32": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "課税される"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "事業者"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "資産の譲渡"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "役務"
+  }
+ },
+ "33": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "OECD諸国 / 税収"
+  },
+  "K5": {
+   "present": true,
+   "span": "占めており"
+  },
+  "K6": {
+   "present": true,
+   "span": "税収の約31%"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "税収"
+  }
+ },
+ "34": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "義務付けられている"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "加盟国"
+  },
+  "K5": {
+   "present": true,
+   "span": "義務付けられている"
+  },
+  "K6": {
+   "present": true,
+   "span": "付加価値税の導入"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "標準税率"
+  }
+ },
+ "35": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 大別する"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "分類方法の一つ"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "分類方法"
+  }
+ },
+ "36": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 分類できる"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "消費した / 行なった"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "直接消費税"
+  }
+ },
+ "37": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "活躍した"
+  },
+  "K6": {
+   "present": true,
+   "span": "日本の…小説家"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "英文学者"
+  }
+ },
+ "38": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "馬場下横町 (place name)"
+  }
+ },
+ "39": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "40": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "41": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "評価されている"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "評価されている"
+  },
+  "K6": {
+   "present": true,
+   "span": "文豪の一人"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "近現代文学史"
+  }
+ },
+ "42": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "代表作"
+  }
+ },
+ "43": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "私の個人主義"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "講演録"
+  }
+ },
+ "44": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 寄与した"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "寄与した"
+  },
+  "K6": {
+   "present": true,
+   "span": "書き言葉の確立"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "言文一致"
+  }
+ },
+ "45": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 務め…居住した"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "居住した"
+  },
+  "K6": {
+   "present": true,
+   "span": "熊本大学の前身"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "文部省留学生"
+  }
+ },
+ "46": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 講じ"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "講義録"
+  }
+ },
+ "47": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "採用された"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "採用された"
+  },
+  "K6": {
+   "present": true,
+   "span": "千円紙幣の肖像"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "千円紙幣"
+  }
+ },
+ "48": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "出生した"
+  },
+  "K6": {
+   "present": true,
+   "span": "夫妻の末子"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "49": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(no actor) 沸かし…振る舞う"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "茶 / 湯"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "茶の儀式"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "日本伝統"
+  }
+ },
+ "50": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "基本とした"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "51": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "総合芸術とされる"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "茶道具 / 掛け物"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "主客の一体感"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "茶道具"
+  }
+ },
+ "52": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 含む"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "抹茶 / 煎茶"
+  },
+  "K5": {
+   "present": true,
+   "span": "成立した"
+  },
+  "K6": {
+   "present": true,
+   "span": "茶道のこと"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "煎茶道"
+  }
+ },
+ "53": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) といった"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "いった"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "54": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "使われ始め / 呼ばれる"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "呼んでいた / なった"
+  },
+  "K6": {
+   "present": true,
+   "span": "茶の道"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "江戸時代"
+  }
+ },
+ "55": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 読む"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "流派"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "56": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(では, no subject) 用いている"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "用いている"
+  },
+  "K6": {
+   "present": true,
+   "span": "茶道の表千家"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "英語訳"
+  }
+ },
+ "57": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "使い分けている"
+  },
+  "K6": {
+   "present": true,
+   "span": "英文の著書"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "58": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 用いる"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "抹茶 / 湯"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "湯の量"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "59": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) という"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "濃茶 / 薄茶"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "60": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "記述されて / 捉えている"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "濃茶"
+  },
+  "K5": {
+   "present": true,
+   "span": "捉えている"
+  },
+  "K6": {
+   "present": true,
+   "span": "千利休の時代"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "61": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "建設が相次ぎ"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō d…"
+  },
+  "K4": {
+   "present": true,
+   "span": "周辺住民"
+  },
+  "K5": {
+   "present": true,
+   "span": "続発している"
+  },
+  "K6": {
+   "present": true,
+   "span": "DCの建設"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "反対運動"
+  }
+ },
+ "62": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "規制の遅れ"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "建造物"
+  }
+ },
+ "63": {
+  "K1": {
+   "present": true,
+   "span": "(any sent…"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero sub…"
+  },
+  "K3": {
+   "present": false,
+   "span": "deontic 必…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "紛争の予防"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "法整備"
+  }
+ },
+ "64": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/r…"
+  },
+  "K4": {
+   "present": true,
+   "span": "データ / サーバー群"
+  },
+  "K5": {
+   "present": true,
+   "span": "詰まった"
+  },
+  "K6": {
+   "present": true,
+   "span": "AI用のDC"
+  },
+  "K7": {
+   "present": true,
+   "span": "推論のために (purpose)"
+  },
+  "K8": {
+   "present": true,
+   "span": "冷却システム"
+  }
+ },
+ "65": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject)…"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertio…"
+  },
+  "K4": {
+   "present": true,
+   "span": "電力 / 水 / 重油"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "大量の電力"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "非常用発電機"
+  }
+ },
+ "66": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "DC建設は急増 (topic, no…"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, n…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "位置付けた"
+  },
+  "K6": {
+   "present": true,
+   "span": "成長戦略の中核"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "成長戦略"
+  }
+ },
+ "67": {
+  "K1": {
+   "present": true,
+   "span": "(any sen…"
+  },
+  "K2": {
+   "present": true,
+   "span": "紛争が起きている…"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain as…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "起きている"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "68": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no …"
+  },
+  "K4": {
+   "present": true,
+   "span": "住民団体"
+  },
+  "K5": {
+   "present": true,
+   "span": "妥当とした"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "住民団体"
+  }
+ },
+ "69": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, …"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "起こした"
+  },
+  "K6": {
+   "present": true,
+   "span": "建築確認の取り消し"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "建築確認"
+  }
+ },
+ "70": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion…"
+  },
+  "K4": {
+   "present": true,
+   "span": "電力 / 水"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "地域の電力"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "71": {
+  "K1": {
+   "present": true,
+   "span": "(any sent…"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain ass…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "日照権"
+  }
+ },
+ "72": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "扱われている"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion,…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "扱われている"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "建築基準法"
+  }
+ },
+ "73": {
+  "K1": {
+   "present": true,
+   "span": "(any senten…"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain asser…"
+  },
+  "K4": {
+   "present": true,
+   "span": "自治体"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "法令違反"
+  }
+ },
+ "74": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "規制されている"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "政府"
+  },
+  "K5": {
+   "present": true,
+   "span": "盛り込んでいる"
+  },
+  "K6": {
+   "present": true,
+   "span": "規制の緩和"
+  },
+  "K7": {
+   "present": true,
+   "span": "電力平準化のための (purpose)"
+  },
+  "K8": {
+   "present": true,
+   "span": "蓄電池"
+  }
+ },
+ "75": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/…"
+  },
+  "K4": {
+   "present": true,
+   "span": "事業者側 / 住民"
+  },
+  "K5": {
+   "present": true,
+   "span": "なっている"
+  },
+  "K6": {
+   "present": true,
+   "span": "情報の秘匿性"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "事業者側"
+  }
+ },
+ "76": {
+  "K1": {
+   "present": true,
+   "span": "(any sen…"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain as…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "集中している"
+  },
+  "K6": {
+   "present": true,
+   "span": "DCの約9割"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "大都市圏"
+  }
+ },
+ "77": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "政府 / 利用者"
+  },
+  "K5": {
+   "present": true,
+   "span": "拡大している"
+  },
+  "K6": {
+   "present": true,
+   "span": "都市部のDC需要"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "DC需要"
+  }
+ },
+ "78": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "市民の約7割"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "居住地域"
+  }
+ },
+ "79": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "署名した"
+  },
+  "K6": {
+   "present": true,
+   "span": "大型DCの建設手続き"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "州知事"
+  }
+ },
+ "80": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "deontic べきだ"
+  },
+  "K4": {
+   "present": true,
+   "span": "国"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "DCの位置付け"
+  },
+  "K7": {
+   "present": true,
+   "span": "しないためにも (purpose)"
+  },
+  "K8": {
+   "present": true,
+   "span": "DC建設"
+  }
+ },
+ "81": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": true,
+   "span": "国 / 高校生"
+  },
+  "K5": {
+   "present": true,
+   "span": "判断した"
+  },
+  "K6": {
+   "present": true,
+   "span": "公職選挙法の規定"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "選挙運動"
+  }
+ },
+ "82": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject)…"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertio…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "指摘した"
+  },
+  "K6": {
+   "present": true,
+   "span": "表現の自由"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "83": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rashii/yō da"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "断念した"
+  },
+  "K6": {
+   "present": true,
+   "span": "原告の4人"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "国政選挙"
+  }
+ },
+ "84": {
+  "K1": {
+   "present": true,
+   "span": "(any s…"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero …"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain …"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "提訴していた"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "85": {
+  "K1": {
+   "present": true,
+   "span": "(any senten…"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "deontic なけれ…"
+  },
+  "K4": {
+   "present": true,
+   "span": "立法府"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "司法判断"
+  }
+ },
+ "86": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 努…"
+  },
+  "K3": {
+   "present": false,
+   "span": "deontic べきだ"
+  },
+  "K4": {
+   "present": true,
+   "span": "若者"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "若者の政治意識"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "政治意識"
+  }
+ },
+ "87": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 違反すると"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/r…"
+  },
+  "K4": {
+   "present": true,
+   "span": "未成年者"
+  },
+  "K5": {
+   "present": true,
+   "span": "禁じた"
+  },
+  "K6": {
+   "present": true,
+   "span": "未成年者の選挙運動"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "公民権"
+  }
+ },
+ "88": {
+  "K1": {
+   "present": true,
+   "span": "(any sent…"
+  },
+  "K2": {
+   "present": true,
+   "span": "設けられた"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain ass…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "設けられた"
+  },
+  "K6": {
+   "present": true,
+   "span": "74年前の1952年"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "89": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 言えよう"
+  },
+  "K3": {
+   "present": false,
+   "span": "modal と言えよう"
+  },
+  "K4": {
+   "present": true,
+   "span": "若者"
+  },
+  "K5": {
+   "present": true,
+   "span": "なっていた"
+  },
+  "K6": {
+   "present": true,
+   "span": "若者の政治参画の進展"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "選挙権年齢引き下げ"
+  }
+ },
+ "90": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "動員される"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/r…"
+  },
+  "K4": {
+   "present": true,
+   "span": "国 / 未成年者"
+  },
+  "K5": {
+   "present": true,
+   "span": "あった"
+  },
+  "K6": {
+   "present": true,
+   "span": "候補者名の連呼行為"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "人海戦術"
+  }
+ },
+ "91": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject…"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain asserti…"
+  },
+  "K4": {
+   "present": true,
+   "span": "未成年者"
+  },
+  "K5": {
+   "present": true,
+   "span": "主張した"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "92": {
+  "K1": {
+   "present": true,
+   "span": "(any sen…"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain as…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "認めた"
+  },
+  "K6": {
+   "present": true,
+   "span": "規定の目的"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "93": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) とした"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/r…"
+  },
+  "K4": {
+   "present": true,
+   "span": "未成年者"
+  },
+  "K5": {
+   "present": true,
+   "span": "とした"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "94": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject) 判断"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/rash…"
+  },
+  "K4": {
+   "present": true,
+   "span": "未成年者"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "選挙運動"
+  }
+ },
+ "95": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "(zero subject)…"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertio…"
+  },
+  "K4": {
+   "present": true,
+   "span": "国"
+  },
+  "K5": {
+   "present": true,
+   "span": "退けた"
+  },
+  "K6": {
+   "present": true,
+   "span": "国の立法不作為"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "立法不作為"
+  }
+ },
+ "96": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "引き下げられ"
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/r…"
+  },
+  "K4": {
+   "present": true,
+   "span": "国 / 高校生"
+  },
+  "K5": {
+   "present": true,
+   "span": "進めている"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "主権者教育"
+  }
+ },
+ "97": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "rhetorical question"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "主権者としての成長"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "選挙運動"
+  }
+ },
+ "98": {
+  "K1": {
+   "present": true,
+   "span": "(any sent…"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain ass…"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "衆院選の投票率"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "投票率"
+  }
+ },
+ "99": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō…"
+  },
+  "K4": {
+   "present": true,
+   "span": "10代 / 20代"
+  },
+  "K5": {
+   "present": true,
+   "span": "とどまった"
+  },
+  "K6": {
+   "present": true,
+   "span": "総務省の抽出調査"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "抽出調査"
+  }
+ },
+ "100": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "plain assertion, no sō da/r…"
+  },
+  "K4": {
+   "present": true,
+   "span": "専門家 / 若者"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "若者の投票率"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "主権者教育"
+  }
+ }
+}

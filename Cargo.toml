@@ -1,6 +1,6 @@
 [package]
 name = "lat"
-version = "0.6.3"
+version = "0.6.4"
 edition = "2024"
 authors = ["Dana Schlifka"]
 description = "Language-as-Tool: an MCP server that provides curated thinking patterns (languages and poetic forms) to MCP-compatible AI agents."
@@ -42,6 +42,9 @@ tower = { version = "0.5", features = ["util"] }
 
 [lints.rust]
 unsafe_code = "forbid"
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
 
 [profile.release]
 strip = true

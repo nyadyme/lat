@@ -9,9 +9,12 @@
 use std::path::{Path, PathBuf};
 
 use anyhow::{Context, Result};
-use rusqlite::Connection;
+use rusqlite::{Connection, OptionalExtension};
 
-use crate::models::{Facets, Pattern, PatternType, SearchFilters};
+use crate::models::{
+    Combination, CombinationRoute, DroppedLens, Facets, Pattern, PatternType, RosterLens,
+    RoutingOverview, RoutingProfile, SearchFilters,
+};
 
 /// DDL for both tables. Idempotent (IF NOT EXISTS).
 const SCHEMA_SQL: &str = "
@@ -63,8 +66,59 @@ const ADDED_COLUMNS: [(&str, &str); 4] = [
     ("status", "TEXT NOT NULL DEFAULT ''"),
 ];
 
+/// DDL for the combinations and their per-language routing. Kept apart from
+/// [`SCHEMA_SQL`] because it is seeded apart: a database written before
+/// routing existed has full pattern tables and empty routing tables, and must
+/// still pick the routing up.
+const ROUTING_SCHEMA_SQL: &str = "
+CREATE TABLE IF NOT EXISTS combinations (
+    id           TEXT PRIMARY KEY,
+    name         TEXT NOT NULL DEFAULT '',
+    axis         TEXT NOT NULL DEFAULT '',
+    trigger_text TEXT NOT NULL DEFAULT '',
+    provenance   TEXT NOT NULL DEFAULT ''
+);
+CREATE TABLE IF NOT EXISTS combination_lenses (
+    combination TEXT NOT NULL,
+    position    INTEGER NOT NULL,
+    name        TEXT NOT NULL,
+    kind        TEXT NOT NULL,
+    role        TEXT NOT NULL DEFAULT '',
+    polarity    TEXT NOT NULL DEFAULT '',
+    PRIMARY KEY (combination, position)
+);
+CREATE TABLE IF NOT EXISTS routing_profiles (
+    source_language TEXT PRIMARY KEY COLLATE NOCASE,
+    own_entries     TEXT NOT NULL DEFAULT '[]',
+    note            TEXT NOT NULL DEFAULT ''
+);
+CREATE TABLE IF NOT EXISTS routing (
+    source_language TEXT NOT NULL COLLATE NOCASE,
+    combination     TEXT NOT NULL,
+    verdict         TEXT NOT NULL,
+    marker          TEXT NOT NULL DEFAULT '',
+    note            TEXT NOT NULL DEFAULT '',
+    citation        TEXT NOT NULL DEFAULT '',
+    provenance      TEXT NOT NULL DEFAULT '',
+    PRIMARY KEY (source_language, combination)
+);
+CREATE TABLE IF NOT EXISTS substitutions (
+    source_language TEXT NOT NULL COLLATE NOCASE,
+    combination     TEXT NOT NULL,
+    removed         TEXT NOT NULL,
+    replacement     TEXT NOT NULL DEFAULT '',
+    replacement_kind TEXT NOT NULL DEFAULT '',
+    reason          TEXT NOT NULL DEFAULT '',
+    PRIMARY KEY (source_language, combination, removed)
+);
+";
+
 /// Example data, embedded into the binary. Only applied when empty.
 const SEED_SQL: &str = include_str!("seed.sql");
+
+/// Routing data, embedded into the binary. Applied when the routing tables
+/// are empty, independently of [`SEED_SQL`].
+const ROUTING_SEED_SQL: &str = include_str!("routing_seed.sql");
 
 /// Adds any column of [`ADDED_COLUMNS`] the table does not have yet.
 ///
@@ -126,28 +180,53 @@ pub fn open(path: &Path) -> Result<Connection> {
     Connection::open(path).with_context(|| format!("could not open database {}", path.display()))
 }
 
-/// Creates the schema and applies the seed when both tables are empty.
-/// Returns `true` when the seed was applied by this call.
-pub fn prepare(conn: &mut Connection) -> Result<bool> {
+/// Which seeds a call to [`prepare`] applied.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub struct Seeded {
+    /// The pattern tables were empty and have been filled.
+    pub patterns: bool,
+    /// The routing tables were empty and have been filled.
+    pub routing: bool,
+}
+
+/// Creates the schema and applies each seed whose tables are empty: the
+/// patterns when both pattern tables are empty, the routing when the
+/// combinations table is. The two are reported apart because an older
+/// database has the first and lacks the second.
+pub fn prepare(conn: &mut Connection) -> Result<Seeded> {
     conn.execute_batch(SCHEMA_SQL)
         .context("could not create schema")?;
     add_missing_columns(conn)?;
+    conn.execute_batch(ROUTING_SCHEMA_SQL)
+        .context("could not create the routing schema")?;
 
-    let count: i64 = conn.query_row(
+    let patterns = seed_if_empty(
+        conn,
         "SELECT (SELECT COUNT(*) FROM forms) + (SELECT COUNT(*) FROM languages)",
-        [],
-        |row| row.get(0),
+        SEED_SQL,
+        "could not insert example data",
     )?;
+    let routing = seed_if_empty(
+        conn,
+        "SELECT COUNT(*) FROM combinations",
+        ROUTING_SEED_SQL,
+        "could not insert routing data",
+    )?;
+    Ok(Seeded { patterns, routing })
+}
+
+/// Applies `seed` when `count_sql` returns zero. Returns whether it did.
+///
+/// Seeds atomically: if seeding aborts midway, everything is rolled back so no
+/// half-filled database is left behind that would wrongly count as "already
+/// seeded" on the next start.
+fn seed_if_empty(conn: &mut Connection, count_sql: &str, seed: &str, what: &str) -> Result<bool> {
+    let count: i64 = conn.query_row(count_sql, [], |row| row.get(0))?;
     if count != 0 {
         return Ok(false);
     }
-
-    // Seed atomically: if seeding aborts midway, everything is rolled back
-    // so no half-filled database is left behind that would wrongly count as
-    // "already seeded" (count != 0) on the next start.
     let tx = conn.transaction()?;
-    tx.execute_batch(SEED_SQL)
-        .context("could not insert example data")?;
+    tx.execute_batch(seed).context(what.to_owned())?;
     tx.commit()?;
     Ok(true)
 }
@@ -157,8 +236,20 @@ pub fn prepare(conn: &mut Connection) -> Result<bool> {
 pub fn init() -> Result<PathBuf> {
     let path = db_path()?;
     let mut conn = open(&path)?;
-    if prepare(&mut conn)? {
-        tracing::info!("database seeded: {}", path.display());
+    let seeded = prepare(&mut conn)?;
+    if seeded.patterns {
+        tracing::info!("patterns seeded: {}", path.display());
+    }
+    if seeded.routing {
+        tracing::info!("routing seeded: {}", path.display());
+    }
+    let missing = missing_lenses(&conn)?;
+    if !missing.is_empty() {
+        tracing::warn!(
+            "the routing names lenses this database's catalogue lacks: {}; delete the \
+             database file and restart to reseed the catalogue",
+            missing.join(", ")
+        );
     }
     Ok(path)
 }
@@ -168,20 +259,14 @@ fn parse_json_array(raw: &str) -> Vec<String> {
     serde_json::from_str(raw).unwrap_or_default()
 }
 
-/// Reads patterns from one table with optional filters.
-fn query_table(
-    conn: &Connection,
-    kind: PatternType,
-    filters: &SearchFilters,
-) -> Result<Vec<Pattern>> {
-    let table = kind.table();
-    let mut sql = format!(
-        "SELECT name, description, focus, category, classification, feature, forced_choice, \
-         attachment, tags, themes, source, status \
-         FROM {table}"
-    );
+/// Bound parameters for a dynamically assembled statement.
+type SqlParams = Vec<Box<dyn rusqlite::types::ToSql>>;
+
+/// Translates the filters into WHERE clauses and their bound parameters, in
+/// matching order. The clauses are AND-combined by the caller.
+fn filter_clauses(filters: &SearchFilters) -> (Vec<String>, SqlParams) {
     let mut clauses: Vec<String> = Vec::new();
-    let mut params: Vec<Box<dyn rusqlite::types::ToSql>> = Vec::new();
+    let mut params: SqlParams = Vec::new();
 
     if let Some(category) = &filters.category {
         clauses.push("category = ?".to_owned());
@@ -264,7 +349,22 @@ fn query_table(
         );
         params.push(Box::new(theme.clone()));
     }
+    (clauses, params)
+}
 
+/// Reads patterns from one table with optional filters.
+fn query_table(
+    conn: &Connection,
+    kind: PatternType,
+    filters: &SearchFilters,
+) -> Result<Vec<Pattern>> {
+    let table = kind.table();
+    let mut sql = format!(
+        "SELECT name, description, focus, category, classification, feature, forced_choice, \
+         attachment, tags, themes, source, status \
+         FROM {table}"
+    );
+    let (clauses, params) = filter_clauses(filters);
     if !clauses.is_empty() {
         sql.push_str(" WHERE ");
         sql.push_str(&clauses.join(" AND "));
@@ -272,8 +372,7 @@ fn query_table(
     sql.push_str(" ORDER BY name");
 
     let mut stmt = conn.prepare(&sql)?;
-    let param_refs: Vec<&dyn rusqlite::types::ToSql> =
-        params.iter().map(|boxed| boxed.as_ref()).collect();
+    let param_refs: Vec<&dyn rusqlite::types::ToSql> = params.iter().map(AsRef::as_ref).collect();
     let rows = stmt.query_map(param_refs.as_slice(), |row| {
         Ok(Pattern {
             kind,
@@ -306,12 +405,11 @@ pub fn search(
     filters: &SearchFilters,
 ) -> Result<Vec<Pattern>> {
     let mut out = Vec::new();
-    match kind {
-        Some(k) => out.extend(query_table(conn, k, filters)?),
-        None => {
-            out.extend(query_table(conn, PatternType::Form, filters)?);
-            out.extend(query_table(conn, PatternType::Language, filters)?);
-        }
+    if let Some(k) = kind {
+        out.extend(query_table(conn, k, filters)?);
+    } else {
+        out.extend(query_table(conn, PatternType::Form, filters)?);
+        out.extend(query_table(conn, PatternType::Language, filters)?);
     }
     Ok(out)
 }
@@ -361,7 +459,7 @@ fn distinct_column(conn: &Connection, table: &str, column: &str) -> Result<Vec<S
     Ok(out)
 }
 
-/// Determines distinct values from a JSON-array field. The json_valid guard
+/// Determines distinct values from a JSON-array field. The `json_valid` guard
 /// keeps a broken cell from aborting the whole statement.
 fn distinct_json(conn: &Connection, table: &str, column: &str) -> Result<Vec<String>> {
     let sql = format!(
@@ -400,6 +498,271 @@ pub fn facets(conn: &Connection, kind: Option<PatternType>) -> Result<Vec<Facets
             facets_for(conn, PatternType::Language)?,
         ]),
     }
+}
+
+/// One substitution row of a profile: the removed lens, its replacement
+/// (empty when dropped) with its kind, and the reason.
+///
+/// The kind is stored with the row rather than looked up in the catalogue: a
+/// database seeded by an older build keeps its old pattern tables, and a
+/// replacement added to the catalogue since would otherwise make the whole
+/// profile fail.
+struct Substitution {
+    removed: String,
+    replacement: String,
+    replacement_kind: String,
+    reason: String,
+}
+
+/// Parses a stored kind. An unknown value means a corrupted row, and passing it
+/// off as either kind would send the caller to the wrong table.
+fn parse_kind(raw: &str) -> Result<PatternType> {
+    match raw {
+        "form" => Ok(PatternType::Form),
+        "language" => Ok(PatternType::Language),
+        other => anyhow::bail!("unknown pattern kind {other:?} in the routing tables"),
+    }
+}
+
+/// Lens names the routing enlists — in a roster or as a replacement — that
+/// the pattern tables do not hold, sorted.
+///
+/// Empty on a database seeded by the current build. A database seeded by an
+/// older one keeps its old catalogue while picking up the routing, so a lens
+/// added to the catalogue since can be routed to but not looked up.
+pub fn missing_lenses(conn: &Connection) -> Result<Vec<String>> {
+    let mut stmt = conn.prepare(
+        "SELECT name FROM combination_lenses \
+         UNION SELECT replacement FROM substitutions WHERE replacement <> '' \
+         EXCEPT SELECT name FROM languages \
+         EXCEPT SELECT name FROM forms \
+         ORDER BY 1",
+    )?;
+    let rows = stmt.query_map([], |row| row.get::<_, String>(0))?;
+    Ok(rows.collect::<rusqlite::Result<_>>()?)
+}
+
+/// Reads the language-neutral roster of one combination, in run order.
+fn roster_of(conn: &Connection, combination: &str) -> Result<Vec<RosterLens>> {
+    let mut stmt = conn.prepare(
+        "SELECT position, name, kind, role, polarity FROM combination_lenses \
+         WHERE combination = ? ORDER BY position",
+    )?;
+    let rows = stmt.query_map([combination], |row| {
+        Ok((
+            row.get::<_, u32>(0)?,
+            row.get::<_, String>(1)?,
+            row.get::<_, String>(2)?,
+            row.get::<_, String>(3)?,
+            row.get::<_, String>(4)?,
+        ))
+    })?;
+    let mut out = Vec::new();
+    for row in rows {
+        let (position, name, kind, role, polarity) = row?;
+        out.push(RosterLens {
+            position,
+            name,
+            kind: parse_kind(&kind)?,
+            role,
+            polarity,
+            replaces: None,
+            reason: None,
+        });
+    }
+    Ok(out)
+}
+
+/// Reads every combination with its language-neutral roster, in seed order.
+pub fn combinations(conn: &Connection) -> Result<Vec<Combination>> {
+    let mut stmt = conn.prepare(
+        "SELECT id, name, axis, trigger_text, provenance FROM combinations ORDER BY rowid",
+    )?;
+    let heads = stmt
+        .query_map([], |row| {
+            Ok((
+                row.get::<_, String>(0)?,
+                row.get::<_, String>(1)?,
+                row.get::<_, String>(2)?,
+                row.get::<_, String>(3)?,
+                row.get::<_, String>(4)?,
+            ))
+        })?
+        .collect::<rusqlite::Result<Vec<_>>>()?;
+    let mut out = Vec::new();
+    for (id, name, axis, trigger, provenance) in heads {
+        let roster = roster_of(conn, &id)?;
+        out.push(Combination {
+            id,
+            name,
+            axis,
+            trigger,
+            provenance,
+            roster,
+        });
+    }
+    Ok(out)
+}
+
+/// Names of every routing profile, in seed order.
+pub fn routing_profiles(conn: &Connection) -> Result<Vec<String>> {
+    let mut stmt = conn.prepare("SELECT source_language FROM routing_profiles ORDER BY rowid")?;
+    let rows = stmt.query_map([], |row| row.get::<_, String>(0))?;
+    Ok(rows.collect::<rusqlite::Result<_>>()?)
+}
+
+/// Applies a profile's substitutions to one roster.
+///
+/// A replacement takes the slot of the lens it removes — position, role and
+/// polarity stay, because the doctrine assigns those to the slot, not to the
+/// lens. A substitution with an empty replacement drops the slot.
+fn apply_substitutions(
+    roster: Vec<RosterLens>,
+    subs: &[Substitution],
+) -> Result<(Vec<RosterLens>, Vec<DroppedLens>)> {
+    let mut lenses = Vec::new();
+    let mut dropped = Vec::new();
+    for lens in roster {
+        let Some(sub) = subs.iter().find(|s| s.removed == lens.name) else {
+            lenses.push(lens);
+            continue;
+        };
+        if sub.replacement.is_empty() {
+            dropped.push(DroppedLens {
+                name: lens.name,
+                reason: sub.reason.clone(),
+            });
+            continue;
+        }
+        lenses.push(RosterLens {
+            kind: parse_kind(&sub.replacement_kind)?,
+            name: sub.replacement.clone(),
+            replaces: Some(lens.name),
+            reason: Some(sub.reason.clone()),
+            ..lens
+        });
+    }
+    Ok((lenses, dropped))
+}
+
+/// Reads the substitutions one profile makes in one combination.
+fn substitutions_of(
+    conn: &Connection,
+    source: &str,
+    combination: &str,
+) -> Result<Vec<Substitution>> {
+    let mut stmt = conn.prepare(
+        "SELECT removed, replacement, replacement_kind, reason FROM substitutions \
+         WHERE source_language = ? AND combination = ?",
+    )?;
+    let rows = stmt.query_map([source, combination], |row| {
+        Ok(Substitution {
+            removed: row.get(0)?,
+            replacement: row.get(1)?,
+            replacement_kind: row.get(2)?,
+            reason: row.get(3)?,
+        })
+    })?;
+    Ok(rows.collect::<rusqlite::Result<_>>()?)
+}
+
+/// Routes one combination for one profile.
+fn route(conn: &Connection, source: &str, combination: Combination) -> Result<CombinationRoute> {
+    let row = conn
+        .query_row(
+            "SELECT verdict, marker, note, citation, provenance FROM routing \
+             WHERE source_language = ? AND combination = ?",
+            [source, combination.id.as_str()],
+            |row| {
+                Ok((
+                    row.get::<_, String>(0)?,
+                    row.get::<_, String>(1)?,
+                    row.get::<_, String>(2)?,
+                    row.get::<_, String>(3)?,
+                    row.get::<_, String>(4)?,
+                ))
+            },
+        )
+        .optional()?;
+    // The generator refuses an incomplete profile; a missing row can only come
+    // from a live edit, and is reported rather than skipped so the combination
+    // does not silently vanish from the caller's routing.
+    let (verdict, marker, note, citation, provenance) = row.unwrap_or_else(|| {
+        (
+            "unrouted".to_owned(),
+            String::new(),
+            "the database holds no routing row for this combination".to_owned(),
+            String::new(),
+            String::new(),
+        )
+    });
+    let subs = substitutions_of(conn, source, &combination.id)?;
+    let (roster, dropped) = apply_substitutions(combination.roster, &subs)?;
+    Ok(CombinationRoute {
+        id: combination.id,
+        name: combination.name,
+        axis: combination.axis,
+        trigger: combination.trigger,
+        verdict,
+        marker,
+        note,
+        citation,
+        provenance,
+        roster,
+        dropped,
+    })
+}
+
+/// Returns the routing profile of a source language, matched without regard
+/// to case, or `None` when no profile exists for it.
+pub fn routing(conn: &Connection, source_language: &str) -> Result<Option<RoutingProfile>> {
+    let head = conn
+        .query_row(
+            "SELECT source_language, own_entries, note FROM routing_profiles \
+             WHERE source_language = ?",
+            [source_language.trim()],
+            |row| {
+                Ok((
+                    row.get::<_, String>(0)?,
+                    row.get::<_, String>(1)?,
+                    row.get::<_, String>(2)?,
+                ))
+            },
+        )
+        .optional()?;
+    let Some((name, own_entries, note)) = head else {
+        return Ok(None);
+    };
+    let mut routed = Vec::new();
+    for combination in combinations(conn)? {
+        routed.push(route(conn, &name, combination)?);
+    }
+    let missing = missing_lenses(conn)?;
+    let missing_from_catalogue = missing
+        .into_iter()
+        .filter(|lens| {
+            routed
+                .iter()
+                .any(|c| c.roster.iter().any(|r| &r.name == lens))
+        })
+        .collect();
+    Ok(Some(RoutingProfile {
+        source_language: name,
+        own_entries: parse_json_array(&own_entries),
+        note,
+        missing_from_catalogue,
+        combinations: routed,
+    }))
+}
+
+/// The profile names and the language-neutral combinations, with an optional
+/// message for the caller.
+pub fn routing_overview(conn: &Connection, message: Option<String>) -> Result<RoutingOverview> {
+    Ok(RoutingOverview {
+        message,
+        profiles: routing_profiles(conn)?,
+        combinations: combinations(conn)?,
+    })
 }
 
 #[cfg(test)]
@@ -445,13 +808,18 @@ pub(crate) mod testing {
 }
 
 #[cfg(test)]
+#[allow(
+    clippy::assert_is_empty,
+    clippy::cast_possible_truncation,
+    reason = "assert!(x.is_empty()) reads as the behavior under test; the fuzz casts are bounded by a modulo"
+)]
 mod tests {
     use super::*;
 
     /// Three languages and one form with known values, so the assertions stay
     /// stable when the catalogue in `seed.sql` grows. `Gamma` deliberately
     /// carries an invalid `tags` cell to exercise the `json_valid` guard, and
-    /// shares its (forced_choice, attachment) pair with `Alpha` so a collision
+    /// shares its (`forced_choice`, `attachment`) pair with `Alpha` so a collision
     /// is present in the fixture.
     const FIXTURE_SQL: &str = r#"
 INSERT INTO languages
@@ -489,10 +857,8 @@ VALUES
     /// An in-memory database holding the real `seed.sql`.
     fn seeded() -> Connection {
         let mut conn = Connection::open_in_memory().expect("could not open an in-memory database");
-        assert!(
-            prepare(&mut conn).expect("prepare failed"),
-            "expected a seed"
-        );
+        let seeded = prepare(&mut conn).expect("prepare failed");
+        assert!(seeded.patterns && seeded.routing, "expected both seeds");
         conn
     }
 
@@ -523,12 +889,26 @@ VALUES
     #[test]
     fn prepare_seeds_only_once() {
         let mut conn = Connection::open_in_memory().unwrap();
-        assert!(prepare(&mut conn).unwrap(), "first call should seed");
+        assert_eq!(
+            prepare(&mut conn).unwrap(),
+            Seeded {
+                patterns: true,
+                routing: true
+            },
+            "first call should apply both seeds"
+        );
 
         let before = search(&conn, None, &filters()).unwrap().len();
         assert!(before > 0, "the seed should not be empty");
 
-        assert!(!prepare(&mut conn).unwrap(), "second call must not reseed");
+        assert_eq!(
+            prepare(&mut conn).unwrap(),
+            Seeded {
+                patterns: false,
+                routing: false
+            },
+            "second call must not reseed"
+        );
         let after = search(&conn, None, &filters()).unwrap().len();
         assert_eq!(before, after, "reseeding would duplicate rows");
     }
@@ -558,7 +938,10 @@ INSERT INTO languages (name, focus) VALUES ('Hand-edited', 'kept');
         conn.execute_batch(OLD_SCHEMA).expect("old schema failed");
 
         let seeded = prepare(&mut conn).expect("prepare failed");
-        assert!(!seeded, "a non-empty database must not be reseeded");
+        assert!(
+            !seeded.patterns,
+            "a non-empty database must not be reseeded"
+        );
 
         let found = search(&conn, None, &filters()).unwrap();
         assert_eq!(names(&found), vec!["Hand-edited"], "the live edit was lost");
@@ -573,7 +956,7 @@ INSERT INTO languages (name, focus) VALUES ('Hand-edited', 'kept');
         conn.execute_batch(FIXTURE_SQL).unwrap();
 
         assert!(
-            !prepare(&mut conn).unwrap(),
+            !prepare(&mut conn).unwrap().patterns,
             "a filled database is not empty"
         );
         let all = search(&conn, None, &filters()).unwrap();
@@ -1236,5 +1619,757 @@ INSERT INTO languages (name, focus) VALUES ('Hand-edited', 'kept');
         )
         .unwrap();
         assert!(!names(&without).contains(&"German"));
+    }
+
+    // ---- routing: substitution logic --------------------------------------
+
+    fn lens(position: u32, name: &str) -> RosterLens {
+        RosterLens {
+            position,
+            name: name.to_owned(),
+            kind: PatternType::Language,
+            role: "ablation".to_owned(),
+            polarity: "destructive".to_owned(),
+            replaces: None,
+            reason: None,
+        }
+    }
+
+    fn substitution(removed: &str, replacement: &str) -> Substitution {
+        Substitution {
+            removed: removed.to_owned(),
+            replacement: replacement.to_owned(),
+            replacement_kind: "language".to_owned(),
+            reason: "test reason".to_owned(),
+        }
+    }
+
+    #[test]
+    fn apply_substitutions_without_rows_returns_the_roster_unchanged() {
+        let roster = vec![lens(1, "Alpha"), lens(2, "Beta")];
+
+        let (lenses, dropped) = apply_substitutions(roster, &[]).unwrap();
+
+        assert_eq!(
+            lenses.iter().map(|l| l.name.as_str()).collect::<Vec<_>>(),
+            ["Alpha", "Beta"]
+        );
+        assert!(lenses[0].replaces.is_none());
+        assert!(dropped.is_empty());
+    }
+
+    #[test]
+    fn apply_substitutions_puts_the_replacement_into_the_removed_slot() {
+        let roster = vec![lens(1, "Alpha"), lens(2, "Beta")];
+
+        let form = Substitution {
+            replacement_kind: "form".to_owned(),
+            ..substitution("Alpha", "Gamma")
+        };
+
+        let (lenses, _) = apply_substitutions(roster, &[form]).unwrap();
+
+        assert_eq!(lenses[0].name, "Gamma");
+        assert_eq!(lenses[0].position, 1);
+        assert_eq!(lenses[0].role, "ablation");
+        assert_eq!(lenses[0].polarity, "destructive");
+        assert_eq!(lenses[0].kind, PatternType::Form);
+        assert_eq!(lenses[0].replaces.as_deref(), Some("Alpha"));
+        assert_eq!(lenses[0].reason.as_deref(), Some("test reason"));
+    }
+
+    #[test]
+    fn apply_substitutions_leaves_the_untouched_slots_alone() {
+        let roster = vec![lens(1, "Alpha"), lens(2, "Beta")];
+
+        let (lenses, _) = apply_substitutions(roster, &[substitution("Alpha", "Gamma")]).unwrap();
+
+        assert_eq!(lenses[1].name, "Beta");
+        assert!(lenses[1].replaces.is_none());
+    }
+
+    #[test]
+    fn apply_substitutions_with_an_empty_replacement_drops_the_slot_with_its_reason() {
+        let roster = vec![lens(1, "Alpha"), lens(2, "Beta")];
+
+        let (lenses, dropped) = apply_substitutions(roster, &[substitution("Beta", "")]).unwrap();
+
+        assert_eq!(
+            lenses.iter().map(|l| l.name.as_str()).collect::<Vec<_>>(),
+            ["Alpha"]
+        );
+        assert_eq!(dropped.len(), 1);
+        assert_eq!(dropped[0].name, "Beta");
+        assert_eq!(dropped[0].reason, "test reason");
+    }
+
+    #[test]
+    fn apply_substitutions_for_a_lens_not_in_the_roster_changes_nothing() {
+        let roster = vec![lens(1, "Alpha")];
+
+        let (lenses, dropped) =
+            apply_substitutions(roster, &[substitution("Omega", "Gamma")]).unwrap();
+
+        assert_eq!(lenses[0].name, "Alpha");
+        assert!(dropped.is_empty());
+    }
+
+    #[test]
+    fn apply_substitutions_rejects_a_replacement_of_unknown_kind() {
+        let roster = vec![lens(1, "Alpha")];
+        let broken = Substitution {
+            replacement_kind: String::new(),
+            ..substitution("Alpha", "Gamma")
+        };
+
+        let message = apply_substitutions(roster, &[broken])
+            .unwrap_err()
+            .to_string();
+
+        assert!(message.contains("unknown pattern kind"), "got: {message}");
+    }
+
+    #[test]
+    fn parse_kind_reads_both_kinds() {
+        assert_eq!(parse_kind("form").unwrap(), PatternType::Form);
+        assert_eq!(parse_kind("language").unwrap(), PatternType::Language);
+    }
+
+    #[test]
+    fn parse_kind_rejects_an_unknown_or_differently_cased_kind() {
+        assert!(parse_kind("Language").is_err());
+        assert!(parse_kind("").is_err());
+        assert!(parse_kind("dialect").is_err());
+    }
+
+    // ---- routing: fixture edge cases --------------------------------------
+
+    /// One combination with two lenses and one profile. `Elsewhere` has no
+    /// routing row, `Broken` substitutes a lens that is not in the catalogue.
+    const ROUTING_FIXTURE_SQL: &str = "
+INSERT INTO combinations (id, name, axis, trigger_text, provenance)
+VALUES ('K1', 'base', 'Causality', 'any sentence', 'test');
+INSERT INTO combination_lenses (combination, position, name, kind, role, polarity)
+VALUES ('K1', 1, 'Alpha', 'language', 'ablation', 'destructive'),
+       ('K1', 2, 'Haiku', 'form', 'reconstruction', 'constructive');
+INSERT INTO routing_profiles (source_language, own_entries, note)
+VALUES ('Fixture', '[\"Alpha\"]', 'a note'),
+       ('Elsewhere', '[]', ''),
+       ('Broken', 'not json', '');
+INSERT INTO routing (source_language, combination, verdict, marker, note, citation, provenance)
+VALUES ('Fixture', 'K1', 'fires', 'the marker', '', 'A Grammar', 'derived'),
+       ('Broken', 'K1', 'fires', 'm', '', 'c', 'derived');
+INSERT INTO substitutions
+    (source_language, combination, removed, replacement, replacement_kind, reason)
+VALUES ('Fixture', 'K1', 'Alpha', 'Beta', 'language', 'own entry'),
+       ('Broken', 'K1', 'Alpha', 'Nowhere', 'form', 'test');
+";
+
+    fn routing_fixture() -> Connection {
+        let conn = fixture();
+        conn.execute_batch(ROUTING_SCHEMA_SQL)
+            .expect("routing schema failed");
+        conn.execute_batch(ROUTING_FIXTURE_SQL)
+            .expect("routing fixture failed");
+        conn
+    }
+
+    #[test]
+    fn routing_takes_the_replacement_kind_from_the_substitution_row() {
+        let conn = routing_fixture();
+
+        let profile = routing(&conn, "Fixture")
+            .unwrap()
+            .expect("profile expected");
+
+        let roster = &profile.combinations[0].roster;
+        assert_eq!(roster[0].name, "Beta");
+        assert_eq!(roster[0].kind, PatternType::Language);
+        assert_eq!(roster[1].kind, PatternType::Form);
+    }
+
+    #[test]
+    fn routing_matches_the_profile_without_regard_to_case_or_padding() {
+        let conn = routing_fixture();
+
+        let profile = routing(&conn, "  fIXTURE ")
+            .unwrap()
+            .expect("profile expected");
+
+        assert_eq!(profile.source_language, "Fixture");
+        assert_eq!(profile.own_entries, ["Alpha"]);
+        assert_eq!(profile.note, "a note");
+    }
+
+    #[test]
+    fn routing_for_an_unknown_language_is_none() {
+        let conn = routing_fixture();
+
+        assert!(routing(&conn, "Klingon").unwrap().is_none());
+        assert!(routing(&conn, "").unwrap().is_none());
+    }
+
+    #[test]
+    fn routing_reports_a_missing_row_as_unrouted_instead_of_skipping_it() {
+        let conn = routing_fixture();
+
+        let profile = routing(&conn, "Elsewhere")
+            .unwrap()
+            .expect("profile expected");
+
+        assert_eq!(profile.combinations.len(), 1);
+        assert_eq!(profile.combinations[0].verdict, "unrouted");
+        assert_eq!(profile.combinations[0].roster[0].name, "Alpha");
+    }
+
+    #[test]
+    fn routing_still_routes_a_replacement_missing_from_the_catalogue() {
+        let conn = routing_fixture();
+
+        let profile = routing(&conn, "Broken").unwrap().expect("profile expected");
+
+        let roster = &profile.combinations[0].roster;
+        assert_eq!(roster[0].name, "Nowhere");
+        assert_eq!(roster[0].kind, PatternType::Form);
+    }
+
+    #[test]
+    fn routing_names_the_lenses_this_database_lacks() {
+        let conn = routing_fixture();
+
+        let profile = routing(&conn, "Broken").unwrap().expect("profile expected");
+
+        assert_eq!(profile.missing_from_catalogue, ["Nowhere"]);
+    }
+
+    #[test]
+    fn routing_reports_no_missing_lens_for_a_profile_whose_lenses_all_exist() {
+        let conn = routing_fixture();
+
+        let profile = routing(&conn, "Fixture")
+            .unwrap()
+            .expect("profile expected");
+
+        assert!(profile.missing_from_catalogue.is_empty());
+    }
+
+    #[test]
+    fn missing_lenses_lists_every_routed_name_the_pattern_tables_lack() {
+        let conn = routing_fixture();
+
+        assert_eq!(missing_lenses(&conn).unwrap(), ["Nowhere"]);
+    }
+
+    #[test]
+    fn routing_treats_a_broken_own_entries_cell_as_empty() {
+        let conn = routing_fixture();
+        conn.execute_batch("DELETE FROM substitutions WHERE source_language = 'Broken';")
+            .unwrap();
+
+        let profile = routing(&conn, "Broken").unwrap().expect("profile expected");
+
+        assert!(profile.own_entries.is_empty());
+    }
+
+    #[test]
+    fn combinations_fail_on_an_unknown_lens_kind() {
+        let conn = routing_fixture();
+        conn.execute_batch("UPDATE combination_lenses SET kind = 'dialect' WHERE position = 1;")
+            .unwrap();
+
+        let message = combinations(&conn).unwrap_err().to_string();
+
+        assert!(message.contains("dialect"), "got: {message}");
+    }
+
+    #[test]
+    fn routing_overview_carries_the_message_profiles_and_neutral_rosters() {
+        let conn = routing_fixture();
+
+        let overview = routing_overview(&conn, Some("hint".to_owned())).unwrap();
+
+        assert_eq!(overview.message.as_deref(), Some("hint"));
+        assert_eq!(overview.profiles, ["Fixture", "Elsewhere", "Broken"]);
+        assert_eq!(overview.combinations[0].roster[0].name, "Alpha");
+    }
+
+    // ---- routing: the real seed --------------------------------------------
+
+    #[test]
+    fn prepare_adds_the_routing_to_a_database_that_predates_it() {
+        let mut conn = Connection::open_in_memory().unwrap();
+        conn.execute_batch(SCHEMA_SQL).unwrap();
+        conn.execute_batch(SEED_SQL).unwrap();
+        let before = search(&conn, None, &filters()).unwrap().len();
+
+        let seeded = prepare(&mut conn).unwrap();
+
+        assert_eq!(
+            seeded,
+            Seeded {
+                patterns: false,
+                routing: true
+            }
+        );
+        assert_eq!(search(&conn, None, &filters()).unwrap().len(), before);
+        assert_eq!(combinations(&conn).unwrap().len(), 8);
+    }
+
+    #[test]
+    fn a_database_seeded_before_a_replacement_entered_the_catalogue_still_routes() {
+        // A database seeded by an older build can lack a lens the routing
+        // substitutes in; 0.6.2 lacked the one the Japanese K4 slot first got.
+        // That used to fail the whole profile. Simulated here by removing the
+        // current replacement.
+        let mut conn = Connection::open_in_memory().unwrap();
+        conn.execute_batch(SCHEMA_SQL).unwrap();
+        conn.execute_batch(SEED_SQL).unwrap();
+        conn.execute_batch("DELETE FROM languages WHERE name = 'Hausa (pluractional verbs)';")
+            .unwrap();
+        prepare(&mut conn).unwrap();
+
+        let profile = routing(&conn, "Japanese")
+            .unwrap()
+            .expect("profile expected");
+
+        assert_eq!(
+            profile.combinations[3].roster[0].name,
+            "Hausa (pluractional verbs)"
+        );
+        assert_eq!(
+            profile.missing_from_catalogue,
+            ["Hausa (pluractional verbs)"]
+        );
+    }
+
+    #[test]
+    fn the_seed_names_no_lens_its_own_catalogue_lacks() {
+        let conn = seeded();
+
+        assert!(missing_lenses(&conn).unwrap().is_empty());
+    }
+
+    #[test]
+    fn every_seeded_replacement_kind_matches_the_table_it_lives_in() {
+        let conn = seeded();
+
+        let mismatched: i64 = conn
+            .query_row(
+                "SELECT COUNT(*) FROM substitutions s WHERE s.replacement <> '' AND NOT ( \
+                 (s.replacement_kind = 'language' AND EXISTS \
+                  (SELECT 1 FROM languages l WHERE l.name = s.replacement)) OR \
+                 (s.replacement_kind = 'form' AND EXISTS \
+                  (SELECT 1 FROM forms f WHERE f.name = s.replacement)))",
+                [],
+                |row| row.get(0),
+            )
+            .unwrap();
+
+        assert_eq!(mismatched, 0);
+    }
+
+    #[test]
+    fn the_russian_profile_keeps_the_polish_lenses_russian_grammar_leaves_open() {
+        // Regression: Russian agreement after five is free and its predicate
+        // case does not split nouns from adjectives, so neither Polish lens
+        // is redundant for a Russian text.
+        let conn = seeded();
+
+        let profile = routing(&conn, "Russian")
+            .unwrap()
+            .expect("profile expected");
+
+        assert_eq!(
+            profile.combinations[3].roster[1].name,
+            "Polish (numeral threshold)"
+        );
+        assert_eq!(
+            profile.combinations[7].roster[2].name,
+            "Polish (instrumental predication)"
+        );
+    }
+
+    #[test]
+    fn the_seed_holds_seven_profiles_in_order() {
+        let conn = seeded();
+
+        assert_eq!(
+            routing_profiles(&conn).unwrap(),
+            [
+                "German", "English", "French", "Spanish", "Russian", "Polish", "Japanese"
+            ]
+        );
+    }
+
+    #[test]
+    fn every_seeded_roster_lens_exists_in_its_table_and_is_sourced() {
+        let conn = seeded();
+
+        let orphans: i64 = conn
+            .query_row(
+                "SELECT COUNT(*) FROM combination_lenses c WHERE NOT EXISTS ( \
+                 SELECT 1 FROM languages l WHERE l.name = c.name AND c.kind = 'language' \
+                 AND l.status = 'sourced' UNION ALL \
+                 SELECT 1 FROM forms f WHERE f.name = c.name AND c.kind = 'form' \
+                 AND f.status = 'sourced')",
+                [],
+                |row| row.get(0),
+            )
+            .unwrap();
+
+        assert_eq!(orphans, 0);
+    }
+
+    #[test]
+    fn every_seeded_replacement_exists_and_is_sourced() {
+        let conn = seeded();
+
+        let orphans: i64 = conn
+            .query_row(
+                "SELECT COUNT(*) FROM substitutions s WHERE s.replacement <> '' AND NOT EXISTS ( \
+                 SELECT 1 FROM languages l WHERE l.name = s.replacement AND l.status = 'sourced' \
+                 UNION ALL \
+                 SELECT 1 FROM forms f WHERE f.name = s.replacement AND f.status = 'sourced')",
+                [],
+                |row| row.get(0),
+            )
+            .unwrap();
+
+        assert_eq!(orphans, 0);
+    }
+
+    #[test]
+    fn every_seeded_profile_routes_every_combination() {
+        let conn = seeded();
+
+        let gaps: i64 = conn
+            .query_row(
+                "SELECT COUNT(*) FROM routing_profiles p, combinations c WHERE NOT EXISTS ( \
+                 SELECT 1 FROM routing r WHERE r.source_language = p.source_language \
+                 AND r.combination = c.id)",
+                [],
+                |row| row.get(0),
+            )
+            .unwrap();
+
+        assert_eq!(gaps, 0);
+    }
+
+    #[test]
+    fn the_german_profile_substitutes_only_ancient_greek_in_k8() {
+        // The combinations were derived on German; the one change the check
+        // found is a K8 lens whose device German shares.
+        let conn = seeded();
+
+        let substituted: Vec<(String, String)> = conn
+            .prepare(
+                "SELECT combination, removed FROM substitutions \
+                 WHERE source_language = 'German'",
+            )
+            .unwrap()
+            .query_map([], |row| Ok((row.get(0)?, row.get(1)?)))
+            .unwrap()
+            .collect::<std::result::Result<_, _>>()
+            .unwrap();
+
+        assert_eq!(
+            substituted,
+            [(
+                "K8".to_string(),
+                "Ancient Greek (article & substantivization)".to_string()
+            )]
+        );
+    }
+
+    #[test]
+    fn the_russian_profile_inverts_k5_and_replaces_its_own_entry() {
+        let conn = seeded();
+
+        let profile = routing(&conn, "Russian")
+            .unwrap()
+            .expect("profile expected");
+        let k5 = &profile.combinations[4];
+
+        assert_eq!(k5.id, "K5");
+        assert_eq!(k5.verdict, "inverted");
+        assert_eq!(k5.roster[0].name, "Hindi-Urdu (vector verbs)");
+        assert_eq!(k5.roster[0].replaces.as_deref(), Some("Russian"));
+        assert_eq!(k5.roster[0].role, "ablation");
+    }
+
+    #[test]
+    fn the_polish_profile_drops_mongolian_from_k6() {
+        let conn = seeded();
+
+        let profile = routing(&conn, "Polish").unwrap().expect("profile expected");
+        let k6 = &profile.combinations[5];
+
+        assert_eq!(
+            k6.roster
+                .iter()
+                .map(|l| l.name.as_str())
+                .collect::<Vec<_>>(),
+            [
+                "Navajo (inalienable possession)",
+                "Hawaiian (a/o possession)",
+                "Pohnpeian (possessive classifiers)"
+            ]
+        );
+        assert_eq!(k6.dropped[0].name, "Mongolian (reflexive possession)");
+    }
+
+    #[test]
+    fn the_polish_profile_excludes_all_three_polish_entries() {
+        let conn = seeded();
+
+        let profile = routing(&conn, "Polish").unwrap().expect("profile expected");
+
+        assert_eq!(
+            profile.own_entries,
+            [
+                "Polish (instrumental predication)",
+                "Polish (numeral threshold)",
+                "Polish (masculine-personal plural)"
+            ]
+        );
+    }
+
+    #[test]
+    fn the_japanese_profile_replaces_yucatec_with_hausa_and_keeps_hungarian() {
+        // The 100-sentence check: Yucatec forced no new choice on Japanese
+        // (0/10), Hausa did (8/10); Hungarian still did too (8/10), so the
+        // earlier `-tachi` substitution was withdrawn.
+        let conn = seeded();
+
+        let profile = routing(&conn, "Japanese")
+            .unwrap()
+            .expect("profile expected");
+        let k4 = &profile.combinations[3];
+
+        assert_eq!(
+            k4.roster
+                .iter()
+                .map(|l| l.name.as_str())
+                .collect::<Vec<_>>(),
+            [
+                "Hausa (pluractional verbs)",
+                "Polish (numeral threshold)",
+                "Hungarian (associative plural)",
+                "Mojeño Trinitario (possessive classes)",
+                "Toki Pona",
+                "Swahili (noun classes)"
+            ]
+        );
+    }
+
+    #[test]
+    fn the_neutral_k4_roster_closes_on_a_reconstruction_after_its_reducer() {
+        // K1 runs on every sentence, so its reducer always displaces Toki
+        // Pona; without a closer of its own K4 would end purely destructive.
+        let conn = seeded();
+
+        let overview = routing_overview(&conn, None).unwrap();
+        let k4 = &overview.combinations[3];
+        let last = k4.roster.last().expect("roster expected");
+
+        assert_eq!(
+            (
+                last.name.as_str(),
+                last.role.as_str(),
+                last.polarity.as_str()
+            ),
+            ("Swahili (noun classes)", "reconstruction", "constructive")
+        );
+    }
+
+    #[test]
+    fn the_french_profile_replaces_russian_in_k5_with_hindi_urdu() {
+        // The 100-sentence check: the passé composé against the imparfait
+        // already forced the choice in 9 of 10, so Russian added nothing.
+        let conn = seeded();
+
+        let profile = routing(&conn, "French").unwrap().expect("profile expected");
+        let k5 = &profile.combinations[4];
+
+        assert_eq!(k5.verdict, "fires");
+        assert_eq!(k5.roster[0].name, "Hindi-Urdu (vector verbs)");
+        assert_eq!(k5.roster[0].replaces.as_deref(), Some("Russian"));
+        assert!(k5.dropped.is_empty());
+    }
+
+    #[test]
+    fn the_german_and_spanish_profiles_drop_ancient_greek_from_k8() {
+        let conn = seeded();
+
+        let german = routing(&conn, "German").unwrap().expect("profile expected");
+        let spanish = routing(&conn, "Spanish")
+            .unwrap()
+            .expect("profile expected");
+
+        assert_eq!(
+            german.combinations[7].dropped[0].name,
+            "Ancient Greek (article & substantivization)"
+        );
+        assert_eq!(
+            spanish.combinations[7].dropped[0].name,
+            "Ancient Greek (article & substantivization)"
+        );
+    }
+
+    #[test]
+    fn the_english_profile_keeps_ancient_greek_in_k8() {
+        // Only the profiles whose check found the device shared drop it; the
+        // substitution must not leak into a profile that has no row for it.
+        let conn = seeded();
+
+        let profile = routing(&conn, "English")
+            .unwrap()
+            .expect("profile expected");
+        let k8 = &profile.combinations[7];
+
+        assert_eq!(
+            k8.roster[1].name,
+            "Ancient Greek (article & substantivization)"
+        );
+        assert!(k8.dropped.is_empty());
+    }
+
+    #[test]
+    fn the_slavic_profiles_drop_finnish_from_k5() {
+        let conn = seeded();
+
+        let polish = routing(&conn, "Polish").unwrap().expect("profile expected");
+        let russian = routing(&conn, "Russian")
+            .unwrap()
+            .expect("profile expected");
+
+        assert_eq!(
+            polish.combinations[4].dropped[0].name,
+            "Finnish (partitive object)"
+        );
+        assert_eq!(
+            russian.combinations[4].dropped[0].name,
+            "Finnish (partitive object)"
+        );
+    }
+
+    #[test]
+    fn every_seeded_row_but_k1_carries_the_checked_provenance() {
+        let conn = seeded();
+
+        let unchecked: i64 = conn
+            .query_row(
+                "SELECT COUNT(*) FROM routing WHERE combination <> 'K1' \
+                 AND provenance <> 'checked'",
+                [],
+                |row| row.get(0),
+            )
+            .unwrap();
+
+        assert_eq!(unchecked, 0);
+    }
+
+    #[test]
+    fn the_french_profile_has_no_own_entries_and_leaves_k3_untouched() {
+        let conn = seeded();
+
+        let profile = routing(&conn, "French").unwrap().expect("profile expected");
+
+        assert!(profile.own_entries.is_empty());
+        assert_eq!(profile.combinations[2].roster[0].name, "Tuyuca");
+        assert!(profile.combinations[2].dropped.is_empty());
+    }
+
+    // ---- routing: fuzzing ---------------------------------------------------
+
+    /// xorshift64*: enough to spread inputs, no dependency needed.
+    struct Rng(u64);
+
+    impl Rng {
+        fn next(&mut self) -> u64 {
+            self.0 ^= self.0 >> 12;
+            self.0 ^= self.0 << 25;
+            self.0 ^= self.0 >> 27;
+            self.0.wrapping_mul(0x2545_F491_4F6C_DD1D)
+        }
+    }
+
+    /// A fresh seed per run unless `LAT_FUZZ_SEED` pins one to reproduce a
+    /// finding.
+    fn fuzz_seed() -> u64 {
+        use std::hash::{BuildHasher, RandomState};
+        std::env::var("LAT_FUZZ_SEED")
+            .ok()
+            .and_then(|s| s.parse().ok())
+            .unwrap_or_else(|| RandomState::new().hash_one(std::process::id()) | 1)
+    }
+
+    /// Run count from `LAT_FUZZ_RUNS`; small by default so the suite stays
+    /// fast. Acceptance runs set it to 20000 or more.
+    fn fuzz_runs() -> u64 {
+        std::env::var("LAT_FUZZ_RUNS")
+            .ok()
+            .and_then(|s| s.parse().ok())
+            .unwrap_or(300)
+    }
+
+    /// Quotes, wildcards, comment and statement syntax, case variants of real
+    /// profiles, whitespace, control characters and non-ASCII text.
+    const FUZZ_PIECES: [&str; 22] = [
+        "'",
+        "\"",
+        "%",
+        "_",
+        "--",
+        ";",
+        "/*",
+        "*/",
+        " OR ",
+        "1=1",
+        "\0",
+        "\n",
+        "\t",
+        " ",
+        "German",
+        "rUSSIAN",
+        "japanese",
+        "ß",
+        "日本語",
+        "😀",
+        "\u{202e}",
+        "Polish (numeral threshold)",
+    ];
+
+    #[test]
+    fn fuzz_routing_never_errors_and_only_returns_known_profiles() {
+        let conn = seeded();
+        let profiles = routing_profiles(&conn).unwrap();
+        let seed = fuzz_seed();
+        let mut rng = Rng(seed);
+
+        for run in 0..fuzz_runs() {
+            let len = (rng.next() % 12) as usize;
+            let input: String = (0..len)
+                .map(|_| FUZZ_PIECES[(rng.next() % FUZZ_PIECES.len() as u64) as usize])
+                .collect();
+
+            let result = routing(&conn, &input);
+
+            let found = result.unwrap_or_else(|e| {
+                panic!("run {run}, LAT_FUZZ_SEED={seed}: {input:?} raised {e}")
+            });
+            if let Some(profile) = found {
+                assert!(
+                    profiles.contains(&profile.source_language),
+                    "run {run}, LAT_FUZZ_SEED={seed}: {input:?} returned {:?}",
+                    profile.source_language
+                );
+                assert_eq!(
+                    profile.source_language.to_lowercase(),
+                    input.trim().to_lowercase(),
+                    "run {run}, LAT_FUZZ_SEED={seed}: {input:?} matched a different profile"
+                );
+            }
+        }
     }
 }

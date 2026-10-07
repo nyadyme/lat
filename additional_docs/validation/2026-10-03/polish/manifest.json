@@ -1,0 +1,982 @@
+[
+ {
+  "id": 1,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Bitwa_pod_Grunwaldem",
+  "position_in_run": 1,
+  "sha256": "60a4ab5c292f5e51e8cd1929408cf49cab8efc32d20f98ae791853e949348d42",
+  "revid": 80318601,
+  "revision_timestamp": "2026-08-02T17:41:43Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 2,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Bitwa_pod_Grunwaldem",
+  "position_in_run": 2,
+  "sha256": "ef021226753d7335b8b4afe40627424465a06376b2132c119bf9fbf0c2229b08",
+  "revid": 80318601,
+  "revision_timestamp": "2026-08-02T17:41:43Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 3,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Bitwa_pod_Grunwaldem",
+  "position_in_run": 3,
+  "sha256": "3f8b1722d94c92daa9b07b47a57e288338b36d54b25c80999452872b3441e14f",
+  "revid": 80318601,
+  "revision_timestamp": "2026-08-02T17:41:43Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 4,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Bitwa_pod_Grunwaldem",
+  "position_in_run": 4,
+  "sha256": "aaa054cc554c0af86715f5290b99f833b5b63b04250f51c522637da98bd855a0",
+  "revid": 80318601,
+  "revision_timestamp": "2026-08-02T17:41:43Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 5,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Bitwa_pod_Grunwaldem",
+  "position_in_run": 5,
+  "sha256": "fd1a9238d3ced5e4941514d5e93694964aa2172dd4bda9ea358feca52a0d2bcf",
+  "revid": 80318601,
+  "revision_timestamp": "2026-08-02T17:41:43Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 6,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Bitwa_pod_Grunwaldem",
+  "position_in_run": 6,
+  "sha256": "64c59b1deca3ef80ce53015801eee53005b8b27fa6b5dea633a75805bf6328e4",
+  "revid": 80318601,
+  "revision_timestamp": "2026-08-02T17:41:43Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 7,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Bitwa_pod_Grunwaldem",
+  "position_in_run": 7,
+  "sha256": "afef6da30c8f87f54e6c862e31752defefd2ea81e20e0dbb2e80c18928cb8b40",
+  "revid": 80318601,
+  "revision_timestamp": "2026-08-02T17:41:43Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 8,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Bitwa_pod_Grunwaldem",
+  "position_in_run": 8,
+  "sha256": "442d221e7bb35e9f4619183fb8f941150b9be3b56d7ee0fd35bc8bde2ec01ca7",
+  "revid": 80318601,
+  "revision_timestamp": "2026-08-02T17:41:43Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 9,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Bitwa_pod_Grunwaldem",
+  "position_in_run": 9,
+  "sha256": "abce28c20e4875cde48d104accfd2631fb9e73838d3ac0b85d24cc4f5a21ba66",
+  "revid": 80318601,
+  "revision_timestamp": "2026-08-02T17:41:43Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 10,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Bitwa_pod_Grunwaldem",
+  "position_in_run": 10,
+  "sha256": "cc7d045eb9fdaf73de620649d8aa79d43371a719db5dd6eef0c9a169fbaac88a",
+  "revid": 80318601,
+  "revision_timestamp": "2026-08-02T17:41:43Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 11,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Bitwa_pod_Grunwaldem",
+  "position_in_run": 11,
+  "sha256": "13a58ed745c3f4178a2e9e36c4b8414f27e89bdecea7eb3da2a8374249162ed0",
+  "revid": 80318601,
+  "revision_timestamp": "2026-08-02T17:41:43Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 12,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Bitwa_pod_Grunwaldem",
+  "position_in_run": 12,
+  "sha256": "46505e75e3c4bb952a632548e3388b63da14e317864fe24fd83c4086162e6858",
+  "revid": 80318601,
+  "revision_timestamp": "2026-08-02T17:41:43Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 13,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Fotosynteza",
+  "position_in_run": 1,
+  "sha256": "20dff75021323e845f0e134478a79aadc5d8e32c65e947e80697502d45b293c4",
+  "revid": 80709976,
+  "revision_timestamp": "2026-09-12T22:29:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 14,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Fotosynteza",
+  "position_in_run": 2,
+  "sha256": "192444e3d2a4b3a526f0479d5f7cc1c0ccbfd07d315369ca888c23bf49c01d30",
+  "revid": 80709976,
+  "revision_timestamp": "2026-09-12T22:29:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 15,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Fotosynteza",
+  "position_in_run": 3,
+  "sha256": "9dbe5371096c6bfe28105fe4d0a2199da959e5e5fcc9f85ff8cb18330556cb73",
+  "revid": 80709976,
+  "revision_timestamp": "2026-09-12T22:29:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 16,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Fotosynteza",
+  "position_in_run": 4,
+  "sha256": "79c571b3dcc2aec7fc8391ebe786ec36d561eb1aab5ff39c8dadf93650c23e17",
+  "revid": 80709976,
+  "revision_timestamp": "2026-09-12T22:29:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 17,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Fotosynteza",
+  "position_in_run": 5,
+  "sha256": "81deeee0916dc9742cb51e705e83184d6ec171a1b190629614c784db4bda3fec",
+  "revid": 80709976,
+  "revision_timestamp": "2026-09-12T22:29:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 18,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Fotosynteza",
+  "position_in_run": 6,
+  "sha256": "ec4ff3c24bcac50b36d336bcdce9fe4826ddebd89e70c8275dca0c0479eb8e00",
+  "revid": 80709976,
+  "revision_timestamp": "2026-09-12T22:29:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 19,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Fotosynteza",
+  "position_in_run": 7,
+  "sha256": "aa1cbffc1ec6a0b4f22d518d56f7d04bd1758c8bc363bbe3c87213db98edb2ed",
+  "revid": 80709976,
+  "revision_timestamp": "2026-09-12T22:29:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 20,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Fotosynteza",
+  "position_in_run": 8,
+  "sha256": "b14617fa732800286920342811dca4414601603bdb58faf186758a93b49887d0",
+  "revid": 80709976,
+  "revision_timestamp": "2026-09-12T22:29:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 21,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Fotosynteza",
+  "position_in_run": 9,
+  "sha256": "9fc6b7dd4407052a4b1386d64f809f38273d017dd91a560ab9ef7f6f78ab5dff",
+  "revid": 80709976,
+  "revision_timestamp": "2026-09-12T22:29:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 22,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Fotosynteza",
+  "position_in_run": 10,
+  "sha256": "b7bff750defeaed49dd7171757211cc2403133d98be74d13d7c0d2d0ae3d5864",
+  "revid": 80709976,
+  "revision_timestamp": "2026-09-12T22:29:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 23,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Fotosynteza",
+  "position_in_run": 11,
+  "sha256": "7968eee1b2485e67ae1f05971c47bfc9efece7baf8e66aa5c0a089899c72ac13",
+  "revid": 80709976,
+  "revision_timestamp": "2026-09-12T22:29:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 24,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Fotosynteza",
+  "position_in_run": 12,
+  "sha256": "f01a2883df598cc8c4824fa9f118a8ec90c9e83fca72dc84703b8fcb980a429c",
+  "revid": 80709976,
+  "revision_timestamp": "2026-09-12T22:29:15Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 25,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Inflacja",
+  "position_in_run": 1,
+  "sha256": "e147a742865080752999cd2b6f8ca51e390b01a494245c5e6c7bb375777ab614",
+  "revid": 80419648,
+  "revision_timestamp": "2026-08-11T18:40:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 26,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Inflacja",
+  "position_in_run": 2,
+  "sha256": "7eab9231e2fec6c7f96faa04ae7105aab26903c1b3ed8844571e8bcb27885963",
+  "revid": 80419648,
+  "revision_timestamp": "2026-08-11T18:40:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 27,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Inflacja",
+  "position_in_run": 3,
+  "sha256": "795275adbbf3b666e6cd88bcb8e059bd1bbcbe304b9224ddc94b14cf7649d94f",
+  "revid": 80419648,
+  "revision_timestamp": "2026-08-11T18:40:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 28,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Inflacja",
+  "position_in_run": 4,
+  "sha256": "e2b89e63c13799a53368b886e61f9396fc4173e0fc818a42898512cf42c7db39",
+  "revid": 80419648,
+  "revision_timestamp": "2026-08-11T18:40:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 29,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Inflacja",
+  "position_in_run": 5,
+  "sha256": "6742f5ae51b30092d7b92d1f2d761f496d8f3398542c80184ac8d6e40cc9006f",
+  "revid": 80419648,
+  "revision_timestamp": "2026-08-11T18:40:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 30,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Inflacja",
+  "position_in_run": 6,
+  "sha256": "5857aea550645061795452791404050b638f869e259f7fde5dcbe4ff8530e4e0",
+  "revid": 80419648,
+  "revision_timestamp": "2026-08-11T18:40:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 31,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Inflacja",
+  "position_in_run": 7,
+  "sha256": "29679f7b3cc2645aee0dc1af37b31316f2a52bf4d4f645b2b0ca11671da7a947",
+  "revid": 80419648,
+  "revision_timestamp": "2026-08-11T18:40:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 32,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Inflacja",
+  "position_in_run": 8,
+  "sha256": "2dfed77eb0e140458998c929b10ca6481d67a6802a48b3164c08c610efd76cdf",
+  "revid": 80419648,
+  "revision_timestamp": "2026-08-11T18:40:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 33,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Inflacja",
+  "position_in_run": 9,
+  "sha256": "8c1b5f0a45b97e771da3a5372ea885708cb4e6bb3a2af1a2ff4c5a930c108540",
+  "revid": 80419648,
+  "revision_timestamp": "2026-08-11T18:40:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 34,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Inflacja",
+  "position_in_run": 10,
+  "sha256": "1fa4f9b73de75013f884a1f165ed73d5d9b6e2dcd1c49a12e0496ef8bc219b4c",
+  "revid": 80419648,
+  "revision_timestamp": "2026-08-11T18:40:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 35,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Inflacja",
+  "position_in_run": 11,
+  "sha256": "b891f51ac6f4cb2774001f77c013f701267da003bc6e6f6336c153c52c49582b",
+  "revid": 80419648,
+  "revision_timestamp": "2026-08-11T18:40:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 36,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Inflacja",
+  "position_in_run": 12,
+  "sha256": "ad2f5fef69e05335d68de49520aed411e537a51bd3cc38f2e4af12511dfe3d7c",
+  "revid": 80419648,
+  "revision_timestamp": "2026-08-11T18:40:36Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 37,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie",
+  "position_in_run": 1,
+  "sha256": "e5ff56c54d833d9959e023853235a8ce68a94341dc2b7c78b6933a4ef6d21821",
+  "revid": 80753203,
+  "revision_timestamp": "2026-09-17T15:15:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 38,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie",
+  "position_in_run": 2,
+  "sha256": "8a27eb204645b8055fc90eb7fdf6f09e8fdff9ccb00ba820f0e155e8995d182d",
+  "revid": 80753203,
+  "revision_timestamp": "2026-09-17T15:15:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 39,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie",
+  "position_in_run": 3,
+  "sha256": "34b081da690a8f296782757c7193f2ad7720ad0495e383424d30a03d50e6cc32",
+  "revid": 80753203,
+  "revision_timestamp": "2026-09-17T15:15:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 40,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie",
+  "position_in_run": 4,
+  "sha256": "1459e74911c6eae1cdc5b1ffda8ce11f182ce71a6a2ef81bfac3945fac8abc5e",
+  "revid": 80753203,
+  "revision_timestamp": "2026-09-17T15:15:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 41,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie",
+  "position_in_run": 5,
+  "sha256": "d8bdcb5dfbca1d4f086717f77c2db709850c885d06d751d77f0b61287577277e",
+  "revid": 80753203,
+  "revision_timestamp": "2026-09-17T15:15:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 42,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie",
+  "position_in_run": 6,
+  "sha256": "0e50fbe24cd013a69605b1768585bf5b4f1acbd80f6f63b636aef8255d855104",
+  "revid": 80753203,
+  "revision_timestamp": "2026-09-17T15:15:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 43,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie",
+  "position_in_run": 7,
+  "sha256": "3034ce3dfc63c5780009a84a24e93b72972f2556effc69e69bf403bf8a185bb3",
+  "revid": 80753203,
+  "revision_timestamp": "2026-09-17T15:15:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 44,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie",
+  "position_in_run": 8,
+  "sha256": "0209b10028f9760f45858ddf66c5dea2d886214754ecb62d130ec26bf92d59ab",
+  "revid": 80753203,
+  "revision_timestamp": "2026-09-17T15:15:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 45,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie",
+  "position_in_run": 9,
+  "sha256": "f3142bd436e799f1636a15bc37f574ad05a437875ebf4b688ae570719cc1c08b",
+  "revid": 80753203,
+  "revision_timestamp": "2026-09-17T15:15:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 46,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie",
+  "position_in_run": 10,
+  "sha256": "8ab9ee919b67dcb440808dccdfc1f89b3d7d9182ff38ec4b6ed5e2400b89a182",
+  "revid": 80753203,
+  "revision_timestamp": "2026-09-17T15:15:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 47,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie",
+  "position_in_run": 11,
+  "sha256": "8a8bb73472009e4775c728e71290720ef0cc3f9f61eae8888b5605f94c9a7d8e",
+  "revid": 80753203,
+  "revision_timestamp": "2026-09-17T15:15:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 48,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie",
+  "position_in_run": 12,
+  "sha256": "ce8bd85f155389e4159c5147e0aae5a604b66ffef8487dc127284cb52f1c76b9",
+  "revid": 80753203,
+  "revision_timestamp": "2026-09-17T15:15:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 49,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Kuchnia_polska",
+  "position_in_run": 1,
+  "sha256": "e4b938d6488d8ec51bf1647965263164c41a1594a0eee1ad5739e27f66377358",
+  "revid": 80343395,
+  "revision_timestamp": "2026-08-05T13:08:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 50,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Kuchnia_polska",
+  "position_in_run": 2,
+  "sha256": "87eac9e147423680d91dfab9b784ea781dafd15c5fb9dd93ec5c046f96307f66",
+  "revid": 80343395,
+  "revision_timestamp": "2026-08-05T13:08:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 51,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Kuchnia_polska",
+  "position_in_run": 3,
+  "sha256": "7bdab4c845a546a2c1de4d642da4652925d725523c21ee6eefdc86eb5f2a8b71",
+  "revid": 80343395,
+  "revision_timestamp": "2026-08-05T13:08:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 52,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Kuchnia_polska",
+  "position_in_run": 4,
+  "sha256": "d0d00146047ff0bbd9a535703881b8eb5d5b5e6cc208deb65d4f18f854a2121d",
+  "revid": 80343395,
+  "revision_timestamp": "2026-08-05T13:08:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 53,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Kuchnia_polska",
+  "position_in_run": 5,
+  "sha256": "e890c8a15511105822e544d463f58682e175eba2acf3abd50b29860b0a5d25d5",
+  "revid": 80343395,
+  "revision_timestamp": "2026-08-05T13:08:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 54,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Kuchnia_polska",
+  "position_in_run": 6,
+  "sha256": "ded5362cbb0e085bdb4d23b6107142784f62834f0e5dbffb65c087e6a4134932",
+  "revid": 80343395,
+  "revision_timestamp": "2026-08-05T13:08:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 55,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Kuchnia_polska",
+  "position_in_run": 7,
+  "sha256": "8690c948250ca6e782ffc398852f5aec8a29846682ea12f4e6f9c50b84ca5923",
+  "revid": 80343395,
+  "revision_timestamp": "2026-08-05T13:08:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 56,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Kuchnia_polska",
+  "position_in_run": 8,
+  "sha256": "2801c28fab56c2a39b48addff859967686f08caf52e10b1fbb2dd966e6d7550e",
+  "revid": 80343395,
+  "revision_timestamp": "2026-08-05T13:08:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 57,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Kuchnia_polska",
+  "position_in_run": 9,
+  "sha256": "9af343487be38f3821834ec3109c85ec234f3e742f524bfbe4efe521d62df413",
+  "revid": 80343395,
+  "revision_timestamp": "2026-08-05T13:08:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 58,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Kuchnia_polska",
+  "position_in_run": 10,
+  "sha256": "9fd554a4690cfdd50b3cc5aa37fc9691217d53cb3251a47c6425d5ee287487f9",
+  "revid": 80343395,
+  "revision_timestamp": "2026-08-05T13:08:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 59,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Kuchnia_polska",
+  "position_in_run": 11,
+  "sha256": "e108a45ab2d7771b0185813fe4b15e504c8959565157aa297e91c89cf5491c69",
+  "revid": 80343395,
+  "revision_timestamp": "2026-08-05T13:08:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 60,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://pl.wikipedia.org/wiki/Kuchnia_polska",
+  "position_in_run": 12,
+  "sha256": "da9aa1ec5dcad9b3633787ebc12b0962a9780e91f7df9bf2db0aed1cd209a515",
+  "revid": 80343395,
+  "revision_timestamp": "2026-08-05T13:08:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 61,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 1,
+  "sha256": "97b9cd99cb1548244378ddca9b946053b8e2d8e1a8757a37c58a27d765b05fb6"
+ },
+ {
+  "id": 62,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 2,
+  "sha256": "664e36daba9f76a770ae4e9ab4e6ba61387e7c981299fb610e09c992593d792a"
+ },
+ {
+  "id": 63,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 3,
+  "sha256": "2cac11de534ca18d89cbd21b727ee8229ba257bc2388e5a88788293bbba1f3ee"
+ },
+ {
+  "id": 64,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 4,
+  "sha256": "1bf6a50147ee0df1ca440644659cd41528ff067bd501e2f0a6a37666a74bc424"
+ },
+ {
+  "id": 65,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 5,
+  "sha256": "cfaee419aef71ca06923edaf04372758c9433806d5099916d53db300a42e5465"
+ },
+ {
+  "id": 66,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 6,
+  "sha256": "e3c919e1e4aa4c7ccfc6cd99189c69b1a45d4f96a8a48e5b5415c6bbdc655509"
+ },
+ {
+  "id": 67,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 7,
+  "sha256": "924b6622b6cf37662fa203d84b2e280988b453840fcc807628f6d426592e147e"
+ },
+ {
+  "id": 68,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 8,
+  "sha256": "ef8fc7dd1b9f80618aa3d30e1ac30ef00c235e1f7ac301dc060157ecd5195db1"
+ },
+ {
+  "id": 69,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 9,
+  "sha256": "d72797dd63a6648a7a3c25720ca7a9d0f003badd8fea3494e09a7836eaa891cd"
+ },
+ {
+  "id": 70,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 10,
+  "sha256": "c21fe956fa45bc24954b848a63b8728628faf64c543496733c11a6b79545efd9"
+ },
+ {
+  "id": 71,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 11,
+  "sha256": "df50c577f8f9ccfce5352e10fac26407c714969ecaa9d0f5034161761f623915"
+ },
+ {
+  "id": 72,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 12,
+  "sha256": "0839a38b9985e78de5e143308a30cb935263d7f6a34f54b66548dbf0592cd6de"
+ },
+ {
+  "id": 73,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 13,
+  "sha256": "7db6be1d9e5328d38aabc4285f276bcbf800c96d002676ecbbff64ab169335cd"
+ },
+ {
+  "id": 74,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 14,
+  "sha256": "60772bdb92020c35b2c3815efc81e2218514bae50cac2566459af24d369500a5"
+ },
+ {
+  "id": 75,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 15,
+  "sha256": "45dd513c3ee1a07bc4ab8db2259f220ff540f68ae66769cedadde4b26e3a6601"
+ },
+ {
+  "id": 76,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 16,
+  "sha256": "81601c8784ab5f2a4b8e7a92905e0a204ea3238898cadc430e67f464a55a4aad"
+ },
+ {
+  "id": 77,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 17,
+  "sha256": "fe803d1e9e06124e154249ba69f35fddf7ef82b2be9b6981564d8bf1fe46bd89"
+ },
+ {
+  "id": 78,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 18,
+  "sha256": "7b1f4ae1ca1d247e4a369b1899c87023cfb3ad322eb7eb1639b1d0d49568f925"
+ },
+ {
+  "id": 79,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 19,
+  "sha256": "9069ad1a68e0d99311ba2a2e04d9d31cca0b8a0c5f4af1693eba1bff84355b87"
+ },
+ {
+  "id": 80,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 20,
+  "sha256": "6611e9c8ee23f175e623c721b90b564f811f6ee644fc83325d303f6dd0c9069f"
+ },
+ {
+  "id": 81,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 21,
+  "sha256": "72154f73ae155d630ab001ce61b2265c72c089bfd99680ca050192cc9b242b73"
+ },
+ {
+  "id": 82,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 22,
+  "sha256": "164a6ebb61b603dcc165b1c29d97bce7a03dde8cf5d3152e1dbf19e0dca385e1"
+ },
+ {
+  "id": 83,
+  "domain": "news/opinion: Krytyka Polityczna (interview)",
+  "kind": "news",
+  "url": "https://krytykapolityczna.pl/kraj/kobiety-obrona-powszechna-weronika-grzebalska/",
+  "position_in_run": 23,
+  "sha256": "8e3d1aacf32ea2a45b161c84ef139825429e6392d1d0131504ba08bf53e2ec05"
+ },
+ {
+  "id": 84,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 1,
+  "sha256": "d63e4dc7baa530b547978198cdabdd80d052bc223df458aded4944563bb4c93d"
+ },
+ {
+  "id": 85,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 2,
+  "sha256": "526f6401812a069c12ffea39ab08bc9fe0f32e2787ff43a0e85813612fd10f5b"
+ },
+ {
+  "id": 86,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 3,
+  "sha256": "981228372118152f6e87c9a5e2cb74248f102873c6bd503e5debfa0cb25990a4"
+ },
+ {
+  "id": 87,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 4,
+  "sha256": "4f418ba29349414217042111a0b59875b52c3ab2fc5234287c5bf05ec4fda3a7"
+ },
+ {
+  "id": 88,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 5,
+  "sha256": "4988e5b90fc6345378628c3eb000ec35e70a9fc1700c4f96793b70c10f25717c"
+ },
+ {
+  "id": 89,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 6,
+  "sha256": "2445c75bf5546b487f7a1a1367270aa6170bed2fcec355554a91e16aa7bb257f"
+ },
+ {
+  "id": 90,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 7,
+  "sha256": "c93f61aa957df7e05d7998720c25ea60984c3ae74ccab213520c655a692f1dd8"
+ },
+ {
+  "id": 91,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 8,
+  "sha256": "bd17aeaf2e23119e8bebc4cc525a91705166e13a8a656fa6e29f120326aaf64f"
+ },
+ {
+  "id": 92,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 9,
+  "sha256": "4b05f1f283c7134e5977601464e09ebdacced4595e4f941f76a55143116893b1"
+ },
+ {
+  "id": 93,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 10,
+  "sha256": "66d3b736beb9375c1fda2a8d1684def221bc756db53f31f7634e4fb5f7869d05"
+ },
+ {
+  "id": 94,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 11,
+  "sha256": "cae20c0bbbf5fac16ef968bb61388808d98ccd49999ac8b6d012abf976d619c0"
+ },
+ {
+  "id": 95,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 12,
+  "sha256": "21eadf73b8533f26a1e604c7dceebe34257440e386bf1485d43e7133a71967f2"
+ },
+ {
+  "id": 96,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 13,
+  "sha256": "7d927b01f2cf8bb43ec63bd474a779fa4d461cd49afe8261dba916167764b9c1"
+ },
+ {
+  "id": 97,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 14,
+  "sha256": "8cc736800e1ceafed296dbae9b8267dd72129718e606c1481fc31119a8fd3298"
+ },
+ {
+  "id": 98,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 15,
+  "sha256": "a37d57c8bdf58f7a5c1e0b5424f383b18f76236a0967be2e595c707810a83479"
+ },
+ {
+  "id": 99,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 16,
+  "sha256": "c7ceb10c5ce2498d6cee146cbff354904433b283af0deb99b719f689d8ccfb77"
+ },
+ {
+  "id": 100,
+  "domain": "news/opinion: Polsat News",
+  "kind": "news",
+  "url": "https://www.polsatnews.pl/wiadomosc/2026-10-03/radoslaw-sikorski-wskazal-jedyne-zadanie-prezydenta-rzad-swoje-zrobil/",
+  "position_in_run": 17,
+  "sha256": "1100e1ca04961b6c56de7388bb997b19b4e98a5e43c6169b1a31a3d73f79100d"
+ }
+]

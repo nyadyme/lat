@@ -19,6 +19,14 @@ must exist in the catalogue, and none may be `contested`. Second each catalogue
 entry against itself: a row whose prose names an axis it does not carry is
 where a correction stopped at one cell.
 
+Third, the rosters in the skill against `lat_routing.md`, which is what the
+`get_routing` tool serves: the two must name the same lenses per combination,
+or a host reading the skill and a host calling the tool run different
+combinations under one name. The adjacency and family rules below are then
+applied to every profile's effective roster as well, since a substitution can
+bring two adjacent lenses together that the language-neutral roster keeps
+apart.
+
 What is deliberately not checked: the skill's prose. A section may name a
 contested lens to say that it was taken out, which is exactly what K2 and K5
 now do, and a collision note may name one to warn about it. Flagging those
@@ -27,6 +35,8 @@ would push the doctrine toward not mentioning what it excludes.
 import re
 import sys
 from pathlib import Path
+
+from gen_routing import effective_roster, load_routing
 
 REPO = Path(__file__).resolve().parent.parent
 CATALOG = REPO / "additional_docs" / "lat_catalog.md"
@@ -186,6 +196,51 @@ def references(text):
                 yield (f"{section} lens table, line {no}", first.group(1))
 
 
+def check_routing_agrees(enlisted):
+    """Compare the skill's rosters with the routing data, per profile too."""
+    problems = []
+    tables = load_routing()
+    rosters = {}
+    for row in tables["rosters"]:
+        rosters.setdefault(row["combination"], []).append(row)
+    for rows in rosters.values():
+        rows.sort(key=lambda r: int(r["position"]))
+    # Both directions: a combination the skill recites and the data lacks is
+    # as much a drift as the reverse, and only the union sees both.
+    skill_ids = {key for key in enlisted if re.fullmatch(r"K\d+", key)}
+    for cid in sorted(skill_ids | set(rosters)):
+        in_data = {r["lens"] for r in rosters.get(cid, [])}
+        in_skill = enlisted.get(cid, set())
+        if in_data != in_skill:
+            problems.append(
+                f"{cid}: the skill enlists {sorted(in_skill)}, lat_routing.md "
+                f"{sorted(in_data)}; edit both or the tool and the doctrine "
+                "run different combinations under one name")
+
+    subs = {}
+    for row in tables["substitutions"]:
+        subs.setdefault((row["source"], row["combination"]), []).append(row)
+    for profile in tables["profiles"]:
+        src = profile["source"]
+        for cid, rows in sorted(rosters.items()):
+            lenses, _ = effective_roster(rows, subs.get((src, cid), []))
+            names = set(lenses)
+            where = f"{src} {cid}"
+            for a, b, why in ADJACENT:
+                if frozenset({a, b}) in CLEARED:
+                    continue
+                if a in names and b in names:
+                    problems.append(
+                        f"{where}: the effective roster holds {a!r} and "
+                        f"{b!r}, but they are adjacent — {why}.")
+            for label, members, why in FAMILIES:
+                together = sorted(members & names)
+                if len(together) > 1:
+                    problems.append(
+                        f"{where}: {together} are all {label} — {why}.")
+    return problems
+
+
 def main():
     status = catalogue()
     text = SKILL.read_text(encoding="utf-8")
@@ -227,6 +282,8 @@ def main():
                 problems.append(
                     f"{combination}: {together} are all {label}, and a "
                     f"combination takes at most one — {why}.")
+
+    problems.extend(check_routing_agrees(enlisted))
 
     used = set()
     for name, cells in sorted(status.items()):

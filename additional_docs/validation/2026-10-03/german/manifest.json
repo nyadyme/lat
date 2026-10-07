@@ -1,0 +1,982 @@
+[
+ {
+  "id": 1,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Drei%C3%9Figj%C3%A4hriger_Krieg",
+  "position_in_run": 1,
+  "sha256": "0a43ba2e5d47b463d45609873d6677cd001ee92b75bee72aad2e648d7910196b",
+  "revid": 270660817,
+  "revision_timestamp": "2026-09-20T22:10:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 2,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Drei%C3%9Figj%C3%A4hriger_Krieg",
+  "position_in_run": 2,
+  "sha256": "e7db05f2c69332db9558d683c5bf520480f2a133f9724119a3655a9c015c2d1c",
+  "revid": 270660817,
+  "revision_timestamp": "2026-09-20T22:10:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 3,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Drei%C3%9Figj%C3%A4hriger_Krieg",
+  "position_in_run": 3,
+  "sha256": "5f1901433e64858649f190054b6a39bb04a1d4b858b2e27640b96292f99fe982",
+  "revid": 270660817,
+  "revision_timestamp": "2026-09-20T22:10:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 4,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Drei%C3%9Figj%C3%A4hriger_Krieg",
+  "position_in_run": 4,
+  "sha256": "89643788d65f7e6bbe35cfdfbdaffa04b51f7b35da54bd33c2590d930423c7dc",
+  "revid": 270660817,
+  "revision_timestamp": "2026-09-20T22:10:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 5,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Drei%C3%9Figj%C3%A4hriger_Krieg",
+  "position_in_run": 5,
+  "sha256": "16e0d12b9676ad9135f89d687c0d6bb0f9fd4b5f5986a4bc3cc147f6eb14d0d4",
+  "revid": 270660817,
+  "revision_timestamp": "2026-09-20T22:10:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 6,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Drei%C3%9Figj%C3%A4hriger_Krieg",
+  "position_in_run": 6,
+  "sha256": "1f1fbc639d6aa555bdede2789159e7208def354765067510f92f50a4b7eb577e",
+  "revid": 270660817,
+  "revision_timestamp": "2026-09-20T22:10:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 7,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Drei%C3%9Figj%C3%A4hriger_Krieg",
+  "position_in_run": 7,
+  "sha256": "2181ddf61efc337b0a7bd3829ac6c10aa135133a0724fb806ecf72620ea6cfda",
+  "revid": 270660817,
+  "revision_timestamp": "2026-09-20T22:10:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 8,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Drei%C3%9Figj%C3%A4hriger_Krieg",
+  "position_in_run": 8,
+  "sha256": "1dab2dec673730bfe7933f6efc231f76cc092ef35eefe72de401c87a031e941c",
+  "revid": 270660817,
+  "revision_timestamp": "2026-09-20T22:10:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 9,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Drei%C3%9Figj%C3%A4hriger_Krieg",
+  "position_in_run": 9,
+  "sha256": "216f7c6b330bdc673247ab15834432e2de75946f161a19ddb3a8fe7572fbb432",
+  "revid": 270660817,
+  "revision_timestamp": "2026-09-20T22:10:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 10,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Drei%C3%9Figj%C3%A4hriger_Krieg",
+  "position_in_run": 10,
+  "sha256": "1a4a8b9f289c52d69cb1929d91cf6b5a93d8a15837eb84d4586d5a01bd22c10f",
+  "revid": 270660817,
+  "revision_timestamp": "2026-09-20T22:10:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 11,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Drei%C3%9Figj%C3%A4hriger_Krieg",
+  "position_in_run": 11,
+  "sha256": "4cf461b46eb4f80241b6844c1b4473cc1d23ef40e74f19d547842a5d298234af",
+  "revid": 270660817,
+  "revision_timestamp": "2026-09-20T22:10:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 12,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Drei%C3%9Figj%C3%A4hriger_Krieg",
+  "position_in_run": 12,
+  "sha256": "b42841e3c6fc74f5e148119d0d5817c29de0c2574ad4d3d2d9c55ef7cf4b77ab",
+  "revid": 270660817,
+  "revision_timestamp": "2026-09-20T22:10:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 13,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Photosynthese",
+  "position_in_run": 1,
+  "sha256": "7583775a970fdd9099943fdcf9402b9fdd9f117171ab488a9d9b8becf1ba1840",
+  "revid": 268891481,
+  "revision_timestamp": "2026-07-17T06:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 14,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Photosynthese",
+  "position_in_run": 2,
+  "sha256": "b3bf1658de06ba5fb6321cca0dd814dcdca2cd6bd3d0c79887444a6730d5252a",
+  "revid": 268891481,
+  "revision_timestamp": "2026-07-17T06:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 15,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Photosynthese",
+  "position_in_run": 3,
+  "sha256": "5f2a172ee8596d6c70bc130f9f7496c0d995c745191d7108f896a6e054d6a7fa",
+  "revid": 268891481,
+  "revision_timestamp": "2026-07-17T06:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 16,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Photosynthese",
+  "position_in_run": 4,
+  "sha256": "3ff247635d959982927b101fd9d732e3d2379064eb02a487a2f11838c732a02b",
+  "revid": 268891481,
+  "revision_timestamp": "2026-07-17T06:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 17,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Photosynthese",
+  "position_in_run": 5,
+  "sha256": "ebe0c9fe650f22fedd18e0559231e15d6af975d8d3fabde878def65da86bc492",
+  "revid": 268891481,
+  "revision_timestamp": "2026-07-17T06:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 18,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Photosynthese",
+  "position_in_run": 6,
+  "sha256": "db6fa52aca2834d6dfe537aff99e996962474b8a00cf5192c3bc3e586683b868",
+  "revid": 268891481,
+  "revision_timestamp": "2026-07-17T06:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 19,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Photosynthese",
+  "position_in_run": 7,
+  "sha256": "db706e1411a5d2b4bc0e55baf181725e96876b5bc3e98ac8242b0e6afdef5de7",
+  "revid": 268891481,
+  "revision_timestamp": "2026-07-17T06:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 20,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Photosynthese",
+  "position_in_run": 8,
+  "sha256": "bda435fb0ec28e7ce52bebde66828d6e5bd77b48cb055845e31f283eaeb2f992",
+  "revid": 268891481,
+  "revision_timestamp": "2026-07-17T06:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 21,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Photosynthese",
+  "position_in_run": 9,
+  "sha256": "6955a0ef989b6e8f071133d17dccf702329ed26f731c47c6409d8f0627425268",
+  "revid": 268891481,
+  "revision_timestamp": "2026-07-17T06:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 22,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Photosynthese",
+  "position_in_run": 10,
+  "sha256": "4de2bba008c07722d6e1b8a5db3710175b0148b999db4a1a65552bb73157773e",
+  "revid": 268891481,
+  "revision_timestamp": "2026-07-17T06:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 23,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Photosynthese",
+  "position_in_run": 11,
+  "sha256": "5e0167872f4881dc6aebad086559c21774fd43ab9ee5926547993a3b5d6b1b84",
+  "revid": 268891481,
+  "revision_timestamp": "2026-07-17T06:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 24,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Photosynthese",
+  "position_in_run": 12,
+  "sha256": "3b75d917c95f06f0892a8d035ca6bc4a935010e6c8bcd775be8b3622676a6d65",
+  "revid": 268891481,
+  "revision_timestamp": "2026-07-17T06:36:56Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 25,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Inflation",
+  "position_in_run": 1,
+  "sha256": "22bb7f8e5c4b7f20d2e8eb78d82f67e0ca4d47b3485a4ffc241a3329a5ea2fc7",
+  "revid": 270765659,
+  "revision_timestamp": "2026-09-24T16:32:08Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 26,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Inflation",
+  "position_in_run": 2,
+  "sha256": "15da564ed1a45f3f56612c49ab97ab3c89da28afe1124569c7c5f50ca01a727e",
+  "revid": 270765659,
+  "revision_timestamp": "2026-09-24T16:32:08Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 27,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Inflation",
+  "position_in_run": 3,
+  "sha256": "0438bb48e4662a5a185ef931a6ae91ffeaabbae42b9df219ecdd8ac01ca1c77a",
+  "revid": 270765659,
+  "revision_timestamp": "2026-09-24T16:32:08Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 28,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Inflation",
+  "position_in_run": 4,
+  "sha256": "ade9bee5214638d45d1f7304b0ea3b0f4e6341a761cd94cbe38ed02b804b6d1a",
+  "revid": 270765659,
+  "revision_timestamp": "2026-09-24T16:32:08Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 29,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Inflation",
+  "position_in_run": 5,
+  "sha256": "5e1ce04c800f234f64472510cc63e559bf883ead132004a2a5598cf262ecc21b",
+  "revid": 270765659,
+  "revision_timestamp": "2026-09-24T16:32:08Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 30,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Inflation",
+  "position_in_run": 6,
+  "sha256": "000f122637d059ed8de5b4cf9ec9574a2371fdb1324d866a41367f2b1833d227",
+  "revid": 270765659,
+  "revision_timestamp": "2026-09-24T16:32:08Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 31,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Inflation",
+  "position_in_run": 7,
+  "sha256": "444ebb89b418088540ac216be4d4234c283ec0ed20dc2b63cad1f7c49a04e997",
+  "revid": 270765659,
+  "revision_timestamp": "2026-09-24T16:32:08Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 32,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Inflation",
+  "position_in_run": 8,
+  "sha256": "4d6f6cf6ec54bfc47328498a7be276729e6971dbccded2822511fdadf5291256",
+  "revid": 270765659,
+  "revision_timestamp": "2026-09-24T16:32:08Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 33,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Inflation",
+  "position_in_run": 9,
+  "sha256": "3134e73b990527ed0b5f82710c1259e3307aecea062282f3da6264f69d5bfabe",
+  "revid": 270765659,
+  "revision_timestamp": "2026-09-24T16:32:08Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 34,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Inflation",
+  "position_in_run": 10,
+  "sha256": "b8ecdf29527491f536948486517c2dc7b32d7f3e325349224bbf807332a53acf",
+  "revid": 270765659,
+  "revision_timestamp": "2026-09-24T16:32:08Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 35,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Inflation",
+  "position_in_run": 11,
+  "sha256": "0f344763de4caa882a91a1395d5c8e489ecccecd3fb6a0acce3158074c40a6d2",
+  "revid": 270765659,
+  "revision_timestamp": "2026-09-24T16:32:08Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 36,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Inflation",
+  "position_in_run": 12,
+  "sha256": "4a357f95e2e4e62c24c6c6227b6cf441d9b87be7926212dd8446f328a091bab4",
+  "revid": 270765659,
+  "revision_timestamp": "2026-09-24T16:32:08Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 37,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Lise_Meitner",
+  "position_in_run": 1,
+  "sha256": "06de0b734b398596b71fe1c32b94a691adf7fac83f6fde4ff3a56cbd96d7278c",
+  "revid": 270623518,
+  "revision_timestamp": "2026-09-19T18:50:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 38,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Lise_Meitner",
+  "position_in_run": 2,
+  "sha256": "9c7fc96f9cc0f65357fbf0cdc20e628ffd36098557e5c60f0b7d1192bcb98821",
+  "revid": 270623518,
+  "revision_timestamp": "2026-09-19T18:50:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 39,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Lise_Meitner",
+  "position_in_run": 3,
+  "sha256": "5f09241f9bcd374028e0d63fbed249216837cf4f0dff508d8ad27e474139417b",
+  "revid": 270623518,
+  "revision_timestamp": "2026-09-19T18:50:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 40,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Lise_Meitner",
+  "position_in_run": 4,
+  "sha256": "1a0fda49cdbab34dcb4576b292812c79878176235ae5b3a09ec3b858196f45a9",
+  "revid": 270623518,
+  "revision_timestamp": "2026-09-19T18:50:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 41,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Lise_Meitner",
+  "position_in_run": 5,
+  "sha256": "98fa68dad4a465445d142cbb8448868a69e581398c8174b9b8f3eac5cf855d5f",
+  "revid": 270623518,
+  "revision_timestamp": "2026-09-19T18:50:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 42,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Lise_Meitner",
+  "position_in_run": 6,
+  "sha256": "0d8d193e8d924a6484b987020c8ea17f1beb7ddc49e3092e7ff564cb0ab58de4",
+  "revid": 270623518,
+  "revision_timestamp": "2026-09-19T18:50:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 43,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Lise_Meitner",
+  "position_in_run": 7,
+  "sha256": "7e0377f8da7bdd51d40ede8a93cedcee004835a62a68c5e9b0bc922a76be6d9d",
+  "revid": 270623518,
+  "revision_timestamp": "2026-09-19T18:50:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 44,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Lise_Meitner",
+  "position_in_run": 8,
+  "sha256": "ebe9bd59a4a6904a12c198510e57c5bd40f315e6d4abda3b7761a49b8808c26d",
+  "revid": 270623518,
+  "revision_timestamp": "2026-09-19T18:50:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 45,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Lise_Meitner",
+  "position_in_run": 9,
+  "sha256": "b6800e1ed213b68376c283406882c50632047e2d2a2d948e1f96b3454709ef49",
+  "revid": 270623518,
+  "revision_timestamp": "2026-09-19T18:50:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 46,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Lise_Meitner",
+  "position_in_run": 10,
+  "sha256": "7507ee95a19ea51c3046d19bea44bba1fe69440f0e2a2ec3ce6ab15d937f654c",
+  "revid": 270623518,
+  "revision_timestamp": "2026-09-19T18:50:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 47,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Lise_Meitner",
+  "position_in_run": 11,
+  "sha256": "622b5b1b182abc2433a8030c84cf189caa63cd154a37ba9b7632d8b1d50031e0",
+  "revid": 270623518,
+  "revision_timestamp": "2026-09-19T18:50:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 48,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Lise_Meitner",
+  "position_in_run": 12,
+  "sha256": "6c2435ce8a4a53c166fd2bf3541d1972b2cce4ec6dc797f91a5758de9964bd1d",
+  "revid": 270623518,
+  "revision_timestamp": "2026-09-19T18:50:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 49,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Oktoberfest",
+  "position_in_run": 1,
+  "sha256": "31a0e0bb80a51216c541b47c058ae7d0697157d362aac5b57b605814101d9efb",
+  "revid": 270925735,
+  "revision_timestamp": "2026-09-30T17:31:55Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 50,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Oktoberfest",
+  "position_in_run": 2,
+  "sha256": "ac28f7e9804ff62274bf6a82dfa4b0ebf972b0a085ef6ba2ecf63f91f74fe4d0",
+  "revid": 270925735,
+  "revision_timestamp": "2026-09-30T17:31:55Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 51,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Oktoberfest",
+  "position_in_run": 3,
+  "sha256": "09973c996f6ea447eaa607e7923ffa261dd86454b6b991a11de0a039602bab11",
+  "revid": 270925735,
+  "revision_timestamp": "2026-09-30T17:31:55Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 52,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Oktoberfest",
+  "position_in_run": 4,
+  "sha256": "58cf2209fcdcff9609643cbe175e34e55e944c3b09649ae639a847324afd51d7",
+  "revid": 270925735,
+  "revision_timestamp": "2026-09-30T17:31:55Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 53,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Oktoberfest",
+  "position_in_run": 5,
+  "sha256": "dab36aabb74db5bc33138299c1e82acdc25a1db6c0c35e648dfdabd35c64d7c0",
+  "revid": 270925735,
+  "revision_timestamp": "2026-09-30T17:31:55Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 54,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Oktoberfest",
+  "position_in_run": 6,
+  "sha256": "c194cf98c70b64698f7464079d47014f0bcc35e846d99ddbbb0f1e9598bcb2af",
+  "revid": 270925735,
+  "revision_timestamp": "2026-09-30T17:31:55Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 55,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Oktoberfest",
+  "position_in_run": 7,
+  "sha256": "cce413b5ac53a46db509e42b3c0de8427f6dbe4eab97c295f3f5cbf4bd88da21",
+  "revid": 270925735,
+  "revision_timestamp": "2026-09-30T17:31:55Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 56,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Oktoberfest",
+  "position_in_run": 8,
+  "sha256": "4931e6e9817344c994a822f9feb2e72ece9237945944f84bbe31c4a0f472de1c",
+  "revid": 270925735,
+  "revision_timestamp": "2026-09-30T17:31:55Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 57,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Oktoberfest",
+  "position_in_run": 9,
+  "sha256": "20409fb2cd89f8044775d21ec42d1220bd55294d99c92d14bb19b71079be21e0",
+  "revid": 270925735,
+  "revision_timestamp": "2026-09-30T17:31:55Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 58,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Oktoberfest",
+  "position_in_run": 10,
+  "sha256": "13d303b9d40b935e109a9ebeb34863262bd4e78672905ce5126125ab17ebf5fb",
+  "revid": 270925735,
+  "revision_timestamp": "2026-09-30T17:31:55Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 59,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Oktoberfest",
+  "position_in_run": 11,
+  "sha256": "d2451b0078018e4db48accf3f4fd5cebe454bf55a71e8c36abd3154388905c85",
+  "revid": 270925735,
+  "revision_timestamp": "2026-09-30T17:31:55Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 60,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://de.wikipedia.org/wiki/Oktoberfest",
+  "position_in_run": 12,
+  "sha256": "08a5353d59c7bdc433b80939af2786c230675af2bd7e5a3a8503bb1a8a24d569",
+  "revid": 270925735,
+  "revision_timestamp": "2026-09-30T17:31:55Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 61,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 1,
+  "sha256": "0bab10c158d89105340b755f07d3642508b2fc6d57c61035a9a3eff728b5692b"
+ },
+ {
+  "id": 62,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 2,
+  "sha256": "1a1628dc037c067872125f739100f5d2c88f603474abedd08e077192177231dd"
+ },
+ {
+  "id": 63,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 3,
+  "sha256": "9a021fba667700a36b086130ec8fcd1a2781eef399b4a8f2a5cc2c2fecba8eb3"
+ },
+ {
+  "id": 64,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 4,
+  "sha256": "a842d6e0a2265ade2fa80c90fb60e7ed7062437b35035b89e509a509b2ad5620"
+ },
+ {
+  "id": 65,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 5,
+  "sha256": "2fe259f43ccaf9a9c2695ea9ee3c816b3979f7142326652f2f79025eccd86ac0"
+ },
+ {
+  "id": 66,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 6,
+  "sha256": "dde7908a34783a792f5047944e86d0bc919bbf1f9185b6f24b470c86a13eb97e"
+ },
+ {
+  "id": 67,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 7,
+  "sha256": "a96d95027054fa787a575523bfeea4951491193ad92ef10de6aee8fcf479188d"
+ },
+ {
+  "id": 68,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 8,
+  "sha256": "c7419f825f9f1916e328a114b607655e37cf24c17450c48226593d9c91b33121"
+ },
+ {
+  "id": 69,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 9,
+  "sha256": "b43db18cbbb3244565deaafedf8c4178cf9765b0976ebb873c657df1b4b236ed"
+ },
+ {
+  "id": 70,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 10,
+  "sha256": "ecc7bb8e8ebe01778bd33b6c73301cb8d995e43135c13d833cefd2eb042ed1f2"
+ },
+ {
+  "id": 71,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 11,
+  "sha256": "e3a77f90eb23e982d26081946ad832fe5d8e550b29e08ac52b920421d2872d17"
+ },
+ {
+  "id": 72,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 12,
+  "sha256": "91e6468ec0a0663e19c289c3727baf6b57fb6961ec110718b565287fc0496d40"
+ },
+ {
+  "id": 73,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 13,
+  "sha256": "5662706fa287b8ef65904eb060a95afc71343dd4b80c52a1e00ef527107abc80"
+ },
+ {
+  "id": 74,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 14,
+  "sha256": "501e9700fa126030d637a59cae5ee24b7e6168cbd26efe7fa93ca4de8b0e6e24"
+ },
+ {
+  "id": 75,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 15,
+  "sha256": "226f7cfbbadf0e61a3c46466e5f44c43e404b202de362d67dd3f57692c4d30e6"
+ },
+ {
+  "id": 76,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 16,
+  "sha256": "2a673fdcaa1ad69c9e9f162b1eb31acebba792d9cc80c214a270cca5d58822d2"
+ },
+ {
+  "id": 77,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 17,
+  "sha256": "e841c9d114834c145b47a791f393eefd2d43359c639bf156ebb517de8f15b56c"
+ },
+ {
+  "id": 78,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 18,
+  "sha256": "665b6acd13912a438adb6cc44152d2af2168680ffdf488a553c21b3034be8172"
+ },
+ {
+  "id": 79,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 19,
+  "sha256": "ce07aecf3c50d5a50d03c9623e9a3d1b5ba7bcde69847d23505a28ddf6dd6026"
+ },
+ {
+  "id": 80,
+  "domain": "news (tagesschau.de)",
+  "kind": "news",
+  "url": "https://www.tagesschau.de/inland/gesellschaft/einheitsfeier-steinmeier-100.html",
+  "position_in_run": 20,
+  "sha256": "4e2eb1b3ad002ddb5555a04d377c847722e1ebb29fd373851be5fa3b16cd421c"
+ },
+ {
+  "id": 81,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 1,
+  "sha256": "7790b83d154f169757fa36a75733e4f8ff8595dca4ef021c7163dd4dc5a4b962"
+ },
+ {
+  "id": 82,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 2,
+  "sha256": "3e3b501f3d2a091f3554379b1bdc7480076b397e05b865aa6c9064aab4c2c75d"
+ },
+ {
+  "id": 83,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 3,
+  "sha256": "9239275d4b9dc4b0d810a973f46d1e9c1305beb7994b76728cb58df928f23ddf"
+ },
+ {
+  "id": 84,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 4,
+  "sha256": "71ada43b91185d1a19af4df21493798d7bc59d9f03c3c0ec309fde88e869b50a"
+ },
+ {
+  "id": 85,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 5,
+  "sha256": "f4b8241966a0a258d7cd08c80a7d9acb0252fbe8de2ca12ce2189306081be33c"
+ },
+ {
+  "id": 86,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 6,
+  "sha256": "9a6201db32b4dca3fba0ebc8c89bf7af67d180b21a775f2dcd2aef0f780d81e0"
+ },
+ {
+  "id": 87,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 7,
+  "sha256": "eb230d625b4e1108ab99cddb904bf4e508ef5936cabebec66d9d57b96ea2667a"
+ },
+ {
+  "id": 88,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 8,
+  "sha256": "a5293c558e77b6b5e0e3880c13538e3dfcd7f9d3723b7e71df4313268de51cd4"
+ },
+ {
+  "id": 89,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 9,
+  "sha256": "c7c170aefebd8d9226285fcbd26b5b2316a5318418a2498f522220da3f8e5c80"
+ },
+ {
+  "id": 90,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 10,
+  "sha256": "384fc8ec077c236ce7f76bfd99d416e342968d38b7983b630d9699b912e3220e"
+ },
+ {
+  "id": 91,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 11,
+  "sha256": "2f26178ff15593eb55581e65b71c6e0e8b11f706376ae208297c7e6cadd7f47b"
+ },
+ {
+  "id": 92,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 12,
+  "sha256": "ca5e8243995af593872af154575ae8ad5b561d4732a0f5af07040f8132663c95"
+ },
+ {
+  "id": 93,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 13,
+  "sha256": "84cc2d2a211119f92897d04f55711c6bc766f1c3e99dfa56cb791cdebf6eea0d"
+ },
+ {
+  "id": 94,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 14,
+  "sha256": "8a6771b2d70a3869d1b8ca38cec8d65e80d5bbacc373ba7ac497c6660a40dafa"
+ },
+ {
+  "id": 95,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 15,
+  "sha256": "7d0a5f35a62f4ba5e712411725b353a6f9d034aeddae86d90780dc15b468913e"
+ },
+ {
+  "id": 96,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 16,
+  "sha256": "e80ef8ccf68d33c7666f228c2c825085297c8594af858021725fba857977e830"
+ },
+ {
+  "id": 97,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 17,
+  "sha256": "f110daaebf991205afcd5da9df88855ebd4cc37087f0c5c3bfad063ba8921075"
+ },
+ {
+  "id": 98,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 18,
+  "sha256": "80c2f65f4a2a1a40d92ec346fa6b366c2efaea06d90829d5cfb19bb31260f637"
+ },
+ {
+  "id": 99,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 19,
+  "sha256": "8dd2c11575f1e16ff752b2c08e09109448cdd3349e8b6803f64aca3069e34ee3"
+ },
+ {
+  "id": 100,
+  "domain": "opinion (taz.de)",
+  "kind": "news",
+  "url": "https://taz.de/Tag-der-Deutschen-Einheit-Das-Beste-ist-das-Wahlergebnis-in-Berlin/!6210070/",
+  "position_in_run": 20,
+  "sha256": "173723b2d65d708f148bce65c131f29833c26a980cbbca7d9266173472dd56d6"
+ }
+]

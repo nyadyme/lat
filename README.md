@@ -164,6 +164,7 @@ All tools are read-only. Every filter is optional and filters are AND-combined.
 | `get_pattern` | Full details of one pattern by `kind` + `name`. |
 | `list_patterns` | List all patterns, optionally restricted to one `kind`. |
 | `list_facets` | Distinct categories / classifications / attachments / tags / themes per table, so the agent knows valid filter values. |
+| `get_routing` | The pass-2 combinations (K1–K8) routed for a `source_language`: per combination the verdict (`fires` / `inverted`), the surface marker that triggers it in that language, the roster with substitutions applied, and `own_entries` to pass as `exclude_names`. Profiles: German, English, French, Spanish, Russian, Polish, Japanese. Without an argument, or for a language without a profile, it lists the profiles and the language-neutral combinations. |
 
 `kind` is `form` or `language` (omit it to search both).
 
@@ -194,12 +195,12 @@ printf '%s\n' \
   | ./target/release/lat
 ```
 
-You should see the four tools listed. Logs go to stderr; stdout carries
+You should see the five tools listed. Logs go to stderr; stdout carries
 the MCP JSON-RPC stream — never print anything else to stdout.
 
 ## Transports
 
-`lat` speaks two transports over the same four tools:
+`lat` speaks two transports over the same five tools:
 
 | Transport | Invocation | Use it when |
 | --- | --- | --- |
@@ -369,9 +370,12 @@ calls them. The intended loop (encoded in full by the companion skill) is:
    fixed tense? tacit object boundaries?).
 2. Map it to one of the eleven cognitive axes and `search_patterns` on that
    `theme`; use `list_facets` to see valid values.
-3. Contrast: pass `exclude_names: ["<the language of the text>"]` so the
-   structure the text already thinks in is not recommended back. Exclude exactly
-   that one language — a closely related one stays a valid lens, since kinship is
+3. Contrast: call `get_routing { "source_language": "<the language of the text>" }`
+   and pass its `own_entries` as `exclude_names`, so the structure the text
+   already thinks in is not recommended back. `own_entries` lists every catalog
+   entry that describes that language itself (Polish has three, Japanese two) and
+   nothing else; without a profile, exclude the entries named for the language
+   by hand. A closely related language stays a valid lens, since kinship is
    never uniform across the axes. Prefer lenses that foreground the axis the
    input language leaves implicit.
 4. Reformulate the text through the chosen language/form and name what
@@ -400,6 +404,9 @@ get_pattern { "kind": "language", "name": "Russian" }
 
 // before combining: everything that forces the same choice at the same anchor
 search_patterns { "attachment": "verb", "forced_choice": "the source of the information" }
+
+// pass-2 combinations routed for a Russian text (K5 comes back inverted)
+get_routing { "source_language": "Russian" }
 ```
 
 
@@ -438,8 +445,14 @@ path is resolved independently of the working directory:
    `~/.local/share/lat/patterns.db` on Linux.
 
 Seed data is embedded in the binary from [`src/seed.sql`](src/seed.sql) and is
-only applied when both tables are empty. Seeding is atomic — an interrupted first
-run rolls back rather than leaving a half-filled database.
+only applied when both tables are empty. The routing data comes from
+[`src/routing_seed.sql`](src/routing_seed.sql) and is applied on its own when the
+routing tables are empty, so a database written before routing existed picks it
+up on the next start without losing its patterns. Its catalogue stays as it was,
+though: a lens added since is still routed, `get_routing` lists it under
+`missing_from_catalogue`, and the server logs a warning at start. Delete the
+database file to reseed the catalogue as well. Seeding is atomic — an
+interrupted run rolls back rather than leaving a half-filled database.
 
 A database written by an older build is not rebuilt: columns added since
 (`forced_choice`, `attachment`) are appended in place, so live edits survive,
@@ -472,6 +485,19 @@ of it.
   thing all fail it.
   It also reads each entry against itself: prose that names an axis the row
   does not carry is the mark of a correction that stopped at one cell.
+- Routing profiles: edit `additional_docs/lat_routing.md` (single source of
+  truth for the combinations and their per-language routing), then:
+  ```sh
+  python tools/gen_routing.py         # regenerate src/routing_seed.sql
+  python tools/gen_routing.py --check # verify it is current (exit 1 if not)
+  python tools/check_doctrine.py      # the skill's rosters against the routing file
+  ```
+  `gen_routing.py` refuses a profile that leaves a combination without a
+  verdict, lets one of the language's own entries ride in a roster, substitutes
+  a lens that is not in the roster or not `sourced`, or brings two lenses
+  together that force the same choice at the same anchor. `check_doctrine.py`
+  fails when the skill and the routing file enlist different lenses for a
+  combination.
 - Editing the workflow: edit `.claude/skills/reframe-through-structure/SKILL.md`
   (the single source of truth for all three agent hosts), then regenerate the
   Gemini and Copilot variants:
@@ -489,19 +515,23 @@ of it.
 src/
   main.rs     # thin entry point: CLI, logging → stderr, DB init/seed, transport choice
   http.rs     # streamable HTTP transport (axum): /mcp endpoint, /health, shutdown
-  models.rs   # PatternType enum, Pattern, Facets, SearchFilters
+  models.rs   # PatternType enum, Pattern, Facets, SearchFilters, routing types
   db.rs       # path resolution, schema, seeding, typed queries
-  server.rs   # LatServer, the four tools, ServerHandler
+  server.rs   # LatServer, the five tools, ServerHandler
   seed.sql    # generated from the catalog (do not edit by hand)
+  routing_seed.sql  # generated from the routing file (do not edit by hand)
 additional_docs/
   lat_catalog.md            # the catalog — single source of truth
+  lat_routing.md            # combinations and per-language routing — single source of truth
+  validation/2026-10-03/    # evidence for the `checked` routing rows (100 sentences per language)
   lat_facets.md             # generated snapshot of filter values
                             # (founding essay lives on Zenodo, not in-repo)
 tools/
   gen_seed.py               # catalog → src/seed.sql
+  gen_routing.py            # routing file → src/routing_seed.sql
   gen_facets.py             # catalog → additional_docs/lat_facets.md
   gen_agent_prompts.py      # skill → Gemini command + Copilot prompt
-  check_doctrine.py         # workflow combinations → checked against the catalog
+  check_doctrine.py         # workflow combinations → checked against the catalog and the routing file
 .claude/skills/reframe-through-structure/SKILL.md    # workflow — single source of truth
 .github/prompts/reframe-through-structure.prompt.md  # generated — Copilot prompt
 .gemini/commands/reframe-through-structure.toml      # generated — Gemini command

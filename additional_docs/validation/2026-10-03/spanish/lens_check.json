@@ -1,0 +1,186 @@
+{
+ "note": "Spanish has no Substitutions rows. Checked: lenses on axes where the Spanish Routing notes record partial encoding (K5 past aspect split; K3 conditional of rumour) or explicitly no encoding (K6 su), plus an unprompted redundancy sweep. a = lens forces a choice the Spanish sentence has not already made grammatically; n/a = lens has no attachment point in the sentence.",
+ "K5": {
+  "sentences": [
+   1,
+   5,
+   9,
+   39,
+   41,
+   42,
+   49,
+   54,
+   74,
+   88
+  ],
+  "Russian": {
+   "a_yes": [
+    1,
+    5,
+    39,
+    42,
+    49,
+    54,
+    74
+   ],
+   "a_no": [
+    9,
+    41,
+    88
+   ],
+   "why": "Spanish indefinido marks boundedness, Russian aspect marks result-orientation; durative indefinido (se dio entre 1808 y 1814, se desarrolló, se dedicó, propiciaron) still leaves the Russian choice open; change-of-state and delimited spans (se convirtió, pasó cinco años, sustituyó) do not"
+  },
+  "Finnish (partitive object)": {
+   "a_yes": [
+    54,
+    74,
+    88
+   ],
+   "n/a": [
+    1,
+    5,
+    9,
+    39,
+    41,
+    42,
+    49
+   ]
+  },
+  "Guaraní": {
+   "a_yes": [
+    1,
+    5,
+    9,
+    39,
+    41,
+    42,
+    49,
+    54,
+    74,
+    88
+   ],
+   "note": "Spanish ex- (exlíder, exalcalde, id 81) is the only nominal-tense trace in the corpus and is optional"
+  }
+ },
+ "K3": {
+  "sentences": [
+   1,
+   4,
+   5,
+   6,
+   9,
+   39,
+   42,
+   43,
+   54,
+   55
+  ],
+  "Tuyuca": {
+   "a_yes": [
+    1,
+    4,
+    5,
+    6,
+    9,
+    39,
+    42,
+    43,
+    54,
+    55
+   ]
+  },
+  "Ewe (logophoric pronouns)": {
+   "n/a": [
+    1,
+    4,
+    5,
+    6,
+    9,
+    39,
+    42,
+    43,
+    54,
+    55
+   ]
+  },
+  "Latin (oratio obliqua)": {
+   "a_yes": [
+    1,
+    6
+   ],
+   "n/a": [
+    4,
+    5,
+    9,
+    39,
+    42,
+    43,
+    54,
+    55
+   ],
+   "note": "8 of 10 are the writer's own inferences, not borrowed claims"
+  },
+  "condicional_usage": "conditional of conjecture/rumour occurs once in 100 (id 7, Wikipedia, citing a historian); 0 of 40 news/opinion sentences"
+ },
+ "K6": {
+  "sentences": [
+   12,
+   22,
+   39,
+   41,
+   42,
+   43,
+   44,
+   49,
+   50,
+   51
+  ],
+  "Mongolian (reflexive possession)": {
+   "a_yes": [
+    12,
+    22,
+    39,
+    41,
+    42,
+    43,
+    44,
+    49,
+    50,
+    51
+   ],
+   "note": "su is subject-bound in 12,22,42 and not in the other 7; the form never shows it"
+  }
+ },
+ "unprompted": {
+  "K8 Ancient Greek (article & substantivization)": {
+   "sentences": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    9,
+    10,
+    15,
+    16,
+    20
+   ],
+   "already_decided_by_spanish_article": [
+    2,
+    4,
+    6,
+    7,
+    10,
+    15,
+    16
+   ],
+   "open": [
+    1,
+    9,
+    20
+   ],
+   "verdict": "7/10 at threshold; tentative: Spanish de vs de + article already settles whether the dependent is a type or a bounded referent; N+N juxtaposition leaves it open"
+  },
+  "others": "no other roster lens of a firing combination reached 7/10 redundancy (Basque, Nez Percé, Tagalog, Yucatec, Polish numeral threshold, Hungarian, Mojeño, Toki Pona, Navajo, Hawaiian, Pohnpeian, Latin ablative absolute, Classical Chinese, Vigraha, Polish instrumental predication, Lojban: Spanish forces none of their choices)"
+ }
+}

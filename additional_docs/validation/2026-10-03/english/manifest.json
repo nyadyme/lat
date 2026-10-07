@@ -1,0 +1,982 @@
+[
+ {
+  "id": 1,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hanseatic_League",
+  "position_in_run": 1,
+  "sha256": "f01eb3c89879fe129c2c08bf7c6c7a7ed8f7be2bb8129773ef2c18f02d042e9d",
+  "revid": 1376273657,
+  "revision_timestamp": "2026-09-23T03:59:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 2,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hanseatic_League",
+  "position_in_run": 2,
+  "sha256": "aac5a8c79be14a3283bdf99fdc3d97f61779c830913181cd7033635dd76210c3",
+  "revid": 1376273657,
+  "revision_timestamp": "2026-09-23T03:59:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 3,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hanseatic_League",
+  "position_in_run": 3,
+  "sha256": "6c1dd1266098a8e8a56df19164b429e05998bb036f54196c2d0a5af1209355de",
+  "revid": 1376273657,
+  "revision_timestamp": "2026-09-23T03:59:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 4,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hanseatic_League",
+  "position_in_run": 4,
+  "sha256": "38974e5178852d3ee1dff2494778f389c233a55972bc96fea69ae4d301b725ca",
+  "revid": 1376273657,
+  "revision_timestamp": "2026-09-23T03:59:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 5,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hanseatic_League",
+  "position_in_run": 5,
+  "sha256": "50fd924998479d46beca3484d6221f4ee10ed2ab6da6f1c81126b8d8d2705e07",
+  "revid": 1376273657,
+  "revision_timestamp": "2026-09-23T03:59:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 6,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hanseatic_League",
+  "position_in_run": 6,
+  "sha256": "3c873c336a710891abca3fefd660d2c3e18fcc2ee5f4c44d1917e9a151a1d382",
+  "revid": 1376273657,
+  "revision_timestamp": "2026-09-23T03:59:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 7,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hanseatic_League",
+  "position_in_run": 7,
+  "sha256": "0de0b68d8d12abe7ceb580503fd3cde2d12fac78abc5996661dbf95cffad2162",
+  "revid": 1376273657,
+  "revision_timestamp": "2026-09-23T03:59:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 8,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hanseatic_League",
+  "position_in_run": 8,
+  "sha256": "191048cd3ae9355d27a074eb7c34e1fd5bd422104395eb74291698a52ebf220d",
+  "revid": 1376273657,
+  "revision_timestamp": "2026-09-23T03:59:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 9,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hanseatic_League",
+  "position_in_run": 9,
+  "sha256": "ce9b464862695c741fd62024053e39289d378c113b1c1a7b2f316852b36802d5",
+  "revid": 1376273657,
+  "revision_timestamp": "2026-09-23T03:59:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 10,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hanseatic_League",
+  "position_in_run": 10,
+  "sha256": "c1379d69e47d7110929d901c0c24b4f982f14ce473df04613e985fe23a8a5fd4",
+  "revid": 1376273657,
+  "revision_timestamp": "2026-09-23T03:59:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 11,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hanseatic_League",
+  "position_in_run": 11,
+  "sha256": "df6b8ef9debd96dd5f904c75e935c706863c121552f362a756e26ea63444ed7b",
+  "revid": 1376273657,
+  "revision_timestamp": "2026-09-23T03:59:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 12,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hanseatic_League",
+  "position_in_run": 12,
+  "sha256": "44ea120896fed21d686b42793ef5cca874866950f7899e0e158a69ef0a7ae971",
+  "revid": 1376273657,
+  "revision_timestamp": "2026-09-23T03:59:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 13,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+  "position_in_run": 1,
+  "sha256": "a610d52bc67c4f5073b3cd84d09c36889e291f5dbd8d638ec968f822b6288ec6",
+  "revid": 1371284103,
+  "revision_timestamp": "2026-08-25T17:04:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 14,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+  "position_in_run": 2,
+  "sha256": "65092e0896ea830748f1a9e1171123d02aaf353db977fc980d67fb23fc68cf45",
+  "revid": 1371284103,
+  "revision_timestamp": "2026-08-25T17:04:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 15,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+  "position_in_run": 3,
+  "sha256": "f5fd9426364f280846c1829e70de0b7472f6ce571689363cc878983123ba02e7",
+  "revid": 1371284103,
+  "revision_timestamp": "2026-08-25T17:04:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 16,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+  "position_in_run": 4,
+  "sha256": "f080937ba1eb315d8c092c3f8b63139a0feba3b8c7d02dceb9373f1caebde2b6",
+  "revid": 1371284103,
+  "revision_timestamp": "2026-08-25T17:04:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 17,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+  "position_in_run": 5,
+  "sha256": "a288603fbf096ee7214c3e9fad90e1bd0fba6b84d025311664fcad2771f58b8e",
+  "revid": 1371284103,
+  "revision_timestamp": "2026-08-25T17:04:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 18,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+  "position_in_run": 6,
+  "sha256": "23f08f1fcf70935a6b41210f7ecbecbc9fe4b7e0c107f7fbabb9f682223d796a",
+  "revid": 1371284103,
+  "revision_timestamp": "2026-08-25T17:04:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 19,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+  "position_in_run": 7,
+  "sha256": "c850850b57b473487f3020b050b1eca011c7e5d56dbfd13c887195e4cfbb38ad",
+  "revid": 1371284103,
+  "revision_timestamp": "2026-08-25T17:04:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 20,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+  "position_in_run": 8,
+  "sha256": "33b8f131931a98d0f28f750e80fbf0b43de387e9119265ecd831816de5d9658b",
+  "revid": 1371284103,
+  "revision_timestamp": "2026-08-25T17:04:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 21,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+  "position_in_run": 9,
+  "sha256": "36139cef584b1a770c5a3b76486f055d45cb72cb6d574ad69de2b3405fc45b1c",
+  "revid": 1371284103,
+  "revision_timestamp": "2026-08-25T17:04:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 22,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+  "position_in_run": 10,
+  "sha256": "f3c4a27233923eb3e949c8d40e0e869af136f8fdb3cb736fc37757c3528152e0",
+  "revid": 1371284103,
+  "revision_timestamp": "2026-08-25T17:04:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 23,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+  "position_in_run": 11,
+  "sha256": "4691adace59aab678cb42a0e45c60a321f402a9e532896fbc8ceda2eadc37abf",
+  "revid": 1371284103,
+  "revision_timestamp": "2026-08-25T17:04:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 24,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+  "position_in_run": 12,
+  "sha256": "b759f936a7544f2574d76ceb0008634e437f69ae7e3069c7e884cb45c05242f7",
+  "revid": 1371284103,
+  "revision_timestamp": "2026-08-25T17:04:29Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 25,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Inflation",
+  "position_in_run": 1,
+  "sha256": "25492a87b89a4c89f58e724452987d543ab9ad003beda7dc0338d1c30d34344f",
+  "revid": 1377062796,
+  "revision_timestamp": "2026-09-27T18:49:02Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 26,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Inflation",
+  "position_in_run": 2,
+  "sha256": "9a07bfe8dc9df5327ba81b80771f21fb00d4b6bfa2046487ba27c77b507e69a6",
+  "revid": 1377062796,
+  "revision_timestamp": "2026-09-27T18:49:02Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 27,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Inflation",
+  "position_in_run": 3,
+  "sha256": "c7a6273efea076fa1f0810472a1b4965a0620a3bf492b84c86784d1ad49d199c",
+  "revid": 1377062796,
+  "revision_timestamp": "2026-09-27T18:49:02Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 28,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Inflation",
+  "position_in_run": 4,
+  "sha256": "7f6069cdbcd23a1503e345ee5b10ca2d50080ddb0bb857d799d4e2f3c6a7126a",
+  "revid": 1377062796,
+  "revision_timestamp": "2026-09-27T18:49:02Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 29,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Inflation",
+  "position_in_run": 5,
+  "sha256": "170498ac9258f70cde13407f035288aabf549ebcf93278400c861244237c63ce",
+  "revid": 1377062796,
+  "revision_timestamp": "2026-09-27T18:49:02Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 30,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Inflation",
+  "position_in_run": 6,
+  "sha256": "b67564fd19d9de71a4b3d9a84d1c18cc47cd9c3096ab8e2ba9a2867b7860e45d",
+  "revid": 1377062796,
+  "revision_timestamp": "2026-09-27T18:49:02Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 31,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Inflation",
+  "position_in_run": 7,
+  "sha256": "ff3deb578b0908e601e53e38f170d854f9becd7ec86096eaa282dd76f47e24a8",
+  "revid": 1377062796,
+  "revision_timestamp": "2026-09-27T18:49:02Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 32,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Inflation",
+  "position_in_run": 8,
+  "sha256": "0d72006abb525474adeb84d0c647d5675c700a7ad99905cd65c5bd80bb87eca9",
+  "revid": 1377062796,
+  "revision_timestamp": "2026-09-27T18:49:02Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 33,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Inflation",
+  "position_in_run": 9,
+  "sha256": "de5b88c48c4ec15022d1d4c2a5a18ee3ddb06bb1f6f7a495bbbf8d40a88954bf",
+  "revid": 1377062796,
+  "revision_timestamp": "2026-09-27T18:49:02Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 34,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Inflation",
+  "position_in_run": 10,
+  "sha256": "cb18762831175a738895e1a13add6e26439206071de33f3cbc72c97e3389fbd3",
+  "revid": 1377062796,
+  "revision_timestamp": "2026-09-27T18:49:02Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 35,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Inflation",
+  "position_in_run": 11,
+  "sha256": "b7b43cff906db3e33a9619f359f9aa74ca951a9afbf689897b56cbf5a5c83611",
+  "revid": 1377062796,
+  "revision_timestamp": "2026-09-27T18:49:02Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 36,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Inflation",
+  "position_in_run": 12,
+  "sha256": "9bd8dcb21c7cbecd077b1734d5d83719bff8a962b752afa1e01546c3c41a4f68",
+  "revid": 1377062796,
+  "revision_timestamp": "2026-09-27T18:49:02Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 37,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+  "position_in_run": 1,
+  "sha256": "a0eb183881fbe44ee0692681147303f7b070ba454707019feee96d836c095bd8",
+  "revid": 1376338287,
+  "revision_timestamp": "2026-09-23T15:04:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 38,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+  "position_in_run": 2,
+  "sha256": "028720b828c322522f08d1f543fd60e2d60401d58524be5f9446ac4d0ce0a454",
+  "revid": 1376338287,
+  "revision_timestamp": "2026-09-23T15:04:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 39,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+  "position_in_run": 3,
+  "sha256": "0b63d9264ba3ea910ff74cc7ec778e52dee3bf4f1f873e7ee5cf5069db54e0f2",
+  "revid": 1376338287,
+  "revision_timestamp": "2026-09-23T15:04:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 40,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+  "position_in_run": 4,
+  "sha256": "63af25bdc9120356a837ff15e01c5ecb9afe83c0d660b2f6254ef03975824976",
+  "revid": 1376338287,
+  "revision_timestamp": "2026-09-23T15:04:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 41,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+  "position_in_run": 5,
+  "sha256": "407401ac71a51299233e2f412e5f052c43501647a384c4a4384de7c9f7c20de2",
+  "revid": 1376338287,
+  "revision_timestamp": "2026-09-23T15:04:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 42,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+  "position_in_run": 6,
+  "sha256": "86c8d0397e4a10bf37d4e64743ba70f562fd67cbd1058e7e2c3ed1e2993fd452",
+  "revid": 1376338287,
+  "revision_timestamp": "2026-09-23T15:04:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 43,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+  "position_in_run": 7,
+  "sha256": "d270ba86d9dd16f88b3a161d7a31c9c39dc593ec9e9778a07d0fb9965434fff3",
+  "revid": 1376338287,
+  "revision_timestamp": "2026-09-23T15:04:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 44,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+  "position_in_run": 8,
+  "sha256": "e92042877cfb9d8bcecf68ade2b1a65d5f0dfc6105d424114884f6d8424e4d97",
+  "revid": 1376338287,
+  "revision_timestamp": "2026-09-23T15:04:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 45,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+  "position_in_run": 9,
+  "sha256": "f09321e3e7782ded6d2fe277546a0e6a67dab9023e3730ab066cf1f6af8f77aa",
+  "revid": 1376338287,
+  "revision_timestamp": "2026-09-23T15:04:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 46,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+  "position_in_run": 10,
+  "sha256": "e610aa21a31ffea9d71bca55f806cb27af5eb1a2bbb0f2444c146e51266ffe52",
+  "revid": 1376338287,
+  "revision_timestamp": "2026-09-23T15:04:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 47,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+  "position_in_run": 11,
+  "sha256": "bdc1e4bb8ab998be3887d7f7083e68233706eb1b0ab38d3c0c6ab73bbbb73819",
+  "revid": 1376338287,
+  "revision_timestamp": "2026-09-23T15:04:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 48,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+  "position_in_run": 12,
+  "sha256": "a1319309de52d97d772826c863d8e2d8365e957cf51d03d59de5fe092edde3ed",
+  "revid": 1376338287,
+  "revision_timestamp": "2026-09-23T15:04:38Z",
+  "found_in_revision": false
+ },
+ {
+  "id": 49,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jazz",
+  "position_in_run": 1,
+  "sha256": "bdf4707a4c36ad9081bd605796cfde4abc0896652b2b6b46e65b077cbdb9844c",
+  "revid": 1377513461,
+  "revision_timestamp": "2026-09-29T20:08:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 50,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jazz",
+  "position_in_run": 2,
+  "sha256": "e51fdfbf0699581857141f1159ad775dd24050c7c9447d0572223d54b6d454fb",
+  "revid": 1377513461,
+  "revision_timestamp": "2026-09-29T20:08:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 51,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jazz",
+  "position_in_run": 3,
+  "sha256": "2e5d2857e8a6f69ec31ba15fcf86cd0fd023aadd5ca6e0dff44bbf48b05d7c5f",
+  "revid": 1377513461,
+  "revision_timestamp": "2026-09-29T20:08:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 52,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jazz",
+  "position_in_run": 4,
+  "sha256": "78ed11b6e0f8c30c96dc30c824f37786bf0a5f41af217ad458ed226eaae37ed9",
+  "revid": 1377513461,
+  "revision_timestamp": "2026-09-29T20:08:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 53,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jazz",
+  "position_in_run": 5,
+  "sha256": "133ceb9d006e23b04255b4600ede6179efd84dbb4ea1be461695a366f145af84",
+  "revid": 1377513461,
+  "revision_timestamp": "2026-09-29T20:08:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 54,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jazz",
+  "position_in_run": 6,
+  "sha256": "26a33f54d83ef2748d5cf60a84eb746881821afa96a74572bf3d47a8da3c0d3c",
+  "revid": 1377513461,
+  "revision_timestamp": "2026-09-29T20:08:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 55,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jazz",
+  "position_in_run": 7,
+  "sha256": "460d951b741e006dd8dae7832104c3079711ab7f2be0e65377c3457b9a8a3e3b",
+  "revid": 1377513461,
+  "revision_timestamp": "2026-09-29T20:08:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 56,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jazz",
+  "position_in_run": 8,
+  "sha256": "4beff1a6f054ea7dee354fb288a097e5dbc1fcf886326359b9ca55385dbf7b12",
+  "revid": 1377513461,
+  "revision_timestamp": "2026-09-29T20:08:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 57,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jazz",
+  "position_in_run": 9,
+  "sha256": "2ee2a7f1736ae0cd6e0c98b95cfa60dcf706db74e6b603188a60607885e35c88",
+  "revid": 1377513461,
+  "revision_timestamp": "2026-09-29T20:08:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 58,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jazz",
+  "position_in_run": 10,
+  "sha256": "35b22b62998e474eb99916581f954768de7d293fd28a2a2beef07ad6b71fedef",
+  "revid": 1377513461,
+  "revision_timestamp": "2026-09-29T20:08:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 59,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jazz",
+  "position_in_run": 11,
+  "sha256": "917da81201952262ef2b880d6c608e795257fdd7b1e927ddc69d13ee2fd9f970",
+  "revid": 1377513461,
+  "revision_timestamp": "2026-09-29T20:08:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 60,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Jazz",
+  "position_in_run": 12,
+  "sha256": "bd167be8f078340f8b719d154033ec4319fc1cfd1b3202cb0f0c0e2f82e7d834",
+  "revid": 1377513461,
+  "revision_timestamp": "2026-09-29T20:08:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 61,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 1,
+  "sha256": "c20d185100fbdac8fdba6e86faa54f97135d466181d2dce4a01d564014aab03f"
+ },
+ {
+  "id": 62,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 2,
+  "sha256": "126355a8ab2f181a233b6eb9659c49b66747bf5fd7e57432bdc348ecae29aff6"
+ },
+ {
+  "id": 63,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 3,
+  "sha256": "9eb10976230b75d393575c7ff7d04ec60136afd448cf7125980671f2df6dc856"
+ },
+ {
+  "id": 64,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 4,
+  "sha256": "449f3fc553346ef6cb60604c94f86a41c0b3ed20ed54c2352f2dc37af112ee3e"
+ },
+ {
+  "id": 65,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 5,
+  "sha256": "d7c5b865a207ccecd6c2b49cc95b1380fb56d70cca4c259b9087e9fc3b8d1774"
+ },
+ {
+  "id": 66,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 6,
+  "sha256": "f77fd880265946b7a6bc8fac67dfab69af265df967e47e150fdff91825406fbf"
+ },
+ {
+  "id": 67,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 7,
+  "sha256": "ee66e38d850e46626674e9396c84f3c59acfd75656507d0069d6e73ec86285a0"
+ },
+ {
+  "id": 68,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 8,
+  "sha256": "ed373bbd9897e6db0080924a3b1c9e4b6a6804031a4b7ca33f23b2385b169be9"
+ },
+ {
+  "id": 69,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 9,
+  "sha256": "609183d9554e36047c9a25bcd64e50d9d4a2e36bd9933a9b25aa17393c70c975"
+ },
+ {
+  "id": 70,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 10,
+  "sha256": "646138f1ebe3230b795a9c0e5094531f8b619917fbef8fe0e87d9577da4f0f8c"
+ },
+ {
+  "id": 71,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 11,
+  "sha256": "478763f8bd361a5976c7aed4a615ef9a9d8157511ceb7dd7c3c51a27f312f105"
+ },
+ {
+  "id": 72,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 12,
+  "sha256": "5055b2682c0b1402cc80003563870f687089c1c2fb8e6b7e96d16ea6b8bddf7c"
+ },
+ {
+  "id": 73,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 13,
+  "sha256": "4dad8fbea69c662032871f25e5f87ff8537a9b6fd6227a94b1630c1fcdd16a4c"
+ },
+ {
+  "id": 74,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 14,
+  "sha256": "d5693afa3893051137a0bfc4a1d138fa4757ad4843f0517a22c76daec2a7ab57"
+ },
+ {
+  "id": 75,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 15,
+  "sha256": "be39e100392331d16bd90d0c8232447cd43865d569a0111b067512630579fbde"
+ },
+ {
+  "id": 76,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 16,
+  "sha256": "00c60f6deb291924288f4186061cb963c6bd43dc48832fdb2f95126dfa845e57"
+ },
+ {
+  "id": 77,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 17,
+  "sha256": "00c702cbb9a6f4d42ef80efad8e3bd648ec27990f1047239d708e69bee5022bc"
+ },
+ {
+  "id": 78,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 18,
+  "sha256": "228541d8451ad022cdb260da370360f46843e74e4d45e4cce964fab1f419adb8"
+ },
+ {
+  "id": 79,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 19,
+  "sha256": "0d9821893e007b3206d489a8162934d836922c588fd7d543a6c53c7a7d3cc4a0"
+ },
+ {
+  "id": 80,
+  "domain": "news: NPR (Supreme Court term preview)",
+  "kind": "news",
+  "url": "https://text.npr.org/nx-s1-5986341",
+  "position_in_run": 20,
+  "sha256": "cdff689403600313e691ec441607a92899283b7e21dd94d2c99df84626fbd9de"
+ },
+ {
+  "id": 81,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 1,
+  "sha256": "f3a834019e17ec26c8be542ddfa81818ed5564d5fe5411ae459a67bdc201530a"
+ },
+ {
+  "id": 82,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 2,
+  "sha256": "036d0d30846e8e5b6edcb7e78d98bdcf7eda13b3dd79f91b3b996eb6bf6aa78e"
+ },
+ {
+  "id": 83,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 3,
+  "sha256": "3cefee740681a97b9f7ef1fed005d38739cb1f75707070b2686afe179901ce90"
+ },
+ {
+  "id": 84,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 4,
+  "sha256": "0ad84e825f5f73d6d64fa6abaa2ea0df2e346c3e08aa7353fce6ef1f3e9105b6"
+ },
+ {
+  "id": 85,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 5,
+  "sha256": "745e75b64c6b1b4513684164269f4430f4b20ab5a4398baf20847552dea1bc52"
+ },
+ {
+  "id": 86,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 6,
+  "sha256": "c72c5ef6e838a63260d65c968e35795b926e3a93239c5db555e2ab55f7c033f6"
+ },
+ {
+  "id": 87,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 7,
+  "sha256": "7b9261f69e6cb882d78c0d3357463af1b7a4365232ec9d8d0db637886fe37f79"
+ },
+ {
+  "id": 88,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 8,
+  "sha256": "7a96f29609d3ef822d29398c2aa55a38d27f93dc8c08a85943da49d7e77bae75"
+ },
+ {
+  "id": 89,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 9,
+  "sha256": "e5c603fddce64c9d95b641a0aedb2c7ecd2a938db3a373e48091db7cff951ea3"
+ },
+ {
+  "id": 90,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 10,
+  "sha256": "065baadb00d527b208256ea8a684532b978e365edfbf1f999bb78a47cd5a39f3"
+ },
+ {
+  "id": 91,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 11,
+  "sha256": "69ec281fca0cd3b59ecf1c4523669025f7feed7c063bc0de2f3f64157787f435"
+ },
+ {
+  "id": 92,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 12,
+  "sha256": "9ad9b26d315b150c452c63d0ad975fd5b17ccd03c1f64a0ba57f91548a54a160"
+ },
+ {
+  "id": 93,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 13,
+  "sha256": "55eaed9cfb7e8829f8666d6c1062eec6472991ff16130f988fb4ec9ec14362db"
+ },
+ {
+  "id": 94,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 14,
+  "sha256": "6ecc0c9e74147e7d9d908a2080c7c684711131f527326463f31ae71818e8b95d"
+ },
+ {
+  "id": 95,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 15,
+  "sha256": "deac727ef84d95005d941a12379f1ad4da789d69db1e1529999f37bdcd1535d1"
+ },
+ {
+  "id": 96,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 16,
+  "sha256": "7a2dd7d5fac79218978587501b30e7b491d1034f97a13af52b712fe876829109"
+ },
+ {
+  "id": 97,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 17,
+  "sha256": "0c4e4e45c2f9dd713172e7ea6e496d53b69691b166218e6c6fd884c16ec6f71c"
+ },
+ {
+  "id": 98,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 18,
+  "sha256": "0c60068f6544aa0016d9925407df378927f285db4ea3bbebe4553464e47f7d5c"
+ },
+ {
+  "id": 99,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 19,
+  "sha256": "d7aab785aad3197c401a093a55ac3456ae64f38a9318b716e32010bce1950f88"
+ },
+ {
+  "id": 100,
+  "domain": "opinion: The Guardian (Arwa Mahdawi column)",
+  "kind": "news",
+  "url": "https://www.theguardian.com/commentisfree/2026/oct/03/pete-hegseth-office-of-religious-affairs",
+  "position_in_run": 20,
+  "sha256": "b0334292d580ddb3e3419191ea13cc81cd0f2a5fff858f31443a97c0ccda1f79"
+ }
+]

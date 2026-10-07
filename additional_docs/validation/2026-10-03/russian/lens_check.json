@@ -1,0 +1,154 @@
+{
+ "K5_inverted": {
+  "trigger_sentences": [
+   2,
+   4,
+   7,
+   11,
+   24,
+   44,
+   45,
+   49,
+   71,
+   85,
+   94
+  ],
+  "aspect_forced_by_grammar": 11,
+  "completion_warranted": [
+   7,
+   44,
+   45,
+   71,
+   94
+  ],
+  "completion_questionable_facts_leave_open": [
+   2,
+   4,
+   11,
+   24,
+   49,
+   85
+  ],
+  "note": "every trigger carried by a perfective form (9 finite, 2 non-finite: 7 gerund, 49 participle); imperfective was available in all 11"
+ },
+ "SUB_K5_Russian_to_HindiUrdu": {
+  "sample": [
+   2,
+   4,
+   7,
+   11,
+   24,
+   44,
+   45,
+   49,
+   71,
+   85
+  ],
+  "a_removed_forces_new_choice": 0,
+  "b_replacement_forces_new_choice": 9,
+  "b_weak": [
+   4,
+   7
+  ],
+  "b_none": [],
+  "note": "Russian is the source itself (identity). Vector verbs ask whom the outcome falls to / how it came about, which the perfective never states; 7 gerund (пробыв) and 4 (явилось) only weakly."
+ },
+ "SUB_K6_Mongolian_drop": {
+  "sample": [
+   2,
+   3,
+   6,
+   11,
+   25,
+   42,
+   45,
+   49,
+   63,
+   73
+  ],
+  "a_removed_forces_new_choice": 1,
+  "a_yes_ids": [
+   73
+  ],
+  "b": "no replacement",
+  "note": "7 of 36 K6 triggers use свой; его/её/их elsewhere already signals non-subject possessor. 73 'был отстранен ... из-за опасений по поводу его …': possessor = passive subject but Russian uses его, so the anchor is not forced in embedded NPs."
+ },
+ "K4_Polish_numeral_threshold": {
+  "sample": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   8,
+   9,
+   10,
+   11,
+   13
+  ],
+  "a_forces_new_choice": 10,
+  "numeral_subjects_in_corpus": {
+   "17": "было обнаружено два типа (neuter sg agreement, quantity reading, below five)",
+   "41": "восемь умерли (plural agreement, individuals)"
+  },
+  "note": "Russian agreement is free and is used both ways, also below five (17), so the note's 'threshold at five' is imprecise but the conclusion (Polish still forces a choice) holds."
+ },
+ "K8_Polish_instrumental_predication": {
+  "sample": [
+   1,
+   2,
+   13,
+   24,
+   25,
+   33,
+   37,
+   49,
+   57,
+   68
+  ],
+  "a_forces_new_choice": 10,
+  "evidence": "zero-copula present always nominative (1,13,25,37,38,49,83); являться/стать/служить always instrumental for nouns and adjectives (2,4,19,24,33,57,68); был + instr adj+noun (40, 88) vs был + nom noun (91)",
+  "attachment_coverage": "only ~22 of 78 K8-trigger sentences contain a copular predication the lens can attach to"
+ },
+ "unprompted_K5_Finnish_partitive": {
+  "sample": [
+   2,
+   4,
+   7,
+   11,
+   24,
+   44,
+   45,
+   49,
+   71,
+   85
+  ],
+  "already_settled_by_Russian_aspect": [
+   2,
+   11,
+   24,
+   44,
+   45,
+   71
+  ],
+  "no_object_to_attach": [
+   4,
+   7,
+   85
+  ],
+  "new_choice": [
+   49
+  ],
+  "redundant_or_inapplicable": 9,
+  "note": "with 94 (убила) as 11th trigger: also settled. Finnish total vs partitive object ~ Russian perfective vs imperfective on the same axis; residual contrast only for indefinite quantity (ряд элементов) and negation scope (Russian genitive of negation is optional: 67 accusative, 72 genitive)."
+ },
+ "other_roster_lenses_checked_not_redundant": [
+  "Basque, Nez Perce, Tagalog (K2)",
+  "Tuyuca, Ewe, Latin oratio obliqua (K3)",
+  "Yucatec, Hungarian assoc. plural, Mojeno, Toki Pona (K4)",
+  "Guarani (K5)",
+  "Navajo, Hawaiian, Pohnpeian (K6; Russian u-external possessor 94 only weakly marks inalienability)",
+  "Fugue, Latin abl. abs., Classical Chinese, Midrash (K7)",
+  "Vigraha, Ancient Greek, Lojban (K8)"
+ ]
+}

@@ -1,0 +1,982 @@
+[
+ {
+  "id": 1,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Guerra_de_la_Independencia_española",
+  "position_in_run": 1,
+  "sha256": "4f99149c77bd397075e7b7a3badef22504437bc78a28e98069203958fa1a7bc9",
+  "revid": 175543496,
+  "revision_timestamp": "2026-09-26T23:34:04Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 2,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Guerra_de_la_Independencia_española",
+  "position_in_run": 2,
+  "sha256": "61b8581a428fb2c34f338a969a16816e153294bcf6da3ee2006d9f60187d28ca",
+  "revid": 175543496,
+  "revision_timestamp": "2026-09-26T23:34:04Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 3,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Guerra_de_la_Independencia_española",
+  "position_in_run": 3,
+  "sha256": "e507de7a018275bd7a1d8ecd78209593764a2a929705c85da0cbfc13bf4ea060",
+  "revid": 175543496,
+  "revision_timestamp": "2026-09-26T23:34:04Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 4,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Guerra_de_la_Independencia_española",
+  "position_in_run": 4,
+  "sha256": "68a141f03e3673c597d38244428f80990c06295c899baef6b9829cdde3528c32",
+  "revid": 175543496,
+  "revision_timestamp": "2026-09-26T23:34:04Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 5,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Guerra_de_la_Independencia_española",
+  "position_in_run": 5,
+  "sha256": "26ee8cdc4ed05c19f79c5fe91f8ec8d29fa9cab7ca93ce54db24a6ba153467c1",
+  "revid": 175543496,
+  "revision_timestamp": "2026-09-26T23:34:04Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 6,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Guerra_de_la_Independencia_española",
+  "position_in_run": 6,
+  "sha256": "7bbc8b519bba4cbd7155530ea1bafb3f784a838281b656841eefa8a0e5f66f36",
+  "revid": 175543496,
+  "revision_timestamp": "2026-09-26T23:34:04Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 7,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Guerra_de_la_Independencia_española",
+  "position_in_run": 7,
+  "sha256": "08dbef8d6d374da9f9f564f16017cdd30b540d5004730c1c74dd330aa6bbbb1d",
+  "revid": 175543496,
+  "revision_timestamp": "2026-09-26T23:34:04Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 8,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Guerra_de_la_Independencia_española",
+  "position_in_run": 8,
+  "sha256": "0f70ab282d4c14904c909fea004b883caed8cef74436d974e5a9ee03e0969359",
+  "revid": 175543496,
+  "revision_timestamp": "2026-09-26T23:34:04Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 9,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Guerra_de_la_Independencia_española",
+  "position_in_run": 9,
+  "sha256": "23d151e20fa28ae1512d454df1c31b6e58dd74955082e1821b27233d6680e42e",
+  "revid": 175543496,
+  "revision_timestamp": "2026-09-26T23:34:04Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 10,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Guerra_de_la_Independencia_española",
+  "position_in_run": 10,
+  "sha256": "b19005422f16fe3700f6e102a7b2e9503a83220acf4cd253065418f056d36114",
+  "revid": 175543496,
+  "revision_timestamp": "2026-09-26T23:34:04Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 11,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Guerra_de_la_Independencia_española",
+  "position_in_run": 11,
+  "sha256": "babeabee3025259b7d18866053fad5e0de01b07c4f1030d33872dcb0c0277d14",
+  "revid": 175543496,
+  "revision_timestamp": "2026-09-26T23:34:04Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 12,
+  "domain": "history",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Guerra_de_la_Independencia_española",
+  "position_in_run": 12,
+  "sha256": "1bd3a17c7f69d2d414668fb6b829d9d3647cd386dc476d87f0ac078f75fc7820",
+  "revid": 175543496,
+  "revision_timestamp": "2026-09-26T23:34:04Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 13,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Fotosíntesis",
+  "position_in_run": 1,
+  "sha256": "d9202935ca158128f251fe2ab50a48444792056d19d0d4e23e0899aad0da0a20",
+  "revid": 175633842,
+  "revision_timestamp": "2026-10-03T02:52:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 14,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Fotosíntesis",
+  "position_in_run": 2,
+  "sha256": "343430d44c0cc1628c44d2c7164089ae97aa439f05593810474c10a68a503eff",
+  "revid": 175633842,
+  "revision_timestamp": "2026-10-03T02:52:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 15,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Fotosíntesis",
+  "position_in_run": 3,
+  "sha256": "eaa3e07fef6a204e46af80708d76ab89b34f9fef3e666af37e6d17c1e1160bcc",
+  "revid": 175633842,
+  "revision_timestamp": "2026-10-03T02:52:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 16,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Fotosíntesis",
+  "position_in_run": 4,
+  "sha256": "16013ba5e19c0b39eab7ff19df36464255e8228d047f808fc970ff25f6cf58bd",
+  "revid": 175633842,
+  "revision_timestamp": "2026-10-03T02:52:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 17,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Fotosíntesis",
+  "position_in_run": 5,
+  "sha256": "7e3344428f9b982dbc6e979086026e0fb20c3ef013dfef82c24204a0b3f86045",
+  "revid": 175633842,
+  "revision_timestamp": "2026-10-03T02:52:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 18,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Fotosíntesis",
+  "position_in_run": 6,
+  "sha256": "0bafd131d222d0fd6fd746c64796401458609ae5b784bacbdd47e71fc31a02fc",
+  "revid": 175633842,
+  "revision_timestamp": "2026-10-03T02:52:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 19,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Fotosíntesis",
+  "position_in_run": 7,
+  "sha256": "f88aaf68d009274c5a51034459590d07685d195ce0a61aa312199baefd34884b",
+  "revid": 175633842,
+  "revision_timestamp": "2026-10-03T02:52:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 20,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Fotosíntesis",
+  "position_in_run": 8,
+  "sha256": "5ae76126818896b53f86b374e5d26c5f983c152281bd7d87865500dfe6622dc7",
+  "revid": 175633842,
+  "revision_timestamp": "2026-10-03T02:52:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 21,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Fotosíntesis",
+  "position_in_run": 9,
+  "sha256": "08fdb6bd4900c90cfebf353bbf7652b544d8bb747d4844f98d2cfcc658b4de13",
+  "revid": 175633842,
+  "revision_timestamp": "2026-10-03T02:52:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 22,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Fotosíntesis",
+  "position_in_run": 10,
+  "sha256": "c64b7c5dde3eef14c9ddaa570dc2e90c23af84836ced4bdd08d22eb3c16dd28a",
+  "revid": 175633842,
+  "revision_timestamp": "2026-10-03T02:52:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 23,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Fotosíntesis",
+  "position_in_run": 11,
+  "sha256": "d984bb4c3944609b9f5d39064a2cb50eba07ea0567db66412c10253925c55774",
+  "revid": 175633842,
+  "revision_timestamp": "2026-10-03T02:52:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 24,
+  "domain": "natural science",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Fotosíntesis",
+  "position_in_run": 12,
+  "sha256": "8e2887d32274189f837ceb46450d008388b108e39ab10d12c08ce80ed12a17ed",
+  "revid": 175633842,
+  "revision_timestamp": "2026-10-03T02:52:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 25,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Inflación",
+  "position_in_run": 1,
+  "sha256": "1a01799bf868d08585fb066b0a460a35f414f400065f57bf0cfe370d74e222ff",
+  "revid": 175062903,
+  "revision_timestamp": "2026-08-27T17:30:24Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 26,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Inflación",
+  "position_in_run": 2,
+  "sha256": "45e1e218d66838d04dc31ac6580609b146680495ea12f0f4cdc33e2d400b85af",
+  "revid": 175062903,
+  "revision_timestamp": "2026-08-27T17:30:24Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 27,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Inflación",
+  "position_in_run": 3,
+  "sha256": "53120fe98eac8cfb169fd15f60a4905f7a001ae6bc8739ed445c8a78377e3a7f",
+  "revid": 175062903,
+  "revision_timestamp": "2026-08-27T17:30:24Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 28,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Inflación",
+  "position_in_run": 4,
+  "sha256": "7226b9bc93220d31e88d281b4d2385d43e7cf30ec905bb01773392ab7a66817d",
+  "revid": 175062903,
+  "revision_timestamp": "2026-08-27T17:30:24Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 29,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Inflación",
+  "position_in_run": 5,
+  "sha256": "10bd0b4cb2f302ae52ba2ccc72444c65e650326b3cc6fccc3950fe678e843954",
+  "revid": 175062903,
+  "revision_timestamp": "2026-08-27T17:30:24Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 30,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Inflación",
+  "position_in_run": 6,
+  "sha256": "6d251de45832d8d792d3fceec9b8ca47dbc9bcfd97ee9c6f4d9f58c8c7aff8f8",
+  "revid": 175062903,
+  "revision_timestamp": "2026-08-27T17:30:24Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 31,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Inflación",
+  "position_in_run": 7,
+  "sha256": "5a9b79b25c6436ae0fe46dd58950db4813359c186e9fbd5c484efcf88b18eea9",
+  "revid": 175062903,
+  "revision_timestamp": "2026-08-27T17:30:24Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 32,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Inflación",
+  "position_in_run": 8,
+  "sha256": "79ac2e110fad3099d8175160a843f628b344830ed017e94b7b962f2439281ae4",
+  "revid": 175062903,
+  "revision_timestamp": "2026-08-27T17:30:24Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 33,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Inflación",
+  "position_in_run": 9,
+  "sha256": "02b6ce6acc79337850ca04202f89c760f7ae18f920a6752b18bce5d3a9829465",
+  "revid": 175062903,
+  "revision_timestamp": "2026-08-27T17:30:24Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 34,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Inflación",
+  "position_in_run": 10,
+  "sha256": "b2aa7a84148099120630a94eab50fa27c8e96a5b58b94ce27fdc1a2d1da726b2",
+  "revid": 175062903,
+  "revision_timestamp": "2026-08-27T17:30:24Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 35,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Inflación",
+  "position_in_run": 11,
+  "sha256": "85b29b816f01580c2604a6715a86d6e5b59b4f5fba65b19a310840674bea2114",
+  "revid": 175062903,
+  "revision_timestamp": "2026-08-27T17:30:24Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 36,
+  "domain": "politics/economics",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Inflación",
+  "position_in_run": 12,
+  "sha256": "e75252b6d9dadafd120ced2dfe3f447e41c84d20fb6d1c13e1104abc3b92d13f",
+  "revid": 175062903,
+  "revision_timestamp": "2026-08-27T17:30:24Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 37,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+  "position_in_run": 1,
+  "sha256": "33f5c24186a4087a07525bdd03b566c6ec2946fad892d9df986ff551b14fb2be",
+  "revid": 175562724,
+  "revision_timestamp": "2026-09-28T05:41:47Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 38,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+  "position_in_run": 2,
+  "sha256": "8824bb4c9391ee04df2d539304c7ba2a8a73592a09ba9345af6b704305b436a9",
+  "revid": 175562724,
+  "revision_timestamp": "2026-09-28T05:41:47Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 39,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+  "position_in_run": 3,
+  "sha256": "1f2da345517c4863367b887a22548841d40bfb95723fa67d207e0cdbe27229f1",
+  "revid": 175562724,
+  "revision_timestamp": "2026-09-28T05:41:47Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 40,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+  "position_in_run": 4,
+  "sha256": "618c379dd73b88aa94b14b07102badb4eba7b1c532cffe318ac02d156cbef7ec",
+  "revid": 175562724,
+  "revision_timestamp": "2026-09-28T05:41:47Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 41,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+  "position_in_run": 5,
+  "sha256": "c8dce3cae9de24e80c1fb5e5a0f15e56fa94ee998d9137ba90641a0922441359",
+  "revid": 175562724,
+  "revision_timestamp": "2026-09-28T05:41:47Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 42,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+  "position_in_run": 6,
+  "sha256": "7908cd9d715a8bc89ffe88841d0c007a1419c19cc781f2c2bf0e994475144be1",
+  "revid": 175562724,
+  "revision_timestamp": "2026-09-28T05:41:47Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 43,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+  "position_in_run": 7,
+  "sha256": "772cdd9c3534275acfd4ab5da6373656a3d96b187d768c762aa191c8661e9a04",
+  "revid": 175562724,
+  "revision_timestamp": "2026-09-28T05:41:47Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 44,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+  "position_in_run": 8,
+  "sha256": "bce44379a60913b9638ec8521daeb55287dde2308d8e306b777fb4d306c2b80d",
+  "revid": 175562724,
+  "revision_timestamp": "2026-09-28T05:41:47Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 45,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+  "position_in_run": 9,
+  "sha256": "51f1439cf073cb5c79bbad5f23a5587769fc00b104ebec1888ccdb721d211dd9",
+  "revid": 175562724,
+  "revision_timestamp": "2026-09-28T05:41:47Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 46,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+  "position_in_run": 10,
+  "sha256": "2c35c3b0b391bbd60dc4ab698884d9a2eecce83ed97ea78dfdf57575b57f05c7",
+  "revid": 175562724,
+  "revision_timestamp": "2026-09-28T05:41:47Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 47,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+  "position_in_run": 11,
+  "sha256": "f4eae9ed54f0ede47881fbbeba8edfc938ddb0fe5b42a785650f3bb5a48aec62",
+  "revid": 175562724,
+  "revision_timestamp": "2026-09-28T05:41:47Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 48,
+  "domain": "biography",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+  "position_in_run": 12,
+  "sha256": "bdbfc76e800460a78ee47e9aefd8182323e8775a8ae1c4ea8a748afbb7eaa927",
+  "revid": 175562724,
+  "revision_timestamp": "2026-09-28T05:41:47Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 49,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Flamenco",
+  "position_in_run": 1,
+  "sha256": "37a17ee7181d8d230fa353f1a730bda6fb3c9d5c786df69c989b541e9b19be2f",
+  "revid": 173185954,
+  "revision_timestamp": "2026-04-27T16:25:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 50,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Flamenco",
+  "position_in_run": 2,
+  "sha256": "d0cb3d82b5fef4d71929272aa0690592c79db40131779a226d07d832069e251d",
+  "revid": 173185954,
+  "revision_timestamp": "2026-04-27T16:25:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 51,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Flamenco",
+  "position_in_run": 3,
+  "sha256": "37a707d1829427095b17cc87bdef2eb94345c18c9024aa7cc621fbb39c2bf005",
+  "revid": 173185954,
+  "revision_timestamp": "2026-04-27T16:25:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 52,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Flamenco",
+  "position_in_run": 4,
+  "sha256": "fc3d4ee10f75d34200dce3d4e062ff669f0124c69b4bcab2a7a1374c62f21cc3",
+  "revid": 173185954,
+  "revision_timestamp": "2026-04-27T16:25:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 53,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Flamenco",
+  "position_in_run": 5,
+  "sha256": "79cc45a946871deb03b5aa42b7ea9e6e18ddc8ffb0206e75228feaaff1cf489d",
+  "revid": 173185954,
+  "revision_timestamp": "2026-04-27T16:25:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 54,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Flamenco",
+  "position_in_run": 6,
+  "sha256": "21a60c186e5bac0e5cd663ca58ce77867f085d606600b1f66a69a197597ff36f",
+  "revid": 173185954,
+  "revision_timestamp": "2026-04-27T16:25:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 55,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Flamenco",
+  "position_in_run": 7,
+  "sha256": "aa87950db5e189f3d3040552fbbcc2ea14ead25ae8a5bc5eb4c767f4a4fa9dc8",
+  "revid": 173185954,
+  "revision_timestamp": "2026-04-27T16:25:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 56,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Flamenco",
+  "position_in_run": 8,
+  "sha256": "37c50fc28550126f04ee0e657deee7ec183007e309353fb6a2eacdd42b9a9c91",
+  "revid": 173185954,
+  "revision_timestamp": "2026-04-27T16:25:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 57,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Flamenco",
+  "position_in_run": 9,
+  "sha256": "033ed7b118efa1e736c2d4699f99d06986ec1256e5f96ae34dd27487ba3afdbc",
+  "revid": 173185954,
+  "revision_timestamp": "2026-04-27T16:25:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 58,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Flamenco",
+  "position_in_run": 10,
+  "sha256": "cb62a27a5dc760db210f865715fe9822470a8f34d2d5a05c4b559376ac61b153",
+  "revid": 173185954,
+  "revision_timestamp": "2026-04-27T16:25:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 59,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Flamenco",
+  "position_in_run": 11,
+  "sha256": "c000e9806fc3aa1128682e449a56265a201d4de2f5e5b976d249367d963d891c",
+  "revid": 173185954,
+  "revision_timestamp": "2026-04-27T16:25:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 60,
+  "domain": "culture/society",
+  "kind": "wikipedia",
+  "url": "https://es.wikipedia.org/wiki/Flamenco",
+  "position_in_run": 12,
+  "sha256": "be65140556776ad8fea8d0aa6a427b2ca00c369fe5e9f7cef1c997c4d55ddd49",
+  "revid": 173185954,
+  "revision_timestamp": "2026-04-27T16:25:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 61,
+  "domain": "news (BBC Mundo)",
+  "kind": "news",
+  "url": "https://www.bbc.com/mundo/articles/c3x2z2rq1759o",
+  "position_in_run": 1,
+  "sha256": "07975316f9698e3674fdbe0fa6322050469b64d8ddc703972a631399a5ab83ab"
+ },
+ {
+  "id": 62,
+  "domain": "news (BBC Mundo)",
+  "kind": "news",
+  "url": "https://www.bbc.com/mundo/articles/c3x2z2rq1759o",
+  "position_in_run": 2,
+  "sha256": "1f5ec8eea7bd6826a84ca9b1a9002a6e07ea320b916fa69dfc789f42a6ef0fb1"
+ },
+ {
+  "id": 63,
+  "domain": "news (BBC Mundo)",
+  "kind": "news",
+  "url": "https://www.bbc.com/mundo/articles/c3x2z2rq1759o",
+  "position_in_run": 3,
+  "sha256": "f399161f4035b09bb8fb893900c7010b78442a4a3f262af1e318037a60d3a731"
+ },
+ {
+  "id": 64,
+  "domain": "news (BBC Mundo)",
+  "kind": "news",
+  "url": "https://www.bbc.com/mundo/articles/c3x2z2rq1759o",
+  "position_in_run": 4,
+  "sha256": "dc92574313a8d4ec24cb74e44769d0f754ab48af90bd21bafa99ffe5ed7cb10c"
+ },
+ {
+  "id": 65,
+  "domain": "news (BBC Mundo)",
+  "kind": "news",
+  "url": "https://www.bbc.com/mundo/articles/c3x2z2rq1759o",
+  "position_in_run": 5,
+  "sha256": "3cc2464943bdae757c29bd4c66d469c476f94582288b96694754b397dc1e224b"
+ },
+ {
+  "id": 66,
+  "domain": "news (BBC Mundo)",
+  "kind": "news",
+  "url": "https://www.bbc.com/mundo/articles/c3x2z2rq1759o",
+  "position_in_run": 6,
+  "sha256": "22fade8c231cfb948019013f9c540fe33f62ddce75df030a6f6ec8aef90db2b4"
+ },
+ {
+  "id": 67,
+  "domain": "news (BBC Mundo)",
+  "kind": "news",
+  "url": "https://www.bbc.com/mundo/articles/c3x2z2rq1759o",
+  "position_in_run": 7,
+  "sha256": "8a400c45c3c9426dc9b036f134d5f3d53c368995fd37b36ca9a5b61faa41a682"
+ },
+ {
+  "id": 68,
+  "domain": "news (BBC Mundo)",
+  "kind": "news",
+  "url": "https://www.bbc.com/mundo/articles/c3x2z2rq1759o",
+  "position_in_run": 8,
+  "sha256": "2fda7ab3dec651304f71b8969d551c43befaf7940df46fdc35bee0c749962844"
+ },
+ {
+  "id": 69,
+  "domain": "news (BBC Mundo)",
+  "kind": "news",
+  "url": "https://www.bbc.com/mundo/articles/c3x2z2rq1759o",
+  "position_in_run": 9,
+  "sha256": "71e45c499f3f202f7fbe545498ec52e99c04851fe65dc5124dd40c49d53915a2"
+ },
+ {
+  "id": 70,
+  "domain": "news (BBC Mundo)",
+  "kind": "news",
+  "url": "https://www.bbc.com/mundo/articles/c3x2z2rq1759o",
+  "position_in_run": 10,
+  "sha256": "3d7ce24845279e7496ad7d676e8351b411e2c5b7d1fb08dc923e47c3b9fdbf09"
+ },
+ {
+  "id": 71,
+  "domain": "news (BBC Mundo)",
+  "kind": "news",
+  "url": "https://www.bbc.com/mundo/articles/c3x2z2rq1759o",
+  "position_in_run": 11,
+  "sha256": "49d546cb6562d53092de4233813bf6950a368f7f2862c426185c81d7bf878a83"
+ },
+ {
+  "id": 72,
+  "domain": "news (BBC Mundo)",
+  "kind": "news",
+  "url": "https://www.bbc.com/mundo/articles/c3x2z2rq1759o",
+  "position_in_run": 12,
+  "sha256": "e41c9c2e4462896da8b0b437d76972f81d9af9042ee4205861f6f4a7c06adbc8"
+ },
+ {
+  "id": 73,
+  "domain": "news (BBC Mundo)",
+  "kind": "news",
+  "url": "https://www.bbc.com/mundo/articles/c3x2z2rq1759o",
+  "position_in_run": 13,
+  "sha256": "8faa4b6c01399b2a3e68793972d918beffe5fdbe4872358ad622ce8ab52f2a1d"
+ },
+ {
+  "id": 74,
+  "domain": "news (BBC Mundo)",
+  "kind": "news",
+  "url": "https://www.bbc.com/mundo/articles/c3x2z2rq1759o",
+  "position_in_run": 14,
+  "sha256": "0ffacf656fcbc2de59e0f67fa2cb13f509fb6e4db0343be2b7c2f20091a7f012"
+ },
+ {
+  "id": 75,
+  "domain": "news (elDiario.es)",
+  "kind": "news",
+  "url": "https://www.eldiario.es/andalucia/carajo-rentismo-marcha-vivienda-desborda-cadiz-jerez-canaliza-malestar-invasion-turistica_1_13559731.html",
+  "position_in_run": 1,
+  "sha256": "5014fe7b4506d1e4d2713d260224026e764348fd30c9f22cf2d3ef7ff1f4411b"
+ },
+ {
+  "id": 76,
+  "domain": "news (elDiario.es)",
+  "kind": "news",
+  "url": "https://www.eldiario.es/andalucia/carajo-rentismo-marcha-vivienda-desborda-cadiz-jerez-canaliza-malestar-invasion-turistica_1_13559731.html",
+  "position_in_run": 2,
+  "sha256": "f5d26b196b97b3ca3b7c4f720f0ca7bfff3d3215a99684f4f9b22f77c478a454"
+ },
+ {
+  "id": 77,
+  "domain": "news (elDiario.es)",
+  "kind": "news",
+  "url": "https://www.eldiario.es/andalucia/carajo-rentismo-marcha-vivienda-desborda-cadiz-jerez-canaliza-malestar-invasion-turistica_1_13559731.html",
+  "position_in_run": 3,
+  "sha256": "179f5ba121361728ca2e7e5990ec770be683490c7297d2ba57190b48add2b8ea"
+ },
+ {
+  "id": 78,
+  "domain": "news (elDiario.es)",
+  "kind": "news",
+  "url": "https://www.eldiario.es/andalucia/carajo-rentismo-marcha-vivienda-desborda-cadiz-jerez-canaliza-malestar-invasion-turistica_1_13559731.html",
+  "position_in_run": 4,
+  "sha256": "e92570889e3784f2c02c837c1378cfaf3aff5ebacbed830c869fd6150f5b14e2"
+ },
+ {
+  "id": 79,
+  "domain": "news (elDiario.es)",
+  "kind": "news",
+  "url": "https://www.eldiario.es/andalucia/carajo-rentismo-marcha-vivienda-desborda-cadiz-jerez-canaliza-malestar-invasion-turistica_1_13559731.html",
+  "position_in_run": 5,
+  "sha256": "e02b70cbd30a59c8745f0cd702c20b46ed267af6d1569fb0c7256060446e230d"
+ },
+ {
+  "id": 80,
+  "domain": "news (elDiario.es)",
+  "kind": "news",
+  "url": "https://www.eldiario.es/andalucia/carajo-rentismo-marcha-vivienda-desborda-cadiz-jerez-canaliza-malestar-invasion-turistica_1_13559731.html",
+  "position_in_run": 6,
+  "sha256": "65ba46f345902dc841f4a9a89f5bffb8b72e81d74f713bcd35fb68f53de080f2"
+ },
+ {
+  "id": 81,
+  "domain": "news (elDiario.es)",
+  "kind": "news",
+  "url": "https://www.eldiario.es/andalucia/carajo-rentismo-marcha-vivienda-desborda-cadiz-jerez-canaliza-malestar-invasion-turistica_1_13559731.html",
+  "position_in_run": 7,
+  "sha256": "053f844d99e4dd520fb4859ae525329d03395f92c8257b7fc71f41d5b45d85af"
+ },
+ {
+  "id": 82,
+  "domain": "news (elDiario.es)",
+  "kind": "news",
+  "url": "https://www.eldiario.es/andalucia/carajo-rentismo-marcha-vivienda-desborda-cadiz-jerez-canaliza-malestar-invasion-turistica_1_13559731.html",
+  "position_in_run": 8,
+  "sha256": "f0c0bf461332a7752a30b5e0d3b1661f8bd68c29e6e09b9054e4ee5e3c11a851"
+ },
+ {
+  "id": 83,
+  "domain": "news (elDiario.es)",
+  "kind": "news",
+  "url": "https://www.eldiario.es/andalucia/carajo-rentismo-marcha-vivienda-desborda-cadiz-jerez-canaliza-malestar-invasion-turistica_1_13559731.html",
+  "position_in_run": 9,
+  "sha256": "d732085b54db9bf6c30cd2968dff2a565f0a7bac01756f02ead817043eda924f"
+ },
+ {
+  "id": 84,
+  "domain": "news (elDiario.es)",
+  "kind": "news",
+  "url": "https://www.eldiario.es/andalucia/carajo-rentismo-marcha-vivienda-desborda-cadiz-jerez-canaliza-malestar-invasion-turistica_1_13559731.html",
+  "position_in_run": 10,
+  "sha256": "1320286efc8f2d5b609367b17ebb6ec94fae5c21b70f958b8b087e7a14e8d0db"
+ },
+ {
+  "id": 85,
+  "domain": "news (elDiario.es)",
+  "kind": "news",
+  "url": "https://www.eldiario.es/andalucia/carajo-rentismo-marcha-vivienda-desborda-cadiz-jerez-canaliza-malestar-invasion-turistica_1_13559731.html",
+  "position_in_run": 11,
+  "sha256": "85167f09982527c543490ac8e697cc45f446e9c825b2ebb7747fc69e3b05707b"
+ },
+ {
+  "id": 86,
+  "domain": "news (elDiario.es)",
+  "kind": "news",
+  "url": "https://www.eldiario.es/andalucia/carajo-rentismo-marcha-vivienda-desborda-cadiz-jerez-canaliza-malestar-invasion-turistica_1_13559731.html",
+  "position_in_run": 12,
+  "sha256": "c79766579112bf91caab3a649d3ee6939a7a11cb9759a63489c233b698314494"
+ },
+ {
+  "id": 87,
+  "domain": "news (elDiario.es)",
+  "kind": "news",
+  "url": "https://www.eldiario.es/andalucia/carajo-rentismo-marcha-vivienda-desborda-cadiz-jerez-canaliza-malestar-invasion-turistica_1_13559731.html",
+  "position_in_run": 13,
+  "sha256": "163a21368d799c9dd9f3c7db0b069b67f7d1bbab1ed66c722e3c8f1bb7de4883"
+ },
+ {
+  "id": 88,
+  "domain": "opinion (Público)",
+  "kind": "news",
+  "url": "https://www.publico.es/opinion/columnas/acampada-derecho-asilo.html",
+  "position_in_run": 1,
+  "sha256": "c13164409461c672aecfa1d611f347fa90481d27b62875fa1b90211bf5a08210"
+ },
+ {
+  "id": 89,
+  "domain": "opinion (Público)",
+  "kind": "news",
+  "url": "https://www.publico.es/opinion/columnas/acampada-derecho-asilo.html",
+  "position_in_run": 2,
+  "sha256": "92ad6319b0df6b5a0b2c0974e3a7ba7ca401512572b061f0dc16ba918bdaa795"
+ },
+ {
+  "id": 90,
+  "domain": "opinion (Público)",
+  "kind": "news",
+  "url": "https://www.publico.es/opinion/columnas/acampada-derecho-asilo.html",
+  "position_in_run": 3,
+  "sha256": "1abc47e71790f690f823f9b91b7aa07c7c2bbd112501545fea42853ddc9148be"
+ },
+ {
+  "id": 91,
+  "domain": "opinion (Público)",
+  "kind": "news",
+  "url": "https://www.publico.es/opinion/columnas/acampada-derecho-asilo.html",
+  "position_in_run": 4,
+  "sha256": "ab88b7f8d87ab6fd4324bc8bb371abfe087a930bbbeece3ee90463d1c1592ae3"
+ },
+ {
+  "id": 92,
+  "domain": "opinion (Público)",
+  "kind": "news",
+  "url": "https://www.publico.es/opinion/columnas/acampada-derecho-asilo.html",
+  "position_in_run": 5,
+  "sha256": "466f66d7f719170a5269a4225e4f5fedf814ff50c7756edb7620fccff0047dc2"
+ },
+ {
+  "id": 93,
+  "domain": "opinion (Público)",
+  "kind": "news",
+  "url": "https://www.publico.es/opinion/columnas/acampada-derecho-asilo.html",
+  "position_in_run": 6,
+  "sha256": "8eb2ee9405876340ee84dc714bcc64e34c6376be56f14ef7339f0eda08d698d9"
+ },
+ {
+  "id": 94,
+  "domain": "opinion (Público)",
+  "kind": "news",
+  "url": "https://www.publico.es/opinion/columnas/acampada-derecho-asilo.html",
+  "position_in_run": 7,
+  "sha256": "09a372cc3503602393f7b6bb7cb3eeb7c79a3588ef1ff3b2e692365f490602f2"
+ },
+ {
+  "id": 95,
+  "domain": "opinion (Público)",
+  "kind": "news",
+  "url": "https://www.publico.es/opinion/columnas/acampada-derecho-asilo.html",
+  "position_in_run": 8,
+  "sha256": "b1ed4dae24cfa50a57c2a2967bd1e4233e8f85b90778c6fefebc03a0129a9562"
+ },
+ {
+  "id": 96,
+  "domain": "opinion (Público)",
+  "kind": "news",
+  "url": "https://www.publico.es/opinion/columnas/acampada-derecho-asilo.html",
+  "position_in_run": 9,
+  "sha256": "38510d17ac57e8caa1addc732471645ecf329b7ccd10904d38495fc0c61788bd"
+ },
+ {
+  "id": 97,
+  "domain": "opinion (Público)",
+  "kind": "news",
+  "url": "https://www.publico.es/opinion/columnas/acampada-derecho-asilo.html",
+  "position_in_run": 10,
+  "sha256": "d52b6c3d03f0489fba476d88b59dd772c76d0e5cacb71dee27bcaa47dc82d6ce"
+ },
+ {
+  "id": 98,
+  "domain": "opinion (Público)",
+  "kind": "news",
+  "url": "https://www.publico.es/opinion/columnas/acampada-derecho-asilo.html",
+  "position_in_run": 11,
+  "sha256": "351d336fdc23a5d44fc5ef736b5448207669d9defa51fd116b52ff9962daf0e6"
+ },
+ {
+  "id": 99,
+  "domain": "opinion (Público)",
+  "kind": "news",
+  "url": "https://www.publico.es/opinion/columnas/acampada-derecho-asilo.html",
+  "position_in_run": 12,
+  "sha256": "c1fb316880d819ddcc07a5a1829a1a8da1941f5af4583d7a6679987bcc29fe24"
+ },
+ {
+  "id": 100,
+  "domain": "opinion (Público)",
+  "kind": "news",
+  "url": "https://www.publico.es/opinion/columnas/acampada-derecho-asilo.html",
+  "position_in_run": 13,
+  "sha256": "74c728037544ddf70a8dfe3ce8b2819d6fadf635050ba4d10143fe74f1307ad9"
+ }
+]

@@ -1,0 +1,982 @@
+[
+ {
+  "id": 1,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+  "position_in_run": 1,
+  "sha256": "bcf9d01ea10c6226c8da5e5a57ce6188c960b9610e455879d36776da281f52a4",
+  "revid": 238644111,
+  "revision_timestamp": "2026-08-15T09:40:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 2,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+  "position_in_run": 2,
+  "sha256": "ff6ccf9533356e15d144abfe576fef31f8f6115600740c6ced587e47412a20d0",
+  "revid": 238644111,
+  "revision_timestamp": "2026-08-15T09:40:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 3,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+  "position_in_run": 3,
+  "sha256": "8eb61e19dff8c7664430e9b39b7293a38d37f5cf3a3872de4856eaaedd207f80",
+  "revid": 238644111,
+  "revision_timestamp": "2026-08-15T09:40:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 4,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+  "position_in_run": 4,
+  "sha256": "b94dd92079178cee7771b54f421ec2cdacbcb99a6141841d1a8359bea5675979",
+  "revid": 238644111,
+  "revision_timestamp": "2026-08-15T09:40:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 5,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+  "position_in_run": 5,
+  "sha256": "89f7736c1563bb02a2fd6460e5380e4ba8134c2f00f45a7f09cf784ad2168699",
+  "revid": 238644111,
+  "revision_timestamp": "2026-08-15T09:40:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 6,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+  "position_in_run": 6,
+  "sha256": "93ffc555e331ea3d1547a526e519a8ded65bad5595a9596991287b74cbee01fb",
+  "revid": 238644111,
+  "revision_timestamp": "2026-08-15T09:40:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 7,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+  "position_in_run": 7,
+  "sha256": "9e958c49a04df93f8adb92d9d8d17ef513320d8b9d60333ba612eb154be5b513",
+  "revid": 238644111,
+  "revision_timestamp": "2026-08-15T09:40:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 8,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+  "position_in_run": 8,
+  "sha256": "9bf4796863557e793f045dc80486e46e5714e5fb845deee67b40bbceef311c3c",
+  "revid": 238644111,
+  "revision_timestamp": "2026-08-15T09:40:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 9,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+  "position_in_run": 9,
+  "sha256": "ca1a8cb54401b2611e0557d217186757944569ea6bbec4015650656cd73c5977",
+  "revid": 238644111,
+  "revision_timestamp": "2026-08-15T09:40:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 10,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+  "position_in_run": 10,
+  "sha256": "ccb4ed28ecbfcb2aa0c70b2b45e8b7cd9db583d418511d75310fb22a2d879989",
+  "revid": 238644111,
+  "revision_timestamp": "2026-08-15T09:40:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 11,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+  "position_in_run": 11,
+  "sha256": "8936d7045d78ddcc914fd215420266fbd93c37bfa405a05214fc42153deaa2ad",
+  "revid": 238644111,
+  "revision_timestamp": "2026-08-15T09:40:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 12,
+  "domain": "wikipedia: history",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+  "position_in_run": 12,
+  "sha256": "c6c084750ae95dda314707d4bb03c40f28a5443c486f372f6f4159fe12d61a24",
+  "revid": 238644111,
+  "revision_timestamp": "2026-08-15T09:40:34Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 13,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Photosynthèse",
+  "position_in_run": 1,
+  "sha256": "bccdb85ca5e135c40a8c2b8e3e1eef96874e62451b3a2e1185d0cfdf9f0bd128",
+  "revid": 238282939,
+  "revision_timestamp": "2026-08-01T15:21:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 14,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Photosynthèse",
+  "position_in_run": 2,
+  "sha256": "c914dfb401a3652db4a45041eeddb34d25cb01c94237c3abd23d108a5713f953",
+  "revid": 238282939,
+  "revision_timestamp": "2026-08-01T15:21:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 15,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Photosynthèse",
+  "position_in_run": 3,
+  "sha256": "c5ecd709a609af6df34e0430a8663193ac58e5b828a01d2e4928f5e01ce9405a",
+  "revid": 238282939,
+  "revision_timestamp": "2026-08-01T15:21:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 16,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Photosynthèse",
+  "position_in_run": 4,
+  "sha256": "e2f43744abb2b0d542d98dd62518914f558d0838face8cbfd075bfc18e47da4b",
+  "revid": 238282939,
+  "revision_timestamp": "2026-08-01T15:21:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 17,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Photosynthèse",
+  "position_in_run": 5,
+  "sha256": "1c7a34ffa3c629d827248c7f87f6b3ab991a26a02f0d10bc74f8ce31fe65da02",
+  "revid": 238282939,
+  "revision_timestamp": "2026-08-01T15:21:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 18,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Photosynthèse",
+  "position_in_run": 6,
+  "sha256": "0cff977a43e8c55334b171fb28ddb3cb5fa0a7d4213a34bd0d3a23f53b25b2e6",
+  "revid": 238282939,
+  "revision_timestamp": "2026-08-01T15:21:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 19,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Photosynthèse",
+  "position_in_run": 7,
+  "sha256": "c070764a08282463a95f9259278a4011021fad2a2ec89ba3b25e73196dc404a4",
+  "revid": 238282939,
+  "revision_timestamp": "2026-08-01T15:21:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 20,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Photosynthèse",
+  "position_in_run": 8,
+  "sha256": "03c9f3833c677773b1219c260a6b75d6e2cdd7e81a3abca045e52b75809789e4",
+  "revid": 238282939,
+  "revision_timestamp": "2026-08-01T15:21:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 21,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Photosynthèse",
+  "position_in_run": 9,
+  "sha256": "728d4bcd52b397e6f28434f4fafd98296df4c99dcd1053d8e7a01a711d2e55a6",
+  "revid": 238282939,
+  "revision_timestamp": "2026-08-01T15:21:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 22,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Photosynthèse",
+  "position_in_run": 10,
+  "sha256": "952cbf5956a5043f4ce79fc509bafa9377b39ff3790449e2032f59964863e722",
+  "revid": 238282939,
+  "revision_timestamp": "2026-08-01T15:21:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 23,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Photosynthèse",
+  "position_in_run": 11,
+  "sha256": "63ab200f498a16f99c284d1f0dc95e69ea89eef23e95b8edd650aca0c1d89136",
+  "revid": 238282939,
+  "revision_timestamp": "2026-08-01T15:21:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 24,
+  "domain": "wikipedia: natural science",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Photosynthèse",
+  "position_in_run": 12,
+  "sha256": "bb1159b97fe189416bdd112d174f5c2089081b81cd89e8d6b367e24b52a43da1",
+  "revid": 238282939,
+  "revision_timestamp": "2026-08-01T15:21:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 25,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Inflation",
+  "position_in_run": 1,
+  "sha256": "b21debcdb14b94e5b4c68cb73a29971e75bd8f02552d2937e5f9484d04878ff6",
+  "revid": 239616976,
+  "revision_timestamp": "2026-09-18T20:55:25Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 26,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Inflation",
+  "position_in_run": 2,
+  "sha256": "c17a003e80a9261cced91291f0c8df946e396c6a8ae4acf85c39e648fb4206bd",
+  "revid": 239616976,
+  "revision_timestamp": "2026-09-18T20:55:25Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 27,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Inflation",
+  "position_in_run": 3,
+  "sha256": "51155360b174337bae1ab50d2a07ea9eb5f2e133eab13615f4ee494cafeffa6a",
+  "revid": 239616976,
+  "revision_timestamp": "2026-09-18T20:55:25Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 28,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Inflation",
+  "position_in_run": 4,
+  "sha256": "31504167b3399e5a85c3702019206813bca05304fabb866b3cffd6a23a8b1de8",
+  "revid": 239616976,
+  "revision_timestamp": "2026-09-18T20:55:25Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 29,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Inflation",
+  "position_in_run": 5,
+  "sha256": "d2623a6299f2568f564d1717796da6396c8b82ddad7392b127b44489ad3da868",
+  "revid": 239616976,
+  "revision_timestamp": "2026-09-18T20:55:25Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 30,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Inflation",
+  "position_in_run": 6,
+  "sha256": "5fcd81f864d0f77402dc2316752704dde29f2c20555a8964d622962d5e03d965",
+  "revid": 239616976,
+  "revision_timestamp": "2026-09-18T20:55:25Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 31,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Inflation",
+  "position_in_run": 7,
+  "sha256": "485f5870fdb4ea5ffcedf08ff9e85b9889fbbe7828271e957fd3316c0fd3f38c",
+  "revid": 239616976,
+  "revision_timestamp": "2026-09-18T20:55:25Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 32,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Inflation",
+  "position_in_run": 8,
+  "sha256": "d49f6512c0dbcccbc774ed5692e09c1db1f8caf562400d78a6789298e5ac9846",
+  "revid": 239616976,
+  "revision_timestamp": "2026-09-18T20:55:25Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 33,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Inflation",
+  "position_in_run": 9,
+  "sha256": "fe3c068b41125e4c447817182ab6d3e9e5073a82d63950746a4edb77703b9962",
+  "revid": 239616976,
+  "revision_timestamp": "2026-09-18T20:55:25Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 34,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Inflation",
+  "position_in_run": 10,
+  "sha256": "ee1df412436028021ca1ad15040829b5de792cb6aa41c3a02d2b518d038489ae",
+  "revid": 239616976,
+  "revision_timestamp": "2026-09-18T20:55:25Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 35,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Inflation",
+  "position_in_run": 11,
+  "sha256": "3777ac82b7bbedaad77bd9fff46b4df21a8721114e38c1b46855e968271e0a3c",
+  "revid": 239616976,
+  "revision_timestamp": "2026-09-18T20:55:25Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 36,
+  "domain": "wikipedia: politics/economics",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Inflation",
+  "position_in_run": 12,
+  "sha256": "e1be7455d889cab6634229a6ae390db69562f8bbabeba8acbd8623e503ef97b5",
+  "revid": 239616976,
+  "revision_timestamp": "2026-09-18T20:55:25Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 37,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Marie_Curie",
+  "position_in_run": 1,
+  "sha256": "69db0b3907041438641a3c81a2d715722cf43d737bccd9377f5b996429826d41",
+  "revid": 239714602,
+  "revision_timestamp": "2026-09-22T02:10:40Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 38,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Marie_Curie",
+  "position_in_run": 2,
+  "sha256": "e25623a8c8e8b8400d6c15d8932ca80b198fbda7f95024b432800a160f2c325f",
+  "revid": 239714602,
+  "revision_timestamp": "2026-09-22T02:10:40Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 39,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Marie_Curie",
+  "position_in_run": 3,
+  "sha256": "2e95156579f5664ec6c3f0e50e7c8301a5db78d6ba203750f639656e0c0d8f5b",
+  "revid": 239714602,
+  "revision_timestamp": "2026-09-22T02:10:40Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 40,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Marie_Curie",
+  "position_in_run": 4,
+  "sha256": "9edc15693a90da8730d3069af1aedab2c52a440a69736f023d9245bc2ab053d0",
+  "revid": 239714602,
+  "revision_timestamp": "2026-09-22T02:10:40Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 41,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Marie_Curie",
+  "position_in_run": 5,
+  "sha256": "497e05b9a507da6f7acc157b8f7630e2c6bee6ed8af7646ff5358e421d28d626",
+  "revid": 239714602,
+  "revision_timestamp": "2026-09-22T02:10:40Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 42,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Marie_Curie",
+  "position_in_run": 6,
+  "sha256": "9e28780c58eaf33c8c4e53741c618c40a4f2584827bcd28b2562faa21e112450",
+  "revid": 239714602,
+  "revision_timestamp": "2026-09-22T02:10:40Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 43,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Marie_Curie",
+  "position_in_run": 7,
+  "sha256": "f6fdeca24539888678eb946ff4728006bfce4dcb42372510c9bd39de2048390f",
+  "revid": 239714602,
+  "revision_timestamp": "2026-09-22T02:10:40Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 44,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Marie_Curie",
+  "position_in_run": 8,
+  "sha256": "0a8fb4850a8916ab102d12a32fd6e79f7391227be623ad2d6b531400fdf3afb5",
+  "revid": 239714602,
+  "revision_timestamp": "2026-09-22T02:10:40Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 45,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Marie_Curie",
+  "position_in_run": 9,
+  "sha256": "f6d50bb8fed24bec2d8c81df9f0b0dad391620585082d6e91ef0d79b8ef9832f",
+  "revid": 239714602,
+  "revision_timestamp": "2026-09-22T02:10:40Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 46,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Marie_Curie",
+  "position_in_run": 10,
+  "sha256": "ec3b04e2f9c83264806079272032389a299d194b55572a66eccfae2fc7d786f0",
+  "revid": 239714602,
+  "revision_timestamp": "2026-09-22T02:10:40Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 47,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Marie_Curie",
+  "position_in_run": 11,
+  "sha256": "c905baacd6bad6dd6f4534587188787048458c2fb79e4f4128bbd218d553cf5e",
+  "revid": 239714602,
+  "revision_timestamp": "2026-09-22T02:10:40Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 48,
+  "domain": "wikipedia: biography",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Marie_Curie",
+  "position_in_run": 12,
+  "sha256": "04f7a6c9669c4ed3eedbc856e36775bff46f905e2aa2dcf32a5d5bc110a383d0",
+  "revid": 239714602,
+  "revision_timestamp": "2026-09-22T02:10:40Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 49,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Cuisine_française",
+  "position_in_run": 1,
+  "sha256": "7afc932dfd8e4f805842a832556be8e45ae72b3ca4ca2c302d1273517fce9db4",
+  "revid": 239904005,
+  "revision_timestamp": "2026-09-29T03:13:35Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 50,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Cuisine_française",
+  "position_in_run": 2,
+  "sha256": "b4ec843d194581d1ec34b50b1ac865ef9b2bc085c68638d2af4fd80180f93ef8",
+  "revid": 239904005,
+  "revision_timestamp": "2026-09-29T03:13:35Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 51,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Cuisine_française",
+  "position_in_run": 3,
+  "sha256": "489d8a8941467f482fe56c33f7f29b9c6b2751a1e0727709a349519a6e327039",
+  "revid": 239904005,
+  "revision_timestamp": "2026-09-29T03:13:35Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 52,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Cuisine_française",
+  "position_in_run": 4,
+  "sha256": "fb4d1623127b956c135ba68abc4cd53c76ff131c5f123470792915109f608997",
+  "revid": 239904005,
+  "revision_timestamp": "2026-09-29T03:13:35Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 53,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Cuisine_française",
+  "position_in_run": 5,
+  "sha256": "527bc9996b6f32c29cc5ca48d33dc7495a4cb1b16021130ef2f49062d5ec69a7",
+  "revid": 239904005,
+  "revision_timestamp": "2026-09-29T03:13:35Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 54,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Cuisine_française",
+  "position_in_run": 6,
+  "sha256": "ed77c6bf8d5add2254b0efe3594ab5c136107c33622b03f43686420e0527479e",
+  "revid": 239904005,
+  "revision_timestamp": "2026-09-29T03:13:35Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 55,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Cuisine_française",
+  "position_in_run": 7,
+  "sha256": "9548ff6fee23a3facdede1a44c101ee39441aab2d48526ebf19b422d901d4127",
+  "revid": 239904005,
+  "revision_timestamp": "2026-09-29T03:13:35Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 56,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Cuisine_française",
+  "position_in_run": 8,
+  "sha256": "6fd463aad1ed56ab8b8b667c09dd60fe3b211228a2483cbba5340a816bd1d3ca",
+  "revid": 239904005,
+  "revision_timestamp": "2026-09-29T03:13:35Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 57,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Cuisine_française",
+  "position_in_run": 9,
+  "sha256": "98270064862075dd573add3828c1ba06f2dc702dce56ba8568b5ed4f2f963101",
+  "revid": 239904005,
+  "revision_timestamp": "2026-09-29T03:13:35Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 58,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Cuisine_française",
+  "position_in_run": 10,
+  "sha256": "700fdea895b9f5ceab1cdc2b27e5b95f20c92ae653397a493b9b48d31dde178e",
+  "revid": 239904005,
+  "revision_timestamp": "2026-09-29T03:13:35Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 59,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Cuisine_française",
+  "position_in_run": 11,
+  "sha256": "c30063c54954d39c7696cd0185833a5f85c9151299cfe346c3326b6271a4a57f",
+  "revid": 239904005,
+  "revision_timestamp": "2026-09-29T03:13:35Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 60,
+  "domain": "wikipedia: culture/society",
+  "kind": "wikipedia",
+  "url": "https://fr.wikipedia.org/wiki/Cuisine_française",
+  "position_in_run": 12,
+  "sha256": "88fe7855e693f02045f4ede2bb210c26eb042a8f59f144d7318c9991daa8ae77",
+  "revid": 239904005,
+  "revision_timestamp": "2026-09-29T03:13:35Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 61,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 1,
+  "sha256": "ea9de259c55c85e77fbef172aa6440f591825f384a461eaf84727ab1609e0bff"
+ },
+ {
+  "id": 62,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 2,
+  "sha256": "3ca19ca03858934e74dea6a2cb2f5aca9a6afab9a032a512959a0999fa73dd9d"
+ },
+ {
+  "id": 63,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 3,
+  "sha256": "4fcdcec22c976c961ab47025051979b2e3a81b44ba4f215038ec19db5acbcdb8"
+ },
+ {
+  "id": 64,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 4,
+  "sha256": "83c130dcb51449da8625fdbc7f652244e7dd2761dd28bfd6cf2a9b7b07cbea7a"
+ },
+ {
+  "id": 65,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 5,
+  "sha256": "cc8e00848c25c331c1a3ffa4f0a142d4b954b3ff585276dcd964986c1611bd9b"
+ },
+ {
+  "id": 66,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 6,
+  "sha256": "08186d291af8e069a2598480c77b2e3a2a6d5da986ef562f51b57032bc486e38"
+ },
+ {
+  "id": 67,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 7,
+  "sha256": "d6379031d2277573d39c2e4e853c2529521eba74a5de08c9c54875b465a07191"
+ },
+ {
+  "id": 68,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 8,
+  "sha256": "4afa3bfe8cc50313bfbc418d94ba5c20c4fe15c6ac1b0f9623e1700e47a3e474"
+ },
+ {
+  "id": 69,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 9,
+  "sha256": "452bc25f7d08f21a991b7312ec5d7323e16f1b412049cf7a19b6b7705900deb3"
+ },
+ {
+  "id": 70,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 10,
+  "sha256": "e518e5c5d3327db37deca7b86565241f192744dfb29fc20dbebd193a96b40c5e"
+ },
+ {
+  "id": 71,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 11,
+  "sha256": "7274b59cafbb8284ea7a5077858f5ddc7d8a54e8d81654b668a922df731a42ef"
+ },
+ {
+  "id": 72,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 12,
+  "sha256": "33482ac6186a45ddae829bb405f4ab50fe6cc84bd2e0d966e964a5776cccf009"
+ },
+ {
+  "id": 73,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 13,
+  "sha256": "2c5c4e1f5fdc6de698acc204814b2d9017fe8f54a21c3100150fe1b3a3f7d5a3"
+ },
+ {
+  "id": 74,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 14,
+  "sha256": "9ac1417d1e9f1c40c1ae7c8d6bbb4c15ed82a066b5fc76a24adc41c5afb944be"
+ },
+ {
+  "id": 75,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 15,
+  "sha256": "5c035c2b20069dd9cd28f6549057841614c06aa08d9772366556c840bdf51e7b"
+ },
+ {
+  "id": 76,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 16,
+  "sha256": "f19da22afe4105fa92ef9b138a4a3cf82047267107393b9d5a31bb7e11fadaa1"
+ },
+ {
+  "id": 77,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 17,
+  "sha256": "5a37e146c6b3cbf2fd5b88b2022ad43a364530a687b8c2ecd2607e8ef8311716"
+ },
+ {
+  "id": 78,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 18,
+  "sha256": "d71635afa4badcf6980717bc55df892401141904b9bcbebde6bfd30eefb63768"
+ },
+ {
+  "id": 79,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 19,
+  "sha256": "0d2e614bea6c85713a7cbcb42b146ae9ac8584244a801bc76593576e4b6d2a6e"
+ },
+ {
+  "id": 80,
+  "domain": "news/opinion: The Conversation France (commentary, health/society)",
+  "kind": "news",
+  "url": "https://theconversation.com/manger-a-lere-des-algorithmes-quelles-vulnerabilites-pour-les-jeunes-288962",
+  "position_in_run": 20,
+  "sha256": "0a76b5f1b9d732749428a57def1ac1ed271b179b26be44f7298c9ce05a0191ca"
+ },
+ {
+  "id": 81,
+  "domain": "news: franceinfo (world/US)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/monde/usa/le-directeur-de-l-administration-penitentiaire-du-tennessee-demissionne-apres-l-echec-de-l-execution-de-la-condamnee-a-mort-christa-pike-annonce-le-gouverneur-d-etat_8221396.html",
+  "position_in_run": 1,
+  "sha256": "368c480cb972579e353df49473af5f6a5751f0d2d56d26fe4ff3812cb13b0a02"
+ },
+ {
+  "id": 82,
+  "domain": "news: franceinfo (world/US)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/monde/usa/le-directeur-de-l-administration-penitentiaire-du-tennessee-demissionne-apres-l-echec-de-l-execution-de-la-condamnee-a-mort-christa-pike-annonce-le-gouverneur-d-etat_8221396.html",
+  "position_in_run": 2,
+  "sha256": "29a014ace969b280325e4c9795e68fee65ac5f4913cb7faf03b937711de5610f"
+ },
+ {
+  "id": 83,
+  "domain": "news: franceinfo (world/US)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/monde/usa/le-directeur-de-l-administration-penitentiaire-du-tennessee-demissionne-apres-l-echec-de-l-execution-de-la-condamnee-a-mort-christa-pike-annonce-le-gouverneur-d-etat_8221396.html",
+  "position_in_run": 3,
+  "sha256": "602d27fa86529b687bc36fc01ee48ca99391c2adf2136b523c54cee37dae5904"
+ },
+ {
+  "id": 84,
+  "domain": "news: franceinfo (world/US)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/monde/usa/le-directeur-de-l-administration-penitentiaire-du-tennessee-demissionne-apres-l-echec-de-l-execution-de-la-condamnee-a-mort-christa-pike-annonce-le-gouverneur-d-etat_8221396.html",
+  "position_in_run": 4,
+  "sha256": "7b7752e6c0dc0349f0f762b9567fb1417eb6e5352ce3838195df0d3be473509c"
+ },
+ {
+  "id": 85,
+  "domain": "news: franceinfo (world/US)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/monde/usa/le-directeur-de-l-administration-penitentiaire-du-tennessee-demissionne-apres-l-echec-de-l-execution-de-la-condamnee-a-mort-christa-pike-annonce-le-gouverneur-d-etat_8221396.html",
+  "position_in_run": 5,
+  "sha256": "bb3f6f8ac2e6835452965f479d12d25537a0f11129a4ffecbd032d23d09f3353"
+ },
+ {
+  "id": 86,
+  "domain": "news: franceinfo (world/US)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/monde/usa/le-directeur-de-l-administration-penitentiaire-du-tennessee-demissionne-apres-l-echec-de-l-execution-de-la-condamnee-a-mort-christa-pike-annonce-le-gouverneur-d-etat_8221396.html",
+  "position_in_run": 6,
+  "sha256": "913c7064b01b95e9f8ab6a8116d9aea43a4ac88e134dd08bca464e36d8875531"
+ },
+ {
+  "id": 87,
+  "domain": "news: franceinfo (world/US)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/monde/usa/le-directeur-de-l-administration-penitentiaire-du-tennessee-demissionne-apres-l-echec-de-l-execution-de-la-condamnee-a-mort-christa-pike-annonce-le-gouverneur-d-etat_8221396.html",
+  "position_in_run": 7,
+  "sha256": "e03573071862687ae01be218ab033b82d2ca433245834169b4154cf95f6ca6bb"
+ },
+ {
+  "id": 88,
+  "domain": "news: franceinfo (world/US)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/monde/usa/le-directeur-de-l-administration-penitentiaire-du-tennessee-demissionne-apres-l-echec-de-l-execution-de-la-condamnee-a-mort-christa-pike-annonce-le-gouverneur-d-etat_8221396.html",
+  "position_in_run": 8,
+  "sha256": "704660da9c1e674c5adb6406555bac32b5f1d46f18f214d2cc1cc17a563fe4ce"
+ },
+ {
+  "id": 89,
+  "domain": "news: franceinfo (world/US)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/monde/usa/le-directeur-de-l-administration-penitentiaire-du-tennessee-demissionne-apres-l-echec-de-l-execution-de-la-condamnee-a-mort-christa-pike-annonce-le-gouverneur-d-etat_8221396.html",
+  "position_in_run": 9,
+  "sha256": "770253aeaea3545797b1f6824e809f8b70a7b68ed01969a1a707ef771880d548"
+ },
+ {
+  "id": 90,
+  "domain": "news: franceinfo (economy)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/economie/automobile/essence/pres-de-325-millions-de-barils-de-reserves-strategiques-de-petrole-ont-ete-liberes-depuis-mars-selon-l-agence-internationale-de-l-energie_8221198.html",
+  "position_in_run": 1,
+  "sha256": "ab3de0e3530ba02462263817045ac55b69c36130ec9153aa897206746f2ffd97"
+ },
+ {
+  "id": 91,
+  "domain": "news: franceinfo (economy)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/economie/automobile/essence/pres-de-325-millions-de-barils-de-reserves-strategiques-de-petrole-ont-ete-liberes-depuis-mars-selon-l-agence-internationale-de-l-energie_8221198.html",
+  "position_in_run": 2,
+  "sha256": "7e9133c87ba70e0aa773dba2e2313fcd41a8861f62d061e50013fd9939ea5c43"
+ },
+ {
+  "id": 92,
+  "domain": "news: franceinfo (economy)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/economie/automobile/essence/pres-de-325-millions-de-barils-de-reserves-strategiques-de-petrole-ont-ete-liberes-depuis-mars-selon-l-agence-internationale-de-l-energie_8221198.html",
+  "position_in_run": 3,
+  "sha256": "dec86314bd612829cf77f998094ce04dbd207130710231d99d09edb75e6c263b"
+ },
+ {
+  "id": 93,
+  "domain": "news: franceinfo (economy)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/economie/automobile/essence/pres-de-325-millions-de-barils-de-reserves-strategiques-de-petrole-ont-ete-liberes-depuis-mars-selon-l-agence-internationale-de-l-energie_8221198.html",
+  "position_in_run": 4,
+  "sha256": "a9e3acc7145153ae72620125c4a6dd78bf87728c5724588ec9f4fe2db535b7be"
+ },
+ {
+  "id": 94,
+  "domain": "news: franceinfo (economy)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/economie/automobile/essence/pres-de-325-millions-de-barils-de-reserves-strategiques-de-petrole-ont-ete-liberes-depuis-mars-selon-l-agence-internationale-de-l-energie_8221198.html",
+  "position_in_run": 5,
+  "sha256": "d9f21f794edbbad39c1b4a32f3149f98099ef39ed0c215b108c50ce3e2643049"
+ },
+ {
+  "id": 95,
+  "domain": "news: franceinfo (economy)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/economie/automobile/essence/pres-de-325-millions-de-barils-de-reserves-strategiques-de-petrole-ont-ete-liberes-depuis-mars-selon-l-agence-internationale-de-l-energie_8221198.html",
+  "position_in_run": 6,
+  "sha256": "6d6a993b821aad03cfdf4719435ceb4c6e272454aff175128181b70d2c74f818"
+ },
+ {
+  "id": 96,
+  "domain": "news: franceinfo (economy)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/economie/automobile/essence/pres-de-325-millions-de-barils-de-reserves-strategiques-de-petrole-ont-ete-liberes-depuis-mars-selon-l-agence-internationale-de-l-energie_8221198.html",
+  "position_in_run": 7,
+  "sha256": "5cb4a02e1a3e31ea00f4e82918ff577ccb00e814e12ba34f8bd68cba57b57109"
+ },
+ {
+  "id": 97,
+  "domain": "news: franceinfo (economy)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/economie/automobile/essence/pres-de-325-millions-de-barils-de-reserves-strategiques-de-petrole-ont-ete-liberes-depuis-mars-selon-l-agence-internationale-de-l-energie_8221198.html",
+  "position_in_run": 8,
+  "sha256": "7539b43fcb8700598ba9bb3429550800c35ff52d8a89364fdad4193297ed9cf7"
+ },
+ {
+  "id": 98,
+  "domain": "news: franceinfo (economy)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/economie/automobile/essence/pres-de-325-millions-de-barils-de-reserves-strategiques-de-petrole-ont-ete-liberes-depuis-mars-selon-l-agence-internationale-de-l-energie_8221198.html",
+  "position_in_run": 9,
+  "sha256": "a748b84a28f72b453cd56bfccac8d3dd2deda6bd10e7d07a4ca741149d5377d3"
+ },
+ {
+  "id": 99,
+  "domain": "news: franceinfo (economy)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/economie/automobile/essence/pres-de-325-millions-de-barils-de-reserves-strategiques-de-petrole-ont-ete-liberes-depuis-mars-selon-l-agence-internationale-de-l-energie_8221198.html",
+  "position_in_run": 10,
+  "sha256": "e6ead2e82d485ae970688dbd72e42a917406f96ba935a4705867ef495d455da3"
+ },
+ {
+  "id": 100,
+  "domain": "news: franceinfo (economy)",
+  "kind": "news",
+  "url": "https://www.franceinfo.fr/economie/automobile/essence/pres-de-325-millions-de-barils-de-reserves-strategiques-de-petrole-ont-ete-liberes-depuis-mars-selon-l-agence-internationale-de-l-energie_8221198.html",
+  "position_in_run": 11,
+  "sha256": "1c29bf399bcb06c590794c689a30827ee9a2ab3e5591a4a9c47d0c681bfa941d"
+ }
+]

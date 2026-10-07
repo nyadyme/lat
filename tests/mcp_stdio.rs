@@ -5,8 +5,14 @@
 //!
 //! Launches the built binary the way an MCP host does — as a child process
 //! speaking line-delimited JSON-RPC over stdin/stdout — and exercises the
-//! handshake and all four tools. This is the only place that covers the wiring
+//! handshake and all five tools. This is the only place that covers the wiring
 //! between `LAT_DB_PATH`, seeding on first start and the tool router.
+
+#![allow(
+    clippy::assert_is_empty,
+    clippy::needless_pass_by_value,
+    reason = "assert!(x.is_empty()) reads as the behavior under test; helpers take owned JSON for readable call sites"
+)]
 
 use std::io::{BufRead, BufReader, Write};
 use std::path::{Path, PathBuf};
@@ -228,7 +234,7 @@ fn the_first_start_creates_and_seeds_the_database_at_lat_db_path() {
 }
 
 #[test]
-fn all_four_tools_are_listed_with_a_schema() {
+fn all_five_tools_are_listed_with_a_schema() {
     let mut host = Host::start();
     host.initialize();
 
@@ -244,6 +250,7 @@ fn all_four_tools_are_listed_with_a_schema() {
         listed,
         [
             "get_pattern",
+            "get_routing",
             "list_facets",
             "list_patterns",
             "search_patterns"
@@ -503,4 +510,21 @@ fn an_unknown_argument_exits_with_a_usage_error() {
     let stderr = String::from_utf8_lossy(&output.stderr);
     assert!(stderr.contains("--nope"), "unexpected stderr: {stderr}");
     assert!(stderr.contains("Usage:"), "usage should be shown: {stderr}");
+}
+
+#[test]
+fn get_routing_serves_a_seeded_profile_over_stdio() {
+    let mut host = Host::start();
+    host.initialize();
+
+    let profile = host.call_tool("get_routing", json!({"source_language": "russian"}));
+
+    assert_eq!(profile["source_language"], "Russian");
+    assert_eq!(profile["own_entries"], json!(["Russian"]));
+    assert_eq!(profile["combinations"][4]["id"], "K5");
+    assert_eq!(profile["combinations"][4]["verdict"], "inverted");
+    assert_eq!(
+        profile["combinations"][4]["roster"][0]["name"],
+        "Hindi-Urdu (vector verbs)"
+    );
 }

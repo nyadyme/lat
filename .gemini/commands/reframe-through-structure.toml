@@ -40,6 +40,11 @@ The pattern catalogue comes from the **lat** MCP server. Available tools:
   combined with AND).
 - `get_pattern` — full details of a pattern (`kind` + `name`).
 - `list_patterns` — overview.
+- `get_routing` — the pass-2 combinations routed for the language a
+  text is written in (`source_language`): per combination the verdict, the
+  surface marker that triggers it, the roster with substitutions applied, and
+  the language's `own_entries` to exclude. Without an argument it lists the
+  profiles and the language-neutral combinations.
 
 **Always ground the choice of pattern in the catalogue** — never invent
 languages or forms. If lat is not connected, say so and offer to work
@@ -107,11 +112,15 @@ axis and opposed on the next. So:
   the language of the request. If the user writes to you in English about a
   German document, the input language is German. No tool needed; you read it
   directly.
-- **Exclude it, and only it.** Pass `exclude_names: ["<that language>"]` to
-  `search_patterns` so the structure the text already thinks in is not
-  recommended back. Exclude exactly that one language — never a pair, a family,
-  or a list of relatives. `exclude_names` matches by **exact name only**, which
-  is precisely what is wanted here.
+- **Exclude it, and only it.** Call `get_routing { "source_language":
+  "<that language>" }` and pass its `own_entries` as `exclude_names` to
+  `search_patterns`, so the structure the text already thinks in is
+  not recommended back. `own_entries` lists every catalogue entry that
+  describes the language itself — Polish has three, `Polish (numeral
+  threshold)` among them — and nothing else: never a relative, a family, or a
+  list of neighbours. Without a profile, exclude the entries named for that
+  language by hand. `exclude_names` matches by **exact name only**, which is
+  precisely what is wanted here.
 - **A closely related language is still a valid lens.** Kinship is never uniform
   across the axes, so do not down-weight relatives wholesale. English and German
   do share the causal-chain / agent-patient reflex — but they diverge sharply
@@ -404,18 +413,42 @@ the separation was built to avoid.
 This table routes **pass 2**. Pass 1 selects its lenses from the diagnosed axes
 directly and is not bound by these combinations.
 
-Selection follows the **grammar of the source sentence**, not its topic.
+Selection follows the **grammar of the source sentence**, not its topic. The
+table below is the **German** profile, written out because the combinations were
+derived on it. For any source language call
+`get_routing { "source_language": "<language>" }` first and route by
+what it returns; profiles exist for German, English, French, Spanish, Russian,
+Polish and Japanese. Per combination it gives:
+
+- the **marker** that carries the trigger in that language — the German markers
+  do not transfer, and the mapping is not one-to-one;
+- the **verdict**: `fires` when the language leaves the axis implicit and the
+  combination applies as written; `inverted` when the language already forces
+  the choice, so the combination tests whether the forced choice was warranted
+  (K5 on a Russian or Polish text, where aspect is obligatory);
+- the **roster** with substitutions applied: a lens that is the source language
+  itself, or that forces a choice the source grammar already forces on the same
+  axis, is replaced in its slot (`replaces`, `reason`) or listed under
+  `dropped`. Kinship is judged per axis — Russian leaves K5 for a Polish text
+  because the two aspect systems are identical there, not because both are
+  Slavic.
+
+Rows marked `derived` were worked out from the cited grammar without a run;
+treat them as the heuristic they are until one confirms them. Rows marked
+`checked` had their marker tested against 100 real sentences in the language and
+revised where it failed — the current state for K2 to K8 in all seven profiles.
+The check had one annotator per language; read its numbers as direction.
 
 | Marker in the source sentence | Combination |
 |---|---|
 | any sentence, as the base | **K1** base cycle |
-| collective or non-actor as subject | **K2** agent pincer |
-| assertion without a stated source | **K3** source pincer |
-| definite singular article for a bundle, mass or population | **K4** boundary pincer, plus a reducer |
+| an agentless passive (*wurde gebaut*, *gilt als*), or a non-actor as subject of an action verb | **K2** agent pincer |
+| inferred, evaluative or borrowed content with no source named and no hedge | **K3** source pincer |
+| a singular noun phrase for a bundle, mass or population, definite or not | **K4** boundary pincer, plus a reducer |
 | perfect or past tense over a running process | **K5** aspect pincer |
-| genitive, possessive, reflexive | **K6** possession pincer |
-| *because*, *after*, *since* in a causal function | **K7** simultaneity pincer |
-| a two-word noun compound in an argument slot | **K8** compound pincer *(derived, English)* |
+| possessive pronoun, possessor genitive, possessive *von*-phrase | **K6** possession pincer |
+| a causal conjunction, adverb or preposition: *weil*, *denn*, *deshalb*, *durch*, *wegen*, *aufgrund* | **K7** simultaneity pincer |
+| a noun–noun compound | **K8** compound pincer |
 | vertical or motion metaphor for a number | `Guugu Yimithirr` + `Tzeltal (uphill-downhill axis)` + `Inuktitut` |
 
 The last row is deliberately not a built-out combination: `Space & orientation`
@@ -468,11 +501,17 @@ another, then the *oratio obliqua* marks the whole passage as report.
 mass or a bundle.
 `Yucatec Maya` then `Polish (numeral threshold)` then
 `Hungarian (associative plural)` then
-`Mojeño Trinitario (possessive classes)`, plus `Toki Pona`.
+`Mojeño Trinitario (possessive classes)`, plus `Toki Pona`, then
+`Swahili (noun classes)`.
 Unbounded material without a unit; where a quantity of individuals tips into a
 mass; whether a bundle is meant; whether the term is nameable without an owner.
-All four are purely destructive — without the appended constructive lens the
-pincer yields nothing but the news that the article is wrong.
+All four are purely destructive. `Toki Pona` is the reducer and leaves as soon
+as K1 has run, which is on every sentence, so the pincer needs a closer of its
+own: `Swahili (noun classes)` rebuilds the phrase by putting the stem into a
+mode of existence — persons (*m-/wa-*), a mass or collective (*ma-*), a
+quality (*u-*) — and the replacement has to say which one the sentence means.
+It was added from the grammar, not from a run; treat it as untested until one
+confirms it.
 
 **K5 — aspect pincer.** A perfect or past tense contracts a running process to
 a point. Two completion questions at two anchors, and a closer.
@@ -501,6 +540,16 @@ move in the chain: under negation every object turns partitive, so a denial
 cannot leave its object whole, and a claim that a search came up empty cannot be
 stated as a claim about a completed search.
 
+It also has the narrowest grip. It attaches to a direct object, and the K5
+trigger mostly catches intransitive change verbs — *emerged*, *developed*,
+*hat funktioniert*. In the check of all seven profiles only 1 to 5 of every 10
+trigger sentences had an object in French, Spanish, German and English. Where
+the trigger clause has no direct object, record the Finnish row as **not
+applicable**: not as an empty finding, and not as evidence that the lens is
+redundant. Redundancy is the other case — an object is there and the source
+grammar has already said how far the event reached it, as Russian and Polish
+aspect do; that is why their profiles drop the lens.
+
 `Guaraní` is the reconstruction: the others are diagnostic, and a combination
 may not leave role (4) empty. Nominal aspect puts
 the epoch on the noun (*-kue* for the former, *-rã* for the prospective), so a
@@ -523,8 +572,8 @@ it is ground, time, condition or concession — precisely the decision *because*
 makes silently. Wényán rebuilds paratactically, without causal morphology. The
 Midrash lets the contradictions stand side by side.
 
-**K8 — compound pincer.** A two-word noun compound occupies an argument slot
-where a clause with named participants belongs.
+**K8 — compound pincer.** A noun compound stands where a clause with named
+participants belongs, in whatever slot of the sentence it sits.
 `Vigraha (compound resolution)` then
 `Ancient Greek (article & substantivization)` then
 `Polish (instrumental predication)` then `Lojban`.
@@ -543,9 +592,9 @@ difference decides how many combinations may run on one text:
 
 - **Reduction is global.** One invariant per text, and two reducers produce the
   same one. So `Toki Pona` drops out of K4 the moment K1 has run
-  `Node collapse` — and the slot it vacates has to be filled by something
-  that rebuilds rather than reduces, or the chain ends with four destructive
-  lenses and no replacement.
+  `Node collapse` — and the chain still has to end in something that
+  rebuilds rather than reduces, or it ends with four destructive lenses and no
+  replacement. K4 closes on `Swahili (noun classes)` for that reason.
 - **Ablation and reconstruction are per axis.** Two reconstructions on two
   different axes rebuild two different things and do not collide. A text that
   triggers five combinations earns five replacement formulations, one per axis;
@@ -588,22 +637,38 @@ every such group lives in the repo's facets snapshot.
 ### Re-deriving the routing for another source language
 
 The roles, the polarity rule and the interference rules are about lenses and
-transfer unchanged. The routing table does not: it maps **German** markers to
-combinations. On a source in another language the triggers have to be re-derived
-first, and the mapping is not one-to-one.
+transfer unchanged. The markers do not. Where `get_routing` has no profile for
+the source language it says so and returns the language-neutral trigger of each
+combination; derive the markers from those, per combination, before routing:
 
-Worked through once, for English:
+1. For each trigger, find the surface form that carries it in the source
+   language — or note that the language has none and the combination still
+   applies without a visible marker.
+2. For each roster lens, ask whether the source grammar already forces the same
+   choice on that axis. If it does, the lens is no contrast: replace it with a
+   lens asking a different question on the same axis, or drop it. If the whole
+   axis is forced, the combination is `inverted`.
+3. Remove every catalogue entry describing the source language itself.
 
-| Inherited German marker | What does the same work in English | What changes |
+A profile that has been worked out this way belongs in
+`additional_docs/lat_routing.md`, where `tools/gen_routing.py` checks it
+against the catalogue. The English profile was the first derivation, and it
+shows why the step is not a formality — and why a derivation from grammars is
+not yet a check. The table records what was derived; the last column what 100
+real English sentences showed:
+
+| Inherited German marker | Derived for English | What 100 sentences showed |
 |---|---|---|
-| definite singular article for a bundle | the **bare plural** — "groups", "races" | the trigger inverts. German marks with a determiner, English with the absence of one |
-| *weil / seit / nach* in a causal function | the causal **preposition** — *because of*, *due to*, *as a result of* | the claim hides inside a noun phrase instead of opening a clause, and the word ban has to target a preposition |
-| genitive, possessive, **reflexive** | *of*-phrase and possessive *'s* | English has no reflexive possessive at all; that third trigger has no counterpart. K6 still applies, its German marker does not exist |
-| perfect or past over a running process | the **present perfect** | same trigger, sharper: the present perfect fuses a running state with a completed result more readily than the German Perfekt |
-| collective or non-actor as subject | the same, and more of it | English nominalises freely, so more abstractions reach the subject slot without any morphology |
+| definite singular article for a bundle | the **bare plural** — "groups", "races"; the trigger was thought to invert | wrong: the bare plural carried it in none of 52 cases. A definite singular collective (*the court*, *the public*) carried it in 34, a bare mass or genre noun (*jazz*) in 14 |
+| *weil / seit / nach* in a causal function | the causal **preposition** — *because of*, *due to* | too narrow: 9 of 11 causes came as connectives (*thus*, *since*, *given*, *because*); prepositions belong in the marker beside them, not instead |
+| genitive, possessive, **reflexive** | *of*-phrase and possessive *'s* | possessive determiners (*its*, *their*) were missing, and most *of*-phrases were not possession |
+| perfect or past over a running process | the **present perfect** | the simple past of a change verb over a span (*emerged in the 1940s*) carried it far more often |
+| collective or non-actor as subject | the same, and more of it | the agentless passive was the larger half of the misses |
 
-And one marker with no inherited row at all: the **two-word noun compound in an
-argument slot** (*group differences*, *stereotype threat*, *open inquiry*).
+And one marker with no inherited row at all: the **noun compound**
+(*group differences*, *stereotype threat*, *open inquiry*), first derived for
+argument slots only; the check found it in adjuncts and in stacks of three or
+more nouns as often, and dropped the restriction.
 German writes a compound as a single word, which keeps it legible as a compound;
 the English pair reads as an adjective with its noun and the case relation
 between the members vanishes without trace. K8 covers it.
@@ -614,16 +679,26 @@ be the dense one.
 
 ### Provenance and limit
 
-K1 to K7 and the routing table are derived from one documented run of the whole
-catalogue over ten German sentences. That makes them a heuristic, not a
-measurement: the source language was German throughout, and the routing markers
-are German markers. K8 rests on a single English text and is weaker still.
+K1 to K7 were derived from one documented run of the whole catalogue over ten
+German sentences, K8 from a single English text. The combinations and their
+verdicts held when every profile was checked against 100 real sentences per
+language; the markers did not. Even the German ones, read off the original run,
+missed most causes (*weil* and *da* carried 2 of 18; *nach* and *seit* were
+never causal) and fired on nearly every expository sentence for K3. The routing
+table above carries the checked markers. Ten sentences are enough to find a
+combination and not enough to find its markers.
 
 For a source in another language the roles, the polarity rule and the
 interference rules carry over unchanged; the routing has to be re-derived. The
-section above does that for English and found three triggers changed, one with
-no counterpart at all, and one marker missing from the table entirely — so the
-re-derivation is not a formality.
+English derivation found three triggers changed, one with no counterpart at all,
+and one marker missing from the table entirely — and the check then showed the
+derivation wrong in one row (K4) and incomplete in the other four. The French, Spanish, Russian,
+Polish and Japanese profiles were derived from grammars and then checked the
+same way. Russian and Polish invert K5 and drop Finnish from it, since their
+aspect already says how far the event reached the object; Japanese replaces
+Yucatec in K4, since its numeral classifiers already make the choice that lens
+forces. The check also found that the generic K6 marker — genitive, *de*, *no* —
+mostly joins two nouns without any possession, which is K8's trigger.
 
 ## Principles
 

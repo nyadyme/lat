@@ -84,7 +84,7 @@ pub struct SearchFilters {
     pub classification: Option<String>,
     /// Substring within the focus field.
     pub focus: Option<String>,
-    /// Substring within the forced_choice field.
+    /// Substring within the `forced_choice` field.
     pub forced_choice: Option<String>,
     /// Exact attachment (the constituent a pattern interrogates).
     pub attachment: Option<String>,
@@ -100,7 +100,108 @@ pub struct SearchFilters {
     pub exclude_contested: bool,
 }
 
+/// One lens of a combination, as it rides for a given source language.
+#[derive(Debug, Clone, Serialize)]
+pub struct RosterLens {
+    /// Place in the run order, starting at 1. A substitute keeps the place
+    /// of the lens it replaces.
+    pub position: u32,
+    pub name: String,
+    pub kind: PatternType,
+    /// `opener`, `reduction`, `ablation`, `counter-check` or `reconstruction`.
+    pub role: String,
+    /// `constructive`, `destructive` or `both`.
+    pub polarity: String,
+    /// The lens of the language-neutral roster this one stands in for. Absent
+    /// on a slot the profile left unchanged.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub replaces: Option<String>,
+    /// Why the profile substituted the slot. Present exactly when `replaces`
+    /// is.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub reason: Option<String>,
+}
+
+/// A lens a profile removed without a successor.
+#[derive(Debug, Clone, Serialize)]
+pub struct DroppedLens {
+    pub name: String,
+    pub reason: String,
+}
+
+/// A combination in its language-neutral form: the trigger stated as a
+/// structural fact, and the roster before any profile touched it.
+#[derive(Debug, Clone, Serialize)]
+pub struct Combination {
+    pub id: String,
+    pub name: String,
+    pub axis: String,
+    pub trigger: String,
+    pub provenance: String,
+    pub roster: Vec<RosterLens>,
+}
+
+/// A combination as routed for one source language.
+#[derive(Debug, Clone, Serialize)]
+pub struct CombinationRoute {
+    pub id: String,
+    pub name: String,
+    pub axis: String,
+    /// The language-neutral trigger, so the marker can be read against it.
+    pub trigger: String,
+    /// `fires`: the language leaves the axis implicit and the combination
+    /// applies as written. `inverted`: the language already forces the
+    /// choice, so the combination tests whether the forced choice was
+    /// warranted. `unrouted`: the database holds no row for this pair — only
+    /// reachable through a live edit, since the generator refuses it.
+    pub verdict: String,
+    /// The surface form that carries the trigger in the source language.
+    pub marker: String,
+    pub note: String,
+    /// The grammar the marker was checked against.
+    pub citation: String,
+    /// `run`, `derived` or `checked` for this language's row: read off a
+    /// run, worked out from a grammar, or tested against real sentences.
+    pub provenance: String,
+    /// The roster with the profile's substitutions applied.
+    pub roster: Vec<RosterLens>,
+    /// Lenses the profile removed without a replacement.
+    pub dropped: Vec<DroppedLens>,
+}
+
+/// The routing of every combination for one source language.
+#[derive(Debug, Clone, Serialize)]
+pub struct RoutingProfile {
+    /// The profile's canonical name, whatever casing was asked for.
+    pub source_language: String,
+    /// Every catalogue entry describing the source language itself, by exact
+    /// name: what goes into `exclude_names` for a text in that language.
+    pub own_entries: Vec<String>,
+    pub note: String,
+    /// Lenses in this profile's rosters that this database's pattern tables
+    /// lack, so `get_pattern` will not find them. Only a database seeded by an
+    /// older build has any; deleting the file reseeds the catalogue.
+    #[serde(skip_serializing_if = "Vec::is_empty")]
+    pub missing_from_catalogue: Vec<String>,
+    pub combinations: Vec<CombinationRoute>,
+}
+
+/// What exists when no profile was asked for or none matched: the profile
+/// names, and the combinations in their language-neutral form.
+#[derive(Debug, Clone, Serialize)]
+pub struct RoutingOverview {
+    /// Set when a requested language has no profile, saying so.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub message: Option<String>,
+    pub profiles: Vec<String>,
+    pub combinations: Vec<Combination>,
+}
+
 #[cfg(test)]
+#[allow(
+    clippy::assert_is_empty,
+    reason = "assert!(x.is_empty()) reads as the behavior under test"
+)]
 mod tests {
     use super::*;
 
@@ -185,6 +286,57 @@ mod tests {
         let json = serde_json::to_value(&facets).unwrap();
         assert_eq!(json["kind"], "language");
         assert_eq!(json["categories"], serde_json::json!(["Language"]));
+    }
+
+    #[test]
+    fn an_unchanged_roster_slot_serializes_without_substitution_fields() {
+        let lens = RosterLens {
+            position: 1,
+            name: "Russian".to_owned(),
+            kind: PatternType::Language,
+            role: "ablation".to_owned(),
+            polarity: "destructive".to_owned(),
+            replaces: None,
+            reason: None,
+        };
+
+        let json = serde_json::to_value(&lens).unwrap();
+
+        assert_eq!(json["kind"], "language");
+        assert!(json.get("replaces").is_none());
+        assert!(json.get("reason").is_none());
+    }
+
+    #[test]
+    fn a_substituted_roster_slot_names_what_it_replaces_and_why() {
+        let lens = RosterLens {
+            position: 1,
+            name: "Hindi-Urdu (vector verbs)".to_owned(),
+            kind: PatternType::Language,
+            role: "ablation".to_owned(),
+            polarity: "destructive".to_owned(),
+            replaces: Some("Russian".to_owned()),
+            reason: Some("own entry".to_owned()),
+        };
+
+        let json = serde_json::to_value(&lens).unwrap();
+
+        assert_eq!(json["replaces"], "Russian");
+        assert_eq!(json["reason"], "own entry");
+    }
+
+    #[test]
+    fn an_overview_without_a_message_omits_the_field() {
+        let overview = RoutingOverview {
+            message: None,
+            profiles: vec!["German".to_owned()],
+            combinations: Vec::new(),
+        };
+
+        let json = serde_json::to_value(&overview).unwrap();
+
+        assert!(json.get("message").is_none());
+        assert_eq!(json["profiles"], serde_json::json!(["German"]));
     }
 
     #[test]

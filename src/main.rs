@@ -175,6 +175,10 @@ fn parse_allowed_hosts(raw: &str) -> Vec<String> {
 }
 
 #[cfg(test)]
+#[allow(
+    clippy::assert_is_empty,
+    reason = "assert!(x.is_empty()) reads as the behavior under test"
+)]
 mod tests {
     use super::*;
 
