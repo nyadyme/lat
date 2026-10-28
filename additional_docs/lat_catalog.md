@@ -1,4 +1,4 @@
-<!-- SPDX-License-Identifier: LicenseRef-Proprietary -->
+c<!-- SPDX-License-Identifier: LicenseRef-Proprietary -->
 <!-- Copyright 2026 Dana Schlifka -->
 <!-- Dual-licensed work: this proprietary edition is the one that applies in   -->
 <!-- this repository. The `lat` edition of the same catalogue is offered under -->
@@ -129,9 +129,9 @@ the axes it *imposes*, not ones it opens up. Adding the causal axes to English
 to "complete the pair" would therefore be wrong — it would make English surface
 as a lens for causality, which is the opposite of the point.
 
-Count: **81 languages**, **53 forms**.
+Count: **82 languages**, **53 forms**.
 
-## Languages (81)
+## Languages (82)
 
 | Name | Category | Classification | Focus | Feature | Forced choice | Attaches to | Description | Tags | Themes | Source | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -216,6 +216,7 @@ Count: **81 languages**, **53 forms**.
 | Amele (switch-reference) | Language | Trans-New Guinea / switch-reference on medial verbs | Whether the next step keeps the same doer | Every medial verb of a clause chain carries a same-subject or different-subject marker before the chain closes on its one finite verb, so continuity of the participant is declared at the joint instead of being inferred across it; the same device runs in Seri and Kiowa | whether the next clause keeps this subject | connective | Puts reference tracking into the seam between clauses: a chain cannot be built without stating at every step whether the actor carries over, so a silent change of subject is not available | switch-reference, same-subject, different-subject, clause-chaining, reference-tracking | Rank & salience, Coexistence | Haiman & Munro (eds.), Switch-Reference and Universal Grammar (Typological Studies in Language 2, 1983) | sourced |
 | Spanish (differential object marking) | Language | Romance / object marked by animacy and definiteness | What kind of thing is allowed to fill the object slot unmarked | A direct object takes the preposition *a* only when it stands high enough on animacy and definiteness — *veo a Juan* against *veo la casa*. The same grammatical role is marked or bare depending on what fills it; Aissen derives the split from a standing tension between iconicity and economy | whether the object is individuated enough to be marked | object | Refuses to treat the object slot as uniform: a person and a thing in the same role do not get the same form, so what was affected cannot be asked without asking what sort of thing it was | differential-object-marking, animacy, definiteness, case, individuation | Object boundaries, Rank & salience | Aissen, Differential Object Marking: Iconicity vs. Economy, Natural Language & Linguistic Theory 21 (2003) | sourced |
 | Hungarian (preverbal focus position) | Language | Uralic (Ugric) / structural focus in the immediately preverbal slot | Which single constituent the sentence singles out | The slot immediately before the verb is a structural focus position: whatever stands there is read as identificational focus and carries exhaustivity — it names the one that holds and excludes the rest, as an English cleft does. Leaving the slot unfilled is equally a decision | which constituent occupies the position before the verb | word order | Makes exhaustive identification a matter of position rather than of stress: a sentence cannot be built without deciding whether anything is being singled out at all, and if so which | focus, exhaustivity, preverbal, information-structure, position | Rank & salience | É. Kiss, The Syntax of Hungarian (Cambridge); É. Kiss, Identificational Focus versus Information Focus, Language 74 (1998) | sourced |
+| Quechua, Cusco-Collao (-pu regressive) | Language | Quechuan (Quechua II) / deictic verbal suffix -pu | Whether an act restores or departs for good | The verbal suffix -pu sends the act back to its place of origin or to the one it belongs to: kuti-y (turn) → kuti-pu-y (return home), qu-y (give) → qu-pu-y (give back, pay a debt), chura-y (put) → chura-pu-y (put back in its place); where no such origin is given, -pu instead makes the departure definitive: wañu-pu-y (pass away), qarqu-pu-y (expel). The regressive value is not in doubt for Cusco-Collao — Cusihuamán lists it beside a durative and a benefactive one; whether it is the core of -pu, and obligatory once an act returns to a place outside the speaker's sphere, is Calvo Pérez's reading, and other varieties (Chanca, Cochabamba) describe -pu mainly as benefactive or applicative | whether the act returns to where it came from | verb | Forces deciding whether an act restores something to its origin or removes it for good, so a transfer cannot be reported without settling whether it puts things back or takes them out of reach | regressive, restitution, deixis, definitive, verbal-suffix | Space & orientation, Possession & belonging | Cusihuamán, Gramática quechua Cuzco-Collao (1976), pp. 215-216; Calvo Pérez, Deixis verbal en quechua: -mu y -pu a la luz de la lexicología, Revista Española de Lingüística 39(2) (2009), pp. 63-92 | contested |
 
 ## Forms (53)
 

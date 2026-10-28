@@ -10,16 +10,17 @@ vocabulary of anchors; `tags` are free keywords.
 > `Possession & belonging` appears only among languages — carried by Mongolian
 > (reflexive possession), Navajo (inalienable possession), Hawaiian (a/o possession),
 > Pohnpeian (possessive classifiers), Baniwa (attributive & privative), Mojeño
-> Trinitario (possessive classes), Khoekhoe (clusive we) — so it is absent from the
-> forms facet. `Space & orientation` appears only among languages — carried by Guugu
-> Yimithirr, Kwakiutl (Kwak'wala), Inuktitut, Ewe (body-part locatives), Jingulu (three
-> light verbs), Tzeltal (uphill-downhill axis) — so it is absent from the forms facet.
-> `Time & aspect` appears only among languages — carried by German, Aymara, Guaraní,
-> Pirahã, Tz'utujil, Hindi-Urdu (vector verbs), Luganda (graded tense), Biblical Hebrew,
-> Hausa (pluractional verbs), Ancient Greek (aorist & middle voice), Hopi, Russian,
-> Finnish (partitive object), Kayardild (modal case), Berik (diurnal tense), Mano
-> (auxiliary series) — so it is absent from the forms facet. Facets reflect the occupied
-> subset, not the abstract list.
+> Trinitario (possessive classes), Khoekhoe (clusive we), Quechua, Cusco-Collao (-pu
+> regressive) — so it is absent from the forms facet. `Space & orientation` appears only
+> among languages — carried by Guugu Yimithirr, Kwakiutl (Kwak'wala), Inuktitut, Ewe
+> (body-part locatives), Jingulu (three light verbs), Tzeltal (uphill-downhill axis),
+> Quechua, Cusco-Collao (-pu regressive) — so it is absent from the forms facet. `Time &
+> aspect` appears only among languages — carried by German, Aymara, Guaraní, Pirahã,
+> Tz'utujil, Hindi-Urdu (vector verbs), Luganda (graded tense), Biblical Hebrew, Hausa
+> (pluractional verbs), Ancient Greek (aorist & middle voice), Hopi, Russian, Finnish
+> (partitive object), Kayardild (modal case), Berik (diurnal tense), Mano (auxiliary
+> series) — so it is absent from the forms facet. Facets reflect the occupied subset,
+> not the abstract list.
 
 ## Colliding forced choices (5)
 
@@ -33,7 +34,7 @@ two of them read as independent evidence without being it.
 - `verb` — the source of the information: **Tuyuca**, **Wintu**
 - `whole passage` — which two lines the thought keeps returning to: **Villanelle**, **Triolet**
 
-## Languages (81 entries)
+## Languages (82 entries)
 
 ### Themes (11)
 - Agency & control
@@ -54,7 +55,7 @@ two of them read as independent evidence without being it.
 - Constructed language
 - Language
 
-### Classifications (81)
+### Classifications (82)
 - Afro-Asiatic (Chadic) / pluractional verb stems
 - Afro-Asiatic (Cushitic) / marked nominative
 - Afro-Asiatic (Ethiosemitic) / converb chains with a single finite anchor
@@ -107,6 +108,7 @@ two of them read as independent evidence without being it.
 - Pama-Nyungan / radical syntactic freedom (scrambling)
 - Penutian (Wintuan) / four evidentials with plain sight as the unmarked default
 - Plateau Penutian / tripartite case system
+- Quechuan (Quechua II) / deictic verbal suffix -pu
 - Romance / object marked by animacy and definiteness
 - Samoyedic (Uralic) / negation as an inflected auxiliary
 - Sino-Tibetan / context-dependent functional fluidity
@@ -149,12 +151,12 @@ two of them read as independent evidence without being it.
 - whole passage
 - word order
 
-### Tags (272)
-`a-o-class`, `ablative-absolute`, `absolute-orientation`, `absolutive`, `abstraction`, `access`, `adjunct`, `agent`, `agent-chain`, `agentless`, `agreement`, `alignment`, `anatomy`, `anchor`, `animacy`, `animate`, `anticipatory`, `antipassive`, `aorist`, `article`, `aspect`, `associated-motion`, `associative-plural`, `attribution`, `attributive`, `auxiliary-series`, `baseline`, `benefactive`, `body-part-locative`, `bound-root`, `boundedness`, `cardinal-direction`, `case`, `case-stacking`, `category`, `causal`, `causative`, `chaining`, `classes`, `classification`, `classificatory`, `classificatory-verb`, `classifier`, `clause-chaining`, `clusivity`, `completeness`, `completion`, `complex-predicate`, `compound`, `concession`, `concord`, `condensation`, `conjunct-disjunct`, `connegative`, `consistency`, `constructed`, `control`, `converb`, `coordination`, `copula`, `coreference`, `counterweight`, `cycle`, `dative-agent`, `decomposition`, `definiteness`, `deixis`, `delegation`, `dependency`, `derivation`, `different-subject`, `differential-object-marking`, `direction`, `discourse-relation`, `discourse-scope`, `disposition`, `distance`, `distribution`, `diurnal`, `drinkable`, `dual`, `edible`, `ego-less`, `egophoricity`, `emphasis`, `empirical`, `epistemic-authority`, `ergative`, `ergative-split`, `event-chain`, `event-number`, `evidentiality`, `exhaustive`, `exhaustivity`, `existential`, `fluidity`, `focus`, `focus-conjugation`, `focus-system`, `force`, `free-word-order`, `fusion`, `gender`, `genealogical`, `genitive`, `geocentric`, `geometry`, `gerundive`, `graded-tense`, `gradient`, `grouping`, `handling`, `hierarchy`, `highlighting`, `holistic`, `immediacy`, `inalienable`, `inclusive-exclusive`, `incorporating`, `individuation`, `information-structure`, `instrument`, `instrumental`, `integral`, `intentionality`, `inversion`, `inverted-time`, `involuntary`, `involvement`, `isolating`, `ka-ma`, `landscape`, `light-verb`, `linker-less`, `listing`, `localization`, `logic`, `logophoric`, `manifestation`, `many-valued`, `marked-nominative`, `markedness`, `masculine-personal`, `material`, `materiality`, `matter`, `means`, `medial-verb`, `middle-voice`, `minimalism`, `mirativity`, `modal-case`, `monoclausal`, `nature`, `negation`, `negation-asymmetry`, `negation-scope`, `negative-auxiliary`, `nesting`, `network`, `new-information`, `nominal-aspect`, `nominalization`, `non-finite`, `non-verbal-predicate`, `nonvisual`, `noun-class`, `noun-classes`, `numeral`, `object`, `obligation`, `obligatory-possession`, `observation-conditions`, `obviation`, `obviative`, `oratio-obliqua`, `parallel`, `parallelism`, `parataxis`, `participle`, `particles`, `partitive`, `perfect`, `perfect-imperfect`, `person-marking`, `perspective`, `pivot`, `pluractional`, `plural`, `polarity`, `polysynthetic`, `portmanteau`, `position`, `possession`, `possessive-classifier`, `postposition`, `potential`, `precision`, `predicate`, `predication`, `prefixability`, `presence-absence`, `preverbal`, `privative`, `process`, `pronoun`, `proximate`, `psych-verb`, `quantification`, `quantity`, `realization`, `reciprocal`, `reclassification`, `recursion`, `reduction`, `reduplication`, `reference-tracking`, `reflexive-possessive`, `remoteness`, `reported-speech`, `resolution`, `role`, `root-pattern`, `salience`, `samasa`, `same-subject`, `scrambling`, `serial-verb`, `shape-verb`, `size`, `social`, `source`, `space`, `stacking`, `status`, `subjunctive`, `substantivization`, `surprise`, `switch-reference`, `syadvada`, `symmetry`, `syntactic-ergativity`, `tam`, `tam-sharing`, `tense`, `terrain`, `third-person`, `threshold`, `time-metaphor`, `tone`, `topic`, `topic-chain`, `total-object`, `transience`, `transitivity`, `triage`, `tripartite`, `unambiguous`, `unexpected`, `unfolding`, `unpossessed`, `unstated-relation`, `uphill-downhill`, `use-relation`, `vector-verb`, `verification`, `visibility`, `voice`, `voice-system`, `wa`, `waw`, `word-ban`
+### Tags (276)
+`a-o-class`, `ablative-absolute`, `absolute-orientation`, `absolutive`, `abstraction`, `access`, `adjunct`, `agent`, `agent-chain`, `agentless`, `agreement`, `alignment`, `anatomy`, `anchor`, `animacy`, `animate`, `anticipatory`, `antipassive`, `aorist`, `article`, `aspect`, `associated-motion`, `associative-plural`, `attribution`, `attributive`, `auxiliary-series`, `baseline`, `benefactive`, `body-part-locative`, `bound-root`, `boundedness`, `cardinal-direction`, `case`, `case-stacking`, `category`, `causal`, `causative`, `chaining`, `classes`, `classification`, `classificatory`, `classificatory-verb`, `classifier`, `clause-chaining`, `clusivity`, `completeness`, `completion`, `complex-predicate`, `compound`, `concession`, `concord`, `condensation`, `conjunct-disjunct`, `connegative`, `consistency`, `constructed`, `control`, `converb`, `coordination`, `copula`, `coreference`, `counterweight`, `cycle`, `dative-agent`, `decomposition`, `definiteness`, `definitive`, `deixis`, `delegation`, `dependency`, `derivation`, `different-subject`, `differential-object-marking`, `direction`, `discourse-relation`, `discourse-scope`, `disposition`, `distance`, `distribution`, `diurnal`, `drinkable`, `dual`, `edible`, `ego-less`, `egophoricity`, `emphasis`, `empirical`, `epistemic-authority`, `ergative`, `ergative-split`, `event-chain`, `event-number`, `evidentiality`, `exhaustive`, `exhaustivity`, `existential`, `fluidity`, `focus`, `focus-conjugation`, `focus-system`, `force`, `free-word-order`, `fusion`, `gender`, `genealogical`, `genitive`, `geocentric`, `geometry`, `gerundive`, `graded-tense`, `gradient`, `grouping`, `handling`, `hierarchy`, `highlighting`, `holistic`, `immediacy`, `inalienable`, `inclusive-exclusive`, `incorporating`, `individuation`, `information-structure`, `instrument`, `instrumental`, `integral`, `intentionality`, `inversion`, `inverted-time`, `involuntary`, `involvement`, `isolating`, `ka-ma`, `landscape`, `light-verb`, `linker-less`, `listing`, `localization`, `logic`, `logophoric`, `manifestation`, `many-valued`, `marked-nominative`, `markedness`, `masculine-personal`, `material`, `materiality`, `matter`, `means`, `medial-verb`, `middle-voice`, `minimalism`, `mirativity`, `modal-case`, `monoclausal`, `nature`, `negation`, `negation-asymmetry`, `negation-scope`, `negative-auxiliary`, `nesting`, `network`, `new-information`, `nominal-aspect`, `nominalization`, `non-finite`, `non-verbal-predicate`, `nonvisual`, `noun-class`, `noun-classes`, `numeral`, `object`, `obligation`, `obligatory-possession`, `observation-conditions`, `obviation`, `obviative`, `oratio-obliqua`, `parallel`, `parallelism`, `parataxis`, `participle`, `particles`, `partitive`, `perfect`, `perfect-imperfect`, `person-marking`, `perspective`, `pivot`, `pluractional`, `plural`, `polarity`, `polysynthetic`, `portmanteau`, `position`, `possession`, `possessive-classifier`, `postposition`, `potential`, `precision`, `predicate`, `predication`, `prefixability`, `presence-absence`, `preverbal`, `privative`, `process`, `pronoun`, `proximate`, `psych-verb`, `quantification`, `quantity`, `realization`, `reciprocal`, `reclassification`, `recursion`, `reduction`, `reduplication`, `reference-tracking`, `reflexive-possessive`, `regressive`, `remoteness`, `reported-speech`, `resolution`, `restitution`, `role`, `root-pattern`, `salience`, `samasa`, `same-subject`, `scrambling`, `serial-verb`, `shape-verb`, `size`, `social`, `source`, `space`, `stacking`, `status`, `subjunctive`, `substantivization`, `surprise`, `switch-reference`, `syadvada`, `symmetry`, `syntactic-ergativity`, `tam`, `tam-sharing`, `tense`, `terrain`, `third-person`, `threshold`, `time-metaphor`, `tone`, `topic`, `topic-chain`, `total-object`, `transience`, `transitivity`, `triage`, `tripartite`, `unambiguous`, `unexpected`, `unfolding`, `unpossessed`, `unstated-relation`, `uphill-downhill`, `use-relation`, `vector-verb`, `verbal-suffix`, `verification`, `visibility`, `voice`, `voice-system`, `wa`, `waw`, `word-ban`
 
-### Status (81 of 81 with a source)
+### Status (82 of 82 with a source)
 - `sourced` — 77
-- `contested` — 4
+- `contested` — 5
 - no source yet — 0 (excluded by `exclude_contested`)
 
 ## Forms (53 entries)
