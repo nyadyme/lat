@@ -1,4 +1,4 @@
-c<!-- SPDX-License-Identifier: LicenseRef-Proprietary -->
+<!-- SPDX-License-Identifier: LicenseRef-Proprietary -->
 <!-- Copyright 2026 Dana Schlifka -->
 <!-- Dual-licensed work: this proprietary edition is the one that applies in   -->
 <!-- this repository. The `lat` edition of the same catalogue is offered under -->
