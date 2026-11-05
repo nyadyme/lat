@@ -1,0 +1,3402 @@
+{
+ "1": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "الدَّوْلَةُ العَبَّاسِيَّة"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "دَوْلة بني العبَّاس"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "دَوْلة بني العبَّاس"
+  }
+ },
+ "2": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تُعد"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "الدولة العباسية"
+  },
+  "K5": {
+   "present": true,
+   "span": "دام حكمها"
+  },
+  "K6": {
+   "present": true,
+   "span": "حكمها"
+  },
+  "K7": {
+   "present": true,
+   "span": "فقد دام"
+  },
+  "K8": {
+   "present": true,
+   "span": "الدولة العباسية"
+  }
+ },
+ "3": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "مكتسبة بذلك شرعيتها"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "سلالة العبَّاس"
+  },
+  "K5": {
+   "present": true,
+   "span": "أسسها"
+  },
+  "K6": {
+   "present": true,
+   "span": "شرعيتها"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "سلالة العبَّاس"
+  }
+ },
+ "4": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "انطلقت / اعتمدت فيها الدعوة"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "الدعوة العبَّاسية"
+  },
+  "K5": {
+   "present": true,
+   "span": "قامت / اعتمدت"
+  },
+  "K6": {
+   "present": true,
+   "span": "أنقاض الدولة الأموية"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "الدولة الأموية"
+  }
+ },
+ "5": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "استئصال شأفة بني أمية"
+  },
+  "K6": {
+   "present": true,
+   "span": "شأفة بني أمية"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "سدة الحكم"
+  }
+ },
+ "6": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "بلغ نفوذ الدولة"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "الدولة العباسية"
+  },
+  "K5": {
+   "present": true,
+   "span": "بلغ نفوذ"
+  },
+  "K6": {
+   "present": true,
+   "span": "عصرها الذهبي"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "بلاد المسلمين"
+  }
+ },
+ "7": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تقلصت"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "الدولة"
+  },
+  "K5": {
+   "present": true,
+   "span": "تقلصت"
+  },
+  "K6": {
+   "present": true,
+   "span": "قوتها"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "حاضرة الخلافة"
+  }
+ },
+ "8": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تمثلت"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "مقام الخلافة"
+  },
+  "K5": {
+   "present": true,
+   "span": "تمثلت"
+  },
+  "K6": {
+   "present": true,
+   "span": "أهمية مقام الخلافة"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "مقام الخلافة"
+  }
+ },
+ "9": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "الدول المحافظة"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "الدولة الطاهرية"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "مقام الخلافة"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "الدولة الطاهرية"
+  }
+ },
+ "10": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "للدولة"
+  },
+  "K5": {
+   "present": true,
+   "span": "نقل العاصمة / حكم 132 – 136هـ"
+  },
+  "K6": {
+   "present": true,
+   "span": "أخوه"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "11": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "أرسى"
+  },
+  "K6": {
+   "present": true,
+   "span": "منافسيه"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "دعائم الحكم"
+  }
+ },
+ "12": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "ويُعد"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "مركز الخلافة"
+  },
+  "K5": {
+   "present": true,
+   "span": "بناء العاصمة"
+  },
+  "K6": {
+   "present": true,
+   "span": "إنجازه"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "مركز الخلافة"
+  }
+ },
+ "13": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تستخدمها النباتات"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "لتحويل الطاقة الضوئية"
+  },
+  "K6": {
+   "present": true,
+   "span": "أنشطة الكائن الحي"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "الطاقة الضوئية"
+  }
+ },
+ "14": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تُخزن / تُصنع"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "التركيب الضوئي"
+  },
+  "K6": {
+   "present": true,
+   "span": "اسم التركيب الضوئي"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "جزيئات الكربوهيدرات"
+  }
+ },
+ "15": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "إطلاق الأكسجين"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "16": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تقوم معظم النباتات"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "البكتيريا الزرقاء"
+  },
+  "K5": {
+   "present": true,
+   "span": "بعملية التركيب الضوئي"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "عملية التركيب الضوئي"
+  }
+ },
+ "17": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تسمى"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "ذاتي التغذية"
+  }
+ },
+ "18": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "يُعتبر"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "إنتاج / الحفاظ"
+  },
+  "K6": {
+   "present": true,
+   "span": "الغلاف الجوي للأرض"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "محتوى الأكسجين"
+  }
+ },
+ "19": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تُمتص"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "التركيب الضوئي"
+  },
+  "K6": {
+   "present": true,
+   "span": "آلية التركيب الضوئي"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "مراكز التفاعل"
+  }
+ },
+ "20": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تُحفظ"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "بالبكتيريا"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "خلايا الأوراق"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "خلايا الأوراق"
+  }
+ },
+ "21": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تُستخدم"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "لانتزاع / إنتاج"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "غاز الأكسجين"
+  }
+ },
+ "22": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "يُستخدم / تُختزل"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "انقسام الماء / تكوين"
+  },
+  "K6": {
+   "present": true,
+   "span": "الخاصة بالخلايا"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "وحدة الطاقة"
+  }
+ },
+ "23": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تُخزن"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "البكتيريا الزرقاء"
+  },
+  "K5": {
+   "present": true,
+   "span": "التفاعلات"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "دورة كالفين"
+  }
+ },
+ "24": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "يُدمج"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "مركبات الكربون العضوية"
+  }
+ },
+ "25": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "يُستخدم"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "شيوع استخدام"
+  },
+  "K6": {
+   "present": true,
+   "span": "تعريفه"
+  },
+  "K7": {
+   "present": true,
+   "span": "حيث يُستخدم"
+  },
+  "K8": {
+   "present": true,
+   "span": "مفهوم التضخم"
+  }
+ },
+ "26": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "الارتفاع المفرط"
+  },
+  "K6": {
+   "present": true,
+   "span": "للأسعار"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "27": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "تضخم الدخل"
+  },
+  "K6": {
+   "present": true,
+   "span": "عناصر الدخل النقدي"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "الدخل النقدي"
+  }
+ },
+ "28": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "ارتفاع التكاليف"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "ارتفاع التكاليف"
+  }
+ },
+ "29": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "الإفراط في خلق"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "الأرصدة النقدية"
+  }
+ },
+ "30": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تتحرك"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "ارتفاع في الأسعار"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "الدخل النقدي"
+  }
+ },
+ "31": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "يطلق على كل منها"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "تحديد مفهوم التضخم"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "مفهوم التضخم"
+  }
+ },
+ "32": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "ويميز"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "التضخم"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "اصطلاح التضخم"
+  }
+ },
+ "33": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "تضخم الأسعار"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "تضخم الأسعار"
+  }
+ },
+ "34": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "ارتفاع الدخول"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "تضخم الأجور"
+  }
+ },
+ "35": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "ارتفاع التكاليف"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "تضخم التكاليف"
+  }
+ },
+ "36": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "إصدار العملة"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "العملة النقدية"
+  }
+ },
+ "37": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "بنى رؤيته"
+  },
+  "K6": {
+   "present": true,
+   "span": "رؤيته"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "علم الاجتماع"
+  }
+ },
+ "38": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "امتَهَن الكتابة"
+  },
+  "K6": {
+   "present": true,
+   "span": "شبابه"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "ديوان الرسائل"
+  }
+ },
+ "39": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "عُرف"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "ألَّف"
+  },
+  "K6": {
+   "present": true,
+   "span": "تاريخ ابن خَلدون"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "مُراسلة الملوك"
+  }
+ },
+ "40": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تعد"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "مقدِّمة هذا الكتاب"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "مقدِّمة ابن خَلدون"
+  }
+ },
+ "41": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "وُلد"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "الدولة الحفصية"
+  },
+  "K5": {
+   "present": true,
+   "span": "قضى بها طفولته"
+  },
+  "K6": {
+   "present": true,
+   "span": "طفولته"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "الدولة الحفصية"
+  }
+ },
+ "42": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "دخل وسيطًا"
+  },
+  "K6": {
+   "present": true,
+   "span": "أهالي دمشق"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "جيوش تيمورلنك"
+  }
+ },
+ "43": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "أقام بها"
+  },
+  "K6": {
+   "present": true,
+   "span": "مهمَّته"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "المدرسة العادلية"
+  }
+ },
+ "44": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "لم ينقطع"
+  },
+  "K6": {
+   "present": true,
+   "span": "تأسيسها"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "مدارس المالكية"
+  }
+ },
+ "45": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "ويهدف هذا العلم"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "أحوال الناس"
+  },
+  "K5": {
+   "present": true,
+   "span": "اكتشف / دراسته"
+  },
+  "K6": {
+   "present": true,
+   "span": "دراسته"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "علم العمران البشري"
+  }
+ },
+ "46": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "هذه الأفكار جعلت"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "الحضارة الإسلامية"
+  },
+  "K5": {
+   "present": true,
+   "span": "شكَّل / تراجع"
+  },
+  "K6": {
+   "present": true,
+   "span": "مؤلفاته"
+  },
+  "K7": {
+   "present": true,
+   "span": "إذ يُعدُّ"
+  },
+  "K8": {
+   "present": true,
+   "span": "نشوء الدول"
+  }
+ },
+ "47": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تُرجم"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "تتبَّع"
+  },
+  "K6": {
+   "present": true,
+   "span": "كتابه"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "فكر ابن خَلدون"
+  }
+ },
+ "48": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "يُعدُّ"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "دوَّن"
+  },
+  "K6": {
+   "present": true,
+   "span": "سيرته"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "ولادة الممالك"
+  }
+ },
+ "49": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "يشرب / يتدرج"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "حمس"
+  },
+  "K6": {
+   "present": true,
+   "span": "لونها"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "حبوب القهوة"
+  }
+ },
+ "50": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "منظمة الأمم المتحدة"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "للتراث"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "منظمة الأمم المتحدة"
+  }
+ },
+ "51": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "أخذت طريقها"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "العامة"
+  },
+  "K5": {
+   "present": true,
+   "span": "انتشر شربها"
+  },
+  "K6": {
+   "present": true,
+   "span": "أهل بيته"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "زراعة البن"
+  }
+ },
+ "52": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "نقلت / تدخلت"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "فأصبحت"
+  },
+  "K6": {
+   "present": true,
+   "span": "رغباتهم"
+  },
+  "K7": {
+   "present": true,
+   "span": "فأصبحت"
+  },
+  "K8": {
+   "present": true,
+   "span": "محل قهوة"
+  }
+ },
+ "53": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "عاش"
+  },
+  "K6": {
+   "present": true,
+   "span": "كتابه"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "القرن العاشر"
+  }
+ },
+ "54": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "ثمرة البن"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "ثمرة البن"
+  }
+ },
+ "55": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "عاش"
+  },
+  "K6": {
+   "present": true,
+   "span": "لابن سينا"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "لائحة أدويةٍ"
+  }
+ },
+ "56": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(من المؤكّد is not in the hedge list)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "57": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "عمل على تحميص"
+  },
+  "K6": {
+   "present": true,
+   "span": "بذور البن"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "بذور البن"
+  }
+ },
+ "58": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "وسُجِّل"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "للبُن"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "غير طبّي"
+  }
+ },
+ "59": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "بدأت زراعته"
+  },
+  "K6": {
+   "present": true,
+   "span": "زراعته"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "60": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "لقيت معارضة / ظهرت"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "الناس"
+  },
+  "K5": {
+   "present": true,
+   "span": "لقيت"
+  },
+  "K6": {
+   "present": true,
+   "span": "أهل نجد"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "رجال الدين"
+  }
+ },
+ "61": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "الاتحاد السوفياتي"
+  },
+  "K5": {
+   "present": true,
+   "span": "نزاع متصاعد"
+  },
+  "K6": {
+   "present": true,
+   "span": "قصة حياتهما"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "أخبار نزاع"
+  }
+ },
+ "62": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "استُخدم"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "سلاحا نوويا"
+  }
+ },
+ "63": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تتحول"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "العيش"
+  },
+  "K6": {
+   "present": true,
+   "span": "حتفهم"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "أبطال الفيلم"
+  }
+ },
+ "64": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تسوده الفوضى"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "عمرها"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "ابنة هذين الزوجين"
+  }
+ },
+ "65": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "حين كشف"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "المملكة المتحدة"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "مشاهده"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "للحرب النووية"
+  }
+ },
+ "66": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "كتلة نتنياهو"
+  },
+  "K5": {
+   "present": true,
+   "span": "مواصلة / تراجع"
+  },
+  "K6": {
+   "present": true,
+   "span": "حربهما"
+  },
+  "K7": {
+   "present": true,
+   "span": "فمع مواصلة"
+  },
+  "K8": {
+   "present": true,
+   "span": "استطلاعات الرأي"
+  }
+ },
+ "67": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "أثارت تهديدات"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "عامة الناس"
+  },
+  "K5": {
+   "present": true,
+   "span": "عاشوا طوال"
+  },
+  "K6": {
+   "present": true,
+   "span": "مخاوفهم"
+  },
+  "K7": {
+   "present": true,
+   "span": "فقد كان"
+  },
+  "K8": {
+   "present": true,
+   "span": "حجم المخاطر"
+  }
+ },
+ "68": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "وسائل الإعلام والجمهور يتعاملون"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "الجمهور"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "تهديداته"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "وسائل الإعلام"
+  }
+ },
+ "69": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "تهديدات ترمب"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "خطورة تهديدات"
+  }
+ },
+ "70": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "موقع الجزيرة"
+  },
+  "K5": {
+   "present": true,
+   "span": "حذّرنا مرارا"
+  },
+  "K6": {
+   "present": true,
+   "span": "موقع الجزيرة"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "موقع الجزيرة"
+  }
+ },
+ "71": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "الفضاء الرقمي"
+  }
+ },
+ "72": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "الحرب تهدف"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "امتلاك / تحقيق"
+  },
+  "K6": {
+   "present": true,
+   "span": "شعبيهما"
+  },
+  "K7": {
+   "present": true,
+   "span": "إذ يسعى"
+  },
+  "K8": {
+   "present": true,
+   "span": "عواقب الحرب"
+  }
+ },
+ "73": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تفيد أجهزة الاستخبارات"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "نقلت"
+  },
+  "K6": {
+   "present": true,
+   "span": "تخصيبها"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "مركز ثقل"
+  }
+ },
+ "74": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "ما يثير شكوك"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "شكوك الخبراء"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "صخور الغرانيت"
+  }
+ },
+ "75": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "أُدرجت"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "شبكة \"سي إن إن\""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "خيارات ضرب"
+  }
+ },
+ "76": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "لديه"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "77": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "78": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "تخصيبها"
+  },
+  "K6": {
+   "present": true,
+   "span": "بحوزتها"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "تصدير اليورانيوم"
+  }
+ },
+ "79": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "جمدت إيران"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "للطاقة الذرية (agency)"
+  },
+  "K5": {
+   "present": true,
+   "span": "لإنتاج سلاح"
+  },
+  "K6": {
+   "present": true,
+   "span": "لديها"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "أجهزة الطرد"
+  }
+ },
+ "80": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "قُتل"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "إنتاج سلاح نووي"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "إنتاج سلاح"
+  }
+ },
+ "81": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "أعلن التحالف"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "التحالف"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "عملياتها"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "منطقة المدينة"
+  }
+ },
+ "82": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "أعلنت جماعة"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "جماعة أنصار الله"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "نتائجه"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "طبيعة الهجوم"
+  }
+ },
+ "83": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "أعلنت الجماعة"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "الجماعة"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "تنفيذه"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "السلطات السعودية"
+  }
+ },
+ "84": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "المملكة"
+  },
+  "K5": {
+   "present": true,
+   "span": "استمرار التصعيد"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "زوال الخطر"
+  }
+ },
+ "85": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "الدفاع الجوي اعترض"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "الميليشيا الحوثية"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "منطقة المدينة"
+  }
+ },
+ "86": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "الاتهامات السعودية"
+  }
+ },
+ "87": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "عمليات الحوثيين تستهدف"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "الجماعة"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "احترام الجماعة"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "قدسية الأماكن"
+  }
+ },
+ "88": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "السعودية"
+  },
+  "K5": {
+   "present": true,
+   "span": "حشد الدعم"
+  },
+  "K6": {
+   "present": true,
+   "span": "لحملتها"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "الرأي العام الدولي"
+  }
+ },
+ "89": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "قبل أن يعلن"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "الدفاع المدني"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "محافظة ينبع"
+  }
+ },
+ "90": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "أعلن التحالف"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "التحالف"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "المنشآت النفطية"
+  }
+ },
+ "91": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "وتعرض"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "تعرض ... لهجمات متكررة"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "مطار الملك فهد"
+  }
+ },
+ "92": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "أعلن التحالف اعتراضه"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "التحالف"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "اعتراضه"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "93": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "أصدر الدفاع المدني"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "الدفاع المدني"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "منطقة شرورة"
+  }
+ },
+ "94": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "وتُعد / ينقل النفط"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "المملكة"
+  },
+  "K5": {
+   "present": true,
+   "span": "يشهد حصاراً"
+  },
+  "K6": {
+   "present": true,
+   "span": "تصديره"
+  },
+  "K7": {
+   "present": true,
+   "span": "إذ تقع"
+  },
+  "K8": {
+   "present": true,
+   "span": "خط أنابيب"
+  }
+ },
+ "95": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "واكتسب ميناء ينبع"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "اكتسب"
+  },
+  "K6": {
+   "present": true,
+   "span": "لدورهما"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "ميناء ينبع"
+  }
+ },
+ "96": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "استهدف"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "مطار الملك خالد"
+  }
+ },
+ "97": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "أعلنت الجماعة"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "الجماعة"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "الطائرات المسيّرة"
+  }
+ },
+ "98": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "المملكة"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "تفاصيلها"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "ولي العهد"
+  }
+ },
+ "99": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "دمشق تدرس"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "وكالة رويترز"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "مساعدات عسكرية"
+  }
+ },
+ "100": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "تجددت"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no hedge or source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "السعودية"
+  },
+  "K5": {
+   "present": true,
+   "span": "استمرار المواجهات"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "الحرب الإقليمية"
+  }
+ }
+}

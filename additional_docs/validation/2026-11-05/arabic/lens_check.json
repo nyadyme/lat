@@ -1,0 +1,1248 @@
+[
+ {
+  "combination": "K5",
+  "lens": "Russian",
+  "status": "removed by substitution",
+  "forced_choice": "whether the act is goal-directed or processual",
+  "attachment": "verb",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   2,
+   5,
+   10,
+   37,
+   41,
+   45,
+   48,
+   53,
+   60,
+   73
+  ],
+  "forces_new_choice": [
+   2,
+   53
+  ],
+  "already_made": [
+   5,
+   10,
+   37,
+   41,
+   45,
+   48,
+   60,
+   73
+  ],
+  "not_applicable": [],
+  "count": "2 of 10",
+  "per_sentence": {
+   "2": {
+    "forces": true,
+    "why": "دام حكمها: perfective of a durative state is the default past; boundedness (длилось/продлилось) left open"
+   },
+   "5": {
+    "forces": false,
+    "why": "استطاع + verbal noun states achievement: the goal is reached"
+   },
+   "10": {
+    "forces": false,
+    "why": "نقل العاصمة: telic perfective, completed"
+   },
+   "37": {
+    "forces": false,
+    "why": "بنى رؤيته: telic perfective with definite object, result stated"
+   },
+   "41": {
+    "forces": false,
+    "why": "قضى بها طفولته: whole stretch consumed, perfective result"
+   },
+   "45": {
+    "forces": false,
+    "why": "اكتشف: achievement verb, perfective point"
+   },
+   "48": {
+    "forces": false,
+    "why": "دوّن سيرته ... كاملةً: telic and explicitly complete"
+   },
+   "53": {
+    "forces": true,
+    "why": "عاش في القرن: perfective of a state, no boundedness chosen (жил/прожил open)"
+   },
+   "60": {
+    "forces": false,
+    "why": "لقيت against available كانت تلقى: perfective choice made"
+   },
+   "73": {
+    "forces": false,
+    "why": "نقلت: telic perfective, completed relocation"
+   }
+  }
+ },
+ {
+  "combination": "K5",
+  "lens": "Hindi-Urdu (vector verbs)",
+  "status": "replacement",
+  "forced_choice": "whom the outcome falls to and how it came about",
+  "attachment": "verb",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   2,
+   5,
+   10,
+   37,
+   41,
+   45,
+   48,
+   53,
+   60,
+   73
+  ],
+  "forces_new_choice": [
+   5,
+   10,
+   37,
+   41,
+   45,
+   48,
+   73
+  ],
+  "already_made": [
+   2,
+   53,
+   60
+  ],
+  "not_applicable": [],
+  "count": "7 of 10",
+  "per_sentence": {
+   "2": {
+    "forces": false,
+    "why": "durative state with no outcome to fall to anyone"
+   },
+   "5": {
+    "forces": true,
+    "why": "for themselves or forcibly and irreversibly (le- / ḍāl-): unmarked"
+   },
+   "10": {
+    "forces": true,
+    "why": "moving the capital for himself or for the dynasty: unmarked"
+   },
+   "37": {
+    "forces": true,
+    "why": "الخاصّة gives ownership, not the manner of completion"
+   },
+   "41": {
+    "forces": true,
+    "why": "spent (gave away) or simply passed: unmarked"
+   },
+   "45": {
+    "forces": true,
+    "why": "discovered deliberately or stumbled on: unmarked"
+   },
+   "48": {
+    "forces": true,
+    "why": "recorded for himself or for posterity: unmarked"
+   },
+   "53": {
+    "forces": false,
+    "why": "state of living; no outcome"
+   },
+   "60": {
+    "forces": false,
+    "why": "non-agentive undergoer subject; no benefit or manner to assign"
+   },
+   "73": {
+    "forces": true,
+    "why": "moved for its own protection, forcibly or by stealth: unmarked"
+   }
+  }
+ },
+ {
+  "combination": "K5",
+  "lens": "Finnish (partitive object)",
+  "status": "roster lens, checked unprompted",
+  "forced_choice": "how far the event reached the object",
+  "attachment": "object",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   2,
+   5,
+   10,
+   37,
+   41,
+   45,
+   48,
+   53,
+   60,
+   73
+  ],
+  "forces_new_choice": [],
+  "already_made": [
+   5,
+   10,
+   37,
+   41,
+   45,
+   48,
+   60,
+   73
+  ],
+  "not_applicable": [
+   2,
+   53
+  ],
+  "count": "0 of 8 (2 not applicable)",
+  "per_sentence": {
+   "2": {
+    "forces": null,
+    "why": "no direct object"
+   },
+   "5": {
+    "forces": false,
+    "why": "استئصال شأفة: total effect stated lexically, and none survived"
+   },
+   "10": {
+    "forces": false,
+    "why": "telic perfective + definite object: total"
+   },
+   "37": {
+    "forces": false,
+    "why": "telic perfective + definite object: total; partial would need في"
+   },
+   "41": {
+    "forces": false,
+    "why": "the whole childhood: total"
+   },
+   "45": {
+    "forces": false,
+    "why": "definite object of an achievement: total"
+   },
+   "48": {
+    "forces": false,
+    "why": "كاملةً states total explicitly"
+   },
+   "53": {
+    "forces": null,
+    "why": "no direct object"
+   },
+   "60": {
+    "forces": false,
+    "why": "indefinite mass object (معارضةً) already unbounded, as a partitive would be"
+   },
+   "73": {
+    "forces": false,
+    "why": "definite object, completed move: total"
+   }
+  }
+ },
+ {
+  "combination": "K8",
+  "lens": "Ancient Greek (article & substantivization)",
+  "status": "dropped by substitution",
+  "forced_choice": "whether anything is being turned into a thing",
+  "attachment": "noun",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   1,
+   11,
+   21,
+   30,
+   38,
+   48,
+   58,
+   68,
+   80,
+   91
+  ],
+  "forces_new_choice": [],
+  "already_made": [
+   1,
+   11,
+   21,
+   30,
+   38,
+   48,
+   58,
+   68,
+   80,
+   91
+  ],
+  "not_applicable": [],
+  "count": "0 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": false,
+    "why": "دولة is a plain noun; nothing reified"
+   },
+   "11": {
+    "forces": false,
+    "why": "الحكم: verbal noun visibly reifies ruling"
+   },
+   "21": {
+    "forces": false,
+    "why": "غاز الأكسجين: plain nouns"
+   },
+   "30": {
+    "forces": false,
+    "why": "خلق النقود: verbal noun visibly reifies the act"
+   },
+   "38": {
+    "forces": false,
+    "why": "ديوان الرسائل: plain nouns"
+   },
+   "48": {
+    "forces": false,
+    "why": "ولادة الممالك: verbal noun visibly reifies the process"
+   },
+   "58": {
+    "forces": false,
+    "why": "استعمال: verbal noun visibly reifies use"
+   },
+   "68": {
+    "forces": false,
+    "why": "الإعلام: verbal noun already turned into an institution noun"
+   },
+   "80": {
+    "forces": false,
+    "why": "إنتاج: verbal noun visibly reifies production"
+   },
+   "91": {
+    "forces": false,
+    "why": "مطار: plain noun"
+   }
+  }
+ },
+ {
+  "combination": "K4",
+  "lens": "Polish (numeral threshold)",
+  "status": "roster lens, overlap noted",
+  "forced_choice": "where a set of individuals becomes a quantity",
+  "attachment": "noun",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   1,
+   9,
+   19,
+   26,
+   41,
+   53,
+   61,
+   72,
+   84,
+   93
+  ],
+  "forces_new_choice": [
+   1,
+   41,
+   61,
+   72,
+   84,
+   93
+  ],
+  "already_made": [
+   9,
+   26
+  ],
+  "not_applicable": [
+   19,
+   53
+  ],
+  "count": "6 of 8 (2 not applicable)",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "singular polity, no count: set of persons or one quantity left open"
+   },
+   "9": {
+    "forces": false,
+    "why": "nine states, plural with obligatory feminine singular agreement: quantity reading already given"
+   },
+   "19": {
+    "forces": null,
+    "why": "pure mass (chlorophyll), no individuals"
+   },
+   "26": {
+    "forces": false,
+    "why": "مستوى الأسعار: prices already folded into a level"
+   },
+   "41": {
+    "forces": true,
+    "why": "singular dynasty-state, no count"
+   },
+   "53": {
+    "forces": null,
+    "why": "pure mass (coffee), no individuals"
+   },
+   "61": {
+    "forces": true,
+    "why": "singular union, no count"
+   },
+   "72": {
+    "forces": true,
+    "why": "bare state name as actor, no count"
+   },
+   "84": {
+    "forces": true,
+    "why": "singular kingdom; only the Houthis appear as a human plural"
+   },
+   "93": {
+    "forces": true,
+    "why": "singular institution, no count"
+   }
+  }
+ },
+ {
+  "combination": "K4",
+  "lens": "Yucatec Maya",
+  "status": "roster lens, overlap noted",
+  "forced_choice": "whether the noun denotes a countable unit",
+  "attachment": "noun",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   1,
+   9,
+   19,
+   26,
+   41,
+   53,
+   61,
+   72,
+   84,
+   93
+  ],
+  "forces_new_choice": [
+   93
+  ],
+  "already_made": [
+   1,
+   9,
+   19,
+   26,
+   41,
+   53,
+   61,
+   72,
+   84
+  ],
+  "not_applicable": [],
+  "count": "1 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": false,
+    "why": "دولة is a count noun (pl. دول)"
+   },
+   "9": {
+    "forces": false,
+    "why": "count nouns, plural"
+   },
+   "19": {
+    "forces": false,
+    "why": "mass noun without plural: not a unit"
+   },
+   "26": {
+    "forces": false,
+    "why": "أسعار: plural count noun"
+   },
+   "41": {
+    "forces": false,
+    "why": "count noun"
+   },
+   "53": {
+    "forces": false,
+    "why": "بن: collective/mass, unit only via حبة (cf. 49, 60): not a unit"
+   },
+   "61": {
+    "forces": false,
+    "why": "count noun"
+   },
+   "72": {
+    "forces": false,
+    "why": "proper name: one unit"
+   },
+   "84": {
+    "forces": false,
+    "why": "count noun"
+   },
+   "93": {
+    "forces": true,
+    "why": "الدفاع: verbal noun standing for an institution, unit status open"
+   }
+  }
+ },
+ {
+  "combination": "K4",
+  "lens": "Hungarian (associative plural)",
+  "status": "roster lens, overlap noted",
+  "forced_choice": "whether the group is equals or one member plus its belongings",
+  "attachment": "noun",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   1,
+   9,
+   19,
+   26,
+   41,
+   53,
+   61,
+   72,
+   84,
+   93
+  ],
+  "forces_new_choice": [
+   61,
+   72,
+   84,
+   93
+  ],
+  "already_made": [
+   1,
+   9,
+   41
+  ],
+  "not_applicable": [
+   19,
+   26,
+   53
+  ],
+  "count": "4 of 7 (3 not applicable)",
+  "per_sentence": {
+   "1": {
+    "forces": false,
+    "why": "بني العبّاس: associative 'sons of' already names the eponym plus his people"
+   },
+   "9": {
+    "forces": false,
+    "why": "plain plural of equal states"
+   },
+   "19": {
+    "forces": null,
+    "why": "mass, no group"
+   },
+   "26": {
+    "forces": null,
+    "why": "non-personal plural"
+   },
+   "41": {
+    "forces": false,
+    "why": "nisba الحفصية: belonging to Abu Hafs, associative already"
+   },
+   "53": {
+    "forces": null,
+    "why": "mass, no group"
+   },
+   "61": {
+    "forces": true,
+    "why": "union of equals or Russia plus dependants: open"
+   },
+   "72": {
+    "forces": true,
+    "why": "state name: regime-head plus followers or the whole people: open"
+   },
+   "84": {
+    "forces": true,
+    "why": "المملكة: royal house plus subjects or the realm: open"
+   },
+   "93": {
+    "forces": true,
+    "why": "institution: head plus staff or equals: open"
+   }
+  }
+ },
+ {
+  "combination": "K6",
+  "lens": "Mongolian (reflexive possession)",
+  "status": "roster lens, overlap noted (نفسه optional)",
+  "forced_choice": "whether the one already acting stays the anchor",
+  "attachment": "possessive",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   1,
+   7,
+   13,
+   25,
+   42,
+   48,
+   55,
+   65,
+   72,
+   81
+  ],
+  "forces_new_choice": [
+   25,
+   48,
+   65,
+   72,
+   81
+  ],
+  "already_made": [
+   1,
+   7,
+   13,
+   42,
+   55
+  ],
+  "not_applicable": [],
+  "count": "5 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": false,
+    "why": "noun possessor named"
+   },
+   "7": {
+    "forces": false,
+    "why": "noun possessor named"
+   },
+   "13": {
+    "forces": false,
+    "why": "noun possessor named"
+   },
+   "25": {
+    "forces": true,
+    "why": "-hu: possessor is not the subject (اتفاق), unmarked"
+   },
+   "42": {
+    "forces": false,
+    "why": "noun possessor named"
+   },
+   "48": {
+    "forces": true,
+    "why": "-hu = the subject, unmarked; no نفسه"
+   },
+   "55": {
+    "forces": false,
+    "why": "noun possessor named"
+   },
+   "65": {
+    "forces": true,
+    "why": "-hu inside the subject, reflexive excluded only by Mongolian, unmarked here"
+   },
+   "72": {
+    "forces": true,
+    "why": "-humā = the subjects, unmarked; no نفسه"
+   },
+   "81": {
+    "forces": true,
+    "why": "-hā = subject of the participle, unmarked"
+   }
+  }
+ },
+ {
+  "combination": "K6",
+  "lens": "Navajo (inalienable possession)",
+  "status": "roster lens, overlap noted",
+  "forced_choice": "whether the thing is separable from its owner",
+  "attachment": "possessive",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   1,
+   7,
+   13,
+   25,
+   42,
+   48,
+   55,
+   65,
+   72,
+   81
+  ],
+  "forces_new_choice": [
+   1,
+   7,
+   13,
+   25,
+   42,
+   48,
+   55,
+   65,
+   72,
+   81
+  ],
+  "already_made": [],
+  "not_applicable": [],
+  "count": "10 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "state of a clan: separability unmarked"
+   },
+   "7": {
+    "forces": true,
+    "why": "area of a state: part or holding, unmarked"
+   },
+   "13": {
+    "forces": true,
+    "why": "activities of an organism: unmarked"
+   },
+   "25": {
+    "forces": true,
+    "why": "definition of a term: unmarked"
+   },
+   "42": {
+    "forces": true,
+    "why": "inhabitants of a city: unmarked"
+   },
+   "48": {
+    "forces": true,
+    "why": "his biography: unmarked"
+   },
+   "55": {
+    "forces": true,
+    "why": "لـ for authorship, no alienability distinction"
+   },
+   "65": {
+    "forces": true,
+    "why": "scenes of a film: part, unmarked"
+   },
+   "72": {
+    "forces": true,
+    "why": "their peoples: unmarked"
+   },
+   "81": {
+    "forces": true,
+    "why": "its operations: unmarked"
+   }
+  }
+ },
+ {
+  "combination": "K7",
+  "lens": "Latin (ablative absolute)",
+  "status": "roster lens, overlap noted (ḥāl clause)",
+  "forced_choice": "whether the circumstance is cause, time, condition or concession",
+  "attachment": "connective",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   2,
+   7,
+   14,
+   23,
+   37,
+   46,
+   63,
+   67,
+   74,
+   94
+  ],
+  "forces_new_choice": [
+   2,
+   7,
+   14,
+   23,
+   37,
+   46,
+   63,
+   74,
+   94
+  ],
+  "already_made": [
+   67
+  ],
+  "not_applicable": [],
+  "count": "9 of 10",
+  "per_sentence": {
+   "2": {
+    "forces": true,
+    "why": "فقد names the ground; a ḥāl would leave it open"
+   },
+   "7": {
+    "forces": true,
+    "why": "مما names consequence"
+   },
+   "14": {
+    "forces": true,
+    "why": "من هنا names origin"
+   },
+   "23": {
+    "forces": true,
+    "why": "من خلال names means"
+   },
+   "37": {
+    "forces": true,
+    "why": "بتجريده names means"
+   },
+   "46": {
+    "forces": true,
+    "why": "إذ names ground"
+   },
+   "63": {
+    "forces": true,
+    "why": "الناجمة عن names cause"
+   },
+   "67": {
+    "forces": false,
+    "why": "بعدما already open between time and cause, as the ablative absolute is"
+   },
+   "74": {
+    "forces": true,
+    "why": "ما يثير names consequence"
+   },
+   "94": {
+    "forces": true,
+    "why": "إذ names ground"
+   }
+  }
+ },
+ {
+  "combination": "K7",
+  "lens": "Classical Chinese (Wényán)",
+  "status": "roster lens, checked",
+  "forced_choice": "whether the relation between the parts is stated or left to the arrangement",
+  "attachment": "connective",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   2,
+   7,
+   14,
+   23,
+   37,
+   46,
+   63,
+   67,
+   74,
+   94
+  ],
+  "forces_new_choice": [
+   2,
+   7,
+   14,
+   23,
+   37,
+   46,
+   63,
+   67,
+   74,
+   94
+  ],
+  "already_made": [],
+  "not_applicable": [],
+  "count": "10 of 10",
+  "per_sentence": {
+   "2": {
+    "forces": true,
+    "why": "relation stated by فقد"
+   },
+   "7": {
+    "forces": true,
+    "why": "relation stated by مما"
+   },
+   "14": {
+    "forces": true,
+    "why": "relation stated by من هنا"
+   },
+   "23": {
+    "forces": true,
+    "why": "relation stated by من خلال"
+   },
+   "37": {
+    "forces": true,
+    "why": "relation stated by بـ"
+   },
+   "46": {
+    "forces": true,
+    "why": "relation stated by إذ"
+   },
+   "63": {
+    "forces": true,
+    "why": "relation stated by عن"
+   },
+   "67": {
+    "forces": true,
+    "why": "relation stated (temporal) by بعدما"
+   },
+   "74": {
+    "forces": true,
+    "why": "relation stated by ما"
+   },
+   "94": {
+    "forces": true,
+    "why": "relation stated by إذ"
+   }
+  }
+ },
+ {
+  "combination": "K2",
+  "lens": "Basque (Euskara)",
+  "status": "roster lens, unprompted",
+  "forced_choice": "whether the participant patterns with the object",
+  "attachment": "subject",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   2,
+   12,
+   20,
+   31,
+   46,
+   57,
+   65,
+   73,
+   83,
+   93
+  ],
+  "forces_new_choice": [
+   31,
+   46,
+   57,
+   65,
+   73,
+   83,
+   93
+  ],
+  "already_made": [
+   2,
+   12,
+   20
+  ],
+  "not_applicable": [],
+  "count": "7 of 10",
+  "per_sentence": {
+   "2": {
+    "forces": false,
+    "why": "internal passive: subject is the undergoer"
+   },
+   "12": {
+    "forces": false,
+    "why": "internal passive"
+   },
+   "20": {
+    "forces": false,
+    "why": "internal passive"
+   },
+   "31": {
+    "forces": true,
+    "why": "abstract subject of a transitive verb, case unmarked"
+   },
+   "46": {
+    "forces": true,
+    "why": "ideas as transitive subject"
+   },
+   "57": {
+    "forces": true,
+    "why": "human collective, transitive"
+   },
+   "65": {
+    "forces": true,
+    "why": "film as transitive subject"
+   },
+   "73": {
+    "forces": true,
+    "why": "agencies / state as transitive subjects"
+   },
+   "83": {
+    "forces": true,
+    "why": "unaccusative صدر, subject case unmarked"
+   },
+   "93": {
+    "forces": true,
+    "why": "institution as transitive subject"
+   }
+  }
+ },
+ {
+  "combination": "K2",
+  "lens": "Tagalog",
+  "status": "roster lens, unprompted",
+  "forced_choice": "which participant the event is told from",
+  "attachment": "verb",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   2,
+   12,
+   20,
+   31,
+   46,
+   57,
+   65,
+   73,
+   83,
+   93
+  ],
+  "forces_new_choice": [
+   20,
+   46,
+   65,
+   73,
+   83,
+   93
+  ],
+  "already_made": [
+   2,
+   12,
+   31,
+   57
+  ],
+  "not_applicable": [],
+  "count": "6 of 10",
+  "per_sentence": {
+   "2": {
+    "forces": false,
+    "why": "voice already chose the undergoer, no other role present"
+   },
+   "12": {
+    "forces": false,
+    "why": "voice already chose the undergoer"
+   },
+   "20": {
+    "forces": true,
+    "why": "location role (inside organelles) available as pivot"
+   },
+   "31": {
+    "forces": false,
+    "why": "active voice, only actor and undergoer"
+   },
+   "46": {
+    "forces": true,
+    "why": "the one made into a figure (منه) available as pivot"
+   },
+   "57": {
+    "forces": false,
+    "why": "active voice, only actor and undergoer"
+   },
+   "65": {
+    "forces": true,
+    "why": "beneficiary (viewers) available as pivot"
+   },
+   "73": {
+    "forces": true,
+    "why": "source and goal locations available as pivot"
+   },
+   "83": {
+    "forces": true,
+    "why": "source (authorities) available as pivot"
+   },
+   "93": {
+    "forces": true,
+    "why": "location available as pivot"
+   }
+  }
+ },
+ {
+  "combination": "K3",
+  "lens": "Tuyuca",
+  "status": "roster lens, unprompted",
+  "forced_choice": "the source of the information",
+  "attachment": "verb",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   1,
+   5,
+   9,
+   14,
+   41,
+   46,
+   52,
+   56,
+   60,
+   77
+  ],
+  "forces_new_choice": [
+   1,
+   5,
+   9,
+   14,
+   41,
+   52,
+   56,
+   60,
+   77
+  ],
+  "already_made": [
+   46
+  ],
+  "not_applicable": [],
+  "count": "9 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "no source"
+   },
+   "5": {
+    "forces": true,
+    "why": "no source"
+   },
+   "9": {
+    "forces": true,
+    "why": "no source"
+   },
+   "14": {
+    "forces": true,
+    "why": "no source"
+   },
+   "41": {
+    "forces": true,
+    "why": "no source"
+   },
+   "46": {
+    "forces": false,
+    "why": "يُعدّ marks the claim as received opinion"
+   },
+   "52": {
+    "forces": true,
+    "why": "no source"
+   },
+   "56": {
+    "forces": true,
+    "why": "من المؤكّد gives certainty, not source"
+   },
+   "60": {
+    "forces": true,
+    "why": "no source"
+   },
+   "77": {
+    "forces": true,
+    "why": "no source"
+   }
+  }
+ },
+ {
+  "combination": "K3",
+  "lens": "Ewe (logophoric pronouns)",
+  "status": "roster lens, unprompted",
+  "forced_choice": "whether a report speaks of the one quoted or another",
+  "attachment": "person",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   1,
+   5,
+   9,
+   14,
+   41,
+   46,
+   52,
+   56,
+   60,
+   77
+  ],
+  "forces_new_choice": [],
+  "already_made": [],
+  "not_applicable": [
+   1,
+   5,
+   9,
+   14,
+   41,
+   46,
+   52,
+   56,
+   60,
+   77
+  ],
+  "count": "0 of 0 (10 not applicable)",
+  "per_sentence": {
+   "1": {
+    "forces": null,
+    "why": "no report frame with a pronoun: the trigger is precisely the absent frame"
+   },
+   "5": {
+    "forces": null,
+    "why": "no report frame with a pronoun: the trigger is precisely the absent frame"
+   },
+   "9": {
+    "forces": null,
+    "why": "no report frame with a pronoun: the trigger is precisely the absent frame"
+   },
+   "14": {
+    "forces": null,
+    "why": "no report frame with a pronoun: the trigger is precisely the absent frame"
+   },
+   "41": {
+    "forces": null,
+    "why": "no report frame with a pronoun: the trigger is precisely the absent frame"
+   },
+   "46": {
+    "forces": null,
+    "why": "no report frame with a pronoun: the trigger is precisely the absent frame"
+   },
+   "52": {
+    "forces": null,
+    "why": "no report frame with a pronoun: the trigger is precisely the absent frame"
+   },
+   "56": {
+    "forces": null,
+    "why": "no report frame with a pronoun: the trigger is precisely the absent frame"
+   },
+   "60": {
+    "forces": null,
+    "why": "no report frame with a pronoun: the trigger is precisely the absent frame"
+   },
+   "77": {
+    "forces": null,
+    "why": "no report frame with a pronoun: the trigger is precisely the absent frame"
+   }
+  }
+ },
+ {
+  "combination": "K3",
+  "lens": "Latin (oratio obliqua)",
+  "status": "roster lens, unprompted",
+  "forced_choice": "whether the passage is the speaker's own claim",
+  "attachment": "whole passage",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10]",
+  "checked_ids": [
+   1,
+   5,
+   9,
+   14,
+   41,
+   46,
+   52,
+   56,
+   60,
+   77
+  ],
+  "forces_new_choice": [
+   1,
+   5,
+   9,
+   14,
+   41,
+   52,
+   56,
+   60,
+   77
+  ],
+  "already_made": [
+   46
+  ],
+  "not_applicable": [],
+  "count": "9 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "own claim or tradition: unmarked"
+   },
+   "5": {
+    "forces": true,
+    "why": "unmarked"
+   },
+   "9": {
+    "forces": true,
+    "why": "unmarked"
+   },
+   "14": {
+    "forces": true,
+    "why": "unmarked"
+   },
+   "41": {
+    "forces": true,
+    "why": "unmarked"
+   },
+   "46": {
+    "forces": false,
+    "why": "يُعدّ already marks received opinion"
+   },
+   "52": {
+    "forces": true,
+    "why": "unmarked"
+   },
+   "56": {
+    "forces": true,
+    "why": "unmarked"
+   },
+   "60": {
+    "forces": true,
+    "why": "unmarked"
+   },
+   "77": {
+    "forces": true,
+    "why": "unmarked"
+   }
+  }
+ }
+]

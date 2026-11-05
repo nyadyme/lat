@@ -1,0 +1,3402 @@
+{
+ "1": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "大清帝国与西方列强"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "阿片战争"
+  }
+ },
+ "2": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "被认为是第一场冲突的延续"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion; 被认为 is not on the hedge list)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "鸦片禁令"
+  }
+ },
+ "3": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "英国对中国发动"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "英国对中国发动"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "两国政府"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "鸦片战争"
+  }
+ },
+ "4": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "清政府强制执行鸦片禁令"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "清政府强制执行"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "英国商人和英国东印度公司拥有的鸦片库存"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "鸦片库存"
+  }
+ },
+ "5": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "迫使清朝政府支付赔款"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "英国政府的回应"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "英国政府的回应"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "海军远征队"
+  }
+ },
+ "6": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "英国和法国对华发动"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "英国和法国对华发动"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "鸦片战争"
+  }
+ },
+ "7": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "清政府被迫签署不平等条约"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "欧洲军队凭借军事优势"
+  },
+  "K5": {
+   "present": true,
+   "span": "战胜清军"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "通商口岸"
+  }
+ },
+ "8": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "两次冲突……削弱了"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "削弱了"
+  },
+  "K6": {
+   "present": true,
+   "span": "清朝政府的权威"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "百年国耻"
+  }
+ },
+ "9": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "中国将香港主权割让给大英帝国"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "中国将香港主权割让给大英帝国"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "香港主权"
+  }
+ },
+ "10": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "中国经济也因战争而略有收缩"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "中国经济"
+  }
+ },
+ "11": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "中国与英国爆发"
+  },
+  "K5": {
+   "present": true,
+   "span": "爆发了战争"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "因为鸦片贸易问题"
+  },
+  "K8": {
+   "present": true,
+   "span": "鸦片贸易问题"
+  }
+ },
+ "12": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "中国对欧洲享有贸易顺差"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "中国对欧洲享有贸易顺差"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "中国对欧洲享有贸易顺差"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "贸易顺差"
+  }
+ },
+ "13": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "可分为产氧光合作用和不产氧光合作用两类"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "转变成"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "会因为不同环境改变反应速率"
+  },
+  "K8": {
+   "present": true,
+   "span": "感光色素"
+  }
+ },
+ "14": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "地球生物圈"
+  }
+ },
+ "15": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "光合作用……使得自养生物不再依赖"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "生物圈得以脱离深海"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "使得自养生物不再依赖"
+  },
+  "K8": {
+   "present": true,
+   "span": "海底热泉"
+  }
+ },
+ "16": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "光合作用也因此彻底取代化合作用"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "因此"
+  },
+  "K8": {
+   "present": true,
+   "span": "初级生产模式"
+  }
+ },
+ "17": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "直接吸收日光驱动跨膜蛋白生产三磷酸腺苷"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "演化出的原始质体生物"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "随着蓝绿菌……的出现和演化辐射"
+  },
+  "K8": {
+   "present": true,
+   "span": "跨膜蛋白"
+  }
+ },
+ "18": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "聚合成"
+  },
+  "K6": {
+   "present": true,
+   "span": "其过程"
+  },
+  "K7": {
+   "present": true,
+   "span": "因此呈现绿色"
+  },
+  "K8": {
+   "present": true,
+   "span": "卟啉衍生物"
+  }
+ },
+ "19": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "然后通过食物链将生物能传递给"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "被不参与初级生产的异养生物（消费者和分解者）摄入"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "供其生存"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "种群繁衍"
+  }
+ },
+ "20": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "因此"
+  },
+  "K8": {
+   "present": true,
+   "span": "碳循环"
+  }
+ },
+ "21": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "仍保留了"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "初级生产方式"
+  }
+ },
+ "22": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "被彻底边缘化"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion; 很可能 is not on the hedge list)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "因此呈现紫色"
+  },
+  "K8": {
+   "present": true,
+   "span": "离子泵"
+  }
+ },
+ "23": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "仍不能被完全理解"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "光合方程式"
+  }
+ },
+ "24": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "古希腊哲学家"
+  }
+ },
+ "25": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "整体价格或物价水平持续上涨"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "物价水平"
+  }
+ },
+ "26": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "整体物价水平上涨"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "人们的购买力"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "物价水平"
+  }
+ },
+ "27": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "经济现象"
+  }
+ },
+ "28": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "只要其中的一种原因发生就有可能导致通胀"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion; 有可能 is not on the hedge list)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "有可能导致通胀"
+  },
+  "K8": {
+   "present": true,
+   "span": "商品供给"
+  }
+ },
+ "29": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "货币购买力"
+  }
+ },
+ "30": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "前者影响此货币在国内市场上的价值"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "国内市场"
+  }
+ },
+ "31": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "不同物价影响不同人"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "通货膨胀有许多不同的衡量方式"
+  },
+  "K7": {
+   "present": true,
+   "span": "因为不同物价影响不同人"
+  },
+  "K8": {
+   "present": true,
+   "span": "居民消费价格指数"
+  }
+ },
+ "32": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "可大略分为两派"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "“货币主义者”相信"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "主流经济学家对于通货膨胀起因的看法"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "通胀率数值"
+  }
+ },
+ "33": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "其他理论，例如奥地利经济学派，相信"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "奥地利经济学派，相信；中央银行增加货币供给"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "导致"
+  },
+  "K8": {
+   "present": true,
+   "span": "货币供给"
+  }
+ },
+ "34": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "当政府发行了过多货币时"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "政府发行了过多货币"
+  },
+  "K5": {
+   "present": true,
+   "span": "发行了"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "因而"
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "35": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "通胀率的降低"
+  }
+ },
+ "36": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "物价急遽增加"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "37": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "新文化运动领袖"
+  }
+ },
+ "38": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "创作了"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "木刻版画"
+  }
+ },
+ "39": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "周家西门口"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "鲁迅纪念馆"
+  }
+ },
+ "40": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "选翰林院庶吉士"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "翰林院庶吉士"
+  }
+ },
+ "41": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "秀才出身"
+  }
+ },
+ "42": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "鲁迅的两部小说集"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "素材来源"
+  }
+ },
+ "43": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "进化论思想"
+  }
+ },
+ "44": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "家乡寿镜吾"
+  }
+ },
+ "45": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "而被革职下狱"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "鲁迅兄弟则被安插到"
+  },
+  "K5": {
+   "present": true,
+   "span": "被安插到"
+  },
+  "K6": {
+   "present": true,
+   "span": "其子周伯宜"
+  },
+  "K7": {
+   "present": true,
+   "span": "因为向浙江乡试主考官殷汝璋行贿"
+  },
+  "K8": {
+   "present": true,
+   "span": "浙江乡试主考官"
+  }
+ },
+ "46": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "周福清才被赦免"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "周家为了使周福清得以活命，每年花费大笔资金"
+  },
+  "K5": {
+   "present": true,
+   "span": "判处了"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "为了使周福清得以活命"
+  },
+  "K8": {
+   "present": true,
+   "span": "科举舞弊案"
+  }
+ },
+ "47": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "周家家道衰落"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "周家家道"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "周家家道"
+  }
+ },
+ "48": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "家庭的变故对鲁迅产生了深刻的影响"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "产生了"
+  },
+  "K6": {
+   "present": true,
+   "span": "家庭的变故"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "家庭的变故"
+  }
+ },
+ "49": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "中国传统历法"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "汉字文化圈"
+  }
+ },
+ "50": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "当代春节通常从农历腊月廿三持续庆祝"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "农历腊月"
+  }
+ },
+ "51": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "以农历计算"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "汉族四大传统节日"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "中国传统新年"
+  }
+ },
+ "52": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "华夏新年节庆一般要到正月十五日元宵节之后才正式结束活动"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "其庆祝活动"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "新年节庆"
+  }
+ },
+ "53": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "官方纪年标准由农历改为格里历"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "改为"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "纪年标准"
+  }
+ },
+ "54": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "朝鲜新年、越南新年"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "藏历新年"
+  }
+ },
+ "55": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "受汉字文化圈影响"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "东南亚地区"
+  }
+ },
+ "56": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "农历新年"
+  }
+ },
+ "57": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "中国新年游行"
+  }
+ },
+ "58": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "列为人类非物质文化遗产代表作"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "中国人庆祝传统新年"
+  },
+  "K5": {
+   "present": true,
+   "span": "列为"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "联合国假日"
+  }
+ },
+ "59": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "故称“岁首”"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "一年之首"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "农历正月"
+  }
+ },
+ "60": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "台湾话习称“新正”"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "台湾话习称"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "台湾话"
+  }
+ },
+ "61": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "南京地铁对站内导向标识进行了更新"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "南京地铁"
+  },
+  "K5": {
+   "present": true,
+   "span": "进行了更新"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "导向标识"
+  }
+ },
+ "62": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "指路牌把…行进路线直接画出来"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "旅客一眼就能看懂"
+  },
+  "K5": {
+   "present": true,
+   "span": "画出来"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "行进路线"
+  }
+ },
+ "63": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "这箭头恨不得带着你"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "网友暖心评价"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "64": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "却回应了很多人的出行需求"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "回应了"
+  },
+  "K6": {
+   "present": true,
+   "span": "很多人的出行需求"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "出行需求"
+  }
+ },
+ "65": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "导向标识，能让旅客少一分踌躇"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "人流交错"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "交通枢纽"
+  }
+ },
+ "66": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "“多想一步”"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "公共服务的温度"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "绣花功夫"
+  }
+ },
+ "67": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "放眼各地"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "68": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "在社交平台上广受好评"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "拉近了与旅客的关系"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "社交平台"
+  }
+ },
+ "69": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "头班车"
+  }
+ },
+ "70": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "头班车都会绕行几百米"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "老人们的奔波之苦"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "市场门口"
+  }
+ },
+ "71": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "这样安排，既照顾了菜农需求"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "照顾了"
+  },
+  "K6": {
+   "present": true,
+   "span": "上班族的正常通勤"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "菜农需求"
+  }
+ },
+ "72": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "一所小学巧用横杆"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "家长接孩子时"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "73": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "等地陆续跟进"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "福建厦门、山东临沂、四川泸州等地"
+  },
+  "K5": {
+   "present": true,
+   "span": "火出圈；跟进"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "74": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "因地制宜服务好群众"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "服务好；做到"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "人性化服务逻辑"
+  }
+ },
+ "75": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "南京地铁的指路牌走红，反映"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "南京地铁的指路牌"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "治理思路"
+  }
+ },
+ "76": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "各地推行的惠农专线"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "汇聚成"
+  },
+  "K6": {
+   "present": true,
+   "span": "交通枢纽细致暖心的提示牌"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "民生服务"
+  }
+ },
+ "77": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "值得复制的"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "设计样式"
+  }
+ },
+ "78": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "为民创新，标注着"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "社会前行"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "公共服务的温度"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "公共服务的温度"
+  }
+ },
+ "79": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "发展的脚步…阔步向前"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "每一个普通人的烟火日常"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "烟火日常"
+  }
+ },
+ "80": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "《商报》注意到；也有人"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "《商报》注意到；北京…开始统一供暖"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "中国社交媒体"
+  }
+ },
+ "81": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "这篇…评论写道"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "国家提供补贴"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "北京的蓝天"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "供暖制度"
+  }
+ },
+ "82": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "南方除个别试点项目之外"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "南方部分地区冬季的温度"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "试点项目"
+  }
+ },
+ "83": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "以秦岭淮河为界而划分的"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "能源短缺"
+  }
+ },
+ "84": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "当时确定是否集中供暖的标准"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "集中供暖的标准"
+  }
+ },
+ "85": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "国家是否应当为居民提供"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "国家是否应当为居民提供"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "争议话题"
+  }
+ },
+ "86": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "媒体就曾报道过"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "媒体就曾报道过"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "北京邻省"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "北京邻省"
+  }
+ },
+ "87": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "中国领导层要求"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "中国领导层要求"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "首都周边省市"
+  },
+  "K7": {
+   "present": true,
+   "span": "由于北京空气污染严重"
+  },
+  "K8": {
+   "present": true,
+   "span": "空气污染"
+  }
+ },
+ "88": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "电力供暖"
+  }
+ },
+ "89": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "当局最开始提供的补贴"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "当局最开始提供的补贴"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "90": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "有些地区…取消了补贴"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "财政紧张"
+  },
+  "K5": {
+   "present": true,
+   "span": "取消了"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "由于财政紧张"
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "91": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "燃气市场实现了自由化"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "燃气市场实现了自由化"
+  },
+  "K5": {
+   "present": true,
+   "span": "实现了"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": true,
+   "span": "由于燃气市场"
+  },
+  "K8": {
+   "present": true,
+   "span": "燃气市场"
+  }
+ },
+ "92": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion; 也就是说 is not on the hedge list)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "北京的蓝天白云"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "93": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "有了明显的改善"
+  },
+  "K6": {
+   "present": true,
+   "span": "中国首都的空气质量"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "空气质量"
+  }
+ },
+ "94": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "评论…写道；蓝天…反映了"
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "中国自上而下的施政方式"
+  },
+  "K5": {
+   "present": true,
+   "span": "反映了"
+  },
+  "K6": {
+   "present": true,
+   "span": "中国自上而下的施政方式"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "95": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "老百姓挨冻，倒不会影响"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion; 很可能 is not on the hedge list)"
+  },
+  "K4": {
+   "present": true,
+   "span": "老百姓挨冻"
+  },
+  "K5": {
+   "present": true,
+   "span": "丢掉"
+  },
+  "K6": {
+   "present": true,
+   "span": "他们的仕途"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "空气质量"
+  }
+ },
+ "96": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "社民党政治家"
+  }
+ },
+ "97": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": ""
+  },
+  "K4": {
+   "present": true,
+   "span": "人们完全可以正常生活"
+  },
+  "K5": {
+   "present": true,
+   "span": "穿上"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "暖气福利"
+  }
+ },
+ "98": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "暖气法，主张"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "转化成"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "热力泵技术"
+  }
+ },
+ "99": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "但这一建议遭到激烈抵制"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": true,
+   "span": "黑红联合政府"
+  },
+  "K5": {
+   "present": true,
+   "span": "做了"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "黑红联合政府"
+  }
+ },
+ "100": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "凡此种种…说明了"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain assertion, no hedge or named source)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "说明了"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "民主与专制的不同"
+  }
+ }
+}

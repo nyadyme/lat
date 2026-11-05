@@ -1,0 +1,709 @@
+[
+ {
+  "combination": "K4",
+  "lens": "Yucatec Maya",
+  "status": "removed by substitution",
+  "forced_choice": "whether the noun denotes a countable unit",
+  "attachment": "noun",
+  "checked_ids": [
+   1,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "forces_new_choice": [],
+  "already_made": [
+   1,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "not_applicable": [],
+  "count": "0 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": false,
+    "why": "两场冲突: counted through the classifier 场, as Yucatec would"
+   },
+   "3": {
+    "forces": false,
+    "why": "一场战争 / 两国: classifier or numeral already units it"
+   },
+   "4": {
+    "forces": false,
+    "why": "英国商人: bare kind term, Yucatec would leave it bare too"
+   },
+   "5": {
+    "forces": false,
+    "why": "海军远征队: bare kind term"
+   },
+   "6": {
+    "forces": false,
+    "why": "英国和法国: proper names, no count question"
+   },
+   "7": {
+    "forces": false,
+    "why": "欧洲军队 / 清军: bare kind terms"
+   },
+   "8": {
+    "forces": false,
+    "why": "两次冲突: verbal classifier 次 already units it"
+   },
+   "9": {
+    "forces": false,
+    "why": "中国 / 大英帝国: proper names"
+   },
+   "10": {
+    "forces": false,
+    "why": "中国经济: mass term, unmarked as in Yucatec"
+   },
+   "11": {
+    "forces": false,
+    "why": "双方 / 第一次: units already given"
+   }
+  }
+ },
+ {
+  "combination": "K4",
+  "lens": "Hausa (pluractional verbs)",
+  "status": "replacement",
+  "forced_choice": "how often and to how many the event happened",
+  "attachment": "verb",
+  "checked_ids": [
+   1,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "forces_new_choice": [
+   4,
+   5,
+   6,
+   8
+  ],
+  "already_made": [
+   1,
+   3,
+   7,
+   9,
+   10,
+   11
+  ],
+  "not_applicable": [],
+  "count": "4 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": false,
+    "why": "两场冲突 states the count"
+   },
+   "3": {
+    "forces": false,
+    "why": "一场战争 states one event"
+   },
+   "4": {
+    "forces": true,
+    "why": "销毁…鸦片库存: one destruction or many, of how many owners' stocks"
+   },
+   "5": {
+    "forces": true,
+    "why": "派出 / 迫使: one dispatch or repeated coercion"
+   },
+   "6": {
+    "forces": true,
+    "why": "英国和法国…发动: one joint act or two"
+   },
+   "7": {
+    "forces": false,
+    "why": "多次 already states repetition"
+   },
+   "8": {
+    "forces": true,
+    "why": "削弱了: one cumulative weakening or many, by two wars plus treaties"
+   },
+   "9": {
+    "forces": false,
+    "why": "割让 once; 一直持续 states continuity"
+   },
+   "10": {
+    "forces": false,
+    "why": "略有收缩: a single slight contraction, no plurality question in the facts"
+   },
+   "11": {
+    "forces": false,
+    "why": "第一次 states the count"
+   }
+  }
+ },
+ {
+  "combination": "K4",
+  "lens": "Hungarian (associative plural)",
+  "status": "roster; questioned",
+  "forced_choice": "whether the group is equals or one member plus its belongings",
+  "attachment": "noun",
+  "note": "们 occurs 6 times and 他们 once in 100 sentences, never on any of these nouns; 'X他们' occurs 0 times. Mandarin forced the choice in 0 of 10.",
+  "checked_ids": [
+   1,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "forces_new_choice": [
+   1,
+   4,
+   5,
+   6,
+   7,
+   8,
+   11
+  ],
+  "already_made": [
+   3,
+   9,
+   10
+  ],
+  "not_applicable": [],
+  "count": "7 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "西方列强: peer set or Britain with its followers"
+   },
+   "3": {
+    "forces": false,
+    "why": "英国 / 两国政府: two named peers, no group question"
+   },
+   "4": {
+    "forces": true,
+    "why": "英国商人和英国东印度公司: peers or the Company with its traders"
+   },
+   "5": {
+    "forces": true,
+    "why": "海军远征队: a peer force or a commander with his ships"
+   },
+   "6": {
+    "forces": true,
+    "why": "英国和法国: equals or Britain with France in tow"
+   },
+   "7": {
+    "forces": true,
+    "why": "欧洲军队 / 西方列强"
+   },
+   "8": {
+    "forces": true,
+    "why": "清朝政府: an equal body or the throne with its officials"
+   },
+   "9": {
+    "forces": false,
+    "why": "中国 / 大英帝国: single states"
+   },
+   "10": {
+    "forces": false,
+    "why": "中国经济: mass, no group"
+   },
+   "11": {
+    "forces": true,
+    "why": "双方: each side a peer set or a leader with its following"
+   }
+  }
+ },
+ {
+  "combination": "K5",
+  "lens": "Russian",
+  "status": "roster; questioned",
+  "forced_choice": "whether the act is goal-directed or processual",
+  "attachment": "verb",
+  "note": "Over all 18 K5 trigger sentences 了 or a resultative compound stood on the trigger verb in 9 (8, 38, 48, 61, 68, 76, 91, 93, 99); 着 / 在 / 一直 / 逐渐 / 越来越 stood on a trigger verb in 0. Durative marking occurred only where there was no trigger (9, 14, 89).",
+  "checked_ids": [
+   1,
+   5,
+   6,
+   8,
+   15,
+   16,
+   17,
+   22,
+   38,
+   44
+  ],
+  "forces_new_choice": [
+   1,
+   5,
+   6,
+   15,
+   16,
+   17,
+   22,
+   44
+  ],
+  "already_made": [
+   8,
+   38
+  ],
+  "not_applicable": [],
+  "count": "8 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "bare 发生"
+   },
+   "5": {
+    "forces": true,
+    "why": "bare 迫使"
+   },
+   "6": {
+    "forces": true,
+    "why": "bare 发动 over 1856-1860"
+   },
+   "8": {
+    "forces": false,
+    "why": "削弱了: 了 already bounds the event"
+   },
+   "15": {
+    "forces": true,
+    "why": "不再依赖: bare"
+   },
+   "16": {
+    "forces": true,
+    "why": "彻底取代 bare; 彻底 is lexical"
+   },
+   "17": {
+    "forces": true,
+    "why": "成为主流 bare"
+   },
+   "22": {
+    "forces": true,
+    "why": "被彻底边缘化 bare"
+   },
+   "38": {
+    "forces": false,
+    "why": "创作了: 了 already bounds it"
+   },
+   "44": {
+    "forces": true,
+    "why": "bare 就读于"
+   }
+  }
+ },
+ {
+  "combination": "K5",
+  "lens": "Finnish (partitive object)",
+  "status": "roster; questioned",
+  "forced_choice": "how far the event reached the object",
+  "attachment": "object",
+  "checked_ids": [
+   1,
+   5,
+   6,
+   8,
+   15,
+   16,
+   17,
+   22,
+   38,
+   44
+  ],
+  "forces_new_choice": [
+   5,
+   6,
+   8,
+   15,
+   38
+  ],
+  "already_made": [
+   16
+  ],
+  "not_applicable": [
+   1,
+   17,
+   22,
+   44
+  ],
+  "count": "5 of 6",
+  "per_sentence": {
+   "1": {
+    "forces": null,
+    "why": "发生: no object"
+   },
+   "5": {
+    "forces": true,
+    "why": "支付赔款 / 允许鸦片贸易: whole or partial"
+   },
+   "6": {
+    "forces": true,
+    "why": "迫使中国鸦片合法化"
+   },
+   "8": {
+    "forces": true,
+    "why": "削弱了…权威: how far"
+   },
+   "15": {
+    "forces": true,
+    "why": "依赖海底热泉"
+   },
+   "16": {
+    "forces": false,
+    "why": "彻底取代化合作用: 彻底 already states total reach"
+   },
+   "17": {
+    "forces": null,
+    "why": "成为主流: no object"
+   },
+   "22": {
+    "forces": null,
+    "why": "passive, no object"
+   },
+   "38": {
+    "forces": true,
+    "why": "创作了杂文…: the whole oeuvre or part"
+   },
+   "44": {
+    "forces": null,
+    "why": "就读于: locative, no object"
+   }
+  }
+ },
+ {
+  "combination": "K6",
+  "lens": "Navajo (inalienable possession)",
+  "status": "roster; questioned",
+  "forced_choice": "whether the thing is separable from its owner",
+  "attachment": "possessive",
+  "note": "Dropping 的 occurred with kin (37, 40, 41, 47) and institutions (3, 51, 54), but equally with non-kin compounds (9, 10, 14, 20, 74, 77); the split is not alienability.",
+  "checked_ids": [
+   3,
+   4,
+   5,
+   8,
+   9,
+   10,
+   13,
+   14,
+   18,
+   19
+  ],
+  "forces_new_choice": [
+   5,
+   8,
+   9,
+   10,
+   13,
+   14,
+   18,
+   19
+  ],
+  "already_made": [
+   3,
+   4
+  ],
+  "not_applicable": [],
+  "count": "8 of 10",
+  "per_sentence": {
+   "3": {
+    "forces": false,
+    "why": "两国政府: 的 dropped for an institution; the tendency points to inherent, weakly"
+   },
+   "4": {
+    "forces": false,
+    "why": "拥有的鸦片库存: the verb 拥有 already states separable ownership"
+   },
+   "5": {
+    "forces": true,
+    "why": "英国政府的回应"
+   },
+   "8": {
+    "forces": true,
+    "why": "清朝政府的权威"
+   },
+   "9": {
+    "forces": true,
+    "why": "香港主权: compound, no alienability signal"
+   },
+   "10": {
+    "forces": true,
+    "why": "中国经济"
+   },
+   "13": {
+    "forces": true,
+    "why": "食物网基层: part, unmarked"
+   },
+   "14": {
+    "forces": true,
+    "why": "地球生物圈主流地位"
+   },
+   "18": {
+    "forces": true,
+    "why": "其过程 / 其效率"
+   },
+   "19": {
+    "forces": true,
+    "why": "其生存"
+   }
+  }
+ },
+ {
+  "combination": "K6",
+  "lens": "Mongolian (reflexive possession)",
+  "status": "roster; questioned",
+  "forced_choice": "whether the one already acting stays the anchor",
+  "attachment": "possessive",
+  "note": "自己 occurs 0 times in 100 sentences. Non-trivial in 4 of 10 (4, 5, 18, 19).",
+  "checked_ids": [
+   3,
+   4,
+   5,
+   8,
+   9,
+   10,
+   13,
+   14,
+   18,
+   19
+  ],
+  "forces_new_choice": [
+   3,
+   4,
+   5,
+   8,
+   9,
+   10,
+   13,
+   14,
+   18,
+   19
+  ],
+  "already_made": [],
+  "not_applicable": [],
+  "count": "10 of 10",
+  "per_sentence": {
+   "3": {
+    "forces": true,
+    "why": "两国政府签订: trivially co-referent"
+   },
+   "4": {
+    "forces": true,
+    "why": "英国商人…拥有的: possessor is not the actor (Qing); unmarked"
+   },
+   "5": {
+    "forces": true,
+    "why": "英国政府的回应是派出: possessor is the actor; unmarked"
+   },
+   "8": {
+    "forces": true,
+    "why": "清朝政府的权威: non-reflexive, trivial"
+   },
+   "9": {
+    "forces": true,
+    "why": "大英帝国对该地区的控制: trivial"
+   },
+   "10": {
+    "forces": true,
+    "why": "中国经济: trivial"
+   },
+   "13": {
+    "forces": true,
+    "why": "trivial"
+   },
+   "14": {
+    "forces": true,
+    "why": "trivial"
+   },
+   "18": {
+    "forces": true,
+    "why": "其过程 / 其效率: 其 = the subject; unmarked"
+   },
+   "19": {
+    "forces": true,
+    "why": "供其生存: 其 = the higher organisms, not the subject; unmarked"
+   }
+  }
+ },
+ {
+  "combination": "K7",
+  "lens": "Classical Chinese (Wényán)",
+  "status": "roster; questioned",
+  "forced_choice": "whether the relation between the parts is stated or left to the arrangement",
+  "attachment": "connective",
+  "note": "Every K7 trigger sentence states the relation, so the lens contrasts in 10 of 10. Mandarin left a causal reading to juxtaposition in 3 non-trigger sentences (47 这八年的支出，周家家道衰落; 53 辛亥革命后; 73 火出圈后). Classical connectives 因 / 故 carry the trigger in 2, 10, 59.",
+  "checked_ids": [
+   2,
+   4,
+   7,
+   10,
+   11,
+   13,
+   16,
+   17,
+   18,
+   20
+  ],
+  "forces_new_choice": [
+   2,
+   4,
+   7,
+   10,
+   11,
+   13,
+   16,
+   17,
+   18,
+   20
+  ],
+  "already_made": [],
+  "not_applicable": [],
+  "count": "10 of 10",
+  "per_sentence": {
+   "2": {
+    "forces": true,
+    "why": "因…故 / 由…而引发 state it"
+   },
+   "4": {
+    "forces": true,
+    "why": "由…而引发"
+   },
+   "7": {
+    "forces": true,
+    "why": "凭借 / 结果"
+   },
+   "10": {
+    "forces": true,
+    "why": "因…而"
+   },
+   "11": {
+    "forces": true,
+    "why": "因为"
+   },
+   "13": {
+    "forces": true,
+    "why": "因为"
+   },
+   "16": {
+    "forces": true,
+    "why": "因此"
+   },
+   "17": {
+    "forces": true,
+    "why": "随着 (causal)"
+   },
+   "18": {
+    "forces": true,
+    "why": "因此"
+   },
+   "20": {
+    "forces": true,
+    "why": "因此"
+   }
+  }
+ },
+ {
+  "combination": "K8",
+  "lens": "Ancient Greek (article & substantivization)",
+  "status": "roster; questioned",
+  "forced_choice": "whether anything is being turned into a thing",
+  "attachment": "noun",
+  "note": "的-nominalisation marked a substantivised clause in 77 (值得复制的) and in relative phrases, but zero conversion is the default: in 7 of 10 an unmarked verb or adjective stood as a thing.",
+  "checked_ids": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "forces_new_choice": [
+   2,
+   4,
+   5,
+   6,
+   7,
+   9,
+   10
+  ],
+  "already_made": [
+   1,
+   3,
+   8
+  ],
+  "not_applicable": [],
+  "count": "7 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": false,
+    "why": "冲突 / 战争: nouns already"
+   },
+   "2": {
+    "forces": true,
+    "why": "延续: verb as noun, unmarked"
+   },
+   "3": {
+    "forces": false,
+    "why": "战争 / 政府: nouns already"
+   },
+   "4": {
+    "forces": true,
+    "why": "强制执行… / 销毁: verb phrases as things, unmarked"
+   },
+   "5": {
+    "forces": true,
+    "why": "回应: verb as noun"
+   },
+   "6": {
+    "forces": true,
+    "why": "鸦片合法化: verb as thing"
+   },
+   "7": {
+    "forces": true,
+    "why": "领土割让 / 优惠: verb and adjective as things"
+   },
+   "8": {
+    "forces": false,
+    "why": "国耻 / 权威: nouns already"
+   },
+   "9": {
+    "forces": true,
+    "why": "控制: verb as noun"
+   },
+   "10": {
+    "forces": true,
+    "why": "收缩 / 影响"
+   }
+  }
+ },
+ {
+  "unprompted": "other roster lenses of firing combinations checked for >= 7 of 10 redundancy",
+  "result": "none found",
+  "notes": {
+   "Tagalog (K2)": "Mandarin chose a voice (被, 把/将) in 3 of the first 10 K2 trigger sentences (2, 7, 9); not redundant",
+   "Polish (instrumental predication) (K8)": "是 + NP covers category and role alike (37, 49, 51, 55); not redundant",
+   "Tuyuca, Ewe, Latin (oratio obliqua) (K3)": "no grammatical evidential or reported mood",
+   "Guaraní (K5)": "only lexical 原 / 前 / 旧 (37, 99); not redundant"
+  }
+ }
+]

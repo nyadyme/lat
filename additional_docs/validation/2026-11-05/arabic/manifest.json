@@ -1,0 +1,982 @@
+[
+ {
+  "id": 1,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/الدولة_العباسية",
+  "position_in_run": 1,
+  "sha256": "36656e4de80b6295aa1368904d89e443d203e93e9742682380df2693b6dd7c50",
+  "revid": 77147207,
+  "revision_timestamp": "2026-11-03T21:18:30Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 2,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/الدولة_العباسية",
+  "position_in_run": 2,
+  "sha256": "5025ce74b3f9fb64cebd8fcaa177974694b15fb3b74aa4c1c94f4aba8776d581",
+  "revid": 77147207,
+  "revision_timestamp": "2026-11-03T21:18:30Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 3,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/الدولة_العباسية",
+  "position_in_run": 3,
+  "sha256": "9bae9c2cbf0207b43016abd4a341a99fe9099c411eb4a9e743253797fe7d3e52",
+  "revid": 77147207,
+  "revision_timestamp": "2026-11-03T21:18:30Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 4,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/الدولة_العباسية",
+  "position_in_run": 4,
+  "sha256": "5ea460fad02589258d0529d46d2314ba96be2b581d1f2d28f7c39baea84a01e1",
+  "revid": 77147207,
+  "revision_timestamp": "2026-11-03T21:18:30Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 5,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/الدولة_العباسية",
+  "position_in_run": 5,
+  "sha256": "9c24fa63cf835e32178df5a84d591a61652b20efdabaeb2068261d0665229b5a",
+  "revid": 77147207,
+  "revision_timestamp": "2026-11-03T21:18:30Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 6,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/الدولة_العباسية",
+  "position_in_run": 6,
+  "sha256": "8a40bbbd9214a1fb72c44d4029b71132fa09bb119586719b470654b6ab9139ec",
+  "revid": 77147207,
+  "revision_timestamp": "2026-11-03T21:18:30Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 7,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/الدولة_العباسية",
+  "position_in_run": 7,
+  "sha256": "e445ebf800c777d7c01878afb885ded1b58e4a9d26886da1cd106fc9f6c0577e",
+  "revid": 77147207,
+  "revision_timestamp": "2026-11-03T21:18:30Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 8,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/الدولة_العباسية",
+  "position_in_run": 8,
+  "sha256": "cd68a9871cd9e4f857622430d0e87bfeab94b8f6bf0861c4fce8d6e5c348e75a",
+  "revid": 77147207,
+  "revision_timestamp": "2026-11-03T21:18:30Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 9,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/الدولة_العباسية",
+  "position_in_run": 9,
+  "sha256": "5467d767ca1f9403e7b36c5891313161df5d866f35ea8e6bc54d0b7d03ad54fa",
+  "revid": 77147207,
+  "revision_timestamp": "2026-11-03T21:18:30Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 10,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/الدولة_العباسية",
+  "position_in_run": 10,
+  "sha256": "adbba6fa751d5958fba7fb6977b5ee4ffa4f81f9e35b1298636bf9146cdb3a49",
+  "revid": 77147207,
+  "revision_timestamp": "2026-11-03T21:18:30Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 11,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/الدولة_العباسية",
+  "position_in_run": 11,
+  "sha256": "19697be6d6eaa1421da2b76307ce9e87454297762b35a917f3a085f99963cb0b",
+  "revid": 77147207,
+  "revision_timestamp": "2026-11-03T21:18:30Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 12,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/الدولة_العباسية",
+  "position_in_run": 12,
+  "sha256": "65aad5deaac762eb9c81b106ffa239c8f9784d858c70f40ed983f818b8633c48",
+  "revid": 77147207,
+  "revision_timestamp": "2026-11-03T21:18:30Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 13,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تركيب_ضوئي",
+  "position_in_run": 1,
+  "sha256": "ba0b3f2fb12815e5589bf4e527a167622fc3b1a4c584ffa2b23505d22a939ad4",
+  "revid": 76808234,
+  "revision_timestamp": "2026-09-29T14:48:05Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 14,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تركيب_ضوئي",
+  "position_in_run": 2,
+  "sha256": "838264384681d23716ea9c5fad865db0b9aed3234620314c416aec1559a6f7b2",
+  "revid": 76808234,
+  "revision_timestamp": "2026-09-29T14:48:05Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 15,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تركيب_ضوئي",
+  "position_in_run": 3,
+  "sha256": "e02201a7059b1d34b3461e676876c17439c02063f75d0dc5315d70f03415c788",
+  "revid": 76808234,
+  "revision_timestamp": "2026-09-29T14:48:05Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 16,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تركيب_ضوئي",
+  "position_in_run": 4,
+  "sha256": "8cc0cbadb6506da7f0ee721811fb84e1e61a03c1b568a58e7d02066a40fa8ab0",
+  "revid": 76808234,
+  "revision_timestamp": "2026-09-29T14:48:05Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 17,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تركيب_ضوئي",
+  "position_in_run": 5,
+  "sha256": "c3d189e186d6fee31dbcb1cd2d1e0774cd0e8a9b2476cf7702bac261ba37219c",
+  "revid": 76808234,
+  "revision_timestamp": "2026-09-29T14:48:05Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 18,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تركيب_ضوئي",
+  "position_in_run": 6,
+  "sha256": "c8d31258c43072a7cb84b817cb36c3ab1aa93a8cb745adf618bcee26921989a0",
+  "revid": 76808234,
+  "revision_timestamp": "2026-09-29T14:48:05Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 19,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تركيب_ضوئي",
+  "position_in_run": 7,
+  "sha256": "153cbfffe325a5758d61a4ba159567f4d8f6822273b29029d63a139376fb6a87",
+  "revid": 76808234,
+  "revision_timestamp": "2026-09-29T14:48:05Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 20,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تركيب_ضوئي",
+  "position_in_run": 8,
+  "sha256": "f0746e14740f6a1a6d14ccb80a5d1af79df52fa5810848c7f43c6a1ffbed5c60",
+  "revid": 76808234,
+  "revision_timestamp": "2026-09-29T14:48:05Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 21,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تركيب_ضوئي",
+  "position_in_run": 9,
+  "sha256": "a0e17fe16e129b08fe19d23eb6263407add86cc4e8218e5c7f8be5fa6ad7d3aa",
+  "revid": 76808234,
+  "revision_timestamp": "2026-09-29T14:48:05Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 22,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تركيب_ضوئي",
+  "position_in_run": 10,
+  "sha256": "2dd0691ab9ad315e18d337acb3de151178b1c62ac1c6cbd49193a5b59d32d64f",
+  "revid": 76808234,
+  "revision_timestamp": "2026-09-29T14:48:05Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 23,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تركيب_ضوئي",
+  "position_in_run": 11,
+  "sha256": "6c2c3a1607a2836cc787beeee21aadc2ef0d9a2de912ed4632cac82d14cc36d2",
+  "revid": 76808234,
+  "revision_timestamp": "2026-09-29T14:48:05Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 24,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تركيب_ضوئي",
+  "position_in_run": 12,
+  "sha256": "0e997adeb7da538ca08cf258b9836e19cb531364ee5c97aec8a095dc6a2583f1",
+  "revid": 76808234,
+  "revision_timestamp": "2026-09-29T14:48:05Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 25,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تضخم_اقتصادي",
+  "position_in_run": 1,
+  "sha256": "5c2765d67af60ab0e7c0e90acf40b1d700a47bb04811a2f53586c33d150031df",
+  "revid": 76021974,
+  "revision_timestamp": "2026-07-28T18:38:39Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 26,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تضخم_اقتصادي",
+  "position_in_run": 2,
+  "sha256": "a7151e308bb2752c7d61016d51d942b082fab5b279cce943a1955fe4add22054",
+  "revid": 76021974,
+  "revision_timestamp": "2026-07-28T18:38:39Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 27,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تضخم_اقتصادي",
+  "position_in_run": 3,
+  "sha256": "78032d4b1f54f732cb939c5902b60b010bcb619035a92c6d1ec3c2309cf5cfd0",
+  "revid": 76021974,
+  "revision_timestamp": "2026-07-28T18:38:39Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 28,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تضخم_اقتصادي",
+  "position_in_run": 4,
+  "sha256": "fc3b85545595606436dc3cbb56147ddfddd13cb4bafc600f799805c7e9515d82",
+  "revid": 76021974,
+  "revision_timestamp": "2026-07-28T18:38:39Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 29,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تضخم_اقتصادي",
+  "position_in_run": 5,
+  "sha256": "1690aa351935c66efdffd6b5e3adc2f5a0e07151e99202ec1f53feccf14e05f6",
+  "revid": 76021974,
+  "revision_timestamp": "2026-07-28T18:38:39Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 30,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تضخم_اقتصادي",
+  "position_in_run": 6,
+  "sha256": "7c08cd26a5c3022d5df274065425634fbf2db7418c37c16ae6219c330abb3097",
+  "revid": 76021974,
+  "revision_timestamp": "2026-07-28T18:38:39Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 31,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تضخم_اقتصادي",
+  "position_in_run": 7,
+  "sha256": "78767e2130e731e509a8efa890438f9e692290be9250b20a69926cf84493dbbc",
+  "revid": 76021974,
+  "revision_timestamp": "2026-07-28T18:38:39Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 32,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تضخم_اقتصادي",
+  "position_in_run": 8,
+  "sha256": "af5d67ac2d87331d5c873e850f4a7a987900dcc24721870935887a097d4296f5",
+  "revid": 76021974,
+  "revision_timestamp": "2026-07-28T18:38:39Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 33,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تضخم_اقتصادي",
+  "position_in_run": 9,
+  "sha256": "03628854425d91c4704e5d118eb7c6676fc3a853b07e47aacb55dcf444d9eeff",
+  "revid": 76021974,
+  "revision_timestamp": "2026-07-28T18:38:39Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 34,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تضخم_اقتصادي",
+  "position_in_run": 10,
+  "sha256": "7864d5cfe027d93890e82cf41570f657d3e3db1ba260ae2f196121649b176156",
+  "revid": 76021974,
+  "revision_timestamp": "2026-07-28T18:38:39Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 35,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تضخم_اقتصادي",
+  "position_in_run": 11,
+  "sha256": "f5f6c93d510bd653b6287eeadb05c228c7b2bd94e7759dd9985aaf686966b3b9",
+  "revid": 76021974,
+  "revision_timestamp": "2026-07-28T18:38:39Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 36,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/تضخم_اقتصادي",
+  "position_in_run": 12,
+  "sha256": "31fe5f005afac88f3ab7ab833cf7bf8e9588dfe8398d44c07d86a29be26fac30",
+  "revid": 76021974,
+  "revision_timestamp": "2026-07-28T18:38:39Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 37,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/ابن_خلدون",
+  "position_in_run": 1,
+  "sha256": "0bd1954540e2b5a463a6d5aceba6541ea86bd4a2de863d12119f333f11fced64",
+  "revid": 77147466,
+  "revision_timestamp": "2026-11-03T21:26:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 38,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/ابن_خلدون",
+  "position_in_run": 2,
+  "sha256": "1e7a2478c89dc58f911a774d7e7cea109be2c32ab9dc859f325be38f02eb0644",
+  "revid": 77147466,
+  "revision_timestamp": "2026-11-03T21:26:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 39,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/ابن_خلدون",
+  "position_in_run": 3,
+  "sha256": "8ffd91f40c9810764dd8a23287c7e5410f24f5b2229458af65506e02cd36b6c4",
+  "revid": 77147466,
+  "revision_timestamp": "2026-11-03T21:26:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 40,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/ابن_خلدون",
+  "position_in_run": 4,
+  "sha256": "7c8c162de4add5005f56070686179af33cd56eab0541ec1dee04d48aea004734",
+  "revid": 77147466,
+  "revision_timestamp": "2026-11-03T21:26:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 41,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/ابن_خلدون",
+  "position_in_run": 5,
+  "sha256": "7850a33422ee120b55464ccba06b3da3905fa75076ef34d1ad4d5af7d94024c3",
+  "revid": 77147466,
+  "revision_timestamp": "2026-11-03T21:26:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 42,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/ابن_خلدون",
+  "position_in_run": 6,
+  "sha256": "f6a1aeb4b054ea004e1ed6d8203784215c80553bd3ed1f0ffd857edd1853e262",
+  "revid": 77147466,
+  "revision_timestamp": "2026-11-03T21:26:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 43,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/ابن_خلدون",
+  "position_in_run": 7,
+  "sha256": "4add5ac02d60b576a904b9a5a22c04a111127dacbafefcc0c151bb9e1f2744dd",
+  "revid": 77147466,
+  "revision_timestamp": "2026-11-03T21:26:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 44,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/ابن_خلدون",
+  "position_in_run": 8,
+  "sha256": "303785561377b9e99ffbd2d6236e0bf36d6fddedc2c3c66fa0722ac9e34f7315",
+  "revid": 77147466,
+  "revision_timestamp": "2026-11-03T21:26:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 45,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/ابن_خلدون",
+  "position_in_run": 9,
+  "sha256": "a209537acd39d93c9bb7cc148d061e0397f0998ec655988922ed0833067d7d24",
+  "revid": 77147466,
+  "revision_timestamp": "2026-11-03T21:26:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 46,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/ابن_خلدون",
+  "position_in_run": 10,
+  "sha256": "eecd3317c715b20e0360c3a1d002f47f5e5c7c77d67e73b116afe26f1fc4bee0",
+  "revid": 77147466,
+  "revision_timestamp": "2026-11-03T21:26:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 47,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/ابن_خلدون",
+  "position_in_run": 11,
+  "sha256": "89ac01746cde48c6ad3f89c4f931ca0cdf801d3c90da8a7cfa633bff59866912",
+  "revid": 77147466,
+  "revision_timestamp": "2026-11-03T21:26:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 48,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/ابن_خلدون",
+  "position_in_run": 12,
+  "sha256": "4d95835c38e01ac6eb837b1947745c5fe6ff5fb1a1dc72d459b1cdba3186fa00",
+  "revid": 77147466,
+  "revision_timestamp": "2026-11-03T21:26:38Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 49,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/قهوة_عربية",
+  "position_in_run": 1,
+  "sha256": "b69a2f38a03d47a0ad9a44e0ce59f13bea5c700314970c33c2dffb76267b0462",
+  "revid": 77003258,
+  "revision_timestamp": "2026-10-18T02:51:42Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 50,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/قهوة_عربية",
+  "position_in_run": 2,
+  "sha256": "be7098e396ffcb8ac6b0adc317e007065d434aba4b5b4a9a73fd906729d80b4f",
+  "revid": 77003258,
+  "revision_timestamp": "2026-10-18T02:51:42Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 51,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/قهوة_عربية",
+  "position_in_run": 3,
+  "sha256": "27ed035c942f712bb0bcaf8b3750e0b30d0b6960d57cfe96bcb19dc35855f079",
+  "revid": 77003258,
+  "revision_timestamp": "2026-10-18T02:51:42Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 52,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/قهوة_عربية",
+  "position_in_run": 4,
+  "sha256": "a4804fa9601c9917ced93663c87b5dab77b7402536227522ab2486d1283daa6c",
+  "revid": 77003258,
+  "revision_timestamp": "2026-10-18T02:51:42Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 53,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/قهوة_عربية",
+  "position_in_run": 5,
+  "sha256": "51103fdb3c6b93d1f3211979b53c4a9a153e9803af0a3fd29d738578610fb32a",
+  "revid": 77003258,
+  "revision_timestamp": "2026-10-18T02:51:42Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 54,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/قهوة_عربية",
+  "position_in_run": 6,
+  "sha256": "beb4095ed5f32bda9189f56d7b6ecd5085d5d8f2585fccfbf7c30bf45ea047df",
+  "revid": 77003258,
+  "revision_timestamp": "2026-10-18T02:51:42Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 55,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/قهوة_عربية",
+  "position_in_run": 7,
+  "sha256": "c1afb256f8dd73fda2d20962b49c93a44d1b1cfabbfaf719318b84f517e0f1a7",
+  "revid": 77003258,
+  "revision_timestamp": "2026-10-18T02:51:42Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 56,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/قهوة_عربية",
+  "position_in_run": 8,
+  "sha256": "d8d7d00c796d8fe76b68b391227c8335e9eb39bfba699d174efbafe65fa143a4",
+  "revid": 77003258,
+  "revision_timestamp": "2026-10-18T02:51:42Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 57,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/قهوة_عربية",
+  "position_in_run": 9,
+  "sha256": "047b3728e378f0039c5db93c8e43c3e04eed100e740428ca469ecfeee13b01c0",
+  "revid": 77003258,
+  "revision_timestamp": "2026-10-18T02:51:42Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 58,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/قهوة_عربية",
+  "position_in_run": 10,
+  "sha256": "9b024b172421ff1c271bee18abf1765f1d81afa6e156d2fac4570aa42864dcee",
+  "revid": 77003258,
+  "revision_timestamp": "2026-10-18T02:51:42Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 59,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/قهوة_عربية",
+  "position_in_run": 11,
+  "sha256": "c2fec661bd1f9bfc58a41be1541390d16607b4636086aeeaab5c3b5d0cd71aa5",
+  "revid": 77003258,
+  "revision_timestamp": "2026-10-18T02:51:42Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 60,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://ar.wikipedia.org/wiki/قهوة_عربية",
+  "position_in_run": 12,
+  "sha256": "3a206807894d6f51a5f71bed35792a337c13e8d0db7e0ad29334d85e73ba5685",
+  "revid": 77003258,
+  "revision_timestamp": "2026-10-18T02:51:42Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 61,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 1,
+  "sha256": "9db0fe10b83e59ee11d50badb3121019594763b4403c9f3f987b3bff71bfdec9"
+ },
+ {
+  "id": 62,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 2,
+  "sha256": "975298f1299ec759a9bcd2c4e322abbe586070f21cd671d79c9ca3b88eeb3c26"
+ },
+ {
+  "id": 63,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 3,
+  "sha256": "139c64b6bdda518a1eae7c8d0c9f67996f75b0ecf750b46fc2ce6bf9aef35b79"
+ },
+ {
+  "id": 64,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 4,
+  "sha256": "b697ffdf4712f23843702f324c2fe15f2d44ac7a03258d9f469084eb8c97f8d8"
+ },
+ {
+  "id": 65,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 5,
+  "sha256": "2241ae6777b7a0ca4ef0beecd1b7cfbc57ea0a4df5d0f91ad798f53e666fef21"
+ },
+ {
+  "id": 66,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 6,
+  "sha256": "48031b389095dc1a281689256bd5ceb3d827bd86508ba9ab67ed49b1945dd7c7"
+ },
+ {
+  "id": 67,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 7,
+  "sha256": "403727f5dcf5f266df473bff6d1930c0ebb75544a32560419c9ca41ec029887f"
+ },
+ {
+  "id": 68,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 8,
+  "sha256": "f43df8ff8328b579c3a3cafafa79f012ae89d0366085ca09130b3f2e2e22db40"
+ },
+ {
+  "id": 69,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 9,
+  "sha256": "774f816299ac538920d26c9d7064983c692e33fbd1e4279c65095ea8e56eaef9"
+ },
+ {
+  "id": 70,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 10,
+  "sha256": "293a52280bc80f0d04ec96a9ad69479f5a7a388f5031edfc0d741433d6e802c7"
+ },
+ {
+  "id": 71,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 11,
+  "sha256": "0e89ed4e8400c5726c9b0d21ffd3b5241122551b9602b95b73c2952d10605734"
+ },
+ {
+  "id": 72,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 12,
+  "sha256": "824c968efe08f934fc9f2cb9ad1e90858ae0eb99230b4474a5b45511ba52bbff"
+ },
+ {
+  "id": 73,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 13,
+  "sha256": "5fc082923a81e94ba6f69ad43dd552eab5171eb06009a8aad50e3e938ab503d1"
+ },
+ {
+  "id": 74,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 14,
+  "sha256": "70f435b355bd4086703f8f91964ef79b26110b09e32f4d5ef78aff026eb929ac"
+ },
+ {
+  "id": 75,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 15,
+  "sha256": "fa9fcc19d89e4e0f87944d13f86b580a7ffe1e7cff3fbc1c1c153fcaa982a72d"
+ },
+ {
+  "id": 76,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 16,
+  "sha256": "ec74011d129e2d34c1bdf781ce63bb542c486c3e5cb3594df349051f5e6e14e7"
+ },
+ {
+  "id": 77,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 17,
+  "sha256": "084b011fd16b64f774e955c98d78715cb8acc81da7e83cb8401e4c1f51717e63"
+ },
+ {
+  "id": 78,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 18,
+  "sha256": "ee93dcfdeea22959366e1686a8f9dd8ca8e4f4cf8ce10d2b5623d149b8010ffc"
+ },
+ {
+  "id": 79,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 19,
+  "sha256": "c74876225f629fd3a0fb1f5ccaeb0c6a7caae00b87a5fd75b7148dc1c54a271d"
+ },
+ {
+  "id": 80,
+  "domain": "news/aljazeera-opinion",
+  "kind": "news",
+  "url": "https://www.aljazeera.net/opinions/2026/11/5/%d9%85%d8%a7-%d8%ac%d8%b1%d9%89-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-%d9%8a%d8%a4%d9%83%d8%af-%d9%87%d9%84-%d9%8a%d8%ad%d8%b1%d9%82-%d8%aa%d8%b1%d9%85%d8%a8",
+  "position_in_run": 20,
+  "sha256": "44364d47bf6e086b395d17a75bb57bf8c3a59e9e3b8ca12c0a5dfa4297f0ccbe"
+ },
+ {
+  "id": 81,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 1,
+  "sha256": "42aece2996f0d169358a594b5a4784317ef15ab7d690e9e981e50eb9f8b3d828"
+ },
+ {
+  "id": 82,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 2,
+  "sha256": "f75523281d24d92448fc96c82f727a4625ad83c69390fb234fef0afbf4b74147"
+ },
+ {
+  "id": 83,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 3,
+  "sha256": "909d1b4739d6489a682083246b1e8228dd049be4e577832852ca92453e4a8c72"
+ },
+ {
+  "id": 84,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 4,
+  "sha256": "c47b298dc139c655b8988907a00a54fd269077386282957052b38ce788d6a5e4"
+ },
+ {
+  "id": 85,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 5,
+  "sha256": "c6683fec350ba88da37d6e73961025960ba0a9170de1984e5e9b55b7a1ae80ed"
+ },
+ {
+  "id": 86,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 6,
+  "sha256": "3f8a56b533324982c947ba0f0d94031ce46d4e2ebcf8dcf677fde674ddd2cc4a"
+ },
+ {
+  "id": 87,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 7,
+  "sha256": "87399889d4fea24debb7c5ab635901ac8a76ef484677b77f2c38d7690c1643db"
+ },
+ {
+  "id": 88,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 8,
+  "sha256": "f7b51fe9732afb58c1e61ca9a09df16302f5696002315ae9177bda242005c8c8"
+ },
+ {
+  "id": 89,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 9,
+  "sha256": "b5e40e407687601adf7b43949cc9f1686f96d78001579ae5f364e09220b40623"
+ },
+ {
+  "id": 90,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 10,
+  "sha256": "8500affe2be019e086a3b7a7bda8041ae76235635b00eb6fbef91101f6125593"
+ },
+ {
+  "id": 91,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 11,
+  "sha256": "0e2d84af01b6bbce96290b8632d946a9c3e4f78addeb09724b01045aea1676d6"
+ },
+ {
+  "id": 92,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 12,
+  "sha256": "3c799bbe6a07f6a452305d0f08da35436691b3dcbfb94763b67e96df5c2e38e7"
+ },
+ {
+  "id": 93,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 13,
+  "sha256": "3b0c1e18fed5613442a2b52eef2fca9689ba5929fe4e991ae81cba1ec23e603f"
+ },
+ {
+  "id": 94,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 14,
+  "sha256": "eebe2802415d3678588b5155b905dc0cafb869cdf6d3d558a0fcfc4a9b171aab"
+ },
+ {
+  "id": 95,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 15,
+  "sha256": "1703ae820c77d85ed1087a13509aea6d200e63d443727b91494f1867737a50da"
+ },
+ {
+  "id": 96,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 16,
+  "sha256": "0bd15af5c047566b4bbcda7b45f2b53e44eda33ca47dc673643a6d13be8acb22"
+ },
+ {
+  "id": 97,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 17,
+  "sha256": "874d8873c987e47bfe8864f1e48677faac87893056b4584a1d16f5f455724b72"
+ },
+ {
+  "id": 98,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 18,
+  "sha256": "90274d2dcb91011e2ef065ee376acddc561ad87419e0979e0803c1fff09316a9"
+ },
+ {
+  "id": 99,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 19,
+  "sha256": "9c09452f51acf0ec2c69801ee87bbd0c23050dc7cc183b858bf490bb742789b1"
+ },
+ {
+  "id": 100,
+  "domain": "news/bbc-arabic",
+  "kind": "news",
+  "url": "https://www.bbc.com/arabic/articles/cr5ynen6w4l6o",
+  "position_in_run": 20,
+  "sha256": "979af000ee9fcdf0e232cf054073bc370a4376fb710ed6a0b425bfd65fe5de5c"
+ }
+]
