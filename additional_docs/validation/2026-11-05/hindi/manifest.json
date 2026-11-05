@@ -1,0 +1,982 @@
+[
+ {
+  "id": 1,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुग़ल_साम्राज्य",
+  "position_in_run": 1,
+  "sha256": "5f559ff81e6c07e1b1953f227ae9ab06149f2915040edcc728fc596218e9456f",
+  "revid": 6625269,
+  "revision_timestamp": "2026-10-05T12:04:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 2,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुग़ल_साम्राज्य",
+  "position_in_run": 2,
+  "sha256": "781102346500e6fb0360224b33c01c76e07045613c40d6d9488ae4bba4fbb94d",
+  "revid": 6625269,
+  "revision_timestamp": "2026-10-05T12:04:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 3,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुग़ल_साम्राज्य",
+  "position_in_run": 3,
+  "sha256": "35dafe3933eda6a2bdc5ac0ef19b733d134f139830d349630de8be41dfea8798",
+  "revid": 6625269,
+  "revision_timestamp": "2026-10-05T12:04:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 4,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुग़ल_साम्राज्य",
+  "position_in_run": 4,
+  "sha256": "25317a10812112c8d4e9c51be871d06d2c0ec35110895faa4d2a72f2187d36b0",
+  "revid": 6625269,
+  "revision_timestamp": "2026-10-05T12:04:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 5,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुग़ल_साम्राज्य",
+  "position_in_run": 5,
+  "sha256": "6cde05de8658e9eccd1e87a1e1286197c21aabefff237e46b0a7a32c9242944c",
+  "revid": 6625269,
+  "revision_timestamp": "2026-10-05T12:04:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 6,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुग़ल_साम्राज्य",
+  "position_in_run": 6,
+  "sha256": "0ad46cd095ce67b2b1f839bc39719767248c09180a3b555a0a193ce6d6e21e68",
+  "revid": 6625269,
+  "revision_timestamp": "2026-10-05T12:04:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 7,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुग़ल_साम्राज्य",
+  "position_in_run": 7,
+  "sha256": "43a59caea1db39e9a86e01de7f8ce2445f3631027df418795563729207ea18ae",
+  "revid": 6625269,
+  "revision_timestamp": "2026-10-05T12:04:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 8,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुग़ल_साम्राज्य",
+  "position_in_run": 8,
+  "sha256": "a6e640cdb03aed9d71ba32306a679da369ce0b40456a29176555a001c90ee877",
+  "revid": 6625269,
+  "revision_timestamp": "2026-10-05T12:04:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 9,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुग़ल_साम्राज्य",
+  "position_in_run": 9,
+  "sha256": "46969f12b494fbce48ec8550471243c98bc103f30eb1bb5c8985944ce98c53cf",
+  "revid": 6625269,
+  "revision_timestamp": "2026-10-05T12:04:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 10,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुग़ल_साम्राज्य",
+  "position_in_run": 10,
+  "sha256": "08a6f8120acdcd6a483d7fdfe45bf32f8a50c429a9b9ddf7dc54a4251a2b587a",
+  "revid": 6625269,
+  "revision_timestamp": "2026-10-05T12:04:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 11,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुग़ल_साम्राज्य",
+  "position_in_run": 11,
+  "sha256": "d175d0c5bc1eb4aebd01a73c19a2b215fbea0b2d9194f91a748140b6c21dd089",
+  "revid": 6625269,
+  "revision_timestamp": "2026-10-05T12:04:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 12,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुग़ल_साम्राज्य",
+  "position_in_run": 12,
+  "sha256": "67b11d78dcbe7578f4c46ab1b279be0f33b48c845b89cb9033797a1027f51d51",
+  "revid": 6625269,
+  "revision_timestamp": "2026-10-05T12:04:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 13,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रकाश-संश्लेषण",
+  "position_in_run": 1,
+  "sha256": "3fcf24c36e86d54d0bccb2391af3351f84ac6bb1b2ca7bba4afbbb862e6bd637",
+  "revid": 6633796,
+  "revision_timestamp": "2026-10-26T19:16:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 14,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रकाश-संश्लेषण",
+  "position_in_run": 2,
+  "sha256": "955dfd8b0a365e06af78379736620879ff23542cda317d062ebf89a1bb399e89",
+  "revid": 6633796,
+  "revision_timestamp": "2026-10-26T19:16:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 15,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रकाश-संश्लेषण",
+  "position_in_run": 3,
+  "sha256": "caeafa9409beb2fe1261f18fb608706ef4d9ce699ba770a6adafef49f710583a",
+  "revid": 6633796,
+  "revision_timestamp": "2026-10-26T19:16:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 16,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रकाश-संश्लेषण",
+  "position_in_run": 4,
+  "sha256": "fa92a2a1dcf0ff70ae85883a606cd932475ac113d24d417a9ec4fdd5abe685ea",
+  "revid": 6633796,
+  "revision_timestamp": "2026-10-26T19:16:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 17,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रकाश-संश्लेषण",
+  "position_in_run": 5,
+  "sha256": "71e2ff130981376acffb7dadaa96ea72d3204f67ec76c33e668d9188e4d54deb",
+  "revid": 6633796,
+  "revision_timestamp": "2026-10-26T19:16:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 18,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रकाश-संश्लेषण",
+  "position_in_run": 6,
+  "sha256": "25f72960ee8f6332a0c5eea82cc83316906ebb1552c17144ec5c8dbccfc2b12f",
+  "revid": 6633796,
+  "revision_timestamp": "2026-10-26T19:16:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 19,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रकाश-संश्लेषण",
+  "position_in_run": 7,
+  "sha256": "a70679dde7829c5a9331ebbb4ab23b480b603a6a78019a71379a619f9301ce3e",
+  "revid": 6633796,
+  "revision_timestamp": "2026-10-26T19:16:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 20,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रकाश-संश्लेषण",
+  "position_in_run": 8,
+  "sha256": "da2f37b81dd278400212b18dc3ceb372a9a378671eeed8d491b02edd17c01bde",
+  "revid": 6633796,
+  "revision_timestamp": "2026-10-26T19:16:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 21,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रकाश-संश्लेषण",
+  "position_in_run": 9,
+  "sha256": "de0739744e2fea5182ec2ea7f241e845a128355eb273bc1d3b1924b122f1e608",
+  "revid": 6633796,
+  "revision_timestamp": "2026-10-26T19:16:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 22,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रकाश-संश्लेषण",
+  "position_in_run": 10,
+  "sha256": "a8bcdcdbcf3ccd36a79b2cb115dcfb1ca18085738f11dfe0aa85db0caac7a0b5",
+  "revid": 6633796,
+  "revision_timestamp": "2026-10-26T19:16:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 23,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रकाश-संश्लेषण",
+  "position_in_run": 11,
+  "sha256": "2331f976d485943a5e4e29930667dd04993addd006da43f6e921aee3efeca263",
+  "revid": 6633796,
+  "revision_timestamp": "2026-10-26T19:16:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 24,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रकाश-संश्लेषण",
+  "position_in_run": 12,
+  "sha256": "428bb1e86a38913eb26e36d44ebc55540525f585d30ba7468b100f1e5bbe4e67",
+  "revid": 6633796,
+  "revision_timestamp": "2026-10-26T19:16:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 25,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुद्रास्फीति",
+  "position_in_run": 1,
+  "sha256": "809ea120356fc468c0ea9f6a9409681ff3a8be998dd8c65d64508a19b5b318b0",
+  "revid": 6161454,
+  "revision_timestamp": "2024-07-15T08:29:27Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 26,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुद्रास्फीति",
+  "position_in_run": 2,
+  "sha256": "2f2a4863d1880b39f625f5649e14cfd3a78c5168efda9d6c6194343f7aed8403",
+  "revid": 6161454,
+  "revision_timestamp": "2024-07-15T08:29:27Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 27,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुद्रास्फीति",
+  "position_in_run": 3,
+  "sha256": "32129ea9cb42bcf0a37f644b9f1056664c9a7e70908b73998c41d35811ab37c3",
+  "revid": 6161454,
+  "revision_timestamp": "2024-07-15T08:29:27Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 28,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुद्रास्फीति",
+  "position_in_run": 4,
+  "sha256": "f7cbb1678ec5be9f3f559d56fd0db3945cd40fe0491b2f82cee5f894e7707bc3",
+  "revid": 6161454,
+  "revision_timestamp": "2024-07-15T08:29:27Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 29,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुद्रास्फीति",
+  "position_in_run": 5,
+  "sha256": "5d4a1ea8c2022e2fdb0f816ff1c6aba5919b2797b59ff7f4724394a2edee7873",
+  "revid": 6161454,
+  "revision_timestamp": "2024-07-15T08:29:27Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 30,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुद्रास्फीति",
+  "position_in_run": 6,
+  "sha256": "b988286a566e1c11735ff6ed7375065affc7dc99f65abe73ee11a766603fe62f",
+  "revid": 6161454,
+  "revision_timestamp": "2024-07-15T08:29:27Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 31,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुद्रास्फीति",
+  "position_in_run": 7,
+  "sha256": "83b304f22d99cd1ffea2c5b77ea03ad72f28583e4709da284e4cc2d78efad986",
+  "revid": 6161454,
+  "revision_timestamp": "2024-07-15T08:29:27Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 32,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुद्रास्फीति",
+  "position_in_run": 8,
+  "sha256": "6ebd0587aaf0bc9edb18f7bc1f53376025392f0d10b4bd17d54fa40df0f21131",
+  "revid": 6161454,
+  "revision_timestamp": "2024-07-15T08:29:27Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 33,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुद्रास्फीति",
+  "position_in_run": 9,
+  "sha256": "3dd82dc5323e646987a0e7fd6c5ae60105b5554cb8b78e1a2dec06dd9730dd31",
+  "revid": 6161454,
+  "revision_timestamp": "2024-07-15T08:29:27Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 34,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुद्रास्फीति",
+  "position_in_run": 10,
+  "sha256": "7d32fff339ec5cafe7210a76e8b9d25fb260140904a6370129d198069a488850",
+  "revid": 6161454,
+  "revision_timestamp": "2024-07-15T08:29:27Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 35,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुद्रास्फीति",
+  "position_in_run": 11,
+  "sha256": "2ceebb01f970f25d91d7802fc1a2379f5e5c938beb0ed8af9b38ff082033fbd4",
+  "revid": 6161454,
+  "revision_timestamp": "2024-07-15T08:29:27Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 36,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/मुद्रास्फीति",
+  "position_in_run": 12,
+  "sha256": "cd9b7605c35d2afe819a8ae442ca9db1f13e5da05cda4306f67ec68c51d957e4",
+  "revid": 6161454,
+  "revision_timestamp": "2024-07-15T08:29:27Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 37,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रेमचंद",
+  "position_in_run": 1,
+  "sha256": "a58edb1356276b9023bd50c78d25acecacb35062743745d1ac437d78a8d742dd",
+  "revid": 6599443,
+  "revision_timestamp": "2026-08-15T09:23:52Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 38,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रेमचंद",
+  "position_in_run": 2,
+  "sha256": "36e2d884c6957b5fe542c9f116c0544f5e78451a2ab564983f1bede47996ad27",
+  "revid": 6599443,
+  "revision_timestamp": "2026-08-15T09:23:52Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 39,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रेमचंद",
+  "position_in_run": 3,
+  "sha256": "210e5aef637c745c2d42d969ae5099f10eae0f22824c6d5a6ec171e1948b1c9b",
+  "revid": 6599443,
+  "revision_timestamp": "2026-08-15T09:23:52Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 40,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रेमचंद",
+  "position_in_run": 4,
+  "sha256": "05d653a9ceaafdd07e77e483fa2b36c5ff468c1de94ccabbf05c2b677338e412",
+  "revid": 6599443,
+  "revision_timestamp": "2026-08-15T09:23:52Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 41,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रेमचंद",
+  "position_in_run": 5,
+  "sha256": "a1bc0574b820fab1aed5ae18c627c4a36c184f0edc859b52dc9f1408491723c7",
+  "revid": 6599443,
+  "revision_timestamp": "2026-08-15T09:23:52Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 42,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रेमचंद",
+  "position_in_run": 6,
+  "sha256": "ba80661528ad05a7ea0a73095295bed8508a826112078bd7892bcc2e4c3ef4d7",
+  "revid": 6599443,
+  "revision_timestamp": "2026-08-15T09:23:52Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 43,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रेमचंद",
+  "position_in_run": 7,
+  "sha256": "1ec67e5848dde625b7fbe4afeac59518ad052c45dc9d51b38072bcd8bc7ec075",
+  "revid": 6599443,
+  "revision_timestamp": "2026-08-15T09:23:52Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 44,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रेमचंद",
+  "position_in_run": 8,
+  "sha256": "cd368f6d4338e46fa92aab560f8ee6ebeb4cc0104e772678978d63a1c426cc53",
+  "revid": 6599443,
+  "revision_timestamp": "2026-08-15T09:23:52Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 45,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रेमचंद",
+  "position_in_run": 9,
+  "sha256": "033346ed40c14ca23b88da3e9b25dfab0785fc69bdc6fa00ae64267ecda65f86",
+  "revid": 6599443,
+  "revision_timestamp": "2026-08-15T09:23:52Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 46,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रेमचंद",
+  "position_in_run": 10,
+  "sha256": "84f9944b51454020232f4f1d18679ee23a54ef985e46de89202db25f071e81da",
+  "revid": 6599443,
+  "revision_timestamp": "2026-08-15T09:23:52Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 47,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रेमचंद",
+  "position_in_run": 11,
+  "sha256": "f3c071c6dbd00780f19d73448e6c88e8c4bc6e82996cb88f247f1fd1ed84d496",
+  "revid": 6599443,
+  "revision_timestamp": "2026-08-15T09:23:52Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 48,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/प्रेमचंद",
+  "position_in_run": 12,
+  "sha256": "8aedfbbe8b84ed8dd61d79e6cf7171d0e7a7ffd22e4d248afe01b96fd3af7863",
+  "revid": 6599443,
+  "revision_timestamp": "2026-08-15T09:23:52Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 49,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/दीपावली",
+  "position_in_run": 1,
+  "sha256": "0bb53011984e91e83914eddd7d23ec35d99dbca0ccf3885b44d261d6c4b6ec9a",
+  "revid": 6623205,
+  "revision_timestamp": "2026-10-01T11:58:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 50,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/दीपावली",
+  "position_in_run": 2,
+  "sha256": "c8e147c3f7cd454840490e08d1aa218093b37effb5dde21e774485e3485f7520",
+  "revid": 6623205,
+  "revision_timestamp": "2026-10-01T11:58:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 51,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/दीपावली",
+  "position_in_run": 3,
+  "sha256": "4afc07c2c5822ba69c3697e6c7f9c7f5ae331f5d7df491fed8123d6404d439c6",
+  "revid": 6623205,
+  "revision_timestamp": "2026-10-01T11:58:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 52,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/दीपावली",
+  "position_in_run": 4,
+  "sha256": "2cb3c87c52b959163a21a1bedb487d947bfefbd472f0c81ed7a9229eb306fd41",
+  "revid": 6623205,
+  "revision_timestamp": "2026-10-01T11:58:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 53,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/दीपावली",
+  "position_in_run": 5,
+  "sha256": "9cf7e910c78951a8af43e9ec83ab502496f14d43f100a3a0c62022070b5843a1",
+  "revid": 6623205,
+  "revision_timestamp": "2026-10-01T11:58:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 54,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/दीपावली",
+  "position_in_run": 6,
+  "sha256": "e47ca27dd2897f80d299eac32eb8e52186619ac1dafb9b6ae647d147350db852",
+  "revid": 6623205,
+  "revision_timestamp": "2026-10-01T11:58:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 55,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/दीपावली",
+  "position_in_run": 7,
+  "sha256": "7cee2ac8e9fbca90db86ede8d9c9c1c5c5fed561966d470292331206c5ec4da7",
+  "revid": 6623205,
+  "revision_timestamp": "2026-10-01T11:58:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 56,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/दीपावली",
+  "position_in_run": 8,
+  "sha256": "b5c3f5077b690159a6e34a0ec9118b7d06eb34f9ad9ce0fdf76efeccd3ebdabf",
+  "revid": 6623205,
+  "revision_timestamp": "2026-10-01T11:58:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 57,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/दीपावली",
+  "position_in_run": 9,
+  "sha256": "c77a97d1e14aefed4fcc6b5b4363d0cd7463fa687a1d3d050e262f0b8daf5002",
+  "revid": 6623205,
+  "revision_timestamp": "2026-10-01T11:58:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 58,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/दीपावली",
+  "position_in_run": 10,
+  "sha256": "4da72e76115fe2fd3d8797dca3088d0925e643ba49a7fc9eb91ea596fba30f58",
+  "revid": 6623205,
+  "revision_timestamp": "2026-10-01T11:58:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 59,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/दीपावली",
+  "position_in_run": 11,
+  "sha256": "f716a4136e113621604294c01c29efc68916f7c6ed481e1e5a64ccf96198191d",
+  "revid": 6623205,
+  "revision_timestamp": "2026-10-01T11:58:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 60,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://hi.wikipedia.org/wiki/दीपावली",
+  "position_in_run": 12,
+  "sha256": "2239b4ffd43e28eb4802c7211d52b343e45fc0e9b42446f667c89dfe97401aee",
+  "revid": 6623205,
+  "revision_timestamp": "2026-10-01T11:58:06Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 61,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 1,
+  "sha256": "830e9eaa66144f7a4b9fa2a6e9cd5ad2fc42b3069365d89c5fb4bfdd84ea514f"
+ },
+ {
+  "id": 62,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 2,
+  "sha256": "d89cb52d1e9e4569763873b0a1b93e681297d5e9446c0ff3287d640a8952cd9f"
+ },
+ {
+  "id": 63,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 3,
+  "sha256": "4f2207148bbefe7e063cbb23cb3a6d9fa3bc976a8a15ce4b5d1d982f50d97ff7"
+ },
+ {
+  "id": 64,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 4,
+  "sha256": "0528ff2bb76082dfd01cd0759810151b6574a7f0af6a22df34a84390e1104743"
+ },
+ {
+  "id": 65,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 5,
+  "sha256": "b251ac9769f61051dae9bf60a7804a36b69733e6dbfc58b075b518b509aac06a"
+ },
+ {
+  "id": 66,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 6,
+  "sha256": "47337cc8312902548592aa63d3cce44bdb9a06fdf6e4f639fe0c5564b6f364f4"
+ },
+ {
+  "id": 67,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 7,
+  "sha256": "914fa70f8a576243b2ec2a3cd603d0accdccd4b2e4083d63fc19d3110e2f04f3"
+ },
+ {
+  "id": 68,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 8,
+  "sha256": "1bb002e8462781ad2afe94a6a17dba748001e59a8a7a3559eaf3f7ff18ab11f1"
+ },
+ {
+  "id": 69,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 9,
+  "sha256": "0184e3a584d65ce848dabe3172772915c05a7b247c7d642841cb2021c66c2b42"
+ },
+ {
+  "id": 70,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 10,
+  "sha256": "c32db52c9e811168759eab9cb9b64bf4156f69cde252a70abcbc12fdc813b1e1"
+ },
+ {
+  "id": 71,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 11,
+  "sha256": "cbe194b98aa0626a8d32c7806db9d322d1ac722e6299d1416990d2da351a168c"
+ },
+ {
+  "id": 72,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 12,
+  "sha256": "4bd8d8b9c02bf07b65834efe0918ed693680b9aef15e84d3d442825f952022e9"
+ },
+ {
+  "id": 73,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 13,
+  "sha256": "b265d43f8e71b82f8fea91ce071f57f21c8005472875c9fcc7228bf7ded6a687"
+ },
+ {
+  "id": 74,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 14,
+  "sha256": "cc005ef163a77664dccfda624aa833e820f7a04d862f1885ef0666d49d36f86b"
+ },
+ {
+  "id": 75,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 15,
+  "sha256": "6a8a218a2ba224343e93390f7a13f40063d1fc169680cc556550053c75c5f3bf"
+ },
+ {
+  "id": 76,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 16,
+  "sha256": "07aa325da5a99c78efb4867cb35fd5b5a8f2bd8207651b5d5f79af5029e47503"
+ },
+ {
+  "id": 77,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 17,
+  "sha256": "b93a78915cc8864a28830230eb9b43318c640eed7b99548c5fcab55503b03d8a"
+ },
+ {
+  "id": 78,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 18,
+  "sha256": "977d1437b4132f5994d184fe1037ac4ccb348494200d8ae85b3f751cf58d9c57"
+ },
+ {
+  "id": 79,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 19,
+  "sha256": "1e29a72cb73618cf74359ce3e84cf822a846eb65a1a83a19744aab70995f3e22"
+ },
+ {
+  "id": 80,
+  "domain": "news/jansatta-opinion",
+  "kind": "news",
+  "url": "https://www.jansatta.com/opinion/revenge-psychology-mental-peace-power-of-forgiveness-dunia-mere-aage/4773705/",
+  "position_in_run": 20,
+  "sha256": "b51e9ac06e95209a64086528b06e7a19bd6d020b865e37ea95f7629373b7383c"
+ },
+ {
+  "id": 81,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 1,
+  "sha256": "1f9242eba1281475636077b5bc806d2ede6d193f86e0178c88a740ac9acfa9a0"
+ },
+ {
+  "id": 82,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 2,
+  "sha256": "ca0e55b347740b335cb8c230c1b7c3c1f8dd001e830ff7b390dda513342a3c64"
+ },
+ {
+  "id": 83,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 3,
+  "sha256": "e8f2d917b3c3aaae18a183a246cb7ec2ad24e27f96c77407164631d05b91cb71"
+ },
+ {
+  "id": 84,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 4,
+  "sha256": "bc094acb4cd8fd2481bcc27617583d52f1e9625a3eb6b1f9be788abc22ad2089"
+ },
+ {
+  "id": 85,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 5,
+  "sha256": "618b6fda4e36f47f4ed2478bb532d6dcce9d574d0981cf6a1b893e322d42e55a"
+ },
+ {
+  "id": 86,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 6,
+  "sha256": "1d08a21fe4e8174c1a5cac95e8586fcf35d44d88c33055236dd604dcc44a3bbc"
+ },
+ {
+  "id": 87,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 7,
+  "sha256": "31748d853b82e58aebce0b687a8bb99a1a2153dcd704694ef21d9c1ab785dba6"
+ },
+ {
+  "id": 88,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 8,
+  "sha256": "58adddd82a355fde3b47cc7baa00b477bae6f4838da4703846d7d13cca79aec1"
+ },
+ {
+  "id": 89,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 9,
+  "sha256": "3f3274f601e1f373bce722bbec4dd25fe070e6908ebaf47f963c019e8d2ec93f"
+ },
+ {
+  "id": 90,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 10,
+  "sha256": "bd564bd43e426dd1c340f40297b59d5c1c4db6f6a7ca19716ae9eeecda168a4e"
+ },
+ {
+  "id": 91,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 11,
+  "sha256": "5c7f567ed4b2bf091a22e456daf2711ffec4e97ce2c9fa9c090724bb578f06ce"
+ },
+ {
+  "id": 92,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 12,
+  "sha256": "a5e22dd1e91045fbeab52689303030545304870440acf0d8f7dbaccc28beca3a"
+ },
+ {
+  "id": 93,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 13,
+  "sha256": "87f051de764cadced196adc51388565613fcbfd6475dbbdcb55aae10346e4e7f"
+ },
+ {
+  "id": 94,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 14,
+  "sha256": "24c17769f08f7103ee659875b48ce5dfece23d36cac7d13ed5adc131597d23d7"
+ },
+ {
+  "id": 95,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 15,
+  "sha256": "2a09e236b949febfd738dbbd7b70774bb86d07ccea6287640af6b2449006e6dc"
+ },
+ {
+  "id": 96,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 16,
+  "sha256": "b8cd2a7a8cbb73caca6591cdf27cf3085d3283e1d4f9c9965a6cd202b450201c"
+ },
+ {
+  "id": 97,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 17,
+  "sha256": "79fface6f4f32aebf0f90a1e7153bc06ad3b695bb84092c4d00cc59b290d224c"
+ },
+ {
+  "id": 98,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 18,
+  "sha256": "24864fcc9f4a8fd0ae01f6428c4c57687ecfd0b46f98fb4642287b75134871f3"
+ },
+ {
+  "id": 99,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 19,
+  "sha256": "d0de5658b63e2a4d5a46634067dd39923c96ab163dd9cfbe66ca2da95148d31d"
+ },
+ {
+  "id": 100,
+  "domain": "news/bbc-hindi",
+  "kind": "news",
+  "url": "https://www.bbc.com/hindi/articles/cxvgdyd80660o",
+  "position_in_run": 20,
+  "sha256": "46c48e8d4138dff05ad58c5d6ead2c4b42f2cb4560a37afdf7e1483e7412112f"
+ }
+]

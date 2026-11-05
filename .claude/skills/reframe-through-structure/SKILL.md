@@ -417,7 +417,7 @@ table below is the **German** profile, written out because the combinations were
 derived on it. For any source language call
 `mcp__lat__get_routing { "source_language": "<language>" }` first and route by
 what it returns; profiles exist for German, English, French, Spanish, Russian,
-Polish, Japanese, Chinese and Arabic. Per combination it gives:
+Polish, Japanese, Chinese, Arabic, Hindi and Turkish. Per combination it gives:
 
 - the **marker** that carries the trigger in that language — the German markers
   do not transfer, and the mapping is not one-to-one;
@@ -435,7 +435,7 @@ Polish, Japanese, Chinese and Arabic. Per combination it gives:
 Rows marked `derived` were worked out from the cited grammar without a run;
 treat them as the heuristic they are until one confirms them. Rows marked
 `checked` had their marker tested against 100 real sentences in the language and
-revised where it failed — the current state for K2 to K8 in all nine profiles.
+revised where it failed — the current state for K2 to K8 in all eleven profiles.
 The check had one annotator per language; read its numbers as direction.
 
 | Marker in the source sentence | Combination |
@@ -692,9 +692,10 @@ interference rules carry over unchanged; the routing has to be re-derived. The
 English derivation found three triggers changed, one with no counterpart at all,
 and one marker missing from the table entirely — and the check then showed the
 derivation wrong in one row (K4) and incomplete in the other four. The French, Spanish, Russian,
-Polish, Japanese, Chinese and Arabic profiles were derived from grammars and then checked the
+Polish, Japanese, Chinese, Arabic, Hindi and Turkish profiles were derived from grammars and then checked the
 same way. Russian and Polish invert K5 and drop Finnish from it, since their
-aspect already says how far the event reached the object; Japanese replaces
+aspect already says how far the event reached the object; Hindi inverts K5 too
+but keeps Russian, since its perfective does not say whether the goal was reached; Japanese replaces
 Yucatec in K4, since its numeral classifiers already make the choice that lens
 forces. The check also found that the generic K6 marker — genitive, *de*, *no* —
 mostly joins two nouns without any possession, which is K8's trigger.

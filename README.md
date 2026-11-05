@@ -164,7 +164,7 @@ All tools are read-only. Every filter is optional and filters are AND-combined.
 | `get_pattern` | Full details of one pattern by `kind` + `name`. |
 | `list_patterns` | List all patterns, optionally restricted to one `kind`. |
 | `list_facets` | Distinct categories / classifications / attachments / tags / themes per table, so the agent knows valid filter values. |
-| `get_routing` | The pass-2 combinations (K1–K8) routed for a `source_language`: per combination the verdict (`fires` / `inverted`), the surface marker that triggers it in that language, the roster with substitutions applied, and `own_entries` to pass as `exclude_names`. Profiles: German, English, French, Spanish, Russian, Polish, Japanese, Chinese, Arabic. Without an argument, or for a language without a profile, it lists the profiles and the language-neutral combinations. |
+| `get_routing` | The pass-2 combinations (K1–K8) routed for a `source_language`: per combination the verdict (`fires` / `inverted`), the surface marker that triggers it in that language, the roster with substitutions applied, and `own_entries` to pass as `exclude_names`. Profiles: German, English, French, Spanish, Russian, Polish, Japanese, Chinese, Arabic, Hindi, Turkish. Without an argument, or for a language without a profile, it lists the profiles and the language-neutral combinations. |
 
 `kind` is `form` or `language` (omit it to search both).
 
@@ -524,7 +524,7 @@ additional_docs/
   lat_catalog.md            # the catalog — single source of truth
   lat_routing.md            # combinations and per-language routing — single source of truth
   validation/2026-10-03/    # evidence for the `checked` routing rows (100 sentences per language)
-  validation/2026-11-05/    # the same for the Chinese and Arabic profiles
+  validation/2026-11-05/    # the same for the Chinese, Arabic, Hindi and Turkish profiles
   lat_facets.md             # generated snapshot of filter values
                             # (founding essay lives on Zenodo, not in-repo)
 tools/

@@ -1,0 +1,3402 @@
+{
+ "1": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "शुरू हुआ / समाप्त हुआ (b); जिसने शासन किया (c)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "मुग़ल साम्राज्य"
+  },
+  "K5": {
+   "present": true,
+   "span": "शासन किया / समाप्त हुआ"
+  },
+  "K6": {
+   "present": true,
+   "span": "दक्षिण एशिया की / शताब्दी की शुरुआत"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "मुग़ल साम्राज्य / भारतीय उपमहाद्वीप"
+  }
+ },
+ "2": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "मुगल साम्राज्य"
+  },
+  "K5": {
+   "present": true,
+   "span": "जिम्मेदार रहेँ (durative रहना)"
+  },
+  "K6": {
+   "present": true,
+   "span": "साम्राज्य के अंत / नादिर शाह के आक्रमण"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "मराठे आक्रमण / साम्राज्य के अंत"
+  }
+ },
+ "3": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "संस्कृति"
+  },
+  "K5": {
+   "present": true,
+   "span": "विकसित किया"
+  },
+  "K6": {
+   "present": true,
+   "span": "पीढ़ी के तैमूरवंशी"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "मुग़ल सम्राट / हिन्द-फारसी संस्कृति"
+  }
+ },
+ "4": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "इसने ... नियंत्रित किया (c)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "नियंत्रित किया"
+  },
+  "K6": {
+   "present": true,
+   "span": "अपनी शक्ति / इसका विस्तार"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "भारतीय उपमहाद्वीप / कावेरी घाटी"
+  }
+ },
+ "5": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "अनुमान ... लगाया गया था (a)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge) अनुमान लगाया गया (not listed)"
+  },
+  "K4": {
+   "present": true,
+   "span": "जनसंख्या"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "साम्राज्य की जनसंख्या / जनसंख्या का अनुमान"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "जनसंख्या का अनुमान"
+  }
+ },
+ "6": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "गिरावट आई"
+  },
+  "K6": {
+   "present": true,
+   "span": "इसकी शक्ति"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "7": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "कमजोर हुए / सीमित रह गया (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "साम्राज्य / उपनिवेशवाद"
+  },
+  "K5": {
+   "present": true,
+   "span": "सीमित रह गया था"
+  },
+  "K6": {
+   "present": true,
+   "span": "साम्राज्य का अंतिम सम्राट / जिसका शासन"
+  },
+  "K7": {
+   "present": true,
+   "span": "की वजह से / उपनिवेशवाद से कमजोर"
+  },
+  "K8": {
+   "present": true,
+   "span": "कृषि संकट / दिल्ली शहर"
+  }
+ },
+ "8": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "अंग्रेजों ने ... रखा (c)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "ब्रिटिश द्वारा"
+  },
+  "K5": {
+   "present": true,
+   "span": "कैद में रखा"
+  },
+  "K6": {
+   "present": true,
+   "span": "1857 के भारतीय विद्रोह"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "भारतीय विद्रोह (rel. adj.)"
+  }
+ },
+ "9": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "उत्कर्ष शुरू हुआ ... समाप्त हुआ (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "शुरू हुआ ... समाप्त हुआ / चला"
+  },
+  "K6": {
+   "present": true,
+   "span": "साम्राज्य का उत्कर्ष / औरंगज़ेब के निधन"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "पदग्रहण / साम्राज्य का उत्कर्ष"
+  }
+ },
+ "10": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "निर्मित किया गया था (a)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "निर्मित किया गया था"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "11": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "विरासत"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "मुग़लों के ... स्मारक / उनके ... विरासत"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "दृश्य विरासत"
+  }
+ },
+ "12": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "साम्राज्य"
+  },
+  "K5": {
+   "present": true,
+   "span": "कहा है / करते थे"
+  },
+  "K6": {
+   "present": true,
+   "span": "जिसका उपयोग"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "तैमूरी साम्राज्य / जिसका उपयोग"
+  }
+ },
+ "13": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "ऊर्जा / जल / वायु"
+  },
+  "K5": {
+   "present": true,
+   "span": "निर्माण करते हैं (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "सूर्य के प्रकाश / प्रकाश की उपस्थिति"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "रासायनिक ऊर्जा / खाद्य पदार्थों"
+  }
+ },
+ "14": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "प्रकाश"
+  },
+  "K5": {
+   "present": true,
+   "span": "भाग नहीं लेता है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "प्रकाश की उपस्थिति"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "प्रकाश की उपस्थिति"
+  }
+ },
+ "15": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "उत्पन्न होते हैं (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "जल (mass)"
+  },
+  "K5": {
+   "present": true,
+   "span": "उत्पन्न होते हैं (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "कार्बनडाइऑक्साइड के ६ अणुओं"
+  },
+  "K7": {
+   "present": true,
+   "span": "जिसके फलस्वरूप"
+  },
+  "K8": {
+   "present": true,
+   "span": "रासायनिक क्रिया / जल के १२ अणुओं"
+  }
+ },
+ "16": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "मुक्त होते हैं (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "ग्लूकोज / ऑक्सीजन / जल"
+  },
+  "K5": {
+   "present": true,
+   "span": "मुक्त होते हैं (habitual)"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "उप पदार्थ"
+  }
+ },
+ "17": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "लग जाता है (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "जल"
+  },
+  "K5": {
+   "present": true,
+   "span": "अवशोषित हो जाता है (habitual)"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "जैव-रासायनिक प्रतिक्रियाओं"
+  }
+ },
+ "18": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "ऑक्सीजन"
+  },
+  "K5": {
+   "present": true,
+   "span": "चली जाती है (habitual)"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "19": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "जल (के अणु)"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "ऑक्सीजन का स्रोत / जल के अणु"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "ऑक्सीजन का स्रोत"
+  }
+ },
+ "20": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "रूपान्तरण ... होता है (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "ऊर्जा"
+  },
+  "K5": {
+   "present": true,
+   "span": "रूपान्तरण होता है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "सूर्य की विकिरण ऊर्जा"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "विकिरण ऊर्जा"
+  }
+ },
+ "21": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "संचित हो जाती है (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "ग्लूकोज"
+  },
+  "K5": {
+   "present": true,
+   "span": "संचित हो जाती है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "ग्लूकोज के अणुओं"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "ग्लूकोज के अणुओं"
+  }
+ },
+ "22": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "ऊर्जा"
+  },
+  "K5": {
+   "present": true,
+   "span": "बाँध दिया जाता है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "टेरावाट की सौर्य ऊर्जा / पदार्थ के अणुओं"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "प्रकाश-संश्लेषण / भोज्य पदार्थ"
+  }
+ },
+ "23": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "इस ऊर्जा का परिमाण"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "ऊर्जा खर्च / मानव सभ्यता"
+  }
+ },
+ "24": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "स्थितिज ऊर्जा"
+  },
+  "K5": {
+   "present": true,
+   "span": "संचित रहती है (habitual)"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "स्थितिज ऊर्जा"
+  }
+ },
+ "25": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "कहा जाता है (a)"
+  },
+  "K3": {
+   "present": false,
+   "span": "कहा जाता है (naming verb, blocks the marker)"
+  },
+  "K4": {
+   "present": true,
+   "span": "माल"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "सेवाओं की कीमतों"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "मुद्रास्फीति"
+  }
+ },
+ "26": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "मूल्य बढ़ते हैं / कमी होती है (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "मुद्रा / पैसे / माल"
+  },
+  "K5": {
+   "present": true,
+   "span": "बढ़ते हैं / कमी हो जाती है"
+  },
+  "K6": {
+   "present": true,
+   "span": "मुद्रा की हर ईकाई / ईकाई की क्रय शक्ति"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "क्रय शक्ति"
+  }
+ },
+ "27": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "स्थिति ... काम करती है (c)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "जनता"
+  },
+  "K5": {
+   "present": true,
+   "span": "काम करती है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "अतिस्फीति की स्थिति"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "मुद्रास्फीति / अतिस्फीति"
+  }
+ },
+ "28": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "उत्पन्न होती है (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge) अर्थशास्त्री मानते हैं (not listed)"
+  },
+  "K4": {
+   "present": true,
+   "span": "पैसा / मुद्रा"
+  },
+  "K5": {
+   "present": true,
+   "span": "उत्पन्न होती है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "आपूर्ति के अतिशय"
+  },
+  "K7": {
+   "present": true,
+   "span": "अतिशय से / छापने से (causal से)"
+  },
+  "K8": {
+   "present": true,
+   "span": "मुद्रा आपूर्ति"
+  }
+ },
+ "29": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "कीमतें गिरती हैं (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "माल"
+  },
+  "K5": {
+   "present": true,
+   "span": "गिरती हैं (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "सेवाओं की कीमतें"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "मुद्रास्फीति / अपस्फीति"
+  }
+ },
+ "30": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "करा जाता है (a)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "करा जाता है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "मुद्रास्फीति का माप"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "मुद्रास्फीति दर / मूल्य वृद्धि"
+  }
+ },
+ "31": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "माना जाएगा (a); बढ़ गई (b)"
+  },
+  "K3": {
+   "present": false,
+   "span": "माना जाएगा (future/conditional)"
+  },
+  "K4": {
+   "present": true,
+   "span": "सामान"
+  },
+  "K5": {
+   "present": true,
+   "span": "बढ़ गई"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "मुद्रा स्फीति"
+  }
+ },
+ "32": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "असर पड़ता है / कम होने (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "जनता"
+  },
+  "K5": {
+   "present": true,
+   "span": "गिरावट आती है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "उनकी क्रय शक्ति"
+  },
+  "K7": {
+   "present": true,
+   "span": "क्योंकि / कम होने से"
+  },
+  "K8": {
+   "present": true,
+   "span": "क्रय शक्ति / जीवन स्तर"
+  }
+ },
+ "33": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "मापन ... होता है (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "मापन होता है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "मुद्रा स्फीति का मापन"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "थोक मूल्य सूचकांक"
+  }
+ },
+ "34": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "हो सकते हैं (modal)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "मुद्रास्फीति के कई कारण"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "मुद्रास्फीति"
+  }
+ },
+ "35": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "बाँट सकते हैं (modal)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "36": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "पैदा होते हैं / उत्पन्न होते हैं (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "माल"
+  },
+  "K5": {
+   "present": true,
+   "span": "पैदा होते हैं (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "माल सेवा की मांग"
+  },
+  "K7": {
+   "present": true,
+   "span": "वृद्धि से / कमी से (causal से)"
+  },
+  "K8": {
+   "present": true,
+   "span": "मांग कारक / मूल्य वृद्धि कारक"
+  }
+ },
+ "37": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "जाने जाते हैं (a)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "उर्दू के ... उपन्यासकार"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "कहानीकार"
+  }
+ },
+ "38": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "लिखीं"
+  },
+  "K6": {
+   "present": true,
+   "span": "पूस की रात (titles)"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "पंच परमेश्वर / पूस की रात (titles)"
+  }
+ },
+ "39": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "प्रकाशित हुईं (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "प्रकाशित हुईं"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "40": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "लिखा"
+  },
+  "K6": {
+   "present": true,
+   "span": "अपने दौर की"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "उर्दू और हिन्दी पत्रिकाओं"
+  }
+ },
+ "41": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "संपादन और प्रकाशन भी किया"
+  },
+  "K6": {
+   "present": true,
+   "span": "'हंस' का संपादन"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "समाचार पत्र / साहित्यिक पत्रिका"
+  }
+ },
+ "42": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "घाटे में रहा"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "सरस्वती प्रेस"
+  }
+ },
+ "43": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "तीन वर्ष तक रहे"
+  },
+  "K6": {
+   "present": true,
+   "span": "फिल्मों की पटकथा"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "फिल्मों की पटकथा"
+  }
+ },
+ "44": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "जीवन के अंतिम दिनों"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "साहित्य सृजन"
+  }
+ },
+ "45": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "माना जाता है (a)"
+  },
+  "K3": {
+   "present": false,
+   "span": "माना जाता है"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "उनका अंतिम निबन्ध"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "साहित्य का उद्देश्य"
+  }
+ },
+ "46": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "लिखा गया (a)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "साहित्य"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "प्रेमचंद का साहित्य"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "सामाजिक सांस्कृतिक दस्तावेज"
+  }
+ },
+ "47": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "आन्दोलनों के सामाजिक प्रभावों"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "समाजसुधार आन्दोलनों"
+  }
+ },
+ "48": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "समस्याओं का चित्रण"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "जाति भेद / विधवा विवाह"
+  }
+ },
+ "49": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "मनाया जाने वाला (a)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "गोलार्ध की शरद् ऋतु"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "दीपावली / शरद् ऋतु"
+  }
+ },
+ "50": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "मनाया जाता है (a)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "मनाया जाता है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "भारत के ... त्योहारों"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "कार्तिक मास"
+  }
+ },
+ "51": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "यह ... दर्शाता है (c, cf. अध्ययन दिखाता है)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "प्रकाश"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "प्रकाश की विजय"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "प्रकाश की विजय"
+  }
+ },
+ "52": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "यूनेस्को ने ... शामिल कर लिया है (c)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "यूनेस्को"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "अपनी ... सूची"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "विरासत सूची"
+  }
+ },
+ "53": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "संस्कृत के दो शब्दों"
+  },
+  "K7": {
+   "present": true,
+   "span": "मिश्रण से (causal से)"
+  },
+  "K8": {
+   "present": true,
+   "span": "दीपावली शब्द / शब्द की उत्पत्ति"
+  }
+ },
+ "54": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "प्रज्वलित किया जाता है (a)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "घरों के द्वारों"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "55": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "कहा जाता है / जानी जाती है (a)"
+  },
+  "K3": {
+   "present": false,
+   "span": "कहा जाता है (naming verb, blocks the marker)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "56": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "दर्शाया गया (a)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "दर्शाया गया"
+  },
+  "K6": {
+   "present": true,
+   "span": "संवत् के कार्तिक माह"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "विक्रम संवत् / कार्तिक माह"
+  }
+ },
+ "57": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "दीपावली का उल्लेख"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "पद्म पुराण / दीपावली का उल्लेख"
+  }
+ },
+ "58": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "माना जाता है / लिखे गए थे (a)"
+  },
+  "K3": {
+   "present": false,
+   "span": "माना जाता है"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "लिखे गए थे"
+  },
+  "K6": {
+   "present": true,
+   "span": "सहस्त्राब्दी के दूसरे भाग"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "केंद्रीय पाठ (rel. adj.)"
+  }
+ },
+ "59": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "माना गया है (a); सूर्य ... बदलता है (c)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge) माना गया है (not listed)"
+  },
+  "K4": {
+   "present": true,
+   "span": "प्रकाश और ऊर्जा"
+  },
+  "K5": {
+   "present": true,
+   "span": "स्तिथि बदलता है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "अपनी स्तिथि"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "कार्तिक माह / हिन्दू कैलंडर"
+  }
+ },
+ "60": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "नचिकेता की कथा"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "नचिकेता की कथा"
+  }
+ },
+ "61": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "इंसान"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "इंसान की ... प्रवृत्तियों"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "प्रतिशोध लेने की"
+  }
+ },
+ "62": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "भावना जागृत हो जाती है (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "लाभ उठाता है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "उसके विश्वास"
+  },
+  "K7": {
+   "present": true,
+   "span": "किसी कारण से"
+  },
+  "K8": {
+   "present": true,
+   "span": "आत्मसम्मान"
+  }
+ },
+ "63": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "इच्छा जागृत हो जाती है (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "चोट पहुंचाता है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "पहुंचाने की ... इच्छा"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "पहुंचाने की ... इच्छा"
+  }
+ },
+ "64": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "अपने अपमान"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "65": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "मन ... पैदा करता है (c)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "पैदा करता है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "हमारा मन"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "न्याय की मांग"
+  }
+ },
+ "66": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "मन की ऐसी मांग"
+  },
+  "K7": {
+   "present": true,
+   "span": "क्योंकि"
+  },
+  "K8": {
+   "present": true,
+   "span": "अन्याय की पीड़ा"
+  }
+ },
+ "67": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "अपना प्रतिशोध"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "68": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "चोट लगती है (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "घाव ... रहते हैं (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "उसके घाव"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "आत्मसम्मान"
+  }
+ },
+ "69": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "भुलाए नहीं भूलते (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "अपनों"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "70": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "हो जाता है (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "हो जाता है (habitual)"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "71": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "पाना ... मजबूर कर देता है (c)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "अपने आत्ममूल्य"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "आत्ममूल्य"
+  }
+ },
+ "72": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "लेने की भावना"
+  },
+  "K7": {
+   "present": true,
+   "span": "इसलिए नहीं"
+  },
+  "K8": {
+   "present": true,
+   "span": "प्रतिशोध लेने की भावना"
+  }
+ },
+ "73": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "74": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "सवाल उठते हैं (b); समझा जाए (a)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "उसके मन / मेरी अच्छाई"
+  },
+  "K7": {
+   "present": true,
+   "span": "क्योंकि"
+  },
+  "K8": {
+   "present": true,
+   "span": "अच्छाई का लाभ"
+  }
+ },
+ "75": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "सवाल ... उठते हैं (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "लोगों की नजरों"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "76": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "सवाल ... उकसाते हैं (c)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "व्यक्ति"
+  },
+  "K5": {
+   "present": true,
+   "span": "उकसाते हैं (habitual)"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "77": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "अपने नुकसान"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "78": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "मन ... आकलन करने लगता है (c)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "हमारा मन"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "भावनात्मक महत्त्व"
+  }
+ },
+ "79": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "बनता है (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "बनता है (habitual)"
+  },
+  "K6": {
+   "present": true,
+   "span": "हमारा क्रोध"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "80": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "भावनाएं उठने लगती हैं (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "क्रोध की भावनाएं"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "क्रोध की भावनाएं"
+  }
+ },
+ "81": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "अमेरिकी उपराष्ट्रपति"
+  }
+ },
+ "82": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "पार्टी"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "अपनी पार्टी"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "मिडटर्म चुनाव / ईरान युद्ध"
+  }
+ },
+ "83": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "देखा जा रहा है (a)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge) देखा जा रहा है (not listed)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "उनके इस बयान"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "राष्ट्रपति"
+  }
+ },
+ "84": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "माना जा रहा है (a)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge) माना जा रहा है (not listed)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "उतरने की तैयारी"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "राष्ट्रपति चुनाव"
+  }
+ },
+ "85": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "रिपब्लिकन पार्टी"
+  },
+  "K5": {
+   "present": true,
+   "span": "साथ छोड़ दिया"
+  },
+  "K6": {
+   "present": true,
+   "span": "शब्दों के एक ... बयान"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "मीडिया प्लेटफॉर्म / मिडटर्म चुनाव"
+  }
+ },
+ "86": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "हमारी हार"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "हार की वजह"
+  }
+ },
+ "87": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "राष्ट्रपति"
+  }
+ },
+ "88": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "दिए गए (a, participle)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "बचाव किया था"
+  },
+  "K6": {
+   "present": true,
+   "span": "युद्ध का बचाव"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "युद्ध का बचाव"
+  }
+ },
+ "89": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge) माना कि (not listed)"
+  },
+  "K4": {
+   "present": true,
+   "span": "डेमोक्रेटिक पार्टी / सीनेट"
+  },
+  "K5": {
+   "present": true,
+   "span": "भूमिका रही"
+  },
+  "K6": {
+   "present": true,
+   "span": "युद्ध की भूमिका"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "अमेरिकी प्रतिनिधि सभा"
+  }
+ },
+ "90": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "छिपी नहीं है (b)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "वेंस की राय"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "ईरान युद्ध"
+  }
+ },
+ "91": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": true,
+   "span": "अमेरिका और इसराइल"
+  },
+  "K5": {
+   "present": true,
+   "span": "समर्थन किया है"
+  },
+  "K6": {
+   "present": true,
+   "span": "संघर्ष का समर्थन"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "संघर्ष का समर्थन"
+  }
+ },
+ "92": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge) ख़बरों के मुताबिक़ (not listed)"
+  },
+  "K4": {
+   "present": true,
+   "span": "प्रशासन"
+  },
+  "K5": {
+   "present": true,
+   "span": "विरोध किया था"
+  },
+  "K6": {
+   "present": true,
+   "span": "प्रशासन के अधिकारियों"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "युद्ध का विरोध"
+  }
+ },
+ "93": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": true,
+   "span": "होने दिया गया था (a)"
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": true,
+   "span": "होने दिया गया था"
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "94": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "95": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge) उनके मुताबिक़ (not listed)"
+  },
+  "K4": {
+   "present": true,
+   "span": "पार्टी"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "उनकी पार्टी"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "करने का फ़ैसला"
+  }
+ },
+ "96": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "(conditional + modal in quote)"
+  },
+  "K4": {
+   "present": true,
+   "span": "सीनेट (locative)"
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "97": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "कह सकते हैं (modal)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "इसकी क़ीमत"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "98": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": false,
+   "span": "होगी (presumptive)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "99": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": false,
+   "span": ""
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": false,
+   "span": ""
+  }
+ },
+ "100": {
+  "K1": {
+   "present": true,
+   "span": "(any sentence)"
+  },
+  "K2": {
+   "present": false,
+   "span": ""
+  },
+  "K3": {
+   "present": true,
+   "span": "(plain indicative, no listed hedge)"
+  },
+  "K4": {
+   "present": false,
+   "span": ""
+  },
+  "K5": {
+   "present": false,
+   "span": ""
+  },
+  "K6": {
+   "present": true,
+   "span": "इसकी कोई मिसाल"
+  },
+  "K7": {
+   "present": false,
+   "span": ""
+  },
+  "K8": {
+   "present": true,
+   "span": "राजनीतिक इतिहास (rel. adj.)"
+  }
+ }
+}

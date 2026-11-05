@@ -674,7 +674,7 @@ mod tests {
 
         let json = json_of(&result);
         assert!(json.get("message").is_none());
-        assert_eq!(json["profiles"].as_array().unwrap().len(), 9);
+        assert_eq!(json["profiles"].as_array().unwrap().len(), 11);
         assert_eq!(json["combinations"].as_array().unwrap().len(), 8);
         assert_eq!(json["combinations"][4]["roster"][0]["name"], "Russian");
     }
@@ -730,7 +730,7 @@ mod tests {
         let json = json_of(&result);
         let message = json["message"].as_str().expect("a message is expected");
         assert!(message.contains("'Klingon'"), "got: {message}");
-        assert_eq!(json["profiles"].as_array().unwrap().len(), 9);
+        assert_eq!(json["profiles"].as_array().unwrap().len(), 11);
         assert_ne!(result.is_error, Some(true));
     }
 

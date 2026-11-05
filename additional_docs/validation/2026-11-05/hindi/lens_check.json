@@ -1,0 +1,1729 @@
+[
+ {
+  "combination": "K5",
+  "lens": "Russian",
+  "status": "removed by substitution",
+  "forced_choice": "whether the act is goal-directed or processual",
+  "attachment": "verb",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   3,
+   6,
+   8,
+   10,
+   31,
+   39,
+   41,
+   43,
+   56
+  ],
+  "forces_new_choice": [
+   3,
+   6,
+   8,
+   41,
+   43,
+   56
+  ],
+  "already_made": [
+   1,
+   10,
+   31,
+   39
+  ],
+  "not_applicable": [],
+  "count": "6 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": false,
+    "why": "समाप्त हुआ: achievement, end reached"
+   },
+   "3": {
+    "forces": true,
+    "why": "simple perfective विकसित किया is non-culminating in Hindi; whether the culture was brought to completion (развили) or developed over time (развивали) is open; no vector verb"
+   },
+   "6": {
+    "forces": true,
+    "why": "गिरावट आई: perfective light verb over a decline; processual (приходила в упадок) or reaching a result is open"
+   },
+   "8": {
+    "forces": true,
+    "why": "कैद में रखा: perfective of a durative state; Russian would choose держали (processual)"
+   },
+   "10": {
+    "forces": false,
+    "why": "pluperfect passive निर्मित किया गया था: resultative, the administration stands"
+   },
+   "31": {
+    "forces": false,
+    "why": "बढ़ गई: vector verb states culmination"
+   },
+   "39": {
+    "forces": false,
+    "why": "प्रकाशित हुईं: achievement, published"
+   },
+   "41": {
+    "forces": true,
+    "why": "संपादन ... किया: years of editing in one simple perfective; processual (редактировал) not chosen"
+   },
+   "43": {
+    "forces": true,
+    "why": "तीन वर्ष तक रहे: perfective of a durative stay; жил against прожил open"
+   },
+   "56": {
+    "forces": true,
+    "why": "प्राचीन काल से ... दर्शाया गया: simple perfective over a practice running since antiquity; processual reading not chosen"
+   }
+  },
+  "note": "Hindi forces perfective against imperfective viewpoint, not culmination: the simple perfective is non-culminating and the culmination sits on the optional vector verb (the row's own note). Russian therefore still forces a choice wherever no vector verb or result-state is present."
+ },
+ {
+  "combination": "K5",
+  "lens": "Luganda (graded tense)",
+  "status": "replacement",
+  "forced_choice": "how far away the event lies",
+  "attachment": "verb",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   3,
+   6,
+   8,
+   10,
+   31,
+   39,
+   41,
+   43,
+   56
+  ],
+  "forces_new_choice": [
+   1,
+   3,
+   6,
+   8,
+   10,
+   31,
+   39,
+   41,
+   43,
+   56
+  ],
+  "already_made": [],
+  "not_applicable": [],
+  "count": "10 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "no graded past; the date is lexical (19th century), so the answer is 'remote' and trivial"
+   },
+   "3": {
+    "forces": true,
+    "why": "no graded past, no date in the sentence"
+   },
+   "6": {
+    "forces": true,
+    "why": "no graded past; dated lexically (1725), trivial"
+   },
+   "8": {
+    "forces": true,
+    "why": "no graded past; dated lexically (1857), trivial"
+   },
+   "10": {
+    "forces": true,
+    "why": "no graded past; anaphoric इस समय, trivial"
+   },
+   "31": {
+    "forces": true,
+    "why": "no graded past; dated lexically (2000), trivial"
+   },
+   "39": {
+    "forces": true,
+    "why": "no graded past, undated"
+   },
+   "41": {
+    "forces": true,
+    "why": "no graded past, undated"
+   },
+   "43": {
+    "forces": true,
+    "why": "no graded past, undated"
+   },
+   "56": {
+    "forces": true,
+    "why": "no graded past; प्राचीन काल से lexical, trivial"
+   }
+  },
+  "note": "Grammatically 10 of 10: Hindi past tense does not grade remoteness. But in all 10 the answer is the remote past, and 6 of 10 already date the event lexically; only 4 (3, 39, 41, 43) gain a non-trivial question. Only one K5 trigger in the corpus (85) is a recent past, and it is outside the sample."
+ },
+ {
+  "combination": "K5",
+  "lens": "Finnish (partitive object)",
+  "status": "roster lens",
+  "forced_choice": "how far the event reached the object",
+  "attachment": "object",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   3,
+   6,
+   8,
+   10,
+   31,
+   39,
+   41,
+   43,
+   56
+  ],
+  "forces_new_choice": [
+   3,
+   41,
+   56
+  ],
+  "already_made": [
+   8,
+   10
+  ],
+  "not_applicable": [
+   1,
+   6,
+   31,
+   39,
+   43
+  ],
+  "count": "3 of 5 (5 not applicable)",
+  "per_sentence": {
+   "1": {
+    "forces": null,
+    "why": "no direct object in the trigger clause"
+   },
+   "3": {
+    "forces": true,
+    "why": "संस्कृति को विकसित किया: mass object with को; non-culminating perfective leaves the reach open"
+   },
+   "6": {
+    "forces": null,
+    "why": "no direct object"
+   },
+   "8": {
+    "forces": false,
+    "why": "उसे कैद में रखा: irresultative verb fixes the partial reading"
+   },
+   "10": {
+    "forces": false,
+    "why": "resultative pluperfect passive: the whole administration was built"
+   },
+   "31": {
+    "forces": null,
+    "why": "intransitive, no object"
+   },
+   "39": {
+    "forces": null,
+    "why": "intransitive, no object"
+   },
+   "41": {
+    "forces": true,
+    "why": "editing and publishing a newspaper (genitive object): an issue or the paper as ongoing is open"
+   },
+   "43": {
+    "forces": null,
+    "why": "no direct object"
+   },
+   "56": {
+    "forces": true,
+    "why": "दीपावली को दर्शाया गया: object of a depiction practice; total or partial open"
+   }
+  }
+ },
+ {
+  "combination": "K5",
+  "lens": "Guaraní",
+  "status": "roster lens",
+  "forced_choice": "at which stage of its existence the thing is named",
+  "attachment": "noun",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   3,
+   6,
+   8,
+   10,
+   31,
+   39,
+   41,
+   43,
+   56
+  ],
+  "forces_new_choice": [
+   1,
+   3,
+   6,
+   8,
+   10,
+   31,
+   39,
+   41,
+   43,
+   56
+  ],
+  "already_made": [],
+  "not_applicable": [],
+  "count": "10 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "empire named without nominal tense (former)"
+   },
+   "3": {
+    "forces": true,
+    "why": "culture: still existing or former, unmarked"
+   },
+   "6": {
+    "forces": true,
+    "why": "its power: former, unmarked"
+   },
+   "8": {
+    "forces": true,
+    "why": "the captive (former emperor), unmarked"
+   },
+   "10": {
+    "forces": true,
+    "why": "administration: former, unmarked"
+   },
+   "31": {
+    "forces": true,
+    "why": "inflation of a given year, unmarked"
+   },
+   "39": {
+    "forces": true,
+    "why": "the stories: still existing, unmarked"
+   },
+   "41": {
+    "forces": true,
+    "why": "Jagaran / Hans: former, unmarked"
+   },
+   "43": {
+    "forces": true,
+    "why": "Premchand (deceased), unmarked"
+   },
+   "56": {
+    "forces": true,
+    "why": "the festival: present, unmarked"
+   }
+  },
+  "note": "Hindi has no nominal tense; the lexical option exists (वर्तमान बंगलादेश in 4) but none of the 10 uses one."
+ },
+ {
+  "combination": "K6",
+  "lens": "Mongolian (reflexive possession)",
+  "status": "dropped by substitution",
+  "forced_choice": "whether the one already acting stays the anchor",
+  "attachment": "possessive",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   6,
+   23,
+   32,
+   50,
+   59,
+   66,
+   71,
+   79,
+   89
+  ],
+  "forces_new_choice": [],
+  "already_made": [
+   1,
+   6,
+   23,
+   32,
+   50,
+   59,
+   66,
+   71,
+   79,
+   89
+  ],
+  "not_applicable": [],
+  "count": "0 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": false,
+    "why": "noun possessor, not the subject: non-reflexive by form"
+   },
+   "6": {
+    "forces": false,
+    "why": "इसकी: non-reflexive chosen, possessor is not the subject"
+   },
+   "23": {
+    "forces": false,
+    "why": "noun possessors: non-reflexive by form"
+   },
+   "32": {
+    "forces": false,
+    "why": "उनकी: non-reflexive chosen against अपनी"
+   },
+   "50": {
+    "forces": false,
+    "why": "noun possessor: non-reflexive by form"
+   },
+   "59": {
+    "forces": false,
+    "why": "अपनी स्तिथि: reflexive bound to the subject सूर्य"
+   },
+   "66": {
+    "forces": false,
+    "why": "noun possessor: non-reflexive by form"
+   },
+   "71": {
+    "forces": false,
+    "why": "अपने आत्ममूल्य: reflexive bound to the logical subject"
+   },
+   "79": {
+    "forces": false,
+    "why": "हमारा: non-reflexive chosen; the subject is the possessed noun itself"
+   },
+   "89": {
+    "forces": false,
+    "why": "noun possessor: non-reflexive by form"
+   }
+  },
+  "note": "अपना occurs in 12 of 100 sentences; only 2 of the 10 checked (59, 71) are non-trivial reflexives. The converb half of the lens (reference across -कर chains) has no case here."
+ },
+ {
+  "combination": "K6",
+  "lens": "Navajo (inalienable possession)",
+  "status": "roster lens, overlap noted (के पास / का / को)",
+  "forced_choice": "whether the thing is separable from its owner",
+  "attachment": "possessive",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   6,
+   23,
+   32,
+   50,
+   59,
+   66,
+   71,
+   79,
+   89
+  ],
+  "forces_new_choice": [
+   1,
+   6,
+   23,
+   32,
+   50,
+   59,
+   66,
+   71,
+   79,
+   89
+  ],
+  "already_made": [],
+  "not_applicable": [],
+  "count": "10 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "attributive की: location or belonging, separability unmarked"
+   },
+   "6": {
+    "forces": true,
+    "why": "power of the empire: inherent or acquired, unmarked"
+   },
+   "23": {
+    "forces": true,
+    "why": "magnitude of the energy, expenditure of civilisation: unmarked"
+   },
+   "32": {
+    "forces": true,
+    "why": "purchasing power, economic condition: unmarked"
+   },
+   "50": {
+    "forces": true,
+    "why": "India's festivals: unmarked"
+   },
+   "59": {
+    "forces": true,
+    "why": "the sun's position: unmarked"
+   },
+   "66": {
+    "forces": true,
+    "why": "the mind's demand: unmarked"
+   },
+   "71": {
+    "forces": true,
+    "why": "self-worth: unmarked"
+   },
+   "79": {
+    "forces": true,
+    "why": "anger: part of us or had, unmarked"
+   },
+   "89": {
+    "forces": true,
+    "why": "the war's role: unmarked"
+   }
+  },
+  "note": "All 10 possessives are attributive. The predicative split occurs 0 times as के पास and once as का + है (11, belonging to a period, not possession) in 100 sentences, so it settles none of them."
+ },
+ {
+  "combination": "K6",
+  "lens": "Hawaiian (a/o possession)",
+  "status": "roster lens",
+  "forced_choice": "which side the dependency runs",
+  "attachment": "possessive",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   6,
+   23,
+   32,
+   50,
+   59,
+   66,
+   71,
+   79,
+   89
+  ],
+  "forces_new_choice": [
+   1,
+   6,
+   23,
+   32,
+   50,
+   59,
+   66,
+   71,
+   79,
+   89
+  ],
+  "already_made": [],
+  "not_applicable": [],
+  "count": "10 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "attributive genitive or pronoun leaves the direction of dependence unmarked"
+   },
+   "6": {
+    "forces": true,
+    "why": "attributive genitive or pronoun leaves the direction of dependence unmarked"
+   },
+   "23": {
+    "forces": true,
+    "why": "attributive genitive or pronoun leaves the direction of dependence unmarked"
+   },
+   "32": {
+    "forces": true,
+    "why": "attributive genitive or pronoun leaves the direction of dependence unmarked"
+   },
+   "50": {
+    "forces": true,
+    "why": "attributive genitive or pronoun leaves the direction of dependence unmarked"
+   },
+   "59": {
+    "forces": true,
+    "why": "attributive genitive or pronoun leaves the direction of dependence unmarked"
+   },
+   "66": {
+    "forces": true,
+    "why": "attributive genitive or pronoun leaves the direction of dependence unmarked"
+   },
+   "71": {
+    "forces": true,
+    "why": "attributive genitive or pronoun leaves the direction of dependence unmarked"
+   },
+   "79": {
+    "forces": true,
+    "why": "attributive genitive or pronoun leaves the direction of dependence unmarked"
+   },
+   "89": {
+    "forces": true,
+    "why": "attributive genitive or pronoun leaves the direction of dependence unmarked"
+   }
+  }
+ },
+ {
+  "combination": "K6",
+  "lens": "Pohnpeian (possessive classifiers)",
+  "status": "roster lens",
+  "forced_choice": "what the having is for",
+  "attachment": "possessive",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   6,
+   23,
+   32,
+   50,
+   59,
+   66,
+   71,
+   79,
+   89
+  ],
+  "forces_new_choice": [
+   50
+  ],
+  "already_made": [
+   32
+  ],
+  "not_applicable": [
+   1,
+   6,
+   23,
+   59,
+   66,
+   71,
+   79,
+   89
+  ],
+  "count": "1 of 2 (8 not applicable)",
+  "per_sentence": {
+   "1": {
+    "forces": null,
+    "why": "location 'of South Asia', no possessum with a use"
+   },
+   "6": {
+    "forces": null,
+    "why": "abstract attribute (power): no use-class beyond the general classifier"
+   },
+   "23": {
+    "forces": null,
+    "why": "abstract attribute (magnitude)"
+   },
+   "32": {
+    "forces": false,
+    "why": "क्रय शक्ति: the use (buying) is lexical in the compound"
+   },
+   "50": {
+    "forces": true,
+    "why": "India's festivals: for what (celebration, identity, calendar) unmarked"
+   },
+   "59": {
+    "forces": null,
+    "why": "position of the sun: no use"
+   },
+   "66": {
+    "forces": null,
+    "why": "the mind's demand: abstract"
+   },
+   "71": {
+    "forces": null,
+    "why": "self-worth: abstract"
+   },
+   "79": {
+    "forces": null,
+    "why": "anger: abstract"
+   },
+   "89": {
+    "forces": null,
+    "why": "the war's role: abstract"
+   }
+  },
+  "note": "The K6 possessa in this corpus are mostly abstract attributes, where a purpose classifier has nothing to sort. Narrow grip, not redundancy."
+ },
+ {
+  "combination": "K2",
+  "lens": "Basque (Euskara)",
+  "status": "roster lens, overlap noted (ergative ने)",
+  "forced_choice": "whether the participant patterns with the object",
+  "attachment": "subject",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   7,
+   16,
+   25,
+   32,
+   45,
+   55,
+   62,
+   74,
+   83
+  ],
+  "forces_new_choice": [
+   32
+  ],
+  "already_made": [
+   1,
+   7,
+   16,
+   25,
+   45,
+   55,
+   62,
+   74,
+   83
+  ],
+  "not_applicable": [],
+  "count": "1 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": false,
+    "why": "जिसने: ergative ने marks the empire as transitive agent"
+   },
+   "7": {
+    "forces": false,
+    "why": "intransitive member कमजोर होना: the empire is the undergoer"
+   },
+   "16": {
+    "forces": false,
+    "why": "intransitive member मुक्त होना: undergoer"
+   },
+   "25": {
+    "forces": false,
+    "why": "jana passive: subject is the patient"
+   },
+   "32": {
+    "forces": true,
+    "why": "inflation sits in a genitive of असर पड़ना: agent or undergoer left open"
+   },
+   "45": {
+    "forces": false,
+    "why": "jana passive: patient"
+   },
+   "55": {
+    "forces": false,
+    "why": "jana passive: patient"
+   },
+   "62": {
+    "forces": false,
+    "why": "intransitive member जागृत होना: undergoer"
+   },
+   "74": {
+    "forces": false,
+    "why": "intransitive member उठना: undergoer"
+   },
+   "83": {
+    "forces": false,
+    "why": "jana passive: patient"
+   }
+  },
+  "note": "Redundant in 9 of 10, but ने settled only 1 (1); the jana passive and the intransitive pair member settled 8. Corpus-wide, ergative ने occurs in 7 of 57 K2 trigger sentences and bears on the trigger participant in 4 (1, 4, 8, 52)."
+ },
+ {
+  "combination": "K2",
+  "lens": "Tagalog",
+  "status": "roster lens",
+  "forced_choice": "which participant the event is told from",
+  "attachment": "verb",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   7,
+   16,
+   25,
+   32,
+   45,
+   55,
+   62,
+   74,
+   83
+  ],
+  "forces_new_choice": [
+   1,
+   7,
+   32,
+   55,
+   62,
+   74
+  ],
+  "already_made": [
+   16,
+   25,
+   45,
+   83
+  ],
+  "not_applicable": [],
+  "count": "6 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "empire (agent) or subcontinent (locative) as pivot: Hindi active picks the agent, the locative option does not exist"
+   },
+   "7": {
+    "forces": true,
+    "why": "empire or the causes (से obliques) as pivot: open"
+   },
+   "16": {
+    "forces": false,
+    "why": "single participant (the released substances)"
+   },
+   "25": {
+    "forces": false,
+    "why": "single participant, patient chosen by the passive"
+   },
+   "32": {
+    "forces": true,
+    "why": "inflation, effect or public (पर) as pivot: open"
+   },
+   "45": {
+    "forces": false,
+    "why": "single participant, passive"
+   },
+   "55": {
+    "forces": true,
+    "why": "festival or languages (locative) as pivot: open"
+   },
+   "62": {
+    "forces": true,
+    "why": "feeling or 'within us' (locative) as pivot: open"
+   },
+   "74": {
+    "forces": true,
+    "why": "questions or 'in his mind' (locative) as pivot: open"
+   },
+   "83": {
+    "forces": false,
+    "why": "single participant, passive"
+   }
+  },
+  "note": "Rule: forces where a second participant (oblique) is present that a Tagalog voice could promote."
+ },
+ {
+  "combination": "K2",
+  "lens": "Nez Percé (Nimipuutímt)",
+  "status": "roster lens, checked unprompted",
+  "forced_choice": "whether the participant is the one acting",
+  "attachment": "subject",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   7,
+   16,
+   25,
+   32,
+   45,
+   55,
+   62,
+   74,
+   83
+  ],
+  "forces_new_choice": [
+   32
+  ],
+  "already_made": [
+   1,
+   7,
+   16,
+   25,
+   45,
+   55,
+   62,
+   74,
+   83
+  ],
+  "not_applicable": [],
+  "count": "1 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": false,
+    "why": "ने: the empire is the actor"
+   },
+   "7": {
+    "forces": false,
+    "why": "intransitive member: not acting"
+   },
+   "16": {
+    "forces": false,
+    "why": "intransitive member: not acting"
+   },
+   "25": {
+    "forces": false,
+    "why": "passive: not acting"
+   },
+   "32": {
+    "forces": true,
+    "why": "genitive inflation: acting or not, open"
+   },
+   "45": {
+    "forces": false,
+    "why": "passive"
+   },
+   "55": {
+    "forces": false,
+    "why": "passive"
+   },
+   "62": {
+    "forces": false,
+    "why": "intransitive member"
+   },
+   "74": {
+    "forces": false,
+    "why": "intransitive member"
+   },
+   "83": {
+    "forces": false,
+    "why": "passive"
+   }
+  },
+  "note": "Same verdict space as Basque on these 10: the K2 marker forms are themselves the answer to 'is the subject acting'."
+ },
+ {
+  "combination": "K3",
+  "lens": "Tuyuca",
+  "status": "roster lens, overlap noted (presumptive, lexical hedges)",
+  "forced_choice": "the source of the information",
+  "attachment": "verb",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   7,
+   12,
+   39,
+   44,
+   56,
+   65,
+   70,
+   76,
+   81
+  ],
+  "forces_new_choice": [
+   1,
+   7,
+   12,
+   39,
+   44,
+   56,
+   65,
+   70,
+   76,
+   81
+  ],
+  "already_made": [],
+  "not_applicable": [],
+  "count": "10 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "historical date in the plain indicative; presumptive not used"
+   },
+   "7": {
+    "forces": true,
+    "why": "historical causal claim, no source"
+   },
+   "12": {
+    "forces": true,
+    "why": "names what contemporaries said; how the writer knows is unmarked"
+   },
+   "39": {
+    "forces": true,
+    "why": "publication history, no source"
+   },
+   "44": {
+    "forces": true,
+    "why": "biographical claim, no source"
+   },
+   "56": {
+    "forces": true,
+    "why": "claim about ancient depiction, no source"
+   },
+   "65": {
+    "forces": true,
+    "why": "psychological claim, no source"
+   },
+   "70": {
+    "forces": true,
+    "why": "psychological claim, no source"
+   },
+   "76": {
+    "forces": true,
+    "why": "causal psychological claim, no source"
+   },
+   "81": {
+    "forces": true,
+    "why": "'created a stir': inference, no source"
+   }
+  },
+  "note": "The presumptive occurs once in 100 sentences (98, in a quote, not a trigger); शायद, संभवतः, के अनुसार 0 times. By the trigger's definition the 10 carry no hedge."
+ },
+ {
+  "combination": "K3",
+  "lens": "Ewe (logophoric pronouns)",
+  "status": "roster lens",
+  "forced_choice": "whether a report speaks of the one quoted or another",
+  "attachment": "person",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   7,
+   12,
+   39,
+   44,
+   56,
+   65,
+   70,
+   76,
+   81
+  ],
+  "forces_new_choice": [],
+  "already_made": [],
+  "not_applicable": [
+   1,
+   7,
+   12,
+   39,
+   44,
+   56,
+   65,
+   70,
+   76,
+   81
+  ],
+  "count": "0 of 0 (10 not applicable)",
+  "per_sentence": {
+   "1": {
+    "forces": null,
+    "why": "no report clause with a pronoun"
+   },
+   "7": {
+    "forces": null,
+    "why": "no report clause with a pronoun"
+   },
+   "12": {
+    "forces": null,
+    "why": "no report clause with a pronoun"
+   },
+   "39": {
+    "forces": null,
+    "why": "no report clause with a pronoun"
+   },
+   "44": {
+    "forces": null,
+    "why": "no report clause with a pronoun"
+   },
+   "56": {
+    "forces": null,
+    "why": "no report clause with a pronoun"
+   },
+   "65": {
+    "forces": null,
+    "why": "no report clause with a pronoun"
+   },
+   "70": {
+    "forces": null,
+    "why": "no report clause with a pronoun"
+   },
+   "76": {
+    "forces": null,
+    "why": "no report clause with a pronoun"
+   },
+   "81": {
+    "forces": null,
+    "why": "no report clause with a pronoun"
+   }
+  },
+  "note": "Outside the sample, 73 (वह inside a कि-clause after वह ... चाहता है) is the kind of sentence where it would bite."
+ },
+ {
+  "combination": "K3",
+  "lens": "Latin (oratio obliqua)",
+  "status": "roster lens",
+  "forced_choice": "whether the passage is the speaker's own claim",
+  "attachment": "whole passage",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   7,
+   12,
+   39,
+   44,
+   56,
+   65,
+   70,
+   76,
+   81
+  ],
+  "forces_new_choice": [
+   1,
+   7,
+   12,
+   39,
+   44,
+   56
+  ],
+  "already_made": [
+   65,
+   70,
+   76,
+   81
+  ],
+  "not_applicable": [],
+  "count": "6 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "content from sources given as the writer's own"
+   },
+   "7": {
+    "forces": true,
+    "why": "content from sources as own"
+   },
+   "12": {
+    "forces": true,
+    "why": "report of naming as own statement"
+   },
+   "39": {
+    "forces": true,
+    "why": "content from sources as own"
+   },
+   "44": {
+    "forces": true,
+    "why": "biographical content from sources as own"
+   },
+   "56": {
+    "forces": true,
+    "why": "content from sources as own"
+   },
+   "65": {
+    "forces": false,
+    "why": "the columnist's own claim; the indicative already says so"
+   },
+   "70": {
+    "forces": false,
+    "why": "columnist's own claim"
+   },
+   "76": {
+    "forces": false,
+    "why": "columnist's own claim"
+   },
+   "81": {
+    "forces": false,
+    "why": "reporter's own characterisation"
+   }
+  }
+ },
+ {
+  "combination": "K4",
+  "lens": "Yucatec Maya",
+  "status": "roster lens, checked unprompted",
+  "forced_choice": "whether the noun denotes a countable unit",
+  "attachment": "noun",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   4,
+   9,
+   12,
+   23,
+   32,
+   47,
+   76,
+   85,
+   90
+  ],
+  "forces_new_choice": [
+   76
+  ],
+  "already_made": [
+   1,
+   4,
+   9,
+   12,
+   23,
+   32,
+   47,
+   85,
+   90
+  ],
+  "not_applicable": [],
+  "count": "1 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": false,
+    "why": "एक ... साम्राज्य: counted as a unit"
+   },
+   "4": {
+    "forces": false,
+    "why": "singular pronoun इसने for one empire"
+   },
+   "9": {
+    "forces": false,
+    "why": "इस साम्राज्य, singular oblique: one unit"
+   },
+   "12": {
+    "forces": false,
+    "why": "singular oblique साम्राज्य को: one unit"
+   },
+   "23": {
+    "forces": false,
+    "why": "पूरी मानव सभ्यता: the whole of one unit"
+   },
+   "32": {
+    "forces": false,
+    "why": "जनता: lexical collective, uncountable"
+   },
+   "47": {
+    "forces": false,
+    "why": "singular संग्राम beside plural आन्दोलनों: unit chosen"
+   },
+   "76": {
+    "forces": true,
+    "why": "generic singular व्यक्ति: unit or kind open"
+   },
+   "85": {
+    "forces": false,
+    "why": "plural मतदाताओं, singular पार्टी: number chosen"
+   },
+   "90": {
+    "forces": false,
+    "why": "singular युद्ध, pluralisable: one unit"
+   }
+  },
+  "note": "Hindi number marking (oblique plural, agreement, एक) already decides count against unit in 9 of 10."
+ },
+ {
+  "combination": "K4",
+  "lens": "Polish (numeral threshold)",
+  "status": "roster lens",
+  "forced_choice": "where a set of individuals becomes a quantity",
+  "attachment": "noun",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   4,
+   9,
+   12,
+   23,
+   32,
+   47,
+   76,
+   85,
+   90
+  ],
+  "forces_new_choice": [
+   76
+  ],
+  "already_made": [
+   32,
+   85
+  ],
+  "not_applicable": [
+   1,
+   4,
+   9,
+   12,
+   23,
+   47,
+   90
+  ],
+  "count": "1 of 3 (7 not applicable)",
+  "per_sentence": {
+   "1": {
+    "forces": null,
+    "why": "no set of individuals quantified"
+   },
+   "4": {
+    "forces": null,
+    "why": "territory, not individuals"
+   },
+   "9": {
+    "forces": null,
+    "why": "no quantity"
+   },
+   "12": {
+    "forces": null,
+    "why": "no quantity"
+   },
+   "23": {
+    "forces": null,
+    "why": "multiplier of energy, not individuals"
+   },
+   "32": {
+    "forces": false,
+    "why": "जनता: lexically a mass of people"
+   },
+   "47": {
+    "forces": null,
+    "why": "event"
+   },
+   "76": {
+    "forces": true,
+    "why": "generic singular for a set of persons: individuals or mass open"
+   },
+   "85": {
+    "forces": false,
+    "why": "plural मतदाताओं: individuals"
+   },
+   "90": {
+    "forces": null,
+    "why": "event"
+   }
+  }
+ },
+ {
+  "combination": "K4",
+  "lens": "Hungarian (associative plural)",
+  "status": "roster lens, overlap noted (लोग / वग़ैरह)",
+  "forced_choice": "whether the group is equals or one member plus its belongings",
+  "attachment": "noun",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   4,
+   9,
+   12,
+   23,
+   32,
+   47,
+   76,
+   85,
+   90
+  ],
+  "forces_new_choice": [
+   1,
+   4,
+   9,
+   12,
+   23,
+   85
+  ],
+  "already_made": [
+   32
+  ],
+  "not_applicable": [
+   47,
+   76,
+   90
+  ],
+  "count": "6 of 7 (3 not applicable)",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "the Mughal empire: dynasty plus its people or a polity, open"
+   },
+   "4": {
+    "forces": true,
+    "why": "इसने: the empire as ruler-plus-realm, open"
+   },
+   "9": {
+    "forces": true,
+    "why": "the empire, open"
+   },
+   "12": {
+    "forces": true,
+    "why": "'Timurid' empire: Babur and his people, open"
+   },
+   "23": {
+    "forces": true,
+    "why": "humanity: equals or not, unmarked"
+   },
+   "32": {
+    "forces": false,
+    "why": "जनता: lexically the populace of equals"
+   },
+   "47": {
+    "forces": null,
+    "why": "event, no group"
+   },
+   "76": {
+    "forces": null,
+    "why": "one person"
+   },
+   "85": {
+    "forces": true,
+    "why": "the Republican Party: leader plus followers, open"
+   },
+   "90": {
+    "forces": null,
+    "why": "event"
+   }
+  },
+  "note": "लोग occurs once (75) and only as a noun, वग़ैरह 0 times, आदि 3 times closing lists of works or problems; 95 spells out ट्रंप और उनकी पार्टी where Hungarian would compress. The overlap does not settle the choice."
+ },
+ {
+  "combination": "K7",
+  "lens": "Latin (ablative absolute)",
+  "status": "roster lens, overlap noted (-कर)",
+  "forced_choice": "whether the circumstance is cause, time, condition or concession",
+  "attachment": "connective",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   2,
+   7,
+   15,
+   28,
+   32,
+   36,
+   53,
+   66,
+   74,
+   82
+  ],
+  "forces_new_choice": [
+   2,
+   7,
+   15,
+   28,
+   32,
+   36,
+   53,
+   66,
+   74,
+   82
+  ],
+  "already_made": [],
+  "not_applicable": [],
+  "count": "10 of 10",
+  "per_sentence": {
+   "2": {
+    "forces": true,
+    "why": "के लिए ... जिम्मेदार names cause"
+   },
+   "7": {
+    "forces": true,
+    "why": "की वजह से names cause"
+   },
+   "15": {
+    "forces": true,
+    "why": "जिसके फलस्वरूप names consequence"
+   },
+   "28": {
+    "forces": true,
+    "why": "causal से names cause"
+   },
+   "32": {
+    "forces": true,
+    "why": "क्योंकि names cause"
+   },
+   "36": {
+    "forces": true,
+    "why": "causal से names source"
+   },
+   "53": {
+    "forces": true,
+    "why": "से names origin"
+   },
+   "66": {
+    "forces": true,
+    "why": "क्योंकि names cause"
+   },
+   "74": {
+    "forces": true,
+    "why": "क्योंकि names cause"
+   },
+   "82": {
+    "forces": true,
+    "why": "के लिए ज़िम्मेदार ठहराया names cause"
+   }
+  },
+  "note": "Counted as in the Arabic check: 'forces' where the source names the relation and the lens would leave it open; 'already made' where the source already leaves it open, as -कर does. Causal -कर: 0 of 100 sentences; no trigger used it."
+ },
+ {
+  "combination": "K7",
+  "lens": "Classical Chinese (Wényán)",
+  "status": "roster lens",
+  "forced_choice": "whether the relation between the parts is stated or left to the arrangement",
+  "attachment": "connective",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   2,
+   7,
+   15,
+   28,
+   32,
+   36,
+   53,
+   66,
+   74,
+   82
+  ],
+  "forces_new_choice": [
+   2,
+   7,
+   15,
+   28,
+   32,
+   36,
+   53,
+   66,
+   74,
+   82
+  ],
+  "already_made": [],
+  "not_applicable": [],
+  "count": "10 of 10",
+  "per_sentence": {
+   "2": {
+    "forces": true,
+    "why": "relation stated by a connective or postposition"
+   },
+   "7": {
+    "forces": true,
+    "why": "relation stated by a connective or postposition"
+   },
+   "15": {
+    "forces": true,
+    "why": "relation stated by a connective or postposition"
+   },
+   "28": {
+    "forces": true,
+    "why": "relation stated by a connective or postposition"
+   },
+   "32": {
+    "forces": true,
+    "why": "relation stated by a connective or postposition"
+   },
+   "36": {
+    "forces": true,
+    "why": "relation stated by a connective or postposition"
+   },
+   "53": {
+    "forces": true,
+    "why": "relation stated by a connective or postposition"
+   },
+   "66": {
+    "forces": true,
+    "why": "relation stated by a connective or postposition"
+   },
+   "74": {
+    "forces": true,
+    "why": "relation stated by a connective or postposition"
+   },
+   "82": {
+    "forces": true,
+    "why": "relation stated by a connective or postposition"
+   }
+  }
+ },
+ {
+  "combination": "K8",
+  "lens": "Vigraha (compound resolution)",
+  "status": "roster lens, overlap noted (Sanskrit-derived compounds)",
+  "forced_choice": "which case relation the compound hides",
+  "attachment": "noun",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   4,
+   16,
+   23,
+   28,
+   31,
+   36,
+   47,
+   52,
+   82
+  ],
+  "forces_new_choice": [
+   1,
+   4,
+   16,
+   23,
+   31,
+   47,
+   52,
+   82
+  ],
+  "already_made": [
+   28,
+   36
+  ],
+  "not_applicable": [],
+  "count": "8 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "मुग़ल साम्राज्य: relation unstated"
+   },
+   "4": {
+    "forces": true,
+    "why": "कावेरी घाटी: relation unstated (trivial)"
+   },
+   "16": {
+    "forces": true,
+    "why": "उप पदार्थ: unresolved"
+   },
+   "23": {
+    "forces": true,
+    "why": "ऊर्जा खर्च, मानव सभ्यता: unresolved"
+   },
+   "28": {
+    "forces": false,
+    "why": "मुद्रा आपूर्ति is resolved in the same sentence by यानि ... पैसा छापने से"
+   },
+   "31": {
+    "forces": true,
+    "why": "मुद्रा स्फीति: unresolved in the sentence"
+   },
+   "36": {
+    "forces": false,
+    "why": "मांग कारक / मूल्य वृद्धि कारक are defined in the same sentence by their source"
+   },
+   "47": {
+    "forces": true,
+    "why": "समाजसुधार आन्दोलनों, स्वाधीनता संग्राम: unresolved"
+   },
+   "52": {
+    "forces": true,
+    "why": "विरासत सूची: unresolved"
+   },
+   "82": {
+    "forces": true,
+    "why": "ईरान युद्ध: war against, with or in Iran, unresolved"
+   }
+  },
+  "note": "Hindi keeps Sanskrit compounds as compounds; it does not resolve them grammatically. The 2 resolutions are the writer's glosses, not grammar."
+ },
+ {
+  "combination": "K8",
+  "lens": "Ancient Greek (article & substantivization)",
+  "status": "roster lens, checked unprompted",
+  "forced_choice": "whether anything is being turned into a thing",
+  "attachment": "noun",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   4,
+   16,
+   23,
+   28,
+   31,
+   36,
+   47,
+   52,
+   82
+  ],
+  "forces_new_choice": [],
+  "already_made": [
+   1,
+   4,
+   16,
+   23,
+   28,
+   31,
+   36,
+   47,
+   52,
+   82
+  ],
+  "not_applicable": [],
+  "count": "0 of 10",
+  "per_sentence": {
+   "1": {
+    "forces": false,
+    "why": "no property reified"
+   },
+   "4": {
+    "forces": false,
+    "why": "no property reified"
+   },
+   "16": {
+    "forces": false,
+    "why": "पदार्थ is a thing noun, nothing reified"
+   },
+   "23": {
+    "forces": false,
+    "why": "खर्च: reification overt in the noun"
+   },
+   "28": {
+    "forces": false,
+    "why": "आपूर्ति, अतिशय, छापने: overt nominalisations (-ति, infinitive -ना)"
+   },
+   "31": {
+    "forces": false,
+    "why": "स्फीति: overt -ति nominalisation"
+   },
+   "36": {
+    "forces": false,
+    "why": "मांग, वृद्धि, कमी: overt nouns"
+   },
+   "47": {
+    "forces": false,
+    "why": "आन्दोलन, संग्राम: overt nouns"
+   },
+   "52": {
+    "forces": false,
+    "why": "विरासत: overt noun"
+   },
+   "82": {
+    "forces": false,
+    "why": "हार, चुनाव: overt nouns"
+   }
+  },
+  "note": "Hindi reifies only through overt derivation (infinitive -ना, -ता, -त्व, -ति) or substantivised adjectives (अपनों, 69), so whether a thing is made is visible in the form; same reasoning as the Arabic drop. Judgement call."
+ },
+ {
+  "combination": "K8",
+  "lens": "Polish (instrumental predication)",
+  "status": "roster lens",
+  "forced_choice": "whether the predicate assigns a category or a property",
+  "attachment": "noun",
+  "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, n = number of trigger ids",
+  "checked_ids": [
+   1,
+   4,
+   16,
+   23,
+   28,
+   31,
+   36,
+   47,
+   52,
+   82
+  ],
+  "forces_new_choice": [
+   1,
+   16
+  ],
+  "already_made": [],
+  "not_applicable": [
+   4,
+   23,
+   28,
+   31,
+   36,
+   47,
+   52,
+   82
+  ],
+  "count": "2 of 2 (8 not applicable)",
+  "per_sentence": {
+   "1": {
+    "forces": true,
+    "why": "साम्राज्य था: nominative predicate noun, category or property open"
+   },
+   "4": {
+    "forces": null,
+    "why": "predicate of extent"
+   },
+   "16": {
+    "forces": true,
+    "why": "ग्लूकोज होता है: category or property open (के रूप में on the by-product already marks a role)"
+   },
+   "23": {
+    "forces": null,
+    "why": "adjectival predicate"
+   },
+   "28": {
+    "forces": null,
+    "why": "verbal predicate"
+   },
+   "31": {
+    "forces": null,
+    "why": "verbal predicate"
+   },
+   "36": {
+    "forces": null,
+    "why": "verbal predicate"
+   },
+   "47": {
+    "forces": null,
+    "why": "existential"
+   },
+   "52": {
+    "forces": null,
+    "why": "verbal predicate"
+   },
+   "82": {
+    "forces": null,
+    "why": "adjectival secondary predicate"
+   }
+  },
+  "note": "Narrow grip: 2 of 10 trigger sentences have a predicate noun. Hindi के रूप में / के तौर पर (16, 22, 24, 56, 83) mark a role predicate where Polish uses the instrumental."
+ }
+]

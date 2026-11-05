@@ -1,0 +1,982 @@
+[
+ {
+  "id": 1,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Malazgirt_Meydan_Muharebesi",
+  "position_in_run": 1,
+  "sha256": "f8d131f5d00d215c6c813918919839935befc44ad89b6ea67e3d4d3319e925e7",
+  "revid": 38301910,
+  "revision_timestamp": "2026-10-20T10:14:09Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 2,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Malazgirt_Meydan_Muharebesi",
+  "position_in_run": 2,
+  "sha256": "7dac7dd9ac61facd3dbefe363277e678ae7768f2f83a56ce5994c1072ef10d05",
+  "revid": 38301910,
+  "revision_timestamp": "2026-10-20T10:14:09Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 3,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Malazgirt_Meydan_Muharebesi",
+  "position_in_run": 3,
+  "sha256": "a0b9a24a8da8a12525a0818108a263158c366e6682e84b8d8f64417b5c4efa48",
+  "revid": 38301910,
+  "revision_timestamp": "2026-10-20T10:14:09Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 4,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Malazgirt_Meydan_Muharebesi",
+  "position_in_run": 4,
+  "sha256": "0ebd5694e0c5037cf917f5bced1845ee5713ab9fcbc7935fd5b310ff9ebe59f1",
+  "revid": 38301910,
+  "revision_timestamp": "2026-10-20T10:14:09Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 5,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Malazgirt_Meydan_Muharebesi",
+  "position_in_run": 5,
+  "sha256": "8886192db770faa8db9339256fc311734e93d59a9219270f3f1e08f10e2f537d",
+  "revid": 38301910,
+  "revision_timestamp": "2026-10-20T10:14:09Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 6,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Malazgirt_Meydan_Muharebesi",
+  "position_in_run": 6,
+  "sha256": "2b727e073c9d6a04e033bee00d9dbf27fa7316a27c9f456bf6215e15dd6c9671",
+  "revid": 38301910,
+  "revision_timestamp": "2026-10-20T10:14:09Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 7,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Malazgirt_Meydan_Muharebesi",
+  "position_in_run": 7,
+  "sha256": "a57513984b52550a648fc35698dad41da1f4f4f384a1f5e12e2782b91276fa2e",
+  "revid": 38301910,
+  "revision_timestamp": "2026-10-20T10:14:09Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 8,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Malazgirt_Meydan_Muharebesi",
+  "position_in_run": 8,
+  "sha256": "2ae3e3c0c34a9d35ca6ae42339ff9222cf5bcea2a991dce2a65c7da34c4e89e3",
+  "revid": 38301910,
+  "revision_timestamp": "2026-10-20T10:14:09Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 9,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Malazgirt_Meydan_Muharebesi",
+  "position_in_run": 9,
+  "sha256": "07be38579d72b1dd95e12bca7db2bf69736c44dc34dfe5a7c02e31bad7f697b0",
+  "revid": 38301910,
+  "revision_timestamp": "2026-10-20T10:14:09Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 10,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Malazgirt_Meydan_Muharebesi",
+  "position_in_run": 10,
+  "sha256": "81b769152e6ef954309ce66127963e1a015cbeafe3c6b29a98503398ddc4be96",
+  "revid": 38301910,
+  "revision_timestamp": "2026-10-20T10:14:09Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 11,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Malazgirt_Meydan_Muharebesi",
+  "position_in_run": 11,
+  "sha256": "b4582bd29e769ccfa69abeb7eae93b7e9920ca14df2f2cb783ca821919c7a9c0",
+  "revid": 38301910,
+  "revision_timestamp": "2026-10-20T10:14:09Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 12,
+  "domain": "wikipedia/history",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Malazgirt_Meydan_Muharebesi",
+  "position_in_run": 12,
+  "sha256": "7d8fdee60766649db05de701e810d1b49791078de97406cb87f6a2ec9fdb5bb0",
+  "revid": 38301910,
+  "revision_timestamp": "2026-10-20T10:14:09Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 13,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Fotosentez",
+  "position_in_run": 1,
+  "sha256": "c7b1053652c5c0f59ae19863b17adddd142271c89e0420000ace32aeac22aa3c",
+  "revid": 37865166,
+  "revision_timestamp": "2026-09-01T11:27:45Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 14,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Fotosentez",
+  "position_in_run": 2,
+  "sha256": "cbeed2a86135b7a8335679832ad2e5af6e68df9d45bddd110e806f113cb09c23",
+  "revid": 37865166,
+  "revision_timestamp": "2026-09-01T11:27:45Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 15,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Fotosentez",
+  "position_in_run": 3,
+  "sha256": "41eceb4c380ab9d97e5693935c37dd001911c7ee3ec865418e0236c1ffbeb316",
+  "revid": 37865166,
+  "revision_timestamp": "2026-09-01T11:27:45Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 16,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Fotosentez",
+  "position_in_run": 4,
+  "sha256": "2516f6f333f8cefad241fa0082ab06ff43c0a2d02c99aa55283cc62f5c5e953f",
+  "revid": 37865166,
+  "revision_timestamp": "2026-09-01T11:27:45Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 17,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Fotosentez",
+  "position_in_run": 5,
+  "sha256": "bbfe01782af703b4959ed27740ae07544d4aa8802b62fd628bf6bdaa64e94a97",
+  "revid": 37865166,
+  "revision_timestamp": "2026-09-01T11:27:45Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 18,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Fotosentez",
+  "position_in_run": 6,
+  "sha256": "104885027a2c139ef848a94c47a204f801dcb5a73d5d3650e46d76dae2faf33f",
+  "revid": 37865166,
+  "revision_timestamp": "2026-09-01T11:27:45Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 19,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Fotosentez",
+  "position_in_run": 7,
+  "sha256": "6137c98a356df1e3218186ab1674a30113e83b50d9bc20c4d7aa4faef9211aa6",
+  "revid": 37865166,
+  "revision_timestamp": "2026-09-01T11:27:45Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 20,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Fotosentez",
+  "position_in_run": 8,
+  "sha256": "07cebfd7bb083c537e249308fb883feafe419d58fe55a284349c229b04a7ef71",
+  "revid": 37865166,
+  "revision_timestamp": "2026-09-01T11:27:45Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 21,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Fotosentez",
+  "position_in_run": 9,
+  "sha256": "d99239e3ede4e0233a10c27ed7b4fe6d73d904d2a0335132d94ce7213f48c4ce",
+  "revid": 37865166,
+  "revision_timestamp": "2026-09-01T11:27:45Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 22,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Fotosentez",
+  "position_in_run": 10,
+  "sha256": "a2e69e19a0cadddda9c936df161689efb26658e25e70deead4e14f284432fb6d",
+  "revid": 37865166,
+  "revision_timestamp": "2026-09-01T11:27:45Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 23,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Fotosentez",
+  "position_in_run": 11,
+  "sha256": "853bea7a13bab2d74625c021d726166074acb772be3b5942e389ce4a65fad521",
+  "revid": 37865166,
+  "revision_timestamp": "2026-09-01T11:27:45Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 24,
+  "domain": "wikipedia/science",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Fotosentez",
+  "position_in_run": 12,
+  "sha256": "0bc551fa0211a4b983776da69bcc036e06731832aaf4004b85cd85c5ce586270",
+  "revid": 37865166,
+  "revision_timestamp": "2026-09-01T11:27:45Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 25,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Enflasyon",
+  "position_in_run": 1,
+  "sha256": "43b1300c2b239c108da452b6ce8d548e18d64f0ff771d2d7d979df46466d74bd",
+  "revid": 37067289,
+  "revision_timestamp": "2026-04-25T06:17:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 26,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Enflasyon",
+  "position_in_run": 2,
+  "sha256": "0a757860a7c7d026040d1969ac9cd9cb184339bd564ea91205da7779258c3ec7",
+  "revid": 37067289,
+  "revision_timestamp": "2026-04-25T06:17:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 27,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Enflasyon",
+  "position_in_run": 3,
+  "sha256": "2ae50cbc6a691668461ec9e65080f9cd2f96915bcc934a83c45ebd3cac2ee761",
+  "revid": 37067289,
+  "revision_timestamp": "2026-04-25T06:17:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 28,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Enflasyon",
+  "position_in_run": 4,
+  "sha256": "d387d525e29580aa0c00420d397ef1b1c92a70f1e128dfe10daf978cf8f65923",
+  "revid": 37067289,
+  "revision_timestamp": "2026-04-25T06:17:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 29,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Enflasyon",
+  "position_in_run": 5,
+  "sha256": "476a00272f2be6a6555a9bd6dca525450638b8845729bf6aba3e8a00b37b2ad3",
+  "revid": 37067289,
+  "revision_timestamp": "2026-04-25T06:17:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 30,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Enflasyon",
+  "position_in_run": 6,
+  "sha256": "93174f7a8c7edd3d66a81c8ee6d6eb4b83acd62a140e12c9b9cf5447a2302e50",
+  "revid": 37067289,
+  "revision_timestamp": "2026-04-25T06:17:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 31,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Enflasyon",
+  "position_in_run": 7,
+  "sha256": "b18d401ad4a44bfc84e3139a300d3ef71bd358efe51ad556931391f91b5ea19d",
+  "revid": 37067289,
+  "revision_timestamp": "2026-04-25T06:17:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 32,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Enflasyon",
+  "position_in_run": 8,
+  "sha256": "ef89a9f93604d3a95c44e03fd6acf5a9ce20e7c776795ad89cdc6983d35f724b",
+  "revid": 37067289,
+  "revision_timestamp": "2026-04-25T06:17:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 33,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Enflasyon",
+  "position_in_run": 9,
+  "sha256": "c6f290636c52f99acb4f15944105301867e8146478d6bbebc718816e6de2c24a",
+  "revid": 37067289,
+  "revision_timestamp": "2026-04-25T06:17:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 34,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Enflasyon",
+  "position_in_run": 10,
+  "sha256": "9e04d0c3f0538d8e10236975913e6eb10705b3774525ad74bf8c5d425351e06a",
+  "revid": 37067289,
+  "revision_timestamp": "2026-04-25T06:17:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 35,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Enflasyon",
+  "position_in_run": 11,
+  "sha256": "01ac8bbbeeecf11656441e7556eaa0cb7be72bc7166eda26dc151ff204444f2d",
+  "revid": 37067289,
+  "revision_timestamp": "2026-04-25T06:17:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 36,
+  "domain": "wikipedia/economics",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Enflasyon",
+  "position_in_run": 12,
+  "sha256": "07bf046276e1c1678cb133464126940e70535e29bf4ff33653de38a234554df3",
+  "revid": 37067289,
+  "revision_timestamp": "2026-04-25T06:17:50Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 37,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Nâzım_Hikmet",
+  "position_in_run": 1,
+  "sha256": "0000809fa16af800040c6354489d09eb98537210bd7335f9183fa7d9bf2dc2dc",
+  "revid": 38241217,
+  "revision_timestamp": "2026-10-13T16:59:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 38,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Nâzım_Hikmet",
+  "position_in_run": 2,
+  "sha256": "1acd30346c99fa86f2547bb8007d74608dc272b823d5802f6a6fdfc6dcbe9f13",
+  "revid": 38241217,
+  "revision_timestamp": "2026-10-13T16:59:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 39,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Nâzım_Hikmet",
+  "position_in_run": 3,
+  "sha256": "c7b089fbd5e0890576b670db7e366b5c129bfdce443bc8f432faf8962d14c513",
+  "revid": 38241217,
+  "revision_timestamp": "2026-10-13T16:59:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 40,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Nâzım_Hikmet",
+  "position_in_run": 4,
+  "sha256": "9bb84fea5b3cab76cafd0ab9e98e065042fa48cdf01278c2496b35b70c8cfe6d",
+  "revid": 38241217,
+  "revision_timestamp": "2026-10-13T16:59:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 41,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Nâzım_Hikmet",
+  "position_in_run": 5,
+  "sha256": "4fb6dad28a9a3ebb81fc1bdc5dd92763799eb09c1215ee3aff1282aeb26cf62f",
+  "revid": 38241217,
+  "revision_timestamp": "2026-10-13T16:59:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 42,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Nâzım_Hikmet",
+  "position_in_run": 6,
+  "sha256": "55c070ba40290cce459c82453b4a506ce63d6d859de2bd7f3407c7157c824c31",
+  "revid": 38241217,
+  "revision_timestamp": "2026-10-13T16:59:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 43,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Nâzım_Hikmet",
+  "position_in_run": 7,
+  "sha256": "a99b616b0e521c62d21adee7f866aaaa43d141b9ac7b39bf81cdb9309a0f5012",
+  "revid": 38241217,
+  "revision_timestamp": "2026-10-13T16:59:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 44,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Nâzım_Hikmet",
+  "position_in_run": 8,
+  "sha256": "76c92af83d9b625a755182e3b904c067da7984205bcbf87e845a0db26b7d2be5",
+  "revid": 38241217,
+  "revision_timestamp": "2026-10-13T16:59:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 45,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Nâzım_Hikmet",
+  "position_in_run": 9,
+  "sha256": "bbf31d768724ee388ca45b06265efe17a550cf61252a931f9ac899cc391a7309",
+  "revid": 38241217,
+  "revision_timestamp": "2026-10-13T16:59:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 46,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Nâzım_Hikmet",
+  "position_in_run": 10,
+  "sha256": "aa0820fe889599f2eb24f4729b6c0e964dbbf4e5dfa0a79e4139ca8f2ccb105c",
+  "revid": 38241217,
+  "revision_timestamp": "2026-10-13T16:59:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 47,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Nâzım_Hikmet",
+  "position_in_run": 11,
+  "sha256": "38572c793873411d9b48da7c20a36f029da39b2b9f2b120dd7a9d23e3221f144",
+  "revid": 38241217,
+  "revision_timestamp": "2026-10-13T16:59:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 48,
+  "domain": "wikipedia/biography",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Nâzım_Hikmet",
+  "position_in_run": 12,
+  "sha256": "ddab13ffb33097e8e9b3cefda8722945ca2ca21f3796cce8063a4be6b9392897",
+  "revid": 38241217,
+  "revision_timestamp": "2026-10-13T16:59:14Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 49,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Türk_kahvesi",
+  "position_in_run": 1,
+  "sha256": "8af10a9c1ac72661d2b4c0b656f7af836d8485b1dcee159d04ba6449b808ec32",
+  "revid": 38278163,
+  "revision_timestamp": "2026-10-16T11:27:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 50,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Türk_kahvesi",
+  "position_in_run": 2,
+  "sha256": "ad3e9bd159e0cbe6626c7b5a54305d148f2ac4d495fa348a371527a8567c7b3c",
+  "revid": 38278163,
+  "revision_timestamp": "2026-10-16T11:27:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 51,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Türk_kahvesi",
+  "position_in_run": 3,
+  "sha256": "dcf6d1e3bd4adc0207814aa7ee74de23ad754d82806d6efae036d56346d0a574",
+  "revid": 38278163,
+  "revision_timestamp": "2026-10-16T11:27:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 52,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Türk_kahvesi",
+  "position_in_run": 4,
+  "sha256": "74b264635b7ace32d230fa32cf4fd96d9d7d162e538314c468fe12777a20cc11",
+  "revid": 38278163,
+  "revision_timestamp": "2026-10-16T11:27:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 53,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Türk_kahvesi",
+  "position_in_run": 5,
+  "sha256": "2c6ed438e6b54a7811319cca1b653db9875c1706055f2cfed82afdbae36cdb5b",
+  "revid": 38278163,
+  "revision_timestamp": "2026-10-16T11:27:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 54,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Türk_kahvesi",
+  "position_in_run": 6,
+  "sha256": "58692bc645591bbd12f44ede08682dd1b3ef420e5dd73424ce6a572971d4137f",
+  "revid": 38278163,
+  "revision_timestamp": "2026-10-16T11:27:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 55,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Türk_kahvesi",
+  "position_in_run": 7,
+  "sha256": "a448dce80e0a94391ea55c057f0129cd33791d9cdf87743a59118a152ddc2e09",
+  "revid": 38278163,
+  "revision_timestamp": "2026-10-16T11:27:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 56,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Türk_kahvesi",
+  "position_in_run": 8,
+  "sha256": "859fe08d59077ed8ddbf74406255ec92cc410af3baa51f69dd7b6dbb2266ee5b",
+  "revid": 38278163,
+  "revision_timestamp": "2026-10-16T11:27:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 57,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Türk_kahvesi",
+  "position_in_run": 9,
+  "sha256": "1a259731851a939a241f609d9c6561c2b24f68a3fdf44c7a42f61d37bd2f68b8",
+  "revid": 38278163,
+  "revision_timestamp": "2026-10-16T11:27:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 58,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Türk_kahvesi",
+  "position_in_run": 10,
+  "sha256": "a77ea0865a0e9e54de3608fafc80e57c49c252bda36d971d49caefa306161101",
+  "revid": 38278163,
+  "revision_timestamp": "2026-10-16T11:27:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 59,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Türk_kahvesi",
+  "position_in_run": 11,
+  "sha256": "8c5cce61b155df61f14d64e400a3a552d95a2442e6cae6309cd29946a1ed9cce",
+  "revid": 38278163,
+  "revision_timestamp": "2026-10-16T11:27:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 60,
+  "domain": "wikipedia/culture",
+  "kind": "wikipedia",
+  "url": "https://tr.wikipedia.org/wiki/Türk_kahvesi",
+  "position_in_run": 12,
+  "sha256": "667d102055ce1ee1e492ca34ff00e618ff04a8c972d2db84ce573c4b99ec53aa",
+  "revid": 38278163,
+  "revision_timestamp": "2026-10-16T11:27:23Z",
+  "found_in_revision": true
+ },
+ {
+  "id": 61,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 1,
+  "sha256": "1a9b48a509b970ba1bedd2bf18480ed947021f3c2a1549ce971803041dffb1cb"
+ },
+ {
+  "id": 62,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 2,
+  "sha256": "99e49ed389064cb92743d5e3e19c3db62cb27382076167e64df73abdbed926d5"
+ },
+ {
+  "id": 63,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 3,
+  "sha256": "2ea78c8253b7283d0f280e474366ac49de46dd357470dfe3ab75c686e0fbefa1"
+ },
+ {
+  "id": 64,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 4,
+  "sha256": "20827c73297c2ed90da36221eb19ab617e26740364becefd489d27e702ea9823"
+ },
+ {
+  "id": 65,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 5,
+  "sha256": "a2221cc8c5e90625cef283617fc38f48cb98f5f65c09b307221ddac6f8d9e9e3"
+ },
+ {
+  "id": 66,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 6,
+  "sha256": "e1735b2ebfaba21aa657eafa66c6832675fbb2b325805156b51b82edc3bed30b"
+ },
+ {
+  "id": 67,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 7,
+  "sha256": "4455c117394b55cc1352ed0741a11e0189bbf1bebe11cab90e9f8eb85cd9c728"
+ },
+ {
+  "id": 68,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 8,
+  "sha256": "94bcbac59f2c4b771bcc4ada5632452c43226a80c84322b2cd9c1c74de7cb7bf"
+ },
+ {
+  "id": 69,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 9,
+  "sha256": "301b9704febbceff1cc465a7af57c9dd8dda2aa362b795d07ab6687795e0821b"
+ },
+ {
+  "id": 70,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 10,
+  "sha256": "b4ba4d48011006eda06c0d3d596863a6e4ab6cc55e56ba49588ea142c380384c"
+ },
+ {
+  "id": 71,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 11,
+  "sha256": "6bcf93a3e9a088e029f5ab98264036ccaac800ea0012f33bb08c11c2d217e382"
+ },
+ {
+  "id": 72,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 12,
+  "sha256": "ae85e85b341f34c866c581932d866fbcf24a99f1180eada12c2df4d9941cd7f7"
+ },
+ {
+  "id": 73,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 13,
+  "sha256": "9c23ddf787d24414221dfcd47c43b07b6381012d204121e1c71934e19360b308"
+ },
+ {
+  "id": 74,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 14,
+  "sha256": "a7b89243b8a1b1675ecb46f578f0f72349d3e3d206bea20a3f542603182a16c5"
+ },
+ {
+  "id": 75,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 15,
+  "sha256": "b4d89c26da9c368623a99bcc0bcc8ee437c0f2ece4c7de8914fab7cc77d74945"
+ },
+ {
+  "id": 76,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 16,
+  "sha256": "2a30d9f98f5d12599da1dd607d3861d2d4ed8788b20e1638a7ca243e07637d0c"
+ },
+ {
+  "id": 77,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 17,
+  "sha256": "cff166c40f0e0a8cb03cb585a7385a8129eb39003f45c979c139255b19eb1aa7"
+ },
+ {
+  "id": 78,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 18,
+  "sha256": "eced9a8b3a60104136d733f8d8fcc79fdb06b1ccb43450c4c33d13b8aec55a7e"
+ },
+ {
+  "id": 79,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 19,
+  "sha256": "fc625cfe20bafb8741683c95e110c2a2eb0a8b6e2e6519b70dd2d8105e22f549"
+ },
+ {
+  "id": 80,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 20,
+  "sha256": "fe0862e42ee8e46ecb7b82e7da6b697f40d3ce71110f8193a35227fba3402d0c"
+ },
+ {
+  "id": 81,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 21,
+  "sha256": "66174acfd9fd0ba1809a2fa660b5b00fd514e01e522c2438349f4b6d42605c58"
+ },
+ {
+  "id": 82,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 22,
+  "sha256": "52cc70f32530289df763bc33919e04dce5fda69e4323106c80979dd4eb137679"
+ },
+ {
+  "id": 83,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 23,
+  "sha256": "31bc22681e0a470f5cfc9a5adc0baf85037a85adebc0c313d2de811be4dcfff4"
+ },
+ {
+  "id": 84,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 24,
+  "sha256": "ecd2ec989863617930173461f720f422c1b0ba8ebd456148b8917c139bb26ea2"
+ },
+ {
+  "id": 85,
+  "domain": "news/bbc-turkce",
+  "kind": "news",
+  "url": "https://www.bbc.com/turkce/articles/c5y43z3pdk3wo",
+  "position_in_run": 25,
+  "sha256": "7f061bcf70904e6a802b7dbf1d06f5fa10f94b467ce6481a7e8bbed884769123"
+ },
+ {
+  "id": 86,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 1,
+  "sha256": "c51330ab9e9f20cd9d018aa4dabd0fa61a8bf86ccb3e3a587b81cf14fa25b883"
+ },
+ {
+  "id": 87,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 2,
+  "sha256": "af908dafd247177c5647ab7ed392efbc6df2cf6c72ff77645b138e8d553619b6"
+ },
+ {
+  "id": 88,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 3,
+  "sha256": "3d7a9d6e6a0752ad3a7914434efba73a440ae81f8953ff4f5d11ca02a1d99699"
+ },
+ {
+  "id": 89,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 4,
+  "sha256": "4476ef3dc5e8387b40af55ca55f008addbd32c813ec24e5b0304260898e26fd2"
+ },
+ {
+  "id": 90,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 5,
+  "sha256": "6545c54fe2014b661621ad1f8a0b5285c2d839cc84526077595e13f7bd0fbd94"
+ },
+ {
+  "id": 91,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 6,
+  "sha256": "b3e984c189636c4632adcae228f729b1df8a3579feaa3428b8155e688b520992"
+ },
+ {
+  "id": 92,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 7,
+  "sha256": "6fe2913008a05e79918bcc35338c4874679444e8aeaf0860d6b9128192184d6d"
+ },
+ {
+  "id": 93,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 8,
+  "sha256": "76124ba63e611ca3d7fddaaa1f2a326a588f532c05a4c94c59133a6ec33962ed"
+ },
+ {
+  "id": 94,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 9,
+  "sha256": "135505870d82e103edf940f9c6142d2810ddd63fa911587bcfdaa0188d21534b"
+ },
+ {
+  "id": 95,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 10,
+  "sha256": "400738fd161883c2e248a09e05cedebed8a6f2ef00749e87f91bede4dd15eeb5"
+ },
+ {
+  "id": 96,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 11,
+  "sha256": "7404eb06d2ac35391f6fb9baf8187547a683cc419ae53e2ca3a66d98f0e1a816"
+ },
+ {
+  "id": 97,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 12,
+  "sha256": "05eab012bd22545e8990b127a6fcf5236a6db2ee5c104f0f6b4174693ca9b2c3"
+ },
+ {
+  "id": 98,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 13,
+  "sha256": "d8c3c5ab75f3f04cff64cd929782c486b047c3f6b7f93f5ce002b5bdd8f2f514"
+ },
+ {
+  "id": 99,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 14,
+  "sha256": "e8533f6518574d96b5aa4faf6edbf14c9fa67845c08963934082ca9e01ee6470"
+ },
+ {
+  "id": 100,
+  "domain": "news/euronews-turkce",
+  "kind": "news",
+  "url": "https://tr.euronews.com/2026/11/05/fatma-betul-sayan-kaya-tutuklama-talebiyle-mahkemeye-sevk-edildi",
+  "position_in_run": 15,
+  "sha256": "a8528464b8645a84532b196fbdbe443c3b8a1baac0763bcb3c162da977546c86"
+ }
+]

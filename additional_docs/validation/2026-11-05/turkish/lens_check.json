@@ -1,0 +1,1821 @@
+{
+ "lenses": [
+  {
+   "combination": "K3",
+   "lens": "Tuyuca",
+   "status": "roster (questioned overlap with -DI / -mIş)",
+   "forced_choice": "the source of the information",
+   "attachment": "verb",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    5,
+    11,
+    38,
+    43,
+    49,
+    56,
+    74,
+    83,
+    88
+   ],
+   "forces_new_choice": [
+    1,
+    5,
+    11,
+    38,
+    43,
+    49,
+    56,
+    74,
+    83,
+    88
+   ],
+   "already_made": [],
+   "not_applicable": [],
+   "count": "10 of 10",
+   "per_sentence": {
+    "1": {
+     "forces": true,
+     "why": "present copula -DIr: no source marked at all"
+    },
+    "5": {
+     "forces": true,
+     "why": "-DI says direct, but the content is historians' inference; Tuyuca asks inferred vs hearsay"
+    },
+    "11": {
+     "forces": true,
+     "why": "nominal fragment, no evidential slot"
+    },
+    "38": {
+     "forces": true,
+     "why": "-mIştIr is a certainty perfect, not evidential; source open"
+    },
+    "43": {
+     "forces": true,
+     "why": "suspended -mIş + -mIştIr, non-evidential; report vs record open"
+    },
+    "49": {
+     "forces": true,
+     "why": "-mIş participle and bilinen: 'known', but whether by record or by assumption is open"
+    },
+    "56": {
+     "forces": true,
+     "why": "-mIştIr, non-evidential; source open"
+    },
+    "74": {
+     "forces": true,
+     "why": "-DI over a news report: direct claimed, hearsay vs inference from documents open"
+    },
+    "83": {
+     "forces": true,
+     "why": "-DI over a count the reporter computed or was told: inference vs hearsay open"
+    },
+    "88": {
+     "forces": true,
+     "why": "-DI over a wire report: seen vs hearsay open"
+    }
+   },
+   "note": "In 0 of 10 had -mIş acted as an evidential; where -DI was used it sets only direct vs indirect, and even an indirect -mIş would not split report from inference. Tuyuca is not redundant."
+  },
+  {
+   "combination": "K3",
+   "lens": "Ewe (logophoric pronouns)",
+   "status": "roster",
+   "forced_choice": "whether a report speaks of the one quoted or another",
+   "attachment": "person",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    5,
+    11,
+    38,
+    43,
+    49,
+    56,
+    74,
+    83,
+    88
+   ],
+   "forces_new_choice": [],
+   "already_made": [],
+   "not_applicable": [
+    1,
+    5,
+    11,
+    38,
+    43,
+    49,
+    56,
+    74,
+    83,
+    88
+   ],
+   "count": "0 of 0 applicable (10 n/a)",
+   "per_sentence": {
+    "1": {
+     "forces": null,
+     "why": "no reported speech, no pronoun to anchor"
+    },
+    "5": {
+     "forces": null,
+     "why": "no reported speech"
+    },
+    "11": {
+     "forces": null,
+     "why": "no reported speech"
+    },
+    "38": {
+     "forces": null,
+     "why": "no reported speech"
+    },
+    "43": {
+     "forces": null,
+     "why": "no reported speech"
+    },
+    "49": {
+     "forces": null,
+     "why": "no reported speech"
+    },
+    "56": {
+     "forces": null,
+     "why": "no reported speech"
+    },
+    "74": {
+     "forces": null,
+     "why": "no reported speech"
+    },
+    "83": {
+     "forces": null,
+     "why": "no reported speech"
+    },
+    "88": {
+     "forces": null,
+     "why": "no reported speech"
+    }
+   },
+   "note": "No grip on these triggers. Outside the sample, in the reported speech 91-95 (not K3 triggers under the strict reading), the 3sg -(s)I/-DIğI left open whether the quoted speaker is meant in 91, 92, 93 and 95, and kendisi settled it in 94: kendisi overlaps Ewe only partly and only when present."
+  },
+  {
+   "combination": "K3",
+   "lens": "Latin (oratio obliqua)",
+   "status": "roster",
+   "forced_choice": "whether the passage is the speaker's own claim",
+   "attachment": "whole passage",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    5,
+    11,
+    38,
+    43,
+    49,
+    56,
+    74,
+    83,
+    88
+   ],
+   "forces_new_choice": [
+    1,
+    11,
+    38,
+    43,
+    49,
+    56
+   ],
+   "already_made": [
+    5,
+    74,
+    83,
+    88
+   ],
+   "not_applicable": [],
+   "count": "6 of 10",
+   "per_sentence": {
+    "1": {
+     "forces": true,
+     "why": "present copula: own vs borrowed claim unmarked"
+    },
+    "5": {
+     "forces": false,
+     "why": "-DI chose direct, i.e. the speaker's own claim (the trigger itself)"
+    },
+    "11": {
+     "forces": true,
+     "why": "fragment, unmarked"
+    },
+    "38": {
+     "forces": true,
+     "why": "-mIştIr marks no source"
+    },
+    "43": {
+     "forces": true,
+     "why": "-mIştIr marks no source"
+    },
+    "49": {
+     "forces": true,
+     "why": "participle; bilinen hints at a common claim but marks no passage"
+    },
+    "56": {
+     "forces": true,
+     "why": "-mIştIr marks no source"
+    },
+    "74": {
+     "forces": false,
+     "why": "-DI chose own/direct"
+    },
+    "83": {
+     "forces": false,
+     "why": "-DI chose own/direct"
+    },
+    "88": {
+     "forces": false,
+     "why": "-DI chose own/direct"
+    }
+   },
+   "note": "Where -DI stood, the own-vs-foreign choice is already made (as direct); the lens reopens it rather than adding one. It adds a new choice in the -mIştIr, present and non-finite cases."
+  },
+  {
+   "combination": "K5",
+   "lens": "Russian",
+   "status": "removed by substitution",
+   "forced_choice": "whether the act is goal-directed or processual",
+   "attachment": "verb",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    3,
+    7,
+    35,
+    40,
+    44,
+    49,
+    55,
+    74,
+    82
+   ],
+   "forces_new_choice": [
+    1,
+    3,
+    35
+   ],
+   "already_made": [
+    7,
+    40,
+    44,
+    49,
+    55,
+    74,
+    82
+   ],
+   "not_applicable": [],
+   "count": "3 of 10",
+   "per_sentence": {
+    "1": {
+     "forces": true,
+     "why": "participle -(y)An gerçekleşen is aspect-neutral (that took place / was taking place)"
+    },
+    "3": {
+     "forces": true,
+     "why": "verbal noun sarsılması is aspect-neutral"
+    },
+    "7": {
+     "forces": false,
+     "why": "-mIştI ele geçirmişti: completed choice made against -(I)yordu"
+    },
+    "35": {
+     "forces": true,
+     "why": "verbal noun karşılaşması is aspect-neutral"
+    },
+    "40": {
+     "forces": false,
+     "why": "-mIştIr ulaşmıştır: completion chosen"
+    },
+    "44": {
+     "forces": false,
+     "why": "-mIştIr over habitual use chosen against kullanırdı / kullanıyordu"
+    },
+    "49": {
+     "forces": false,
+     "why": "-mIş participle gelmiş: perfect chosen"
+    },
+    "55": {
+     "forces": false,
+     "why": "-DI sağladı: perfective chosen"
+    },
+    "74": {
+     "forces": false,
+     "why": "-DI yaptı: perfective chosen"
+    },
+    "82": {
+     "forces": false,
+     "why": "-DI karşıladı: perfective chosen"
+    }
+   },
+   "note": "Claim holds for finite verbs (7 of 7 finite trigger sites already decided). The 3 exceptions are all non-finite: the -(y)An participle and the verbal noun carry no aspect."
+  },
+  {
+   "combination": "K5",
+   "lens": "Hindi-Urdu (vector verbs)",
+   "status": "replacement",
+   "forced_choice": "whom the outcome falls to and how it came about",
+   "attachment": "verb",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    3,
+    7,
+    35,
+    40,
+    44,
+    49,
+    55,
+    74,
+    82
+   ],
+   "forces_new_choice": [
+    1,
+    3,
+    7,
+    35,
+    40,
+    49,
+    55,
+    74,
+    82
+   ],
+   "already_made": [
+    44
+   ],
+   "not_applicable": [],
+   "count": "9 of 10",
+   "per_sentence": {
+    "1": {
+     "forces": true,
+     "why": "battle 'came about' (ho gayā vs ho paṛā): unmarked"
+    },
+    "3": {
+     "forces": true,
+     "why": "authority shaken: by force or as a side effect, unmarked"
+    },
+    "7": {
+     "forces": true,
+     "why": "seized for themselves (le liyā) or forcibly (ḍāl-): unmarked"
+    },
+    "35": {
+     "forces": true,
+     "why": "encounter as befalling (ho gayā): unmarked"
+    },
+    "40": {
+     "forces": true,
+     "why": "fame reached for himself (le-) or fell to him (jā-): unmarked"
+    },
+    "44": {
+     "forces": false,
+     "why": "habitual use: vector verbs are excluded from habituals, nothing to choose"
+    },
+    "49": {
+     "forces": true,
+     "why": "came down to today continuously (calā ānā): unmarked"
+    },
+    "55": {
+     "forces": true,
+     "why": "coffeehouses brought it about for the people (de-): unmarked"
+    },
+    "74": {
+     "forces": true,
+     "why": "drafting done for itself (kar liyā) or for the EU (kar diyā): unmarked"
+    },
+    "82": {
+     "forces": true,
+     "why": "criteria met for itself / completed: unmarked"
+    }
+   },
+   "note": "Turkish -Iver- and -Ip bırak- exist but occur in none of the 10."
+  },
+  {
+   "combination": "K5",
+   "lens": "Finnish (partitive object)",
+   "status": "roster",
+   "forced_choice": "how far the event reached the object",
+   "attachment": "object",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    3,
+    7,
+    35,
+    40,
+    44,
+    49,
+    55,
+    74,
+    82
+   ],
+   "forces_new_choice": [
+    55,
+    74
+   ],
+   "already_made": [
+    7,
+    44,
+    82
+   ],
+   "not_applicable": [
+    1,
+    3,
+    35,
+    40,
+    49
+   ],
+   "count": "2 of 5 applicable (5 n/a)",
+   "per_sentence": {
+    "1": {
+     "forces": null,
+     "why": "intransitive, no object"
+    },
+    "3": {
+     "forces": null,
+     "why": "verbal noun of an intransitive/passive, no object"
+    },
+    "7": {
+     "forces": false,
+     "why": "specific accusative bir alanı + perfective -mIştI: the whole area was reached"
+    },
+    "35": {
+     "forces": null,
+     "why": "comitative -lA, no direct object"
+    },
+    "40": {
+     "forces": null,
+     "why": "dative üne, no direct object"
+    },
+    "44": {
+     "forces": false,
+     "why": "accusative ismini with hep / daha çok: unbounded use already stated by the adverbs"
+    },
+    "49": {
+     "forces": null,
+     "why": "intransitive gelmek, no object"
+    },
+    "55": {
+     "forces": true,
+     "why": "clausal object yaygınlaşmasını: how far the spread got (whole people or some) open"
+    },
+    "74": {
+     "forces": true,
+     "why": "bare non-specific object yazım çalışması: finished draft or work on it, open"
+    },
+    "82": {
+     "forces": false,
+     "why": "accusative + numeral 65'ini: reach stated exactly"
+    }
+   },
+   "note": "No object in 5 of 10, as the K5 prose predicts. Where an object stood, Turkish settled the reach in 3 of 5 (via verbal aspect plus accusative specificity); the bare non-specific object leaves it open."
+  },
+  {
+   "combination": "K5",
+   "lens": "Guaraní",
+   "status": "roster (reconstruction)",
+   "forced_choice": "at which stage of its existence the thing is named",
+   "attachment": "noun",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    3,
+    7,
+    35,
+    40,
+    44,
+    49,
+    55,
+    74,
+    82
+   ],
+   "forces_new_choice": [
+    1,
+    3,
+    7,
+    35,
+    40,
+    44,
+    49,
+    55,
+    74,
+    82
+   ],
+   "already_made": [],
+   "not_applicable": [],
+   "count": "10 of 10",
+   "per_sentence": {
+    "1": {
+     "forces": true,
+     "why": "ruler and empire named without their epoch (-kue)"
+    },
+    "3": {
+     "forces": true,
+     "why": "army and emperor named without their stage"
+    },
+    "7": {
+     "forces": true,
+     "why": "the area is named as if already theirs; its former owner stage unmarked"
+    },
+    "35": {
+     "forces": true,
+     "why": "price revolution named without its stage"
+    },
+    "40": {
+     "forces": true,
+     "why": "fame named without stage"
+    },
+    "44": {
+     "forces": true,
+     "why": "former surnames Ran / Borzecki not marked as former (-kue)"
+    },
+    "49": {
+     "forces": true,
+     "why": "Osmanlı İmparatorluğu as a former entity, unmarked"
+    },
+    "55": {
+     "forces": true,
+     "why": "coffeehouses unmarked for stage"
+    },
+    "74": {
+     "forces": true,
+     "why": "the legislation-to-be (-rã) unmarked"
+    },
+    "82": {
+     "forces": true,
+     "why": "criteria unmarked for stage"
+    }
+   },
+   "note": "Turkish eski 'former' marks the stage lexically (86, 88 'eski ... Bakanı / Başkanı', outside the sample) but not obligatorily."
+  },
+  {
+   "combination": "K4",
+   "lens": "Yucatec Maya",
+   "status": "roster (questioned overlap with number-neutral bare nouns)",
+   "forced_choice": "whether the noun denotes a countable unit",
+   "attachment": "noun",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    5,
+    11,
+    28,
+    39,
+    54,
+    63,
+    69,
+    74,
+    90
+   ],
+   "forces_new_choice": [
+    1,
+    5,
+    11,
+    28,
+    63,
+    69,
+    74,
+    90
+   ],
+   "already_made": [
+    39,
+    54
+   ],
+   "not_applicable": [],
+   "count": "8 of 10",
+   "per_sentence": {
+    "1": {
+     "forces": true,
+     "why": "proper name of a state as one unit: countable-unit status asserted, not left open"
+    },
+    "5": {
+     "forces": true,
+     "why": "İmparatorluğun: definite unit"
+    },
+    "11": {
+     "forces": true,
+     "why": "Bizans İmparatorluğu: unit"
+    },
+    "28": {
+     "forces": true,
+     "why": "genel fiyat seviyesi: one level, not a mass of prices"
+    },
+    "39": {
+     "forces": false,
+     "why": "bare çağdaş Türk şiiri: number-neutral material, as Yucatec would leave it"
+    },
+    "54": {
+     "forces": false,
+     "why": "bare kahve: number-neutral material"
+    },
+    "63": {
+     "forces": true,
+     "why": "Brüksel / Ankara as units by metonymy"
+    },
+    "69": {
+     "forces": true,
+     "why": "AB as one unit"
+    },
+    "74": {
+     "forces": true,
+     "why": "Türkiye as one unit"
+    },
+    "90": {
+     "forces": true,
+     "why": "Kaya çifti: çift is a count noun, unit asserted"
+    }
+   },
+   "note": "Number-neutrality settles it only where the trigger is a bare mass (2 of 10). Most Turkish K4 triggers are names of states and institutions, which are not number-neutral."
+  },
+  {
+   "combination": "K4",
+   "lens": "Polish (numeral threshold)",
+   "status": "roster (questioned: singular after numerals)",
+   "forced_choice": "where a set of individuals becomes a quantity",
+   "attachment": "noun",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    5,
+    11,
+    28,
+    39,
+    54,
+    63,
+    69,
+    74,
+    90
+   ],
+   "forces_new_choice": [
+    90
+   ],
+   "already_made": [],
+   "not_applicable": [
+    1,
+    5,
+    11,
+    28,
+    39,
+    54,
+    63,
+    69,
+    74
+   ],
+   "count": "1 of 1 applicable (9 n/a)",
+   "per_sentence": {
+    "1": {
+     "forces": null,
+     "why": "no quantified set"
+    },
+    "5": {
+     "forces": null,
+     "why": "no quantified set"
+    },
+    "11": {
+     "forces": null,
+     "why": "no quantified set"
+    },
+    "28": {
+     "forces": null,
+     "why": "no numeral or quantifier"
+    },
+    "39": {
+     "forces": null,
+     "why": "mass"
+    },
+    "54": {
+     "forces": null,
+     "why": "mass"
+    },
+    "63": {
+     "forces": null,
+     "why": "no quantified set"
+    },
+    "69": {
+     "forces": null,
+     "why": "no quantified set"
+    },
+    "74": {
+     "forces": null,
+     "why": "no quantified set"
+    },
+    "90": {
+     "forces": true,
+     "why": "a pair named as one çift: two individuals or one unit (Polish collective dwoje) open"
+    }
+   },
+   "note": "Narrow grip. Across all K4 triggers with a numeral or quantifier (2 pek çok Türk, 17 çoğu bitki, 38 elliden fazla dil, 41 11 ayrı dava) the lens forced a choice in 4 of 4, because the Turkish singular after numerals is uniform and so decides nothing."
+  },
+  {
+   "combination": "K4",
+   "lens": "Hungarian (associative plural)",
+   "status": "roster (questioned: associative -lAr)",
+   "forced_choice": "whether the group is equals or one member plus its belongings",
+   "attachment": "noun",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    5,
+    11,
+    28,
+    39,
+    54,
+    63,
+    69,
+    74,
+    90
+   ],
+   "forces_new_choice": [
+    1,
+    5,
+    11,
+    63,
+    69,
+    74
+   ],
+   "already_made": [
+    90
+   ],
+   "not_applicable": [
+    28,
+    39,
+    54
+   ],
+   "count": "6 of 7 applicable (3 n/a)",
+   "per_sentence": {
+    "1": {
+     "forces": true,
+     "why": "dynasty plus its subjects, or a peer set: unmarked"
+    },
+    "5": {
+     "forces": true,
+     "why": "İmparatorluk: centre plus dependants or peer whole, unmarked"
+    },
+    "11": {
+     "forces": true,
+     "why": "as 5"
+    },
+    "28": {
+     "forces": null,
+     "why": "an aggregate measure, not a group of members"
+    },
+    "39": {
+     "forces": null,
+     "why": "mass"
+    },
+    "54": {
+     "forces": null,
+     "why": "mass"
+    },
+    "63": {
+     "forces": true,
+     "why": "Brüksel: the centre for the EU and its members (focal + belongings), unmarked"
+    },
+    "69": {
+     "forces": true,
+     "why": "AB: peer set of states or Commission plus members, unmarked"
+    },
+    "74": {
+     "forces": true,
+     "why": "Türkiye: government plus citizens, unmarked"
+    },
+    "90": {
+     "forces": false,
+     "why": "Kaya çifti chooses a peer pair over associative Kayalar: choice made"
+    }
+   },
+   "note": "Associative -lAr itself occurs nowhere in the corpus; the choice was made lexically once (çift)."
+  },
+  {
+   "combination": "K2",
+   "lens": "Basque (Euskara)",
+   "status": "roster",
+   "forced_choice": "whether the participant patterns with the object",
+   "attachment": "subject",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    2,
+    14,
+    21,
+    31,
+    40,
+    54,
+    62,
+    71,
+    79,
+    86
+   ],
+   "forces_new_choice": [
+    2,
+    54,
+    62,
+    79
+   ],
+   "already_made": [
+    14,
+    21,
+    31,
+    40,
+    71,
+    86
+   ],
+   "not_applicable": [],
+   "count": "4 of 10",
+   "per_sentence": {
+    "2": {
+     "forces": true,
+     "why": "battle as subject of açmak (active): undergoer status open"
+    },
+    "14": {
+     "forces": false,
+     "why": "passive depolanır: subject already marked as undergoer"
+    },
+    "21": {
+     "forces": false,
+     "why": "passive kullanılır: undergoer marked"
+    },
+    "31": {
+     "forces": false,
+     "why": "passive bağlanır: undergoer marked"
+    },
+    "40": {
+     "forces": false,
+     "why": "passive gösterilmektedir: undergoer marked"
+    },
+    "54": {
+     "forces": true,
+     "why": "kahve as subject of active adını aldı: open"
+    },
+    "62": {
+     "forces": true,
+     "why": "AB as holder of a view: open"
+    },
+    "71": {
+     "forces": false,
+     "why": "passive vurgulandı: undergoer marked"
+    },
+    "79": {
+     "forces": true,
+     "why": "toplantıların izlemesi: meetings as active subject, open"
+    },
+    "86": {
+     "forces": false,
+     "why": "tarafından agent: actor status stated"
+    }
+   },
+   "note": "Redundant on the passive half: Turkish passive morphology already marks the subject as undergoer."
+  },
+  {
+   "combination": "K2",
+   "lens": "Nez Percé (Nimipuutímt)",
+   "status": "roster",
+   "forced_choice": "whether the participant is the one acting",
+   "attachment": "subject",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    2,
+    14,
+    21,
+    31,
+    40,
+    54,
+    62,
+    71,
+    79,
+    86
+   ],
+   "forces_new_choice": [
+    2,
+    54,
+    62,
+    79
+   ],
+   "already_made": [
+    14,
+    21,
+    31,
+    40,
+    71,
+    86
+   ],
+   "not_applicable": [],
+   "count": "4 of 10",
+   "per_sentence": {
+    "2": {
+     "forces": true,
+     "why": "battle as subject of açmak (active): whether it acts open"
+    },
+    "14": {
+     "forces": false,
+     "why": "passive depolanır: subject marked as not acting"
+    },
+    "21": {
+     "forces": false,
+     "why": "passive kullanılır: subject marked as not acting"
+    },
+    "31": {
+     "forces": false,
+     "why": "passive bağlanır: subject marked as not acting"
+    },
+    "40": {
+     "forces": false,
+     "why": "passive gösterilmektedir: subject marked as not acting"
+    },
+    "54": {
+     "forces": true,
+     "why": "kahve as subject of active adını aldı: open"
+    },
+    "62": {
+     "forces": true,
+     "why": "AB as holder of a view: open"
+    },
+    "71": {
+     "forces": false,
+     "why": "passive vurgulandı: subject marked as not acting"
+    },
+    "79": {
+     "forces": true,
+     "why": "toplantıların izlemesi: meetings as active subject, open"
+    },
+    "86": {
+     "forces": false,
+     "why": "tarafından agent: actor status stated"
+    }
+   },
+   "note": "Same split as Basque on every sentence: on Turkish the two K2 ablations give correlated results."
+  },
+  {
+   "combination": "K2",
+   "lens": "Tagalog",
+   "status": "roster (reconstruction)",
+   "forced_choice": "which participant the event is told from",
+   "attachment": "verb",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    2,
+    14,
+    21,
+    31,
+    40,
+    54,
+    62,
+    71,
+    79,
+    86
+   ],
+   "forces_new_choice": [
+    2,
+    14,
+    21,
+    31,
+    40,
+    54,
+    62,
+    71,
+    79,
+    86
+   ],
+   "already_made": [],
+   "not_applicable": [],
+   "count": "10 of 10",
+   "per_sentence": {
+    "2": {
+     "forces": true,
+     "why": "told from the battle; actor, goal (Türklere) or place focus open"
+    },
+    "14": {
+     "forces": true,
+     "why": "passive picks undergoer only; locative focus (moleküllerinde) available"
+    },
+    "21": {
+     "forces": true,
+     "why": "locative (tepkimelerde) or instrument focus available, voice only gives undergoer"
+    },
+    "31": {
+     "forces": true,
+     "why": "actor focus would have to name who attributes"
+    },
+    "40": {
+     "forces": true,
+     "why": "actor focus would name who ranks him"
+    },
+    "54": {
+     "forces": true,
+     "why": "instrument focus (cezve, yöntem) available"
+    },
+    "62": {
+     "forces": true,
+     "why": "EU as experiencer; actor vs topic focus open"
+    },
+    "71": {
+     "forces": true,
+     "why": "locative focus on the Report available"
+    },
+    "79": {
+     "forces": true,
+     "why": "who foresees: actor focus open"
+    },
+    "86": {
+     "forces": true,
+     "why": "beneficiary / locative (adliye) focus available"
+    }
+   },
+   "note": "Turkish voice chooses only actor vs undergoer; Tagalog's choice space is wider. Counted as forcing; see doubts."
+  },
+  {
+   "combination": "K6",
+   "lens": "Navajo (inalienable possession)",
+   "status": "roster",
+   "forced_choice": "whether the thing is separable from its owner",
+   "attachment": "possessive",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    5,
+    18,
+    29,
+    39,
+    46,
+    52,
+    63,
+    80,
+    92
+   ],
+   "forces_new_choice": [
+    1,
+    5,
+    18,
+    29,
+    39,
+    46,
+    52,
+    63,
+    80,
+    92
+   ],
+   "already_made": [],
+   "not_applicable": [],
+   "count": "10 of 10",
+   "per_sentence": {
+    "1": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "5": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "18": {
+     "forces": true,
+     "why": "oxygen content of the atmosphere: inalienable part, unmarked"
+    },
+    "29": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "39": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "46": {
+     "forces": true,
+     "why": "grave of a person: separable?, unmarked"
+    },
+    "52": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "63": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "80": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "92": {
+     "forces": true,
+     "why": "part of the money: part-whole, unmarked"
+    }
+   }
+  },
+  {
+   "combination": "K6",
+   "lens": "Hawaiian (a/o possession)",
+   "status": "roster",
+   "forced_choice": "which side the dependency runs",
+   "attachment": "possessive",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    5,
+    18,
+    29,
+    39,
+    46,
+    52,
+    63,
+    80,
+    92
+   ],
+   "forces_new_choice": [
+    1,
+    5,
+    18,
+    29,
+    39,
+    46,
+    52,
+    63,
+    80,
+    92
+   ],
+   "already_made": [],
+   "not_applicable": [],
+   "count": "10 of 10",
+   "per_sentence": {
+    "1": {
+     "forces": true,
+     "why": "ruler of the empire: does he hang on it or it on him, unmarked"
+    },
+    "5": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "18": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "29": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "39": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "46": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "52": {
+     "forces": true,
+     "why": "name's etymology: o-class (origin), unmarked"
+    },
+    "63": {
+     "forces": true,
+     "why": "Brussels' demand: a-class (controlled), unmarked"
+    },
+    "80": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "92": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    }
+   }
+  },
+  {
+   "combination": "K6",
+   "lens": "Mongolian (reflexive possession)",
+   "status": "roster (questioned: kendi)",
+   "forced_choice": "whether the one already acting stays the anchor",
+   "attachment": "possessive",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    5,
+    18,
+    29,
+    39,
+    46,
+    52,
+    63,
+    80,
+    92
+   ],
+   "forces_new_choice": [
+    1,
+    5,
+    18,
+    29,
+    39,
+    46,
+    52,
+    63,
+    80,
+    92
+   ],
+   "already_made": [],
+   "not_applicable": [],
+   "count": "10 of 10",
+   "per_sentence": {
+    "1": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "5": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "18": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "29": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "39": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "46": {
+     "forces": true,
+     "why": "Mezarı: possessor is not the clause subject; -(s)I does not say so"
+    },
+    "52": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "63": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "80": {
+     "forces": true,
+     "why": "çalışmaların hızı: anchor open"
+    },
+    "92": {
+     "forces": true,
+     "why": "işlemlerinin: Kaya's own transactions; -(s)I without kendi leaves the anchor open"
+    }
+   },
+   "note": "kendi settled the anchor in 1 of the 49 K6 trigger sentences (44 kendi soyadı); kendisi in 85 and 94 is a pronoun, not a possessor. Not redundant."
+  },
+  {
+   "combination": "K6",
+   "lens": "Pohnpeian (possessive classifiers)",
+   "status": "roster (reconstruction)",
+   "forced_choice": "what the having is for",
+   "attachment": "possessive",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    5,
+    18,
+    29,
+    39,
+    46,
+    52,
+    63,
+    80,
+    92
+   ],
+   "forces_new_choice": [
+    1,
+    5,
+    18,
+    29,
+    39,
+    46,
+    52,
+    63,
+    80,
+    92
+   ],
+   "already_made": [],
+   "not_applicable": [],
+   "count": "10 of 10",
+   "per_sentence": {
+    "1": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "5": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "18": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "29": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "39": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "46": {
+     "forces": true,
+     "why": "grave: what the having is for, unmarked"
+    },
+    "52": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "63": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "80": {
+     "forces": true,
+     "why": "Turkish -(s)I / genitive leaves this unmarked"
+    },
+    "92": {
+     "forces": true,
+     "why": "money: for investment, unmarked"
+    }
+   }
+  },
+  {
+   "combination": "K7",
+   "lens": "Latin (ablative absolute)",
+   "status": "roster (questioned: converbs -ArAk / -Ip)",
+   "forced_choice": "whether the circumstance is cause, time, condition or concession",
+   "attachment": "connective",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    22,
+    23,
+    27,
+    30,
+    34,
+    41,
+    44,
+    56,
+    57,
+    66
+   ],
+   "forces_new_choice": [
+    22,
+    27,
+    30,
+    34,
+    41,
+    44,
+    57,
+    66
+   ],
+   "already_made": [
+    23,
+    56
+   ],
+   "not_applicable": [],
+   "count": "8 of 10",
+   "per_sentence": {
+    "22": {
+     "forces": true,
+     "why": "sonucu olarak states cause; AA withholds it"
+    },
+    "23": {
+     "forces": false,
+     "why": "instrumental -(y)lA (bölünmesiyle) already leaves means / cause / time unsplit"
+    },
+    "27": {
+     "forces": true,
+     "why": "sonuç olarak states consequence"
+    },
+    "30": {
+     "forces": true,
+     "why": "-DIğIndAn states cause"
+    },
+    "34": {
+     "forces": true,
+     "why": "nedeniyle states cause"
+    },
+    "41": {
+     "forces": true,
+     "why": "nedeniyle states cause"
+    },
+    "44": {
+     "forces": true,
+     "why": "dolayı / gereği state cause; üzerine is half temporal"
+    },
+    "56": {
+     "forces": false,
+     "why": "instrumental -(y)lA (yöntemiyle) leaves means / cause unsplit"
+    },
+    "57": {
+     "forces": true,
+     "why": "sayesinde states cause with positive evaluation"
+    },
+    "66": {
+     "forces": true,
+     "why": "gereği states ground"
+    }
+   },
+   "note": "No -ArAk / -Ip converb stood at any K7 trigger site; the unsplit-relation overlap came from instrumental -(y)lA (23, 56, and 96 outside the sample)."
+  },
+  {
+   "combination": "K7",
+   "lens": "Classical Chinese (Wényán)",
+   "status": "roster",
+   "forced_choice": "whether the relation between the parts is stated or left to the arrangement",
+   "attachment": "connective",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    22,
+    23,
+    27,
+    30,
+    34,
+    41,
+    44,
+    56,
+    57,
+    66
+   ],
+   "forces_new_choice": [
+    22,
+    23,
+    27,
+    30,
+    34,
+    41,
+    44,
+    56,
+    57,
+    66
+   ],
+   "already_made": [],
+   "not_applicable": [],
+   "count": "10 of 10",
+   "per_sentence": {
+    "22": {
+     "forces": true,
+     "why": "relation stated (sonucu olarak)"
+    },
+    "23": {
+     "forces": true,
+     "why": "relation half-stated by -(y)lA; parataxis would drop it"
+    },
+    "27": {
+     "forces": true,
+     "why": "stated (sonuç olarak)"
+    },
+    "30": {
+     "forces": true,
+     "why": "stated (-DIğIndAn)"
+    },
+    "34": {
+     "forces": true,
+     "why": "stated (nedeniyle)"
+    },
+    "41": {
+     "forces": true,
+     "why": "stated (nedeniyle)"
+    },
+    "44": {
+     "forces": true,
+     "why": "stated (dolayı, gereği, üzerine)"
+    },
+    "56": {
+     "forces": true,
+     "why": "half-stated by -(y)lA"
+    },
+    "57": {
+     "forces": true,
+     "why": "stated (sayesinde)"
+    },
+    "66": {
+     "forces": true,
+     "why": "stated (gereği)"
+    }
+   }
+  },
+  {
+   "combination": "K8",
+   "lens": "Vigraha (compound resolution)",
+   "status": "roster",
+   "forced_choice": "which case relation the compound hides",
+   "attachment": "noun",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    12,
+    20,
+    30,
+    42,
+    51,
+    60,
+    70,
+    81,
+    92
+   ],
+   "forces_new_choice": [
+    1,
+    12,
+    20,
+    30,
+    42,
+    51,
+    60,
+    70,
+    81,
+    92
+   ],
+   "already_made": [],
+   "not_applicable": [],
+   "count": "10 of 10",
+   "per_sentence": {
+    "1": {
+     "forces": true,
+     "why": "Malazgirt Ovası: locative or appositive relation hidden"
+    },
+    "12": {
+     "forces": true,
+     "why": "Monomakhos dönemi: genitive of time hidden"
+    },
+    "20": {
+     "forces": true,
+     "why": "yaprak hücreleri: part-whole hidden"
+    },
+    "30": {
+     "forces": true,
+     "why": "tüketici fiyat endeksi: two relations hidden"
+    },
+    "42": {
+     "forces": true,
+     "why": "Ercüment Er adları: appositive vs genitive hidden"
+    },
+    "51": {
+     "forces": true,
+     "why": "kahve türü: partitive / kind hidden"
+    },
+    "60": {
+     "forces": true,
+     "why": "... Derneği: purposive relation hidden"
+    },
+    "70": {
+     "forces": true,
+     "why": "üyelik müzakereleri: object vs purpose hidden"
+    },
+    "81": {
+     "forces": true,
+     "why": "Vize Serbestisi Diyaloğu: topic relation hidden"
+    },
+    "92": {
+     "forces": true,
+     "why": "yatırım fonları: purpose hidden"
+    }
+   },
+   "note": "The row's own note holds: -(s)I names that there is a relation, not which."
+  },
+  {
+   "combination": "K8",
+   "lens": "Ancient Greek (article & substantivization)",
+   "status": "roster (other lens, checked unprompted)",
+   "forced_choice": "whether anything is being turned into a thing",
+   "attachment": "noun",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    12,
+    20,
+    30,
+    42,
+    51,
+    60,
+    70,
+    81,
+    92
+   ],
+   "forces_new_choice": [],
+   "already_made": [
+    1,
+    12,
+    20,
+    30,
+    42,
+    51,
+    60,
+    70,
+    81,
+    92
+   ],
+   "not_applicable": [],
+   "count": "0 of 10",
+   "per_sentence": {
+    "1": {
+     "forces": false,
+     "why": "plain nouns, nothing substantivized"
+    },
+    "12": {
+     "forces": false,
+     "why": "plain nouns"
+    },
+    "20": {
+     "forces": false,
+     "why": "plain nouns"
+    },
+    "30": {
+     "forces": false,
+     "why": "tüket-ici: agent noun derived overtly"
+    },
+    "42": {
+     "forces": false,
+     "why": "plain nouns"
+    },
+    "51": {
+     "forces": false,
+     "why": "plain nouns"
+    },
+    "60": {
+     "forces": false,
+     "why": "araştır-ma: verbal noun derived overtly"
+    },
+    "70": {
+     "forces": false,
+     "why": "üye-lik: abstract noun derived overtly"
+    },
+    "81": {
+     "forces": false,
+     "why": "serbest-i: abstract derived overtly"
+    },
+    "92": {
+     "forces": false,
+     "why": "yatır-ım: action noun derived overtly"
+    }
+   },
+   "note": "Turkish turns acts and properties into nouns by overt derivation (-mA, -Iş, -(I)m, -lIk, -IcI), so whether something is being made a thing is already visible: 0 of 10, the same result as Arabic and Hindi."
+  },
+  {
+   "combination": "K8",
+   "lens": "Polish (instrumental predication)",
+   "status": "roster",
+   "forced_choice": "whether the predicate assigns a category or a property",
+   "attachment": "noun",
+   "sampling": "10 trigger ids evenly spaced: ids[j*n//10] for j in 0..9, ids sorted ascending",
+   "checked_ids": [
+    1,
+    12,
+    20,
+    30,
+    42,
+    51,
+    60,
+    70,
+    81,
+    92
+   ],
+   "forces_new_choice": [
+    1,
+    51,
+    60
+   ],
+   "already_made": [],
+   "not_applicable": [
+    12,
+    20,
+    30,
+    42,
+    70,
+    81,
+    92
+   ],
+   "count": "3 of 3 applicable (7 n/a)",
+   "per_sentence": {
+    "1": {
+     "forces": true,
+     "why": "-DIr on a noun (muharebedir) and on an adjective look alike: category vs property open"
+    },
+    "12": {
+     "forces": null,
+     "why": "verbal predicate"
+    },
+    "20": {
+     "forces": null,
+     "why": "verbal predicate"
+    },
+    "30": {
+     "forces": null,
+     "why": "verbal predicate"
+    },
+    "42": {
+     "forces": null,
+     "why": "verbal predicate"
+    },
+    "51": {
+     "forces": true,
+     "why": "tek kahve türüdür: category vs property open"
+    },
+    "60": {
+     "forces": true,
+     "why": "ölçüsü 70 ml: nominal predicate, category vs property open"
+    },
+    "70": {
+     "forces": null,
+     "why": "verbal predicate"
+    },
+    "81": {
+     "forces": null,
+     "why": "verbal predicate"
+    },
+    "92": {
+     "forces": null,
+     "why": "verbal predicate"
+    }
+   },
+   "note": "Narrow grip (3 predicate nouns), never redundant."
+  }
+ ],
+ "k3_verdict_check": {
+  "combination": "K3",
+  "trigger_sentences": 49,
+  "classes": {
+   "DI_past": {
+    "n": 19,
+    "ids": [
+     4,
+     5,
+     6,
+     12,
+     35,
+     36,
+     53,
+     54,
+     55,
+     66,
+     74,
+     75,
+     81,
+     82,
+     83,
+     85,
+     86,
+     87,
+     88
+    ]
+   },
+   "mIştIr_or_suspended_mIş": {
+    "n": 12,
+    "ids": [
+     2,
+     3,
+     15,
+     38,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     56,
+     57
+    ]
+   },
+   "pluperfect_mIştI": {
+    "n": 8,
+    "ids": [
+     7,
+     8,
+     72,
+     84,
+     90,
+     97,
+     98,
+     99
+    ]
+   },
+   "present_or_copula": {
+    "n": 8,
+    "ids": [
+     1,
+     10,
+     39,
+     47,
+     48,
+     49,
+     51,
+     64
+    ]
+   },
+   "future": {
+    "n": 1,
+    "ids": [
+     80
+    ]
+   },
+   "non_finite_fragment": {
+    "n": 1,
+    "ids": [
+     11
+    ]
+   }
+  },
+  "already_marked_indirect_morphologically": 20,
+  "already_marked_indirect_functionally": 0,
+  "choice_not_forced": 10,
+  "direct_asserted_with_DI": 19,
+  "evidential_mIş_found": [],
+  "verdict": "fires (confirmed); not inverted",
+  "why": "No K3 trigger carried evidential -mIş or -(y)mIş. The 12 -mIştIr / suspended -mIş cases are the encyclopedic certainty perfect, and the 8 -mIştI cases are the evidentially neutral pluperfect. The row's own note says -mIştIr marks no source. So morphologically 20/49 contain -mIş, functionally 0/49 are marked as indirect; 19/49 assert direct with -DI, 10/49 sit where the choice is not forced."
+ }
+}
