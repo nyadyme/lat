@@ -30,13 +30,14 @@ is everything a profile below records:
 the whole catalogue over texts in that language; `derived` — worked out from the
 cited grammar without a run yet; `checked` — the marker was tested against 100
 consecutive real sentences in that language (60 from Wikipedia across five
-domains, 40 from news and opinion pages; 2026-10-03) and revised where it
+domains, 40 from news and opinion pages; 2026-10-03, Chinese 2026-11-05) and revised where it
 missed real triggers or fired without one. A `checked` row records the latest
 evidence; its verdict may rest on an earlier run. The check had one annotator
 per language and no second rater, so its counts show direction, not a
 measurement. A note marked *tentative* rests on fewer than three sentences.
 The corpus manifests, annotations, counts and reports of the check are in
-[`validation/2026-10-03/`](validation/2026-10-03/README.md).
+[`validation/2026-10-03/`](validation/2026-10-03/README.md) and, for Chinese,
+[`validation/2026-11-05/`](validation/2026-11-05/README.md).
 
 ## Combinations
 
@@ -105,6 +106,7 @@ in that language, and none of them may ride in a combination for it.
 | Russian | Russian | |
 | Polish | Polish (instrumental predication), Polish (numeral threshold), Polish (masculine-personal plural) | |
 | Japanese | Japanese, Japanese (listing particles) | |
+| Chinese | | Standard Mandarin; the catalogue holds no entry for it. Classical Chinese (Wényán) is a different language stage, not an own entry, and stays in K7: it forced a choice in 10 of 10 trigger sentences checked, since every one stated the causal relation it asks about |
 
 ## Routing
 
@@ -166,6 +168,14 @@ in that language, and none of them may ride in a combination for it.
 | Japanese | K6 | fires | belonging *no*, *motsu*, or *ni … ga aru* | *no* in general joins two nouns under any relation and belongs to K8; *jibun* marks the reflexive optionally only | Makino & Tsutsui, A Dictionary of Basic Japanese Grammar (1986) | checked |
 | Japanese | K7 | fires | *kara*, *node*, *ni yotte*, *ni yori*, *koto de*, *koto kara*, *ni tomonai*, *o riyū ni* | *kara* presents the cause as the speaker's reason, *node* as an objective fact; *tame (ni)* meant purpose in every case checked | Makino & Tsutsui, A Dictionary of Basic Japanese Grammar (1986) | checked |
 | Japanese | K8 | fires | a Sino-Japanese compound in any slot: *keikaku keizai*, *seiji senmonka* | compounds are dense and unmarked, the closest profile to English here; tentative: *N no N* carried it too | Shibatani, The Languages of Japan (1990) | checked |
+| Chinese | K1 | fires | any sentence |  | Li & Thompson, Mandarin Chinese: A Functional Reference Grammar (1981) | derived |
+| Chinese | K2 | fires | an agentless *被* passive (*被批评了*), a notional passive with the patient as topic and no agent (*房子盖好了*), impersonal *有人*, a dropped subject the preceding clause does not supply, or a non-actor as subject of an action verb: *研究表明*, *市场决定* | a dropped subject recoverable from the previous clause is ordinary zero anaphora, not the trigger; *被* often reads as adversative, which marks the event as unwelcome and still leaves the actor out; tentative: *受…影响* with a non-actor as the influence carried it too | Li & Thompson, Mandarin Chinese: A Functional Reference Grammar (1981) | checked |
+| Chinese | K3 | fires | a plain assertion of borrowed or inferred content without *据说*, *据报道*, *据称*, *听说*, *被认为*, *看来*, *似乎*, *好像*, *(很)可能*, *有可能* or a named source (*据…称*, *…认为*, *…写道*) | there is no grammatical evidential; the source is marked only lexically, as in English. Plain exposition of definitions and present fact is not the trigger: the surface test alone fired on 90 of 100 sentences checked | Li & Thompson, Mandarin Chinese: A Functional Reference Grammar (1981) | checked |
+| Chinese | K4 | fires | a noun for a population, mass or institution in any slot, possessor and object included, bare or with a demonstrative or group classifier: *工人*, *资本主义*, *政府*, *此类*, *这类*, *一群*; or a state acting as one unit: *中国* | nouns carry neither article nor number, and *们* is optional and confined to humans: it occurred 7 times in 100 sentences checked and never on a trigger noun; restricting the marker to agent and topic slots missed 16 of 59 triggers | Li & Thompson, Mandarin Chinese: A Functional Reference Grammar (1981) | checked |
+| Chinese | K5 | fires | *了*, a resultative verb compound (*V完*, *V成*, *V好*) or a bare narrative verb (often with *彻底*, *不再*, a date or a period) over a process that ran for a span, where *在*, *着*, *一直*, *逐渐*, *越来越* or *V下来* / *V起来* was available | aspect particles exist but are optional, so completion is never forced: *了* or a resultative compound sat on the trigger verb in 9 of 18 trigger sentences checked, a bare verb in the rest; both sat on point acts (*爆发了*, *改为*) far more often, which are not the trigger | Li & Thompson, Mandarin Chinese: A Functional Reference Grammar (1981) | checked |
+| Chinese | K6 | fires | possessive *的* after a pronoun or a possessor noun (*他的*, *公司的*), a possessor joined without *的* (*我妈妈*, *中国经济*), *其*, *有* with an owner as subject, or a kin or inalienable noun whose possessor is left to context: *父亲*, *家乡*, *原名* | *的* in general joins two nouns under any relation and belongs to K8; *他的* does not mark whether the possessor is the subject, and *自己* (0 of 100 checked) marks it optionally only; *的* was dropped for kin and institutions and as often for other compounds, so there is no alienability split and the Navajo lens stays | Li & Thompson, Mandarin Chinese: A Functional Reference Grammar (1981) | checked |
+| Chinese | K7 | fires | *因为*, *因*, *由于*, *所以*, *故*, *因此*, *因而*, *于是*, *以致*, *结果*, *既然*, *鉴于*, *凭借*; *由…(而)引发*, *受…影响*; causal verbs *导致*, *造成*, *引起*, *使(得)* where one cause is named; causal *随着* | *既然* presents the cause as already granted, like *puisque*; *因* and *故* are Classical forms still current in written Mandarin; *随着* is temporal as often as causal, count it only where the reading is causal; clauses juxtaposed without a connective leave the cause to the reader and do not carry the trigger | Li & Thompson, Mandarin Chinese: A Functional Reference Grammar (1981) | checked |
+| Chinese | K8 | fires | a noun–noun compound, a verb–object modifier with its noun (*便民服务*, *施政方式*) or *N 的 N* in any slot: *计划经济*, *政治专家*, *价格水平*, *经济的发展* | compounds are dense and unmarked, the closest profile to Japanese here; *的* names that there is a relation and not which one, and a *的*-phrase with a possessor belongs to K6 | Li & Thompson, Mandarin Chinese: A Functional Reference Grammar (1981) | checked |
 
 ## Substitutions
 
@@ -187,6 +197,7 @@ the one the source grammar already answers.
 | German | K8 | Ancient Greek (article & substantivization) | | German turns adjectives, infinitives and clauses into article-marked nouns the same way (*das Erstarken*, *dem Bemühen*); in 10 of 10 trigger sentences checked every element was one already, so the lens forced no new choice. The slot's question is the one the source grammar already answers, so it is dropped rather than replaced |
 | Spanish | K8 | Ancient Greek (article & substantivization) | | Spanish substantivises with the article, down to the neuter *lo* (*lo bueno*), and bare *de* against *de* + article already decided whether a type or a bounded thing was meant in 7 of 10 trigger sentences checked. The slot's question is the one the source grammar already answers, so it is dropped rather than replaced |
 | Japanese | K4 | Yucatec Maya | Hausa (pluractional verbs) | Japanese, like Yucatec, leaves count and mass unmarked on the noun and counts through numeral classifiers, so the Yucatec lens forced no new choice (0 of 10 checked). Hausa forced one in 8 of 10; Spanish (differential object marking), the first replacement, found an object to attach to in 1 of 10, because the noun sits in subject or topic position |
+| Chinese | K4 | Yucatec Maya | Hausa (pluractional verbs) | Mandarin, like Yucatec and Japanese, leaves count and mass unmarked on the noun and counts through numeral classifiers (*一个人*, *一张纸*), so the Yucatec lens forced no new choice (0 of 10 checked). Hausa forced one in 4 of 10, fewer than in Japanese, because verbal classifiers (*次*, *多次*, *第一次*) had already counted the event in the rest |
 
 ## Generating routing_seed.sql
 

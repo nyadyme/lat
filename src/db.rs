@@ -1990,13 +1990,14 @@ VALUES ('Fixture', 'K1', 'Alpha', 'Beta', 'language', 'own entry'),
     }
 
     #[test]
-    fn the_seed_holds_seven_profiles_in_order() {
+    fn the_seed_holds_eight_profiles_in_order() {
         let conn = seeded();
 
         assert_eq!(
             routing_profiles(&conn).unwrap(),
             [
-                "German", "English", "French", "Spanish", "Russian", "Polish", "Japanese"
+                "German", "English", "French", "Spanish", "Russian", "Polish", "Japanese",
+                "Chinese"
             ]
         );
     }
@@ -2278,6 +2279,25 @@ VALUES ('Fixture', 'K1', 'Alpha', 'Beta', 'language', 'own entry'),
         assert!(profile.own_entries.is_empty());
         assert_eq!(profile.combinations[2].roster[0].name, "Tuyuca");
         assert!(profile.combinations[2].dropped.is_empty());
+    }
+
+    #[test]
+    fn the_chinese_profile_replaces_yucatec_with_hausa_in_k4() {
+        let conn = seeded();
+
+        let profile = routing(&conn, "Chinese").unwrap().expect("profile expected");
+
+        assert_eq!(profile.combinations[3].roster[0].name, "Hausa (pluractional verbs)");
+    }
+
+    #[test]
+    fn the_chinese_profile_has_no_own_entries_and_keeps_classical_chinese_in_k7() {
+        let conn = seeded();
+
+        let profile = routing(&conn, "Chinese").unwrap().expect("profile expected");
+
+        assert!(profile.own_entries.is_empty());
+        assert_eq!(profile.combinations[6].roster[2].name, "Classical Chinese (Wényán)");
     }
 
     // ---- routing: fuzzing ---------------------------------------------------
