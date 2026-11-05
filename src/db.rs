@@ -1990,14 +1990,14 @@ VALUES ('Fixture', 'K1', 'Alpha', 'Beta', 'language', 'own entry'),
     }
 
     #[test]
-    fn the_seed_holds_eight_profiles_in_order() {
+    fn the_seed_holds_nine_profiles_in_order() {
         let conn = seeded();
 
         assert_eq!(
             routing_profiles(&conn).unwrap(),
             [
                 "German", "English", "French", "Spanish", "Russian", "Polish", "Japanese",
-                "Chinese"
+                "Chinese", "Arabic"
             ]
         );
     }
@@ -2285,19 +2285,73 @@ VALUES ('Fixture', 'K1', 'Alpha', 'Beta', 'language', 'own entry'),
     fn the_chinese_profile_replaces_yucatec_with_hausa_in_k4() {
         let conn = seeded();
 
-        let profile = routing(&conn, "Chinese").unwrap().expect("profile expected");
+        let profile = routing(&conn, "Chinese")
+            .unwrap()
+            .expect("profile expected");
 
-        assert_eq!(profile.combinations[3].roster[0].name, "Hausa (pluractional verbs)");
+        assert_eq!(
+            profile.combinations[3].roster[0].name,
+            "Hausa (pluractional verbs)"
+        );
     }
 
     #[test]
     fn the_chinese_profile_has_no_own_entries_and_keeps_classical_chinese_in_k7() {
         let conn = seeded();
 
-        let profile = routing(&conn, "Chinese").unwrap().expect("profile expected");
+        let profile = routing(&conn, "Chinese")
+            .unwrap()
+            .expect("profile expected");
 
         assert!(profile.own_entries.is_empty());
-        assert_eq!(profile.combinations[6].roster[2].name, "Classical Chinese (Wényán)");
+        assert_eq!(
+            profile.combinations[6].roster[2].name,
+            "Classical Chinese (Wényán)"
+        );
+    }
+
+    #[test]
+    fn the_arabic_profile_excludes_its_root_and_pattern_entry() {
+        let conn = seeded();
+
+        let profile = routing(&conn, "Arabic").unwrap().expect("profile expected");
+
+        assert_eq!(profile.own_entries, ["Arabic (root & pattern)"]);
+    }
+
+    #[test]
+    fn the_arabic_profile_replaces_russian_and_drops_finnish_in_k5() {
+        let conn = seeded();
+
+        let profile = routing(&conn, "Arabic").unwrap().expect("profile expected");
+        let k5 = &profile.combinations[4];
+
+        assert_eq!(k5.verdict, "fires");
+        assert_eq!(k5.roster[0].name, "Hindi-Urdu (vector verbs)");
+        assert_eq!(k5.roster[0].replaces.as_deref(), Some("Russian"));
+        assert!(
+            k5.roster
+                .iter()
+                .all(|lens| lens.name != "Finnish (partitive object)")
+        );
+    }
+
+    #[test]
+    fn the_arabic_profile_drops_ancient_greek_from_k8() {
+        let conn = seeded();
+
+        let profile = routing(&conn, "Arabic").unwrap().expect("profile expected");
+        let k8 = &profile.combinations[7];
+
+        assert!(
+            k8.roster
+                .iter()
+                .all(|lens| lens.name != "Ancient Greek (article & substantivization)")
+        );
+        assert_eq!(
+            k8.dropped[0].name,
+            "Ancient Greek (article & substantivization)"
+        );
     }
 
     // ---- routing: fuzzing ---------------------------------------------------
