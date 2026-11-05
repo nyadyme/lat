@@ -524,6 +524,7 @@ additional_docs/
   lat_catalog.md            # the catalog — single source of truth
   lat_routing.md            # combinations and per-language routing — single source of truth
   validation/2026-10-03/    # evidence for the `checked` routing rows (100 sentences per language)
+  validation/2026-11-05/    # the same for the Chinese profile
   lat_facets.md             # generated snapshot of filter values
                             # (founding essay lives on Zenodo, not in-repo)
 tools/
